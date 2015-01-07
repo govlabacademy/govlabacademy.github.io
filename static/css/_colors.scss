@@ -1,0 +1,91 @@
+$blue: rgba(0,175,240,1);
+$blue_20: rgba(0,175,240,.2);
+
+$orange: rgba(240,85,30,1);
+$orange_20: rgba(240,85,30,.2);
+
+$green: rgba(50,180,145,1);
+$green_20: rgba(50,180,145,.2);
+
+$pink: #ed135a;
+
+$purple: rgba(71,43,116,1);
+$purple_5: rgba(71,43,116,.05);
+$purple_10: rgba(71,43,116,.1);
+$purple_20: rgba(71,43,116,.2);
+$purple_50: rgba(71,43,116,.5);
+$purple_20_matte: #d3cddc;
+
+$white: rgba(255,255,255,1);
+$white_90: rgba(255,255,255,.9);
+$white_80: rgba(255,255,255,.8);
+$white_70: rgba(255,255,255,.7);
+$white_50: rgba(255,255,255,.5);
+$white_30: rgba(255,255,255,.3);
+$white_15: rgba(255,255,255,.15);
+
+$gray_80: rgba(0,0,0,.8);
+$gray_60: rgba(0,0,0,.6);
+$gray_50: rgba(0,0,0,.5);
+$gray_30: rgba(0,0,0,.3);
+$gray_20: rgba(0,0,0,.2);
+$gray_15: rgba(0,0,0,.15);
+$gray_10: rgba(0,0,0,.1);
+$gray_5: rgba(0,0,0,.05);
+$gray_3: rgba(0,0,0,.03);
+$gray_50_matte: #727272;
+$gray_30_matte: #aaa;
+$gray_10_matte: #e3e3e3;
+
+$text_color: #333;
+
+// Content Colors Modifiers
+.m-project-coaching {
+	background-color: $green_20;
+	border-top-color: $green;
+	border-bottom-color: $green;
+
+	h3 {
+		color: $green;
+	}
+}
+.m-project-coaching,
+.b-courses-overview .nav-coaching.m-active {background-color: $green !important;}
+
+.m-workshops {
+	background-color: $blue_20;
+	border-top-color: $blue;
+	border-bottom-color: $blue;
+
+	h3 {
+		color: $blue;
+	}
+}
+
+.m-workshops,
+.b-courses-overview .nav-workshops.m-active {background-color: $blue !important;}
+
+.m-master-courses {
+	background-color: $purple_20;
+	border-top-color: $purple;
+	border-bottom-color: $purple;
+
+	h3 {
+		color: $purple;
+	}
+}
+.m-master-courses,
+.b-courses-overview .nav-master-courses.m-active {background-color: $purple !important;}
+
+.m-normal-courses {
+	background-color: $orange_20;
+	border-top-color: $orange;
+	border-bottom-color: $orange;
+
+	h3 {
+		color: $orange;
+	}
+}
+.m-normal-courses,
+.b-courses-overview .nav-courses.m-active {background-color: $orange !important;}
+
