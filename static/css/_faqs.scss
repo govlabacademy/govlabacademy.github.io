@@ -1,6 +1,10 @@
 .b-faqs {
 	background-color: $gray_3;
 	padding-top: 30px;
+	@include inner-shadow;
+	height: auto;
+	max-height: 110px;
+	overflow: hidden;
 	
 	.b-faq-item {
 		margin-bottom: 15px;

@@ -54,6 +54,11 @@ if (screen.width < 960) {
   	$(this).parent().parent().toggleClass('m-active');
   });
 
+  $('.b-top-navigation').click(function() {
+  	// $(this).toggleClass('m-active');
+  	console.log('funciona');
+  });
+
   // Off Canvas Menu
   $('.e-mainnav-trigger').click(function() {
   	var trigger = $(this);

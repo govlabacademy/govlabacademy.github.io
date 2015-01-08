@@ -135,7 +135,7 @@ a {
 .b-logo {
   display: block;
   background-color: #472b74;
-  padding: 0;
+  padding: 2px 0 0 0;
   margin: 0;
   font-size: 24px;
   font-weight: 100; }
@@ -989,7 +989,7 @@ a {
       position: absolute;
       left: -80px;
       top: 30px; }
-      .b-course-list .e-course-list-item .e-certifications span {
+      .b-course-list .e-course-list-item .e-certifications .e-course-icons {
         display: block;
         border-radius: 50%;
         overflow: hidden;
@@ -1036,7 +1036,11 @@ a {
       background-color: #f0551e; } }
 .b-faqs {
   background-color: rgba(0, 0, 0, 0.03);
-  padding-top: 30px; }
+  padding-top: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3) inset;
+  height: auto;
+  max-height: 110px;
+  overflow: hidden; }
   .b-faqs .b-faq-item {
     margin-bottom: 15px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);

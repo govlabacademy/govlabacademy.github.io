@@ -12,6 +12,7 @@
 	}
 }
 
+
 .b-course-info {
 	li {
 		list-style-type: none;
@@ -66,12 +67,17 @@
 		.e-course-description {
 		}
 
+		.e-course-icons {
+
+		}
+
 		.e-certifications {
 		}
 
 		.e-course-faculty {
 
 		}
+
 
 		&.m-joint {
 			padding-top: 0;
@@ -125,7 +131,7 @@
 			left: -80px;
 			top: 30px;
 
-			span {
+			.e-course-icons {
 				display: block;
 				border-radius: 50%;
 				overflow: hidden;

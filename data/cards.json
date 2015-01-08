@@ -23,14 +23,6 @@
     "bio_url": "",
     "tags": "govLab-academy-producer"
   },
-  { "name": "Willow Brugh",
-    "job": "Project Manager",
-    "is_govlab": true,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt dignissimos, dolores odit laboriosam quos dolore voluptates distinctio nisi consequatur quia exercitationem rem vitae aspernatur saepe fugit ullam eius perferendis voluptas.",
-    "img_url": "govlab-default.jpg",
-    "bio_url": "",
-    "tags": "govLab-academy-producer"
-  },
   { "name": "Andrew Young",
     "job": "Associate Director of Research",
     "is_govlab": true,
