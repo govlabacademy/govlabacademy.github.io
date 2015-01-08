@@ -1,12 +1,15 @@
 <html>
 <body>
 
+
 <ul>
 {% for card in plugins.mycustomplugin.cards %}
 <li>{{card.name}}</li>
 <li><img src="{{ STATIC_URL }}/img/people/{{card.img_url}}" alt=""></li>
 {% endfor %}
 </ul>
+
+{{ plugins.facultyplugin.andrew_young.name }}
 
 </body>
 </html>
