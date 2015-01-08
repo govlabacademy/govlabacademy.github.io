@@ -514,45 +514,6 @@ a {
     /* IE 10 */
     background: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
     /* Opera 11.10+ */ }
-  .b-card .e-card-controls {
-    position: absolute;
-    left: -15px;
-    top: 30px;
-    opacity: 0;
-    transition: all 0.4s ease;
-    pointer-events: none; }
-    .b-card .e-card-controls .e-card-button {
-      background-color: #ed135a;
-      width: 50px;
-      height: 50px;
-      padding: 14px 0;
-      margin-bottom: 10px;
-      text-align: center;
-      display: block;
-      border-radius: 50%;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
-      transition: all 0.4s ease;
-      transform: scale(0, 0); }
-      .b-card .e-card-controls .e-card-button i {
-        font-size: 1.3rem;
-        color: white; }
-  .b-card:hover .e-card-controls {
-    opacity: 1;
-    transition: all 0.4s ease;
-    pointer-events: auto; }
-    .b-card:hover .e-card-controls .e-card-button {
-      width: 50px;
-      height: 50px;
-      transform: scale(1, 1);
-      transition: all 0.2s ease; }
-      .b-card:hover .e-card-controls .e-card-button:nth-child(2) {
-        transition-delay: 0.1s; }
-      .b-card:hover .e-card-controls .e-card-button:nth-child(3) {
-        transition-delay: 0.2s; }
-      .b-card:hover .e-card-controls .e-card-button:nth-child(4) {
-        transition-delay: 0.3s; }
-      .b-card:hover .e-card-controls .e-card-button:hover {
-        box-shadow: 0 0 12px rgba(0, 0, 0, 0.8); }
   .b-card .e-card-content {
     height: 190px;
     margin-top: 10px;
@@ -576,6 +537,10 @@ a {
   width: 100%;
   background-color: #472b74;
   height: 4px; }
+
+.b-card .b-pop-controls {
+  left: -15px;
+  top: 30px; }
 
 /* Desktops and laptops ----------- */
 .b-main-content {
@@ -619,6 +584,57 @@ a {
       margin-bottom: 50px; }
     .b-content-page > h2 + h3 {
       margin-top: -50px; } }
+.b-pop-controls-container {
+  position: relative; }
+
+.b-pop-controls {
+  position: absolute;
+  opacity: 0;
+  transition: all 0.4s ease;
+  pointer-events: none; }
+  .b-pop-controls .e-pop-button {
+    background-color: #ed135a;
+    width: 50px;
+    height: 50px;
+    padding: 14px 0;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease;
+    transform: scale(0, 0); }
+    .b-pop-controls .e-pop-button i {
+      font-size: 1.3rem;
+      color: white; }
+    .b-pop-controls .e-pop-button i.fa-file {
+      vertical-align: 3px;
+      text-indent: 2px; }
+    .b-pop-controls .e-pop-button i.fa-link {
+      vertical-align: 2px;
+      text-indent: 0; }
+  .b-pop-controls.m-inline-buttons .e-pop-button {
+    display: inline-block; }
+
+.b-pop-controls-container:hover .b-pop-controls {
+  opacity: 1;
+  transition: all 0.4s ease;
+  pointer-events: auto; }
+  .b-pop-controls-container:hover .b-pop-controls .e-pop-button {
+    width: 50px;
+    height: 50px;
+    transform: scale(1, 1);
+    transition: all 0.2s ease; }
+    .b-pop-controls-container:hover .b-pop-controls .e-pop-button:nth-child(2) {
+      transition-delay: 0.1s; }
+    .b-pop-controls-container:hover .b-pop-controls .e-pop-button:nth-child(3) {
+      transition-delay: 0.2s; }
+    .b-pop-controls-container:hover .b-pop-controls .e-pop-button:nth-child(4) {
+      transition-delay: 0.3s; }
+    .b-pop-controls-container:hover .b-pop-controls .e-pop-button:hover {
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.8); }
+
 #homepage {
   padding-top: 0; }
   #homepage #intro {
@@ -955,20 +971,24 @@ a {
     text-transform: uppercase;
     font-weight: 600;
     color: #f0551e;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    display: inline-block; }
   .b-course-list .e-course-list-item.m-joint {
-    padding-top: 0;
-    border-top: 0; }
-    .b-course-list .e-course-list-item.m-joint h5 {
+    padding: 0;
+    border-top: 0;
+    border-bottom-color: rgba(71, 43, 116, 0.5); }
+    .b-course-list .e-course-list-item.m-joint h3 {
+      margin-bottom: 0; }
+    .b-course-list .e-course-list-item.m-joint .e-partner {
+      display: block;
       background-color: rgba(71, 43, 116, 0.2);
       margin: 0;
       padding: 3px 10px;
       color: #472b74;
       font-size: 1.2rem;
-      float: right;
       font-weight: 600; }
-      .b-course-list .e-course-list-item.m-joint h5:before {
-        content: "with "; }
+      .b-course-list .e-course-list-item.m-joint .e-partner:before {
+        content: "In partnership with "; }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
@@ -1003,7 +1023,10 @@ a {
       width: calc(50% - 30px);
       margin-right: 25px; }
     .b-course-list .e-course-list-item .m-right {
-      margin-right: 0; } }
+      margin-right: 0; }
+    .b-course-list .e-course-list-item .b-pop-controls {
+      right: 0;
+      top: 10px; } }
 #about-page .b-filters-wrapper {
   margin-bottom: 30px;
   padding: 0 10px; }
