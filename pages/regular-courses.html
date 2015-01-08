@@ -20,8 +20,21 @@
 					<p>Designed to help the leaders of small and medium sized enterprises (SMEs) use open and shared data to solve business problems, design new product and service offerings, and drive innovation within their business models. The Clinic will take SME entrepreneurs through every step of the process of finding, accessing, cleaning, structuring, and deploying open data.</p>
 				</div>
 				<div class="e-course-faculty m-right">
-					{{ plugins.facultyplugin.stefaan_verhulst}}
-					<p></p>
+				  <article class="b-mini-card m-govlab-{{plugins.facultyplugin.stefaan_verhulst.is_govlab}}">
+            <div class="e-person-pic">
+              <img class="pic-{{plugins.facultyplugin.stefaan_verhulst.img_url}}" src="{{STATIC_URL}}/img/people/{{plugins.facultyplugin.stefaan_verhulst.img_url}}" alt="{{plugins.facultyplugin.stefaan_verhulst.name}}">
+            </div>
+            <h3 title="{{plugins.facultyplugin.stefaan_verhulst.name}}">{{plugins.facultyplugin.stefaan_verhulst.name}}</h3>
+            <h4>{{plugins.facultyplugin.stefaan_verhulst.job}}</h4>
+          </article>
+
+          <article class="b-mini-card m-govlab-{{plugins.facultyplugin.govlabber.is_govlab}}">
+            <div class="e-person-pic">
+              <img class="pic-{{plugins.facultyplugin.govlabber.img_url}}" src="{{STATIC_URL}}/img/people/{{plugins.facultyplugin.govlabber.img_url}}" alt="{{plugins.facultyplugin.govlabber.name}}">
+            </div>
+            <h3 title="{{plugins.facultyplugin.govlabber.name}}">{{plugins.facultyplugin.govlabber.name}}</h3>
+            <h4>{{plugins.facultyplugin.govlabber.job}}</h4>
+          </article>
 				</div>
 			</li>
 			<li class="e-course-list-item">
