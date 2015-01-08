@@ -16,6 +16,8 @@ common:
     - imageopti
     - minifyjs
     - generator
+    - mycustomplugin
+    - facultyplugin
 
   context_processors:
     - default
