@@ -146,6 +146,7 @@
 		position: absolute;
 		right: calc(50% - 10px);
 		top: 40px;
+		pointer-events: none;
 	}
 
 	&:hover:after {

@@ -116,34 +116,35 @@ function hasScrolled() {
 
 // ISOTOPES CONFIG
 
-// var $container = $('.b-card-deck');
-// // init
-// $container.isotope({
-//   // options
-//   itemSelector: '.b-card',
-//   layoutMode: 'fitRows'
-// });
+var $container = $('.b-card-wrapper');
+// init
+$container.isotope({
+  // options
+  itemSelector: '.b-card',
+  layoutMode: 'fitRows'
+});
 
-// // ISOTOPES FILTERS
+// ISOTOPES FILTERS
 
-// $('.e-filter-tag').click(function() {
-// 	var key = $(this).attr('id').slice(7);
-// 	var filter = '[data-filter*="' + key + '"]';
-// 	var rest = $('.e-filter-tag');
+$('.e-filter').click(function() {
+	var key = $(this).attr('data-filter');
+	console.log(key);
+	var filter = '[data-filter*="' + key + '"]';
+	var rest = $('.e-filter');
 
-// 	if (key === 'all') {
-// 		$container.isotope({ filter: '*' });
-// 		rest.removeClass('m-active');
-// 		$(this).addClass('m-active');
-// 	} else {
-// 		$container.isotope({ filter: filter });	
-// 		rest.removeClass('m-active');
-// 		$(this).addClass('m-active');
+	if (key === 'all') {
+		$container.isotope({ filter: '*' });
+		rest.removeClass('m-active');
+		$(this).addClass('m-active');
+	} else {
+		$container.isotope({ filter: filter });	
+		rest.removeClass('m-active');
+		$(this).addClass('m-active');
 
-// 		console.log(rest);
-// 	}
+		console.log(rest);
+	}
 	
-// });
+});
 
 
 

@@ -2,8 +2,8 @@ from cactus.plugin_base import CactusPluginBase
 import os
 import json
 
-# file: plugins/mycustomplugin.py
-class MyCustomPlugin(CactusPluginBase):
+
+class generator(CactusPluginBase):
 	def templateContext(self, *args, **kwargs):
 		from django.conf import settings
 		print settings
@@ -11,3 +11,6 @@ class MyCustomPlugin(CactusPluginBase):
 		return {
     	"cards": json.load(open("%s/cards.json" % data_folder))
     }
+
+  	# "cards": json.load(open("%s/cards.json" % data_folder))
+		# "courses": json.load(open("%s/courses.json" % data_folder))

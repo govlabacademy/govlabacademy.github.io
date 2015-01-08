@@ -213,7 +213,8 @@ a {
       border-right: 10px solid transparent;
       position: absolute;
       right: calc(50% - 10px);
-      top: 40px; }
+      top: 40px;
+      pointer-events: none; }
     .e-submenu:hover:after {
       border-top-color: rgba(255, 255, 255, 0.3); }
     .e-submenu ul {
@@ -458,8 +459,7 @@ a {
     color: #472b74; }
 
 .b-card-wrapper {
-  list-style: none;
-  display: inline-block; }
+  list-style: none; }
   .b-card-wrapper:before {
     display: none; }
 
@@ -471,7 +471,6 @@ a {
   width: 232px;
   height: 400px;
   margin: 5px;
-  position: relative;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   background-color: white; }
   .b-card:before {
@@ -567,9 +566,9 @@ a {
       line-height: 17px;
       margin-bottom: .5rem; }
 
-.b-card.m-govlab-true h4 {
+.b-card.m-govlab-True h4 {
   color: #472b74; }
-.b-card.m-govlab-true:before {
+.b-card.m-govlab-True:before {
   content: "";
   position: absolute;
   top: 0;

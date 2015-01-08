@@ -49,7 +49,7 @@
 
 .b-card-wrapper {
 	list-style: none;
-	display: inline-block;
+
 	&:before {
 		display: none;
 	}
@@ -65,9 +65,10 @@
 	width: 232px;
 	height: 400px;
 	margin: 5px;
-	position: relative;
+	// position: relative;
 	@include drop-shadow-light;
 	background-color: $white;
+	// display: inline-block;
 
 	&:before {
 		content:"";
@@ -175,7 +176,7 @@
 	}
 }
 
-.b-card.m-govlab-true {
+.b-card.m-govlab-True {
 	h4 { color: $purple;}
 
 	&:before {
