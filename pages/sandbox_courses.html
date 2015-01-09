@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="b-content-page">
+	<div class="row">
+    <h2 class="column large-12">Cards Sandbox</h2>
+  </div>
+  <section class="b-course-list row">
+    <ul class="column large-12">
+      <li class="e-course-list-item m-joint m-cards-animate">
+        <h4 class="e-course-date">February 2015</h4>
+        <h3>Urban Analytics for Change</h3>
+          <div class="e-course-description">
+            <div class="e-certifications">
+              <img src="{{STATIC_URL}}/img/icons/icons-in-person.png" title="In Person Course" class="e-course-icons m-in-person">
+              <img src="{{STATIC_URL}}/img/icons/icons-certification.png" title="For Certification Course" class="e-course-icons m-certification">
+            </div>
+            <p>In this one day program, you will acquire the skills required to frame and commission effective data-driven projects that lead to tangible, real-world outcomes. The program will also help prepare you to partner with senior executives within your organization in order to design, implement, and evaluate analytics projects so that they consistently deliver measurable, scalable results.</p>
+          </div>
+          <div class="e-course-controls">
+            <a class="e-button" href="{{STATIC_URL}}/files/analytics-for-change.pdf" target="_blank">Course Syllabus</a>
+            <a class="e-button" href="http://cusp.nyu.edu/exec-ed-1day/" target="_blank">Course Page</a>
+            <a class="e-button" href="#" target="_blank">Apply</a>
+            <a class="e-button" href="#" target="_blank">Another Button</a>
+          </div>
+          <div class="e-course-faculty">
+            <article class="b-mini-card m-people m-govlab-{{plugins.facultyplugin.timothy_savage.is_govlab}} b-pop-controls-container" data-filter="{{plugins.facultyplugin.timothy_savage.tags}}">
+              <div class="e-person-pic" style="background-image: url('{{ STATIC_URL }}/img/people/{{plugins.facultyplugin.timothy_savage.img_url}}')"></div>
+              <h3 title="{{plugins.facultyplugin.timothy_savage.name}}">{{plugins.facultyplugin.timothy_savage.name}}</h3>
+            </article>
+
+            <article class="b-mini-card m-people m-govlab-{{plugins.facultyplugin.alan_kantrow.is_govlab}} b-pop-controls-container" data-filter="{{plugins.facultyplugin.alan_kantrow.tags}}">
+              <div class="e-person-pic" style="background-image: url('{{ STATIC_URL }}/img/people/{{plugins.facultyplugin.alan_kantrow.img_url}}')"></div>
+              <h3 title="{{plugins.facultyplugin.alan_kantrow.name}}">{{plugins.facultyplugin.alan_kantrow.name}}</h3>
+            </article>
+
+            <article class="b-mini-card m-people m-govlab-{{plugins.facultyplugin.andrew_young.is_govlab}} b-pop-controls-container" data-filter="{{plugins.facultyplugin.andrew_young.tags}}">
+              <div class="e-person-pic" style="background-image: url('{{ STATIC_URL }}/img/people/{{plugins.facultyplugin.andrew_young.img_url}}')"></div>
+              <h3 title="{{plugins.facultyplugin.andrew_young.name}}">{{plugins.facultyplugin.andrew_young.name}}</h3>
+            </article>
+
+            <article class="b-mini-card m-people m-govlab-{{plugins.facultyplugin.dinorah_cantu.is_govlab}} b-pop-controls-container" data-filter="{{plugins.facultyplugin.dinorah_cantu.tags}}">
+              <div class="e-person-pic" style="background-image: url('{{ STATIC_URL }}/img/people/{{plugins.facultyplugin.dinorah_cantu.img_url}}')"></div>
+              <h3 title="{{plugins.facultyplugin.dinorah_cantu.name}}">{{plugins.facultyplugin.dinorah_cantu.name}}</h3>
+            </article>
+
+            <article class="b-mini-card m-people m-govlab-{{plugins.facultyplugin.dinorah_cantu.is_govlab}} b-pop-controls-container" data-filter="{{plugins.facultyplugin.dinorah_cantu.tags}}">
+              <div class="e-person-pic" style="background-image: url('{{ STATIC_URL }}/img/people/{{plugins.facultyplugin.dinorah_cantu.img_url}}')"></div>
+              <h3 title="{{plugins.facultyplugin.dinorah_cantu.name}}">{{plugins.facultyplugin.dinorah_cantu.name}}</h3>
+            </article>
+         </div>
+         
+        <h5 class="e-partner">CUSP</h5>
+      </li>
+
+
+
+
+
+
+
+
+
+
+</div>
+{% endblock %}
