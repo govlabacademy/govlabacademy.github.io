@@ -1,0 +1,33 @@
+{% extends "layout/base.html" %}
+{% block content %}
+<div class="b-content-page">
+	<div class="row">
+    <h2 class="column large-12">Cards Sandbox</h2>
+  </div>
+  <div class="row">
+    <section class="b-filters">
+      <h3 class="column large-12">Faculty Members <span class="e-filter m-show-all" data-filter="all">Show All</span></h3>
+      <div class="e-filter-group">
+        <h4 class="column small-12 large-2">by subject</h4>
+        <ul class="column small-12 large-5">
+          <li class="e-filter" data-filter="crowdsourcing">Crowdsourcing and Citizen Engagement</li>
+          <li class="e-filter" data-filter="open-contracting">open-contracting-and-procurement-innovation</li>
+          <li class="e-filter" data-filter="citizen-service-delivery">citizen-service-delivery</li> 
+          <li class="e-filter" data-filter="effective-communication">effective-communication</li> 
+        </ul>
+        <ul class="column small-12 large-5">
+          <li class="e-filter">Crowdsourcing and Citizen Engagement</li>
+          <li class="e-filter">open-contracting-and-procurement-innovation</li>
+          <li class="e-filter">citizen-service-delivery</li> 
+          <li class="e-filter">effective-communication</li> 
+        </ul>
+      </div>
+  </div>
+  <div class="row">
+    <section class="column large-12">
+  		<div class="b-card-wrapper">
+      </div>
+  	</section>
+  </div>
+</div>
+{% endblock %}

@@ -1,5 +1,5 @@
 [
-	{
+		{
 		"name": "xxx",
 		"partner": "",
 		"date": "xxx",
@@ -8,6 +8,8 @@
 		"faculty_members":["faculty_name", "faculty_name"],
 		"links": ["link1", "link2"],
 		"certificates":["online", "blended", "in_person", "for_credit", "for_certificate"],
-		"is_active": false
-	}
+		"is_active": false,
+		""
+		},
+
 ]
