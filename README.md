@@ -7,7 +7,7 @@ staticjinja watch --outpath ./site --static static
 
 
 ## Basic Folder Structure
-- site        --generated static site
+- site        --*generated static site*
 - templates   
   - static    
-  - layout    --base layout templates
+  - layout    --*base layout templates*
