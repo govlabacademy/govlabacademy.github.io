@@ -11,3 +11,8 @@ staticjinja watch --outpath ./site --static static
 - templates   
   - static    
   - layout    --*base layout templates*
+
+
+### Backup
+I kept this as a backup in case we need it for reference
+https://github.com/claudioccm/academy
