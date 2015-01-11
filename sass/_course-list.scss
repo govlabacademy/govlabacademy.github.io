@@ -1,0 +1,199 @@
+.b-course-list {
+	ul {
+		margin-bottom: 0;
+		padding: 0;
+	}
+
+	.b-course-list-item {
+		position: relative;
+		border: 1px solid $gray_20;
+		background-color: $white;
+		vertical-align: top;
+		margin: 0;
+		margin-bottom: 10px;
+		padding: 0;
+		padding-top: 20px;
+		@include drop-shadow-light;
+
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 6px;
+			height: 100%;
+			margin-top: -8px;
+			background-color: $blue;
+		}
+		
+		.e-course-content, 
+		.e-course-date,
+		> h3,
+		.e-course-controls {
+			margin-left: 30px;			
+		}
+		
+		.e-course-content {
+			margin-right: 120px;
+		}
+
+		.e-course-date {
+			font-size: 1.1rem;
+			line-height: 1.1rem;
+			text-transform: uppercase;
+			font-weight: 600;
+			color: $blue;
+			display: block;
+
+		}
+
+		.e-certifications {
+			position: absolute;
+			right: 0;
+			top: 0;
+			padding: 20px;
+
+			img {
+				width: 40px;
+				overflow: hidden;
+				border-radius: 50%;
+				background-color: $blue;
+			}
+		}
+
+		.e-partner {
+			background-color: $blue_20;
+			padding: 5px 0 5px 30px;
+			margin: 0;
+		}
+	}
+}
+
+.e-course-controls {
+	display: inline-block;
+	width: calc(70% - 34px);
+	vertical-align: bottom;
+	padding-bottom: 30px;
+
+	.e-button {
+		border-radius: 2px;
+		background-color: $gray_60;
+		color: $white;
+		font-weight: 400;
+		padding: 4px 14px;
+		margin-right: 5px;
+
+		&:hover {
+			background-color: $blue;
+			@include drop-shadow-light;
+		}
+	}
+}
+
+.e-course-faculty {
+	height: 100px;
+	display: inline-block;
+	width: calc(30% - 4px);
+}
+
+.b-mini-card {
+	text-align: center;
+	float: right;
+	width: 100px;
+	margin:0 10px;
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	right: 0;
+	@include transition;
+
+	.e-person-pic {
+		border-radius: 50%;
+		margin: 0 auto;
+		overflow: hidden;
+		width: 80px;
+		height: 80px;
+		border: 2px solid $green;
+		background-color: $green;
+		text-align: center;
+	  background-position: center center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  @include drop-shadow-light;
+	}
+
+	h3 {
+		font-size: 12px;
+		font-weight: 400;
+		opacity: 0;
+		margin-top: -20px;
+		text-align: center;
+		@include transition;
+
+	}
+
+	&.m-govlab-True {
+		.e-person-pic {
+			border-color: $purple;
+			background-color: $purple;
+		}
+	}
+}
+.b-mini-card:nth-of-type(2) { 
+	right: 10px;
+	transition-duration: 0.2s;
+	}
+.b-mini-card:nth-of-type(3) { 
+	right: 20px;
+	transition-duration: 0.4s;
+	}
+.b-mini-card:nth-of-type(4) { 
+	right: 30px;
+	transition-duration: .6s;
+	}
+.b-mini-card:nth-of-type(5) { 
+	right: 40px;
+	transition-duration: .7s;
+	
+	}
+
+.e-course-faculty:hover {
+	.b-mini-card {
+		@include transition;
+
+		h3 { 
+			opacity: 1;
+			margin-top: 5px;
+			@include transition;
+		}
+	}	
+
+	.b-mini-card:nth-of-type(2) { 
+		right: 95px;
+		transition-duration: 0.2s;
+		h3 {transition-delay: 0.1s}
+		}
+	.b-mini-card:nth-of-type(3) { 
+		right: 190px;
+		transition-duration: 0.4s;
+		h3 {transition-delay: 0.2s}
+		}
+	.b-mini-card:nth-of-type(4) { 
+		right: 285px;
+		transition-duration: .6s;
+		h3 {transition-delay: 0.3s}
+		}
+	.b-mini-card:nth-of-type(5) { 
+		right: 380px;
+		transition-duration: .7s;
+		h3 {transition-delay: 0.4s}
+		}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : $desktop_width) {
+	
+	
+
+
+} // Media query

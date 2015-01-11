@@ -588,6 +588,156 @@ a {
       margin-bottom: 50px; }
     .b-content-page > h2 + h3 {
       margin-top: -50px; } }
+.b-course-list ul {
+  margin-bottom: 0;
+  padding: 0; }
+.b-course-list .b-course-list-item {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: white;
+  vertical-align: top;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  padding-top: 20px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); }
+  .b-course-list .b-course-list-item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 100%;
+    margin-top: -8px;
+    background-color: #00aff0; }
+  .b-course-list .b-course-list-item .e-course-content,
+  .b-course-list .b-course-list-item .e-course-date,
+  .b-course-list .b-course-list-item > h3,
+  .b-course-list .b-course-list-item .e-course-controls {
+    margin-left: 30px; }
+  .b-course-list .b-course-list-item .e-course-content {
+    margin-right: 120px; }
+  .b-course-list .b-course-list-item .e-course-date {
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #00aff0;
+    display: block; }
+  .b-course-list .b-course-list-item .e-certifications {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px; }
+    .b-course-list .b-course-list-item .e-certifications img {
+      width: 40px;
+      overflow: hidden;
+      border-radius: 50%;
+      background-color: #00aff0; }
+  .b-course-list .b-course-list-item .e-partner {
+    background-color: rgba(0, 175, 240, 0.2);
+    padding: 5px 0 5px 30px;
+    margin: 0; }
+
+.e-course-controls {
+  display: inline-block;
+  width: calc(70% - 34px);
+  vertical-align: bottom;
+  padding-bottom: 30px; }
+  .e-course-controls .e-button {
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-weight: 400;
+    padding: 4px 14px;
+    margin-right: 5px; }
+    .e-course-controls .e-button:hover {
+      background-color: #00aff0;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); }
+
+.e-course-faculty {
+  height: 100px;
+  display: inline-block;
+  width: calc(30% - 4px); }
+
+.b-mini-card {
+  text-align: center;
+  float: right;
+  width: 100px;
+  margin: 0 10px;
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  right: 0;
+  transition: all 0.4s ease; }
+  .b-mini-card .e-person-pic {
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #32b491;
+    background-color: #32b491;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); }
+  .b-mini-card h3 {
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0;
+    margin-top: -20px;
+    text-align: center;
+    transition: all 0.4s ease; }
+  .b-mini-card.m-govlab-True .e-person-pic {
+    border-color: #472b74;
+    background-color: #472b74; }
+
+.b-mini-card:nth-of-type(2) {
+  right: 10px;
+  transition-duration: 0.2s; }
+
+.b-mini-card:nth-of-type(3) {
+  right: 20px;
+  transition-duration: 0.4s; }
+
+.b-mini-card:nth-of-type(4) {
+  right: 30px;
+  transition-duration: .6s; }
+
+.b-mini-card:nth-of-type(5) {
+  right: 40px;
+  transition-duration: .7s; }
+
+.e-course-faculty:hover .b-mini-card {
+  transition: all 0.4s ease; }
+  .e-course-faculty:hover .b-mini-card h3 {
+    opacity: 1;
+    margin-top: 5px;
+    transition: all 0.4s ease; }
+.e-course-faculty:hover .b-mini-card:nth-of-type(2) {
+  right: 95px;
+  transition-duration: 0.2s; }
+  .e-course-faculty:hover .b-mini-card:nth-of-type(2) h3 {
+    transition-delay: 0.1s; }
+.e-course-faculty:hover .b-mini-card:nth-of-type(3) {
+  right: 190px;
+  transition-duration: 0.4s; }
+  .e-course-faculty:hover .b-mini-card:nth-of-type(3) h3 {
+    transition-delay: 0.2s; }
+.e-course-faculty:hover .b-mini-card:nth-of-type(4) {
+  right: 285px;
+  transition-duration: .6s; }
+  .e-course-faculty:hover .b-mini-card:nth-of-type(4) h3 {
+    transition-delay: 0.3s; }
+.e-course-faculty:hover .b-mini-card:nth-of-type(5) {
+  right: 380px;
+  transition-duration: .7s; }
+  .e-course-faculty:hover .b-mini-card:nth-of-type(5) h3 {
+    transition-delay: 0.4s; }
+
+/* Desktops and laptops ----------- */
 .b-pop-controls-container {
   position: relative; }
 
@@ -641,91 +791,6 @@ a {
       transition-delay: 0.3s; }
     .b-pop-controls-container:hover .b-pop-controls .e-pop-button:hover {
       box-shadow: 0 0 12px rgba(0, 0, 0, 0.8); }
-
-.e-course-controls {
-  display: inline-block;
-  width: calc(70% - 4px);
-  vertical-align: bottom;
-  padding-bottom: 30px; }
-  .e-course-controls .e-button.e-button.e-button {
-    border-radius: 2px;
-    background-color: #f0551e;
-    color: white;
-    font-weight: 400;
-    padding: 2px 14px; }
-
-.e-course-faculty {
-  height: 100px;
-  display: inline-block;
-  width: calc(30% - 4px); }
-
-.b-mini-card {
-  text-align: center;
-  float: right;
-  width: 100px;
-  margin: 0 10px;
-  display: inline-block;
-  vertical-align: top;
-  position: absolute;
-  right: 0;
-  transition: all 0.4s ease; }
-  .b-mini-card .e-person-pic {
-    border-radius: 50%;
-    margin: 0 auto;
-    overflow: hidden;
-    width: 80px;
-    height: 80px;
-    border: 2px solid #32b491;
-    background-color: #32b491;
-    text-align: center;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); }
-  .b-mini-card h3 {
-    font-size: 12px;
-    font-weight: 400;
-    opacity: 0;
-    margin-top: -20px;
-    transition: all 0.4s ease; }
-  .b-mini-card.m-govlab-True .e-person-pic {
-    border-color: #472b74;
-    background-color: #472b74; }
-
-.b-mini-card:nth-of-type(2) {
-  right: 10px;
-  transition-delay: 0.1s; }
-
-.b-mini-card:nth-of-type(3) {
-  right: 20px;
-  transition-delay: 0.2s; }
-
-.b-mini-card:nth-of-type(4) {
-  right: 30px;
-  transition-delay: 0.3s; }
-
-.b-mini-card:nth-of-type(5) {
-  right: 40px;
-  transition-delay: 0.4s; }
-
-.e-course-faculty:hover .b-mini-card {
-  transition: all 0.4s ease; }
-  .e-course-faculty:hover .b-mini-card h3 {
-    opacity: 1;
-    margin-top: 5px;
-    transition: all 0.4s ease; }
-.e-course-faculty:hover .b-mini-card:nth-of-type(2) {
-  right: 95px;
-  transition-delay: 0.4s; }
-.e-course-faculty:hover .b-mini-card:nth-of-type(3) {
-  right: 190px;
-  transition-delay: 0.3s; }
-.e-course-faculty:hover .b-mini-card:nth-of-type(4) {
-  right: 285px;
-  transition-delay: 0.2s; }
-.e-course-faculty:hover .b-mini-card:nth-of-type(5) {
-  right: 380px;
-  transition-delay: 0.1s; }
 
 #homepage {
   padding-top: 0; }
@@ -1042,10 +1107,15 @@ a {
     left: -85px;
     text-align: right; }
 
-.b-course-list ul {
-  margin-bottom: 0;
-  padding: 0; }
-
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1024px) {
+  .b-course-info li {
+    margin-left: 90px; }
+    .b-course-info li:before {
+      display: none; }
+    .b-course-info li strong {
+      width: 72px;
+      left: -93px; } }
 #about-page .b-filters-wrapper {
   margin-bottom: 30px;
   padding: 0 10px; }
