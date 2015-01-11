@@ -125,7 +125,7 @@ a {
   top: 0;
   transition: all 0.4s ease; }
   .b-top-navigation-wrapper.m-hidden {
-    top: -60px; }
+    top: -70px; }
 
 .b-top-navigation {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); }
