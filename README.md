@@ -1,5 +1,8 @@
 # academy
 
+## install the latest version of staticjinja
+pip install git+git://github.com/Ceasar/staticjinja#egg=staticjinja
+
 ## commands for building
 
 staticjinja build --outpath ./site --static static
