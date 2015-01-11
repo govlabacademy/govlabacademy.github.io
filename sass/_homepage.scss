@@ -5,10 +5,6 @@
 		margin-bottom: 0;
 		padding-top: 40px;
 		padding-bottom: 40px;
-		// background-image: url(../img/academy-logo-bg-dark.svg);
-		// background-repeat: no-repeat;
-		// background-size: 46%;
-		// background-position: center;
 
 		#academy-icon {
 			opacity: 0.1;
@@ -28,28 +24,6 @@
 				line-height: 1.3;
 				position: relative;
 				font-style: italic;
-
-				// &:before,
-				// &:after {
-				// 	content: "";
-				//   position: absolute;
-				//   opacity: 1;
-				//   background: url(../img/quotes.png) no-repeat top;
-				//   background-size: 80%;
-				//   width: 120px;
-				//   height: 70px;
-				// }
-
-				// &:before {
-				// 	left: -10px;
-				//   top: -10px;
-				// }
-
-				// &:after {
-				// 	right: -10px;
-				//   bottom: 20px;
-				//   background-position: 0 -70px;
-				// }
 			}
 			
 			.e-author {
@@ -80,11 +54,7 @@
 		background-color: $orange;
 
 
-		h3 {
-			font-size: 1rem;
-		}
-
-		h2, p, li {
+		p, li {
 			color: $white;
 			font-weight: 100;
 		}
@@ -158,6 +128,8 @@
 }
 
 #canvas {
+	display: none;
+
 	h2 {
 		margin-bottom: 0;
 	}
@@ -243,7 +215,7 @@
 	
 	.b-course-summary {
 		padding: 10px 40px 40px;
-		height: 435px; // Better if not hard-coded
+		height: 365px; // Better if not hard-coded
 		background-color: $gray_50;
 
 		h3 {
@@ -381,6 +353,7 @@
 	}
 	
 	#canvas {
+		display: block;
 
 		h2 {
 			margin-bottom: 0;

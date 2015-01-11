@@ -1,0 +1,55 @@
+@import "variables";
+
+body {
+	background-color: $gray_3;
+}
+
+body, h1, h2, h3, h4, h5 {
+	font-family: proxima-nova, sans-serif;
+}
+
+
+// Main Sections
+
+@import "swipe";
+@import "text-blocks";
+@import "header";
+@import "off-canvas-menu";
+@import "footer";
+@import "messages";
+@import "library";
+@import "layout";
+@import "mini-card";
+@import "pop-buttons";
+@import "sandbox";
+
+// Content pages
+@import "homepage";
+@import "courses";
+@import "about";
+@import "faqs";
+
+
+@media only screen and (min-width : $desktop_width) {
+	
+		h2 {
+			font-size: 3rem;
+			line-height: 1.2;
+		}
+
+		p, li {
+			font-size: 1.3rem;
+			line-height: 1.4;
+		}
+
+		ul {
+			margin-left: 0;
+
+			li {margin-bottom: 10px;}
+			li:before { top: 8px !important; }
+		}
+}
+
+
+
+

@@ -767,9 +767,7 @@ a {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3) inset;
     padding-top: 40px;
     background-color: #f0551e; }
-    #homepage #explanation h3 {
-      font-size: 1rem; }
-    #homepage #explanation h2, #homepage #explanation p, #homepage #explanation li {
+    #homepage #explanation p, #homepage #explanation li {
       color: white;
       font-weight: 100; }
     #homepage #explanation a {
@@ -820,14 +818,16 @@ a {
     right: 15px;
     top: 12px; }
 
-#canvas h2 {
-  margin-bottom: 0; }
-#canvas h3 {
-  font-size: 1.1rem;
-  opacity: 1;
-  text-align: center;
-  font-weight: 600;
-  color: #472b74; }
+#canvas {
+  display: none; }
+  #canvas h2 {
+    margin-bottom: 0; }
+  #canvas h3 {
+    font-size: 1.1rem;
+    opacity: 1;
+    text-align: center;
+    font-weight: 600;
+    color: #472b74; }
 
 .b-canvas .e-canvas-title {
   text-align: center; }
@@ -875,7 +875,7 @@ a {
     color: white; }
 .b-courses-overview .b-course-summary {
   padding: 10px 40px 40px;
-  height: 435px;
+  height: 365px;
   background-color: rgba(0, 0, 0, 0.5); }
   .b-courses-overview .b-course-summary h3 {
     margin-top: 20px;
@@ -953,14 +953,16 @@ a {
     #homepage #partners.b-partners .e-trigger::after {
       display: none; }
 
-  #canvas h2 {
-    margin-bottom: 0; }
-  #canvas h3 {
-    font-size: 1.6rem;
-    opacity: 1;
-    text-align: center;
-    font-weight: 600;
-    margin-bottom: 30px; }
+  #canvas {
+    display: block; }
+    #canvas h2 {
+      margin-bottom: 0; }
+    #canvas h3 {
+      font-size: 1.6rem;
+      opacity: 1;
+      text-align: center;
+      font-weight: 600;
+      margin-bottom: 30px; }
 
   .b-canvas {
     position: relative; }
@@ -1018,7 +1020,7 @@ a {
   .b-courses-overview #master-courses p {
     letter-spacing: -0.1px; } }
 #courses-page .b-courses-overview .b-course-summary {
-  height: 835px; }
+  height: 735px; }
 
 #courses-page .b-course-info li strong {
   left: -90px; }
@@ -1032,8 +1034,6 @@ a {
   line-height: 1.4;
   margin-bottom: 10px;
   margin-left: 60px; }
-  .b-course-info li:before {
-    display: none; }
   .b-course-info li strong {
     color: rgba(0, 0, 0, 0.5);
     display: inline-block;
@@ -1045,76 +1045,7 @@ a {
 .b-course-list ul {
   margin-bottom: 0;
   padding: 0; }
-.b-course-list .e-course-list-item {
-  position: relative;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-top: 4px solid #00aff0;
-  background-color: white;
-  vertical-align: top;
-  margin: 0 0 10px 0;
-  padding: 20px 30px 20px 40px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); }
-  .b-course-list .e-course-list-item:last-of-type {
-    border-bottom: 0;
-    padding-bottom: 0; }
-  .b-course-list .e-course-list-item .e-course-date {
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #00aff0;
-    margin-bottom: 0;
-    display: inline-block; }
-  .b-course-list .e-course-list-item.m-joint {
-    border-top: 0;
-    border-bottom-color: rgba(71, 43, 116, 0.5); }
-    .b-course-list .e-course-list-item.m-joint h3 {
-      margin-bottom: 0; }
-    .b-course-list .e-course-list-item.m-joint .e-partner {
-      display: block;
-      background-color: rgba(71, 43, 116, 0.2);
-      margin: 0;
-      padding: 3px 10px;
-      color: #472b74;
-      font-size: 1.2rem;
-      font-weight: 600; }
-      .b-course-list .e-course-list-item.m-joint .e-partner:before {
-        content: "In partnership with "; }
 
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 1024px) {
-  .b-course-info li {
-    margin-left: 90px; }
-    .b-course-info li:before {
-      display: none; }
-    .b-course-info li strong {
-      width: 72px;
-      left: -93px; }
-
-  .b-course-list .e-course-list-item {
-    position: relative; }
-    .b-course-list .e-course-list-item .e-certifications {
-      position: absolute;
-      left: -25px;
-      top: 30px; }
-      .b-course-list .e-course-list-item .e-certifications .e-course-icons {
-        display: block;
-        border-radius: 50%;
-        overflow: hidden;
-        background-color: #f0551e;
-        width: 40px;
-        height: 40px;
-        margin-bottom: 5px; }
-    .b-course-list .e-course-list-item .m-left {
-      margin-right: 25px; }
-    .b-course-list .e-course-list-item .m-right {
-      margin-right: 0; }
-    .b-course-list .e-course-list-item .e-course-controls a {
-      padding: 3px 6px;
-      display: inline-block;
-      color: #ed135a; }
-    .b-course-list .e-course-list-item .e-course-controls a:hover {
-      background-color: #ed135a;
-      color: white; } }
 #about-page .b-filters-wrapper {
   margin-bottom: 30px;
   padding: 0 10px; }
