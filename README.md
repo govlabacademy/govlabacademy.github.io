@@ -1,13 +1,16 @@
 # academy
 
 ## install the latest version of staticjinja
+```
 pip install git+git://github.com/Ceasar/staticjinja#egg=staticjinja
+```
 
 ## commands for building
-
+```
+mkdir site
 staticjinja build --outpath ./site --static static
 staticjinja watch --outpath ./site --static static
-
+```
 
 ## Basic Folder Structure
 - site        --*generated static site*
