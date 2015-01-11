@@ -7,9 +7,10 @@ pip install git+git://github.com/Ceasar/staticjinja#egg=staticjinja
 
 ## commands for building
 ```
-mkdir site
+mkdir -p site
 staticjinja build --outpath ./site --static static
 staticjinja watch --outpath ./site --static static
+(cd site; python -m SimpleHTTPServer &)
 ```
 
 ## Basic Folder Structure
