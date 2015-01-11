@@ -1,0 +1,14 @@
+{% extends "layout/base.html" %}
+{% block content %}
+<div class="b-content-page">
+	<div class="row">
+    <h2 class="column large-12">Sandbox</h2>
+    {% for knight in knights %}
+        <h2>{{ knight }}</h2>
+    {% endfor %}
+    </ul>
+
+  </div>
+  
+</div>
+{% endblock %}
