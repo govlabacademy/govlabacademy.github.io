@@ -1,43 +1,129 @@
 ---
 # Courses
-- name: "Citizen Service Projects"
+- name: "Problem Definition"
   partner: 
-  date: 
+  date: On Demand # Date can be in two formats ie. "January 2015" or "On Demand"
   duration: 
   description_short: "Support for efforts to make public all relevant information on government procurement activities and decisions"
   description_long: "long description"
-  faculty_members:
-    - faculty_name
-    - faculty_name
+  faculty_members: # Add list with faculty member names
   actions: 
-    - link1
-    - link2
+    # - { label: Button Label, link: Button Link }
+    # - { label: Button Label, link: Button Link }
   certificates:
     blended: false
-    online: true
-    in_person: false
+    online: false
+    in_person: true
     for_credit: false
     for_certificate: true
   is_active: true
-  is_public: true  # Public os On Demand offerings
 
-- name: "Citizen Service Projects (part II)"
-  partner: 
-  date: 
-  duration: 
-  description_short: "Support for efforts to make public all relevant information on government procurement activities and decisions"
-  description_long: "long description"
+- name: "Urban Analytics for Change"
+  partner: CUSP
+  date: February 2015
+  duration: one day
+  description_short: "In this one day program, you will acquire the skills required to frame and commission effective data-driven projects that lead to tangible, real-world outcomes. The program will also help prepare you to partner with senior executives within your organization in order to design, implement, and evaluate analytics projects so that they consistently deliver measurable, scalable results."
+  description_long: 
   faculty_members:
-    - faculty_name
-    - faculty_name
+    - Timothy Savage
+    - Alan Kantrow
   actions: 
-    - link1
-    - link2
+    # { label: Course Syllabus, link: /files/analytics-for-change.pdf }
+    # { label: Course Page, link: http://cusp.nyu.edu/exec-ed-1day/ }
   certificates:
     blended: false
-    online: true
-    in_person: false
+    online: false
+    in_person: true
     for_credit: false
     for_certificate: true
   is_active: true
-  is_public: true  # Public os On Demand offerings
+
+- name: "User Segmentation and Analysis"
+  partner: 
+  date: On Demand
+  duration: 
+  description_short: "How to understand the preferences and priorities of those most likely to be affected by a proposed governance innovation and, then, translate that understanding into the design specs that shape the innovation process"
+  description_long: 
+  faculty_members:
+  actions: 
+    # - { label: Button Label, link: Button Link }
+    # - { label: Button Label, link: Button Link }
+  certificates:
+    blended: false
+    online: false
+    in_person: true
+    for_credit: false
+    for_certificate: true
+  is_active: true
+
+- name: "Project Planning"
+  partner: 
+  date: On Demand
+  duration: 
+  description_short: "How to turn a problem statement and user analysis into a tight workplan against which innovation-focused activities can be efficiently and effectively deployed"
+  description_long: 
+  faculty_members:
+  actions: 
+    # - { label: Button Label, link: Button Link }
+    # - { label: Button Label, link: Button Link }
+  certificates:
+    blended: false
+    online: false
+    in_person: true
+    for_credit: false
+    for_certificate: true
+  is_active: true
+
+- name: "Rapid-cycle Research"
+  partner: 
+  date: On Demand
+  duration: 
+  description_short: "How to design and execute a brief but intensive research effort to map out an issue landscape, including the major unanswered questions, key players, and relevant state of current practice and exploration"
+  description_long: 
+  faculty_members:
+  actions: 
+    # - { label: Button Label, link: Button Link }
+    # - { label: Button Label, link: Button Link }
+  certificates:
+    blended: false
+    online: false
+    in_person: true
+    for_credit: false
+    for_certificate: true
+  is_active: true
+
+- name: "Designing Mock-ups and Prototypes"
+  partner: 
+  date: On Demand
+  duration: 
+  description_short: "How to translate hypotheses based on research and analysis into tangible forms that can be piloted and tested with all relevant user groups and delivery channels"
+  description_long: 
+  faculty_members:
+  actions: 
+    # - { label: Button Label, link: Button Link }
+    # - { label: Button Label, link: Button Link }
+  certificates:
+    blended: false
+    online: false
+    in_person: true
+    for_credit: false
+    for_certificate: true
+  is_active: true
+
+- name: "Defining Metrics of Success"
+  partner: 
+  date: On Demand
+  duration: 
+  description_short: "How to shape appropriate, context-specific measures of performance that capture not just the activity associated with an innovation initiative but, more importantly, the value created"
+  description_long: 
+  faculty_members:
+  actions: 
+    # - { label: Button Label, link: Button Link }
+    # - { label: Button Label, link: Button Link }
+  certificates:
+    blended: false
+    online: false
+    in_person: true
+    for_credit: false
+    for_certificate: true
+  is_active: true
