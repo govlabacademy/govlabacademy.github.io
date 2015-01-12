@@ -1,0 +1,53 @@
+
+Now we want to iterate over the people we have.
+
+<ul>
+{% for person in people %}
+<li>{{person.name}}</li>
+{% endfor %}
+</ul>
+
+<p>What about defining a mini-template to render each person.
+We can use a macro for that.</p>
+
+{% macro showPerson(person) -%}
+<div>
+	<span>{{person.name}}</span>
+	<span><img width="50px" src="static/img/people/{{person.img_url}}"/></span>
+</div>
+{%- endmacro %}
+
+<ul>
+{% for person in people %}
+<li>{{showPerson(person)}}</li>
+{% endfor %}
+</ul>
+
+<p>Now what about making it easy to just grab one user.</p>
+{{ people|selectattr("name", "equalto", "Beth Simone Noveck")|first }}
+
+{{ showPerson(people|selectattr("name", "equalto", "Beth Simone Noveck")|first) }}
+
+<ul>
+{% for p in people|selectattr("name", "equalto", "Beth Simone Noveck") %}
+<li>{{p}}</li>
+{% endfor %}
+</ul>
+
+{% macro showPersonByName(name) -%}
+{{ showPerson(people|selectattr("name", "equalto", name)|first) }}
+{%- endmacro %}
+
+{{ showPersonByName('Beth Simone Noveck')}}
+{{ showPersonByName('Arnaud Sahuguet')}}
+
+<h1>Test list filter</h1>
+
+Looking for people who are doing designing-metrics-of-success:
+<ul>
+{% for p in people|map('containsTag', 'designing-metrics-of-success')|reject('none') %}
+<li>{{showPerson(p)}}</li>
+{% endfor %}
+</ul>
+
+
