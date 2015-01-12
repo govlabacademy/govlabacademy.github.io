@@ -7,6 +7,8 @@ To make things work, you need:
 wget https://github.com/mitsuhiko/jinja2/archive/master.zip
 unzip jinja2-master.zip
 pip install -e jinja2-master/
+python -c 'import jinja2; print jinja2.__version__'
+# it should say 2.8-dev
 
 * Install the latest version of staticJinja
 pip install git+git://github.com/Ceasar/staticjinja#egg=staticjinja
