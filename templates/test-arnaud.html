@@ -17,6 +17,17 @@ We can use a macro for that.</p>
 </div>
 {%- endmacro %}
 
+
+<h1>Showing course</h1>
+{% for course in courses %}
+{{course}}
+{% endfor %}
+
+<h1>Showing workshops</h1>
+{% for course in workshops %}
+{{course}}
+{% endfor %}
+
 <ul>
 {% for person in people %}
 <li>{{showPerson(person)}}</li>
@@ -49,5 +60,7 @@ Looking for people who are doing designing-metrics-of-success:
 <li>{{showPerson(p)}}</li>
 {% endfor %}
 </ul>
+
+
 
 
