@@ -1,22 +1,19 @@
-{% extends "layout/base.html" %}
-{% block content %}
-
-{#
-  - This is the macro to display a person.
-  - You can define as many macros as you want.
-#}
-
+<!-- Template to generate faculty members in course-lists -->
 {% macro showPerson(person) -%}
-  <article class="b-mini-card m-govlab-True">
+  <article class="b-mini-card m-govlab-{{person.is_govlab}}">
     <div class="e-person-pic" style="background-image: url('static/img/people/{{person.img_url}}')"></div>
     <h3 title="{{person.name}}">{{person.name}}</h3>
   </article>
 {%- endmacro %}
 
+
+<!-- PAGE STARTS HERE -->
+{% extends "layout/base.html" %}
+{% block content %}
+
 <div class="b-content-page">
 	<section class="b-course-list row">
-		<ul class="column large-12">
-					
+		<ul class="column large-12">			
 			<li class="b-course-list-item">
 				<h4 class="e-course-date">February 2015</h4>
 				<h3>Open Contracting projects</h3>
@@ -35,22 +32,14 @@
           <a class="e-button" href="http://cusp.nyu.edu/exec-ed-1day/" target="_blank">Course Page</a>
         </div>
         <div class="e-course-faculty">
-
-          {#
-          - You define the names of people you want to display.
-          - You filter the `people` list by name.
-          - You use the macro to displau them.
-          #}
-
           {% for name in ['Alan Kantrow', 'Timothy Savage'] %}
-          {{ showPerson(people|selectattr("name", "equalto", name)|first) }}
+            {{ showPerson(people|selectattr("name", "equalto", name)|first) }}
           {% endfor %}
-
 				</div>
         <h5 class="e-partner">In partnership with CUSP</h5>
 			</li>
 
-			<li class="b-course-list-item">
+			<!-- <li class="b-course-list-item">
 				<h4 class="e-course-date">February 2015</h4>
 				<h3>Open Contracting projects</h3>
 				<div class="e-certifications">
@@ -67,18 +56,7 @@
           <a class="e-button" href="../static/files/analytics-for-change.pdf" target="_blank">Course Syllabus</a>
           <a class="e-button" href="http://cusp.nyu.edu/exec-ed-1day/" target="_blank">Course Page</a>
         </div>
-        <div class="e-course-faculty">
-          
-          {#
-          - You define the list of people to choose from; here the first 5.
-          - You call the macro for each of them.
-          #}
-
-          {% for person in people[0:5] %}
-          {{ showPerson(person) }}
-          {% endfor %}
-
-				</div>
+        <div class="e-course-faculty"></div>
         <h5 class="e-partner">In partnership with CUSP</h5>
 			</li>
 
@@ -122,7 +100,7 @@
           </article>
 				</div>
         <h5 class="e-partner">In partnership with CUSP</h5>
-			</li>
+			</li> -->
 
   </ul>
 </section>

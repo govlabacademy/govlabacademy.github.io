@@ -1,0 +1,24 @@
+---
+# Course Entry
+course:
+	name: "Course Name"
+	course_type: workshop # Options are [workshop, coaching, master, clinic] 
+	partner: partner
+	date: March 2015
+	duration: 4 weeks
+	description_short: "Support for efforts to make public all relevant information on government procurement activities and decisions"
+	description_long: "long description"
+	faculty_members:
+		- faculty_name
+		- faculty_name
+	actions: 
+		- link1
+		- link2
+	certificates:
+		blended: false
+		online: true
+		in_person: false
+		for_credit: false
+		for_certificate: true
+	is_active: true
+	is_public: true  # Public or On Demand offerings
