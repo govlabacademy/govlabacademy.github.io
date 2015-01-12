@@ -16,8 +16,15 @@ def loadAcademyData():
 					 'resources': None }
 
 # We define some filters we want to use in the templates.
+def containsTag(x, y):
+	print "Name >>%s<<" % x['name']
+	print "Tag to look for >>%s<<" % y
+	print "All tags >>%s<<" % x['tags']
+	return x if y in x['tags'] else None
+
 filters = {
 	'byName':   lambda x: [p for p in PEOPLE if p.name == x],
+	'containsTag': containsTag,
 }
 
 

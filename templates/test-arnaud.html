@@ -41,4 +41,13 @@ We can use a macro for that.</p>
 {{ showPersonByName('Beth Simone Noveck')}}
 {{ showPersonByName('Arnaud Sahuguet')}}
 
+<h1>Test list filter</h1>
+
+Looking for people who are doing designing-metrics-of-success:
+<ul>
+{% for p in people|map('containsTag', 'designing-metrics-of-success')|reject('none') %}
+<li>{{showPerson(p)}}</li>
+{% endfor %}
+</ul>
+
 

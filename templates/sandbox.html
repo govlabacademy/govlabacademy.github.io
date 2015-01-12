@@ -1,5 +1,18 @@
 {% extends "layout/base.html" %}
 {% block content %}
+
+{#
+  - This is the macro to display a person.
+  - You can define as many macros as you want.
+#}
+
+{% macro showPerson(person) -%}
+  <article class="b-mini-card m-govlab-True">
+    <div class="e-person-pic" style="background-image: url('static/img/people/{{person.img_url}}')"></div>
+    <h3 title="{{person.name}}">{{person.name}}</h3>
+  </article>
+{%- endmacro %}
+
 <div class="b-content-page">
 	<section class="b-course-list row">
 		<ul class="column large-12">
@@ -22,26 +35,17 @@
           <a class="e-button" href="http://cusp.nyu.edu/exec-ed-1day/" target="_blank">Course Page</a>
         </div>
         <div class="e-course-faculty">
-          <article class="b-mini-card m-govlab-True">
-            <div class="e-person-pic" style="background-image: url('static/img/people/alan-kantrow.jpg')"></div>
-            <h3 title="Alan Kantrow">Alan Kantrow</h3>
-          </article>
-          <article class="b-mini-card m-govlab-True">
-            <div class="e-person-pic" style="background-image: url('static/img/people/alan-kantrow.jpg')"></div>
-            <h3 title="Alan Kantrow">Alan Kantrow</h3>
-          </article>
-          <article class="b-mini-card m-govlab-True">
-            <div class="e-person-pic" style="background-image: url('static/img/people/alan-kantrow.jpg')"></div>
-            <h3 title="Alan Kantrow">Alan Kantrow</h3>
-          </article>
-          <article class="b-mini-card m-govlab-True">
-            <div class="e-person-pic" style="background-image: url('static/img/people/alan-kantrow.jpg')"></div>
-            <h3 title="Alan Kantrow">Alan Kantrow</h3>
-          </article>
-          <article class="b-mini-card m-govlab-False">
-            <div class="e-person-pic" style="background-image: url('static/img/people/timothy-savage.png')"></div>
-            <h3>Timothy Savage</h3>
-          </article>
+
+          {#
+          - You define the names of people you want to display.
+          - You filter the `people` list by name.
+          - You use the macro to displau them.
+          #}
+
+          {% for name in ['Alan Kantrow', 'Timothy Savage'] %}
+          {{ showPerson(people|selectattr("name", "equalto", name)|first) }}
+          {% endfor %}
+
 				</div>
         <h5 class="e-partner">In partnership with CUSP</h5>
 			</li>
@@ -64,26 +68,16 @@
           <a class="e-button" href="http://cusp.nyu.edu/exec-ed-1day/" target="_blank">Course Page</a>
         </div>
         <div class="e-course-faculty">
-          <article class="b-mini-card m-govlab-True">
-            <div class="e-person-pic" style="background-image: url('static/img/people/alan-kantrow.jpg')"></div>
-            <h3 title="Alan Kantrow">Alan Kantrow</h3>
-          </article>
-          <article class="b-mini-card m-govlab-True">
-            <div class="e-person-pic" style="background-image: url('static/img/people/alan-kantrow.jpg')"></div>
-            <h3 title="Alan Kantrow">Alan Kantrow</h3>
-          </article>
-          <article class="b-mini-card m-govlab-True">
-            <div class="e-person-pic" style="background-image: url('static/img/people/alan-kantrow.jpg')"></div>
-            <h3 title="Alan Kantrow">Alan Kantrow</h3>
-          </article>
-          <article class="b-mini-card m-govlab-True">
-            <div class="e-person-pic" style="background-image: url('static/img/people/alan-kantrow.jpg')"></div>
-            <h3 title="Alan Kantrow">Alan Kantrow</h3>
-          </article>
-          <article class="b-mini-card m-govlab-False">
-            <div class="e-person-pic" style="background-image: url('static/img/people/timothy-savage.png')"></div>
-            <h3>Timothy Savage</h3>
-          </article>
+          
+          {#
+          - You define the list of people to choose from; here the first 5.
+          - You call the macro for each of them.
+          #}
+
+          {% for person in people[0:5] %}
+          {{ showPerson(person) }}
+          {% endfor %}
+
 				</div>
         <h5 class="e-partner">In partnership with CUSP</h5>
 			</li>
