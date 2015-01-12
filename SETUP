@@ -1,0 +1,12 @@
+
+To make things work, you need:
+- the latest (dev version) of Jinja2
+- the latest version (with my patch) of staticjinja
+
+* Install dev version of Jinja2
+wget https://github.com/mitsuhiko/jinja2/archive/master.zip
+unzip jinja2-master.zip
+pip install -e jinja2-master/
+
+* Install the latest version of staticJinja
+pip install git+git://github.com/Ceasar/staticjinja#egg=staticjinja
