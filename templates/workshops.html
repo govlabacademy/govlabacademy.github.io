@@ -28,9 +28,28 @@
 			<li class="b-course-list-item">
         <h4 class="e-course-date">{{course.date}}</h4>
         <h3>{{course.name}}</h3>
+        
         <div class="e-certifications">
-          <img src="static/img/icons/icons-online.png" title="Online Course" class="e-course-icons m-online">
+          {% if course.certificates.blended %}
+            <img src="static/img/icons/icons-blended.png" title="Blended Course" class="e-course-icons m-blended">
+          {% endif %}
+
+          {% if course.certificates.online %}
+            <img src="static/img/icons/icons-online.png" title="Online Course" class="e-course-icons m-online">
+          {% endif %}
+
+          {% if course.certificates.in_person %}
+            <img src="static/img/icons/icons-in-person.png" title="In Person Course" class="e-course-icons m-in-person">
+          {% endif %}
+
+          {% if course.certificates.for_certificate %}
           <img src="static/img/icons/icons-certification.png" title="For Certification Course" class="e-course-icons m-certification">
+          {% endif %}
+
+          {% if course.certificates.for_credit %}
+          <img src="static/img/icons/icons-credit.png" title="For Credit Course" class="e-course-icons m-credit">
+          {% endif %}
+
         </div>
         <div class="e-course-content">
           <div class="e-course-description">
