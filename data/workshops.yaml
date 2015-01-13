@@ -27,7 +27,7 @@
     - Alan Kantrow
   actions: 
     - label: Course Syllabus
-      link: /files/analytics-for-change.pdf
+      link: static/files/analytics-for-change-workshop.pdf
     - label: Course Page
       link: http://cusp.nyu.edu/exec-ed-1day/
   certificates:
