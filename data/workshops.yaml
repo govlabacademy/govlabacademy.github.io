@@ -8,8 +8,10 @@
   description_long: "long description"
   faculty_members: # Add list with faculty member names
   actions: 
-    # - { label: Button Label, link: Button Link }
-    # - { label: Button Label, link: Button Link }
+    - label: Button Label 1
+      link: Button Link 1
+    - label: Button Label 2
+      link: Button Link 2
   certificates:
     blended: false
     online: false
@@ -28,12 +30,10 @@
     - Timothy Savage
     - Alan Kantrow
   actions: 
-    - action: 
-        label: Course Syllabus
-        link: /files/analytics-for-change.pdf
-    - action:
-        label: Course Page
-        link: http://cusp.nyu.edu/exec-ed-1day/
+    - label: Course Syllabus
+      link: /files/analytics-for-change.pdf
+    - label: Course Page
+      link: http://cusp.nyu.edu/exec-ed-1day/
   certificates:
     blended: false
     online: false
@@ -49,9 +49,11 @@
   description_short: "How to understand the preferences and priorities of those most likely to be affected by a proposed governance innovation and, then, translate that understanding into the design specs that shape the innovation process"
   description_long: 
   faculty_members:
-  actions: 
-    # - { label: Button Label, link: Button Link }
-    # - { label: Button Label, link: Button Link }
+  actions:
+    - label: Button Label 1
+      link: Button Link 1
+    - label: Button Label 2
+      link: Button Link 2
   certificates:
     blended: false
     online: false
@@ -67,9 +69,11 @@
   description_short: "How to turn a problem statement and user analysis into a tight workplan against which innovation-focused activities can be efficiently and effectively deployed"
   description_long: 
   faculty_members:
-  actions: 
-    # - { label: Button Label, link: Button Link }
-    # - { label: Button Label, link: Button Link }
+  actions:
+    - label: Button Label 1
+      link: Button Link 1
+    - label: Button Label 2
+      link: Button Link 2
   certificates:
     blended: false
     online: false
@@ -85,9 +89,13 @@
   description_short: "How to design and execute a brief but intensive research effort to map out an issue landscape, including the major unanswered questions, key players, and relevant state of current practice and exploration"
   description_long: 
   faculty_members:
-  actions: 
-    # - { label: Button Label, link: Button Link }
-    # - { label: Button Label, link: Button Link }
+  actions:
+    - label: Button Label 1
+      link: Button Link 1
+    - label: Button Label 2
+      link: Button Link 2
+    - label: Button Label 3
+      link: Button Link 3
   certificates:
     blended: false
     online: false
@@ -103,9 +111,11 @@
   description_short: "How to translate hypotheses based on research and analysis into tangible forms that can be piloted and tested with all relevant user groups and delivery channels"
   description_long: 
   faculty_members:
-  actions: 
-    # - { label: Button Label, link: Button Link }
-    # - { label: Button Label, link: Button Link }
+  actions:
+    - label: Button Label 1
+      link: Button Link 1
+    - label: Button Label 2
+      link: Button Link 2
   certificates:
     blended: false
     online: false
@@ -121,9 +131,11 @@
   description_short: "How to shape appropriate, context-specific measures of performance that capture not just the activity associated with an innovation initiative but, more importantly, the value created"
   description_long: 
   faculty_members:
-  actions: 
-    # - { label: Button Label, link: Button Link }
-    # - { label: Button Label, link: Button Link }
+  actions:
+    - label: Button Label 1
+      link: Button Link 1
+    - label: Button Label 2
+      link: Button Link 2
   certificates:
     blended: false
     online: false

@@ -39,14 +39,19 @@
           
         </div>
         <div class="e-course-controls">
-					<!-- {% for button in workshops.actions %}
+          {% if course.actions %}
+					{% for button in course.actions %}
           <a class="e-button" href="{{button.link}}" target="_blank">{{button.label}}</a>
-          {% endfor %} -->
+          {% endfor %}
+          {% endif %}
         </div>
         <div class="e-course-faculty">
-          <!-- {% for name in course.faculty_members %}
+
+          {% if course.faculty_members %}
+          {% for name in course.faculty_members %}
             {{ showPerson(people|selectattr("name", "equalto", name)|first) }}
-          {% endfor %} -->
+          {% endfor %}
+          {% endif %}
         </div>
 
         {% if course.partner %}
