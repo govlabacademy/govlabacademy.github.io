@@ -41,11 +41,17 @@
 			vertical-align: 3px;
 			text-indent: 1px;
 		}
+
+		&:hover {
+			background-color: $green;
+		}
 	}
 
 	&.m-inline-buttons .e-pop-button {
 		display: inline-block;
 	}
+
+
 }
 
 .b-pop-controls-container:hover .b-pop-controls {
