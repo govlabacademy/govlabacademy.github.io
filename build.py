@@ -21,9 +21,6 @@ def loadAcademyData():
 
 # We define some filters we want to use in the templates.
 def containsTag(x, y):
-	print "Name >>%s<<" % x['name']
-	print "Tag to look for >>%s<<" % y
-	print "All tags >>%s<<" % x['tags']
 	return x if y in x['tags'] else None
 
 filters = {
@@ -35,7 +32,7 @@ filters = {
 site = staticjinja.make_site(
 	searchpath=searchpath,
 	outpath=outputpath,
-	staticpaths=['static'],
+	staticpaths=['static', '../data'],
 	filters=filters,
 	contexts=[(r'.*.html', loadAcademyData),]
 	)
