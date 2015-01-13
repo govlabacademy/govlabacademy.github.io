@@ -12,11 +12,13 @@ outputpath  = os.path.join(cwd, "site")
 PEOPLE = json.load(open('data/cards.json'))
 COURSES = yaml.load(open('data/course-schema.yaml'))
 WORKSHOPS = yaml.load(open('data/workshops.yaml'))
+CLINICS = yaml.load(open('data/clinics.yaml'))
 
 def loadAcademyData():
 	return { 'people': PEOPLE,
 					 'courses': COURSES,
 					 'workshops': WORKSHOPS,
+					 'clinics': CLINICS,
 					 'resources': None }
 
 # We define some filters we want to use in the templates.

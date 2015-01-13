@@ -128,7 +128,7 @@ a {
     top: -70px; }
 
 .b-top-navigation {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); }
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.6); }
   .b-top-navigation .row {
     text-align: center; }
 
@@ -224,7 +224,7 @@ a {
       top: -100px;
       margin: 0;
       left: 0;
-      box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
       transition: all 0.4s ease; }
       .e-submenu ul li:first-of-type a {
         padding-top: 6px; }
@@ -472,7 +472,7 @@ a {
   height: 400px;
   margin: 5px;
   position: relative;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   background-color: white; }
   .b-card:before {
     content: "";
@@ -600,7 +600,7 @@ a {
   margin-bottom: 10px;
   padding: 0;
   padding-top: 20px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
   .b-course-list .b-course-list-item:before {
     content: "";
     position: absolute;
@@ -609,20 +609,23 @@ a {
     width: 6px;
     height: 100%;
     margin-top: -8px;
-    background-color: #00aff0; }
-  .b-course-list .b-course-list-item .e-course-content,
+    background-color: rgba(0, 0, 0, 0.5); }
+  .b-course-list .b-course-list-item .e-course-description,
   .b-course-list .b-course-list-item .e-course-date,
-  .b-course-list .b-course-list-item > h3,
+  .b-course-list .b-course-list-item .e-course-name,
   .b-course-list .b-course-list-item .e-course-controls {
     margin-left: 30px; }
-  .b-course-list .b-course-list-item .e-course-content {
+  .b-course-list .b-course-list-item .e-course-name {
     margin-right: 120px; }
+  .b-course-list .b-course-list-item .e-course-description {
+    margin-right: 120px;
+    margin-bottom: 20px; }
   .b-course-list .b-course-list-item .e-course-date {
     font-size: 1.1rem;
     line-height: 1.1rem;
     text-transform: uppercase;
     font-weight: 600;
-    color: #00aff0;
+    color: rgba(0, 0, 0, 0.5);
     display: block; }
   .b-course-list .b-course-list-item .e-certifications {
     position: absolute;
@@ -633,11 +636,12 @@ a {
       width: 40px;
       overflow: hidden;
       border-radius: 50%;
-      background-color: #00aff0; }
+      background-color: rgba(0, 0, 0, 0.2); }
   .b-course-list .b-course-list-item .e-partner {
-    background-color: rgba(0, 175, 240, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     padding: 5px 0 5px 30px;
-    margin: 0; }
+    margin: 0;
+    color: rgba(0, 0, 0, 0.8); }
 
 .e-course-controls {
   display: inline-block;
@@ -646,19 +650,72 @@ a {
   padding-bottom: 30px; }
   .e-course-controls .e-button {
     border-radius: 2px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
     color: white;
     font-weight: 400;
     padding: 4px 14px;
     margin-right: 5px; }
     .e-course-controls .e-button:hover {
-      background-color: #00aff0;
-      box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); }
+      background-color: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
+
+.b-course-list-item.m-workshop:before {
+  background-color: #00aff0; }
+.b-course-list-item.m-workshop .e-course-date {
+  color: #00aff0; }
+.b-course-list-item.m-workshop .e-course-controls .e-button:hover {
+  background-color: #00aff0; }
+.b-course-list-item.m-workshop .e-partner {
+  background-color: rgba(0, 175, 240, 0.2); }
+.b-course-list-item.m-workshop .e-certifications img {
+  background-color: #00aff0; }
+.b-course-list-item.m-workshop .e-partner {
+  color: #00aff0; }
+
+.b-course-list-item.m-clinic:before {
+  background-color: #f0551e; }
+.b-course-list-item.m-clinic .e-course-date {
+  color: #f0551e; }
+.b-course-list-item.m-clinic .e-course-controls .e-button:hover {
+  background-color: #f0551e; }
+.b-course-list-item.m-clinic .e-partner {
+  background-color: rgba(240, 85, 30, 0.2); }
+.b-course-list-item.m-clinic .e-certifications img {
+  background-color: #f0551e; }
+.b-course-list-item.m-clinic .e-partner {
+  color: #f0551e; }
+
+.b-course-list-item.m-master:before {
+  background-color: #472b74; }
+.b-course-list-item.m-master .e-course-date {
+  color: #472b74; }
+.b-course-list-item.m-master .e-course-controls .e-button:hover {
+  background-color: #472b74; }
+.b-course-list-item.m-master .e-partner {
+  background-color: rgba(71, 43, 116, 0.2); }
+.b-course-list-item.m-master .e-certifications img {
+  background-color: #472b74; }
+.b-course-list-item.m-master .e-partner {
+  color: #472b74; }
+
+.b-course-list-item.m-coaching:before {
+  background-color: #32b491; }
+.b-course-list-item.m-coaching .e-course-date {
+  color: #32b491; }
+.b-course-list-item.m-coaching .e-course-controls .e-button:hover {
+  background-color: #32b491; }
+.b-course-list-item.m-coaching .e-partner {
+  background-color: rgba(50, 180, 145, 0.2); }
+.b-course-list-item.m-coaching .e-certifications img {
+  background-color: #32b491; }
+.b-course-list-item.m-coaching .e-partner {
+  color: #32b491; }
 
 .e-course-faculty {
   height: 100px;
   display: inline-block;
-  width: calc(30% - 4px); }
+  width: calc(30% - 4px);
+  margin-top: -30px; }
 
 .b-mini-card {
   text-align: center;
@@ -682,7 +739,7 @@ a {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); }
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
   .b-mini-card h3 {
     font-size: 12px;
     font-weight: 400;
@@ -831,7 +888,7 @@ a {
   #homepage #explanation {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3) inset;
     padding-top: 40px;
-    background-color: #f0551e; }
+    background-color: #32b491; }
     #homepage #explanation p, #homepage #explanation li {
       color: white;
       font-weight: 100; }
@@ -1077,7 +1134,7 @@ a {
     height: 335px;
     margin-right: 1.3%;
     margin-bottom: 1.3%;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); }
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
     .b-courses-overview .b-course-summary h3 {
       font-size: 1.6rem; }
     .b-courses-overview .b-course-summary:before, .b-courses-overview .b-course-summary:after {
