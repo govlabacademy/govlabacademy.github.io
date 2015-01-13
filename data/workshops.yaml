@@ -8,10 +8,12 @@
   description_long: "long description"
   faculty_members: # Add list with faculty member names
   actions: 
-    - label: Button Label 1
-      link: Button Link 1
+    - label: Button Label 0
+      link: Button Link 0
     - label: Button Label 2
       link: Button Link 2
+    - label: Button Label 4
+      link: Button Link 4
   certificates:
     blended: false
     online: false
@@ -70,8 +72,8 @@
   description_long: 
   faculty_members:
   actions:
-    - label: Button Label 1
-      link: Button Link 1
+    - label: Button Label 0
+      link: Button Link 0
     - label: Button Label 2
       link: Button Link 2
   certificates:
