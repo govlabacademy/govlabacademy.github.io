@@ -12,6 +12,14 @@
     <script src="static/assets/foundation/js/vendor/modernizr.js"></script>
   </head>
   <body>
+
+      <!-- Template to generate faculty members in course-lists -->
+    {% macro showPerson(person) -%}
+      <article class="b-mini-card m-govlab-{{person.is_govlab}}">
+        <div class="e-person-pic" style="background-image: url('static/img/people/{{person.img_url}}')"></div>
+        <h3 title="{{person.name}}">{{person.name}}</h3>
+      </article>
+    {%- endmacro %}
     
     <header class="b-top-navigation-wrapper">
       <div class="b-top-navigation">

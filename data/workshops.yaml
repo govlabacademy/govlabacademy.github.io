@@ -28,8 +28,12 @@
     - Timothy Savage
     - Alan Kantrow
   actions: 
-    # { label: Course Syllabus, link: /files/analytics-for-change.pdf }
-    # { label: Course Page, link: http://cusp.nyu.edu/exec-ed-1day/ }
+    - action: 
+        label: Course Syllabus
+        link: /files/analytics-for-change.pdf
+    - action:
+        label: Course Page
+        link: http://cusp.nyu.edu/exec-ed-1day/
   certificates:
     blended: false
     online: false
