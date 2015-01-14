@@ -287,7 +287,7 @@ a {
     margin-left: 0;
     height: 100%;
     border-right: 1px solid #472b74;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3) inset;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3) inset;
     background-color: white; }
     .b-main-nav h2 {
       margin: 0;
@@ -468,12 +468,12 @@ a {
   font-size: 1rem; }
 
 .b-card {
-  width: 232px;
-  height: 400px;
-  margin: 5px;
+  margin: 5px 0 10px;
   position: relative;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
-  background-color: white; }
+  background-color: white;
+  width: calc(100%);
+  height: 560px; }
   .b-card:before {
     content: "";
     position: absolute;
@@ -481,13 +481,15 @@ a {
     left: 0;
     width: 100%;
     background-color: #32b491;
-    height: 4px; }
+    height: 4px;
+    z-index: 1; }
   .b-card .e-person-pic {
     min-width: 100%;
-    height: 180px;
+    height: 0;
+    padding-bottom: 80%;
     overflow: hidden;
+    position: relative;
     margin: 0;
-    text-align: center;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover; }
@@ -495,11 +497,10 @@ a {
     font-size: 1.2rem;
     color: white;
     margin: 0;
-    margin-bottom: 10px;
     padding: 20px 15px 0;
     width: 100%;
     position: absolute;
-    top: 130px;
+    bottom: 0;
     height: 50px;
     background-color: rgba(0, 0, 0, 0.3);
     /* fallback */
@@ -514,7 +515,7 @@ a {
     background: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
     /* Opera 11.10+ */ }
   .b-card .e-card-content {
-    height: 190px;
+    max-height: 255px;
     margin-top: 10px;
     overflow-y: hidden;
     padding: 0 15px 15px; }
@@ -537,11 +538,51 @@ a {
   background-color: #472b74;
   height: 4px; }
 
-.b-card .b-pop-controls {
-  left: -15px;
-  top: 30px; }
-
+/* Mobile Only ----------- */
+@media only screen and (max-width: 1024px) {
+  .b-card .b-pop-controls {
+    right: 15px;
+    top: 15px;
+    opacity: 1;
+    pointer-events: auto; }
+    .b-card .b-pop-controls .e-pop-button {
+      display: none; }
+    .b-card .b-pop-controls .e-pop-button-link {
+      display: block;
+      transform: scale(1.1, 1.1); } }
 /* Desktops and laptops ----------- */
+@media only screen and (min-width: 1024px) {
+  .b-card {
+    width: 232px;
+    height: 400px;
+    margin: 5px; }
+    .b-card .e-card-content {
+      height: 190px;
+      margin-top: 10px;
+      overflow-y: hidden;
+      padding: 0 15px 15px; }
+      .b-card .e-card-content h4 {
+        font-size: 1rem;
+        color: #32b491; }
+      .b-card .e-card-content p {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: .5rem; }
+
+  .b-card.m-govlab-True h4 {
+    color: #472b74; }
+  .b-card.m-govlab-True:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #472b74;
+    height: 4px; }
+
+  .b-card .b-pop-controls {
+    left: -15px;
+    top: 30px; } }
 .b-main-content {
   padding-top: 60px; }
 
@@ -898,7 +939,8 @@ a {
     .b-pop-controls-container:hover .b-pop-controls .e-pop-button:nth-child(4) {
       transition-delay: 0.3s; }
     .b-pop-controls-container:hover .b-pop-controls .e-pop-button:hover {
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.8); }
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+      transition-delay: 0; }
 
 #homepage {
   padding-top: 0; }
@@ -937,7 +979,7 @@ a {
       font-size: 0.8rem;
       line-height: 1rem; }
   #homepage #explanation {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3) inset;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3) inset;
     padding-top: 40px;
     background-color: #32b491; }
     #homepage #explanation p, #homepage #explanation li {
@@ -1257,10 +1299,28 @@ a {
 .b-faqs {
   background-color: rgba(0, 0, 0, 0.03);
   padding-top: 30px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3) inset;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3) inset;
   height: auto;
   max-height: 110px;
-  overflow: hidden; }
+  overflow: hidden;
+  transition: all 0.4s ease; }
+  .b-faqs .e-faq-trigger:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 12px;
+    border-right: 16px solid #32b491;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    transition: all 0.4s ease; }
+  .b-faqs.m-active {
+    max-height: 30000px;
+    transition: all 0.4s ease; }
+    .b-faqs.m-active .e-faq-trigger:after {
+      transform: rotate(-90deg);
+      transition: all 0.4s ease; }
   .b-faqs .b-faq-item {
     margin-bottom: 15px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);

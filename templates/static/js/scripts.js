@@ -1,8 +1,6 @@
 $(document).ready(function() {
 	$(document).foundation();
 
-
-
 // Fire these scripts if the on small screen
 if (screen.width < 960) {
 
@@ -151,6 +149,9 @@ $('.e-filter').click(function() {
 	
 });
 
+$('.e-faq-trigger').click(function() {
+	$('.b-faqs').toggleClass('m-active');
+})
 
 
 // Multiple SwipeJS Galleries

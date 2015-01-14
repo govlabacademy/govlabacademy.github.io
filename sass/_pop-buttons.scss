@@ -71,6 +71,7 @@
 
 		&:hover {
 			@include drop-shadow-button-hover;
+			transition-delay: 0;
 		}
 	}
 }
