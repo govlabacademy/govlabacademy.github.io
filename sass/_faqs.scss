@@ -5,6 +5,30 @@
 	height: auto;
 	max-height: 110px;
 	overflow: hidden;
+	@include transition;
+
+	.e-faq-trigger:after { // Arrow for expandable FAQ
+		content: "";
+		width: 0;
+		height: 0;
+		position: absolute;
+		right: 0;
+		top: 12px;
+		border-right: 16px solid $green;
+		border-top: 16px solid transparent;
+		border-bottom: 16px solid transparent;
+		@include transition;
+	}
+
+	&.m-active {
+		max-height: 30000px;
+		@include transition;
+
+		.e-faq-trigger:after { // Arrow for expandable FAQ (Active State)
+			transform: rotate(-90deg);
+			@include transition;
+		}
+	}
 	
 	.b-faq-item {
 		margin-bottom: 15px;
