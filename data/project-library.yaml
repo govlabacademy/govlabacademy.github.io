@@ -1,0 +1,47 @@
+- student:
+    name: "Dinorah Cantu"
+    resume: www.linkedin.com/pub/dinorah-cantu/35/568/56a/
+    school: Wagner Graduate School of Public Services
+    location: Mexico
+    interests:
+      - crowdscourcing
+      - open (radically inclusive)
+      - governance models
+      - human rights
+      - "expert systems & content/knowledge management"
+      - user-centered design
+      - "space & physics"
+      - "robotics & artificial intelligence"
+      - "big data & open data embeddability to improve our daily life"
+      - "food & cooking"
+    skills:
+      - research
+      - "process & impact evaluations"
+      - human rights litigation
+      - projects creation and implementation
+      - strategic planning
+      - build expert systems
+    course: Fall 2013
+    course_type: NYU
+    course_reason: Because I believe our governments and institutions need to be updated to our new realities and new communication technologies have the potential to allow the needed change. 
+    course_completed: Yes
+    twitter: @dinorah_cantu
+    linkedin: www.linkedin.com/pub/dinorah-cantu/35/568/56a/
+    facebook: https://www.facebook.com/dinorah.cantu
+    github: dino-at-thegovlab
+  project:
+    title: "Citizen's Open Agenda"
+    reason: "Technology can improve engagement and efficient use of the new data available with a constantly bigger crowd that wants to be heard and do something to rebuild Monterrey’s social fabric. Under the understanding that citizen’s participation in public policy through well managed technological tools has the ability not only to include more people wisely but also to improve government accountability, this proposal focuses on developing different tools that can enhance citizen’s engagement in the following on-going projects that emerged as a response to the violence and untrusting climate the City has been immersed for the last years."
+    summary: "The general objective of this proposal is to develop tools that, taking advantage of the crowdsourced and government data already available, will catalyze, inspire and create more opportunities of citizen engagement with the specific goal of improving government accountability."
+    team_name: 
+    truonex: http://www.truonex.com/projects/12839/
+    problem_scope: "Mexico’s war on drugs has led Monterrey, my hometown, to the City’s worst social crisis. Additionally, it has the lowest citizen participation rate of the country, largely due to a lack of space where people could have meaningful partipacion and engagement. Efforts regarding the awareness and imagination of a bigger spectrum of users are now necessary to continuously grow communities of data users, and encourage data 'ownership'."    
+    tags:
+      - citizens engagement
+      - government accountability
+    status:
+    plans: Continue to do research on crowdsourcing and new forms of citizen engagement.
+    testimonial:
+      text: "Dear Beth, nothing to thank... you have no idea the world of possibilities your class opened for me. I'm working with the students to figure out how to take advantage of the possibility of skyping with you for 15 minutes during the conference. As soon as we have a plan, I will e-mail you to check if you are still available that date :) and for sure will keep in mind the raincheck. Can't miss the opportunity. On another note, I'm working on a project to develop an advocacy platform. Will make you a video about it :) I think you will get really excited. It has to do with crowdsourcing, human rights, law, democratizing the means of productions, access to justice and more."
+      author: Dinorah Cantu Pedraza
+      job: Graduate of Gov 3.0 (Fall 2013)
