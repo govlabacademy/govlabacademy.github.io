@@ -10,6 +10,8 @@ reader = csv.reader(sys.stdin)
 projects = []
 for row in reader:
 	(name, title, team, trunonex, problem_statement, why_compelling, summary, tags, status, location, interests, skills, twitter, linkedin, facebook, other, webpage) = row
+	if title == "":
+		continue
 	projects.append( {
 		'_id': title.lower().replace(' ', '-'),
 		'name': name,

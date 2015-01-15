@@ -13,11 +13,13 @@ outputpath  = os.path.join(cwd, "site")
 PEOPLE    = yaml.load(open('data/people.yaml'))
 WORKSHOPS = yaml.load(open('data/workshops.yaml'))
 CLINICS   = yaml.load(open('data/clinics.yaml'))
+PROJECTS  = yaml.load(open('data/gallery-of-projects.yaml'))
 
 def loadAcademyData():
 	return { 'people': PEOPLE,
 					 'workshops': WORKSHOPS,
 					 'clinics': CLINICS,
+					 'projects': PROJECTS,
 					 'resources': None }
 
 # We define some filters we want to use in the templates.
