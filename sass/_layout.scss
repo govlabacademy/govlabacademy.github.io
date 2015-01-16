@@ -33,6 +33,21 @@
 	}
 }
 
+#overlay {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: transparent;
+	z-index: 8;
+	display: none;
+
+	&.m-active {
+		display: block;
+	}
+}
+
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : $desktop_width) {
 	.b-content-page {

@@ -1,3 +1,7 @@
+.b-filters.b-filters {
+	margin: 0;
+}
+
 .b-filters {
 	li {
 		padding-left: 0;
@@ -11,7 +15,7 @@
 		padding-left: 16px;
 	}
 	
-	.e-filter-group {
+	.b-filter-group {
 		ul {
 			margin-left: 0;
 		}
@@ -26,7 +30,7 @@
 	}
 
 	.e-filter {
-		font-size: 1.1rem;
+		font-size: .9rem;
 		font-weight: 400;
 		padding: 2px 8px 2px;
 		margin-bottom: 5px;
@@ -36,7 +40,6 @@
 
 		&.m-show-all {
 			float: right;
-			margin-right: -10px;
 		}
 
 		&:hover {
@@ -81,7 +84,6 @@
 	}
 
 	.e-card-content {
-		max-height: 255px;
 		margin-top: 10px;
 		overflow-y: hidden;
 		padding: 0 15px 15px;
@@ -138,6 +140,21 @@
 		height: 50px;
 		@include card-gradient;
 	}
+
+	.e-card-content {
+		max-height: 255px;
+	}
+}
+
+.b-card.m-project {
+	h3 {
+		font-size: 1.1rem;
+	}
+}
+
+.b-card.m-project.m-clinics {
+	h4 { color: $purple; }
+	&:before { background-color: $purple; }
 }
 
 /* Mobile Only ----------- */
@@ -167,7 +184,6 @@
 	margin: 5px;
 
 	.e-card-content {
-		height: 190px;
 		margin-top: 10px;
 		overflow-y: hidden;
 		padding: 0 15px 15px;
@@ -199,8 +215,63 @@
 	}
 }
 
+.b-card.m-people {
+	height: 190px;
+}
+
 .b-card .b-pop-controls {
 	left: -15px;
 	top: 30px;
+}
+
+.b-card.m-project {
+	height: 300px;
+
+	h3 {
+		font-size: 1.1rem;
+	}
+
+	.e-card-content {
+		max-height: 270px;
+	}
+}
+
+.e-filters-trigger {
+}
+
+.b-filters {
+	width: 300px;
+	padding: 60px 0 20px;
+	position: fixed;
+	left: -300px;
+	bottom: 0;
+	z-index: 9;
+	border: 1px solid $gray_30;
+	@include drop-shadow;
+	top: 0;
+	background-color: $white;
+	@include transition;
+
+	&.m-active {
+		left: 0;
+		@include transition;
+	}
+	
+	h4 {
+		box-shadow: 0 3px 5px -3px $gray_50;
+		padding: 2px 20px 3px;
+		margin: 0;
+	}
+
+	ul {
+		overflow-y: scroll;
+		padding: 10px 20px 30px 10px;
+		margin: 0;
+		height: 100%;
+	}
+
+	.m-show-all {
+		margin: 3px 0 0 0;
+	}
 }
 }

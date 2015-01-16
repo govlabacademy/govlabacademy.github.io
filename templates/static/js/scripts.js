@@ -79,43 +79,43 @@ else {
 
 
 // Hide Header on on scroll down
-var didScroll;
-var lastScrollTop = 0;
-var delta = 5;
-var navbarHeight = $('.b-top-navigation-wrapper').outerHeight();
+// var didScroll;
+// var lastScrollTop = 0;
+// var delta = 5;
+// var navbarHeight = $('.b-top-navigation-wrapper').outerHeight();
 
-$(window).scroll(function(event){
-    didScroll = true;
-});
+// $(window).scroll(function(event){
+//     didScroll = true;
+// });
 
-setInterval(function() {
-    if (didScroll) {
-        hasScrolled();
-        didScroll = false;
-    }
-}, 250);
+// setInterval(function() {
+//     if (didScroll) {
+//         hasScrolled();
+//         didScroll = false;
+//     }
+// }, 250);
 
-function hasScrolled() {
-    var st = $(this).scrollTop();
+// function hasScrolled() {
+//     var st = $(this).scrollTop();
     
-    // Make sure they scroll more than delta
-    if(Math.abs(lastScrollTop - st) <= delta)
-        return;
+//     // Make sure they scroll more than delta
+//     if(Math.abs(lastScrollTop - st) <= delta)
+//         return;
     
-    // If they scrolled down and are past the navbar, add class .nav-up.
-    // This is necessary so you never see what is "behind" the navbar.
-    if (st > lastScrollTop && st > navbarHeight){
-        // Scroll Down
-        $('.b-top-navigation-wrapper').addClass('m-hidden');
-    } else {
-        // Scroll Up
-        if(st + $(window).height() < $(document).height()) {
-            $('header').removeClass('m-hidden');
-        }
-    }
+//     // If they scrolled down and are past the navbar, add class .nav-up.
+//     // This is necessary so you never see what is "behind" the navbar.
+//     if (st > lastScrollTop && st > navbarHeight){
+//         // Scroll Down
+//         $('.b-top-navigation-wrapper').addClass('m-hidden');
+//     } else {
+//         // Scroll Up
+//         if(st + $(window).height() < $(document).height()) {
+//             $('header').removeClass('m-hidden');
+//         }
+//     }
     
-    lastScrollTop = st;
-}
+//     lastScrollTop = st;
+// }
 
 // ISOTOPES CONFIG
 
@@ -151,7 +151,26 @@ $('.e-filter').click(function() {
 
 $('.e-faq-trigger').click(function() {
 	$('.b-faqs').toggleClass('m-active');
-})
+});
+
+$('.e-filters-trigger').click(function() {
+	var panel = $('.b-filters');
+
+	if (panel.hasClass('m-active')) {
+		$('.b-filters').removeClass('m-active');
+		$('#overlay').removeClass('m-active');
+	} else {
+		$('.b-filters').addClass('m-active');
+		$('#overlay').addClass('m-active');
+	}
+});
+
+$('#overlay').click(function() {
+	$(this).removeClass('m-active');
+	$('.b-filters').removeClass('m-active');
+});
+
+
 
 
 // Multiple SwipeJS Galleries

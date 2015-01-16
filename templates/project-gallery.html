@@ -1,21 +1,42 @@
 {% extends "layout/base.html" %}
 {% block content %}
 <div id="master-courses-page" class="b-content-page">
-	<h2>Project Gallery</h2>
 	<div class="row">
-    <h3 class="column large-12">Faculty Mambers</h3>
+		<span class="e-filters-trigger">Filters</span>
+		<h2>Project Gallery</h2>	
+	</div>
+	
+
+	<section class="b-filters">
+		<h4>Filters
+	    <span class="e-filter m-show-all" data-filter="all">Show All</span>
+		</h4>
+    <ul>
+		{% for card in projects %}
+			{% for tag in card.tag %}
+				{% if tag %}
+				<li class="e-filter" data-filter="{{tag}}">{{tag}}</li>
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
+		</ul>
+	</section>
+
+	<div class="row">
+    <h3 class="column large-12">Projects from Solving Public Problems with Technology</h3>		
+		
     <div class="b-card-deck column large-12">
       <div class="b-card-wrapper">
         {% for card in projects %}
-          <article class="b-card b-pop-controls-container" data-filter="{{card.tags}}">
-            <h3 title="{{card._id}}">{{card._id}}</h3>
+          <article class="b-card m-project m-clinics b-pop-controls-container" data-filter="{{card.tag}}">
+            <div class="e-card-content">
+            <h3 title="{{card.title}}">{{card.title}}</h3>
             <div class="b-pop-controls">
               <span class="e-pop-button" href="{{card.bio_url}}"><i class="fa fa-thumb-tack"></i></span>
               <a class="e-pop-button e-pop-button-link" href="{{card.bio_url}}"><i class="fa fa-link"></i></a>
             </div>
-            <div class="e-card-content"> 
-              <h4>{{card.job}}</h4>
-              <p>{{card.description}}</p>
+            <h4>{{card.name}}</h4>
+            <p>{{card.summary}}</p>
             </div>
           </article>
         {% endfor %}  

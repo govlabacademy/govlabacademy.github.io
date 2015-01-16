@@ -46,7 +46,7 @@
     - label: Course Syllabus
       link: http://govlab.github.io/academy-courses/Solving-Public-Problems-Fall-2014/
     - label: Project Gallery
-      link: ...
+      link: /project-gallery.html
   certificates:
     blended: true
     online: false
