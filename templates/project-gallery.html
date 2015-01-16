@@ -2,5 +2,27 @@
 {% block content %}
 <div id="master-courses-page" class="b-content-page">
 	<h2>Project Gallery</h2>
+	<div class="row">
+    <h3 class="column large-12">Faculty Mambers</h3>
+    <div class="b-card-deck column large-12">
+      <div class="b-card-wrapper">
+        {% for card in projects %}
+          <article class="b-card b-pop-controls-container" data-filter="{{card.tags}}">
+            <h3 title="{{card._id}}">{{card._id}}</h3>
+            <div class="b-pop-controls">
+              <span class="e-pop-button" href="{{card.bio_url}}"><i class="fa fa-thumb-tack"></i></span>
+              <a class="e-pop-button e-pop-button-link" href="{{card.bio_url}}"><i class="fa fa-link"></i></a>
+            </div>
+            <div class="e-card-content"> 
+              <h4>{{card.job}}</h4>
+              <p>{{card.description}}</p>
+            </div>
+          </article>
+        {% endfor %}  
+      </div>
+    </div>
+  </div>
+
+
 </div>
 {% endblock %}
