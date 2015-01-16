@@ -2,7 +2,7 @@
 # Courses
 - name: "Transforming SMEs Through Open Data Innovation"
   partner: 
-  date: On Demand # Date can be in two formats ie. "January 2015" or "On Demand"
+  date: By Request # Date can be in two formats ie. "January 2015" or "By Request"
   duration: 
   description_short: "Designed to help the leaders of small and medium sized enterprises (SMEs) use open and shared data to solve business problems, design new product and service offerings, and drive innovation within their business models. The Clinic will take SME entrepreneurs through every step of the process of finding, accessing, cleaning, structuring, and deploying open data."
   description_long: "long description"
@@ -21,7 +21,7 @@
 
 - name: "Introductory Sets of 3-5 Lectures on important topics in governance innovation"
   partner: 
-  date: On Demand # Date can be in two formats ie. "January 2015" or "On Demand"
+  date: By Request # Date can be in two formats ie. "January 2015" or "By Request"
   duration: 
   description_short: "For 2015, lecture series topics will likely include open data, expert networks, open contracting, procurement, and crowdsourcing"
   description_long: "long description"
@@ -37,7 +37,7 @@
 
 - name: "Solving Public Problems with Technology"
   partner: 
-  date: Fall 2015 # Date can be in two formats ie. "January 2015" or "On Demand"
+  date: Fall 2015 # Date can be in two formats ie. "January 2015" or "By Request"
   duration: 
   description_short: "A 14 week program – delivered jointly with the Polytechnic School of Engineering at NYU, the School of Professional Services at NYU, the Media Lab at MIT, Arizona State University, Yale Law School, and Stanford Design School – that leads individuals and teams through all stages of an agile, design-driven, innovation-focused project development process. Non-credit, online participation is also possible for individuals and teams working on innovation projects in active public service"
   description_long: "long description"
@@ -57,7 +57,7 @@
 
 - name: "Sustainable Governance Innovation"
   partner: the School of Professional Services at NYU
-  date: Summer 2015 # Date can be in two formats ie. "January 2015" or "On Demand"
+  date: Summer 2015 # Date can be in two formats ie. "January 2015" or "By Request"
   duration: 
   description_short: "Addressing the challenges involved in creating a robust capability within government to imagine, design, and implement a flow of significant innovations over time"
   description_long: "long description"
@@ -73,7 +73,7 @@
 
 - name: "[Karim’s course at HBS]"
   partner: HBS
-  date: On Demand # Date can be in two formats ie. "January 2015" or "On Demand"
+  date: By Request # Date can be in two formats ie. "January 2015" or "By Request"
   duration: 
   description_short: ""
   description_long: "long description"
@@ -89,7 +89,7 @@
 
 - name: "[Erik Johnson’s course at ASU]"
   partner: ASU
-  date: On Demand # Date can be in two formats ie. "January 2015" or "On Demand"
+  date: By Request # Date can be in two formats ie. "January 2015" or "By Request"
   duration: 
   description_short: ""
   description_long: "long description"
