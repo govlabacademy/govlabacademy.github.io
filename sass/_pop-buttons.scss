@@ -8,50 +8,60 @@
 	@include transition;
 	pointer-events: none;
 
-	.e-pop-button {
-		background-color: $pink;
-		width: 50px;
-		height: 50px;
-		padding: 14px 0;
-		margin-bottom: 10px;
-		text-align: center;
-		cursor: pointer;
-		display: block;
-		@include circle;
-		@include drop-shadow-button;
-		@include transition;
-		transform: scale(0, 0);
-
-		i {
-			font-size: 1.3rem;
-			color: $white;
-		}
-
-		i.fa-file {
-			vertical-align: 3px;
-			text-indent: 2px;
-		}
-
-		i.fa-link {
-			vertical-align: 2px;
-			text-indent: 0;
-		}
-
-		i.fa-cubes {
-			vertical-align: 3px;
-			text-indent: 1px;
-		}
-
-		&:hover {
-			background-color: $green;
-		}
-	}
-
 	&.m-inline-buttons .e-pop-button {
 		display: inline-block;
 	}
+}
+
+.e-pop-button {
+	background-color: $pink;
+	width: 50px;
+	height: 50px;
+	padding: 14px 0;
+	margin-bottom: 10px;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
+	@include circle;
+	@include drop-shadow-button;
+	@include transition;
 
 
+	i {
+		font-size: 1.3rem;
+		color: $white;
+	}
+
+	i.fa-file {
+		vertical-align: 3px;
+		text-indent: 2px;
+	}
+
+	i.fa-link {
+		vertical-align: 2px;
+		text-indent: 0;
+	}
+
+	i.fa-cubes {
+		vertical-align: 3px;
+		text-indent: 1px;
+	}
+
+	i.fa-linkedin,
+	i.fa-facebook,
+	i.fa-github,
+	i.fa-twitter {
+		vertical-align: 3px;
+	}
+
+	&:hover {
+		background-color: $green;
+	}
+}
+
+.b-pop-controls-container:hover .b-pop-controls .e-pop-button {
+	transform: scale(0, 0);
+	display: block;
 }
 
 .b-pop-controls-container:hover .b-pop-controls {

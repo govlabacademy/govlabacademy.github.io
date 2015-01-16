@@ -71,21 +71,6 @@
 	display: block;
 	vertical-align: bottom;
 	padding-bottom: 10px;
-
-	.e-button {
-		border-radius: 2px;
-		background-color: $gray_30;
-		color: $white;
-		font-weight: 400;
-		padding: 4px 14px;
-		margin: 5px 30px 5px 0;
-		display: block;
-
-		&:hover {
-			background-color: $gray_50;
-			@include drop-shadow-light;
-		}
-	}
 }
 
 .b-course-list-item.m-workshop {
@@ -198,19 +183,9 @@
 	width: calc(70% - 34px);
 	vertical-align: bottom;
 	padding-bottom: 30px;
-
-	.e-button {
-		background-color: $gray_30;
-		color: $white;
-		display: inline-block;
-		margin: 0 5px 0 0;
-
-		&:hover {
-			background-color: $gray_50;
-			@include drop-shadow-light;
-		}
-	}
 }
+
+
 
 .e-course-faculty {
 	height: 100px;

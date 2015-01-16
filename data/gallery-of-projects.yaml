@@ -4,50 +4,36 @@
   - crowdscourcing
   - open (radically inclusive) governance models
   - human rights
-  - expert systems & content/knowledge management
+  - "expert systems & content/knowledge management"
   - user-centered design
-  - space & physics
-  - robotics & artificial intelligence
-  - big data & open data embeddability to improve our daily life
-  - food & cooking
+  - "space & physics"
+  - "robotics & artificial intelligence"
+  - "big data & open data embeddability to improve our daily life"
+  - "food & cooking"
   linkedin: www.linkedin.com/pub/dinorah-cantu/35/568/56a/
   location: Mexico
-  name: Cantu Pedraza, Dinorah Trinidad Guadalupe
+  name: "Cantu Pedraza, Dinorah Trinidad Guadalupe"
   other: 'github: dino-at-thegovlab'
-  problem_statement:  "Mexico\u2019s war on drugs has led Monterrey, my\
-    \ hometown, to the City\u2019s worst social crisis. Additionally, it has the lowest\
-    \ citizen participation rate of the country, largely due to a lack of space where\
-    \ people could have meaningful partipacion and engagement. Efforts regarding the\
-    \ awareness and imagination of a bigger spectrum of users are now necessary to\
-    \ continuously grow communities of data users, and encourage data 'ownership'."
+  problem_statement:  "Mexico's war on drugs has led Monterrey, my hometown, to the City's worst social crisis. Additionally, it has the lowest citizen participation rate of the country, largely due to a lack of space where people could have meaningful partipacion and engagement. Efforts regarding the awareness and imagination of a bigger spectrum of users are now necessary to continuously grow communities of data users, and encourage data 'ownership'."
   skills:
   - research
-  - process & impact evaluations
+  - "process & impact evaluations"
   - human rights litigation
   - projects creation and implementation
   - strategic planning
   - build expert systems
-  status: ''
-  summary: The general objective of this proposal is to develop tools that, taking
-    advantage of the crowdsourced and government data already available, will catalyze,
-    inspire and create more opportunities of citizen engagement with the specific
-    goal of improving government accountability.
+  status: 'ongoing'
+  summary: "The general objective of this proposal is to develop tools that, taking advantage of the crowdsourced and government data already available, will catalyze, inspire and create more opportunities of citizen engagement with the specific goal of improving government accountability."
   tag:
-  - CITIZENS ENGAGEMENT AND GOVERNMENT ACCOUNTABILITY
+  - citizens engagement 
+  - government accountability
   team: NA
   title: Citizen's Open Agenda
   trunonex: http://www.truonex.com/projects/12839/
   twitter: '@dinorah_cantu'
   webpage: ''
-  why_compelling:  "Technology can improve engagement and efficient use\
-    \ of the new data available with a constantly bigger crowd that wants to be heard\
-    \ and do something to rebuild Monterrey\u2019s social fabric. Under the understanding\
-    \ that citizen\u2019s participation in public policy through well managed technological\
-    \ tools has the ability not only to include more people wisely but also to improve\
-    \ government accountability, this proposal focuses on developing different tools\
-    \ that can enhance citizen\u2019s engagement in the following on-going projects\
-    \ that emerged as a response to the violence and untrusting climate the City has\
-    \ been immersed for the last years."
+  why_compelling:  "Technology can improve engagement and efficient use of the new data available with a constantly bigger crowd that wants to be heard and do something to rebuild Monterrey\u2019s social fabric. Under the understanding that citizen\u2019s participation in public policy through well managed technological tools has the ability not only to include more people wisely but also to improve government accountability, this proposal focuses on developing different tools that can enhance citizen\u2019s engagement in the following on-going projects that emerged as a response to the violence and untrusting climate the City has been immersed for the last years."
+
 - _id: congressionalforecast.org
   facebook: ''
   interests:

@@ -27,26 +27,27 @@ body, h1, h2, h3, h4, h5 {
 @import "courses";
 @import "about";
 @import "faqs";
+@import "project-page";
 
 
 @media only screen and (min-width : $desktop_width) {
-	
-		h2 {
-			font-size: 3rem;
-			line-height: 1.2;
-		}
 
-		p, li {
-			font-size: 1.3rem;
-			line-height: 1.4;
-		}
+	h2 {
+		font-size: 3rem;
+		line-height: 1.2;
+	}
 
-		ul {
-			margin-left: 0;
+	p, li {
+		font-size: 1.3rem;
+		line-height: 1.4;
+	}
 
-			li {margin-bottom: 10px;}
-			li:before { top: 8px !important; }
-		}
+	ul {
+		margin-left: 0;
+
+		li {margin-bottom: 10px;}
+		li:before { top: 8px !important; }
+	}
 }
 
 

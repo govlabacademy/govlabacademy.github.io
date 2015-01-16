@@ -113,11 +113,34 @@ p {
   margin-bottom: 0.5rem; }
 
 a {
-  color: #f0551e; }
+  color: #32b491; }
   a:hover {
-    background-color: #f0551e;
+    background-color: #32b491;
     color: white; }
 
+.e-button {
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-weight: 400;
+  padding: 4px 14px;
+  margin: 5px 30px 5px 0;
+  display: block;
+  cursor: pointer; }
+  .e-button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1024px) {
+  .e-button {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    display: inline-block;
+    margin: 0 5px 0 0; }
+    .e-button:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); } }
 .b-top-navigation-wrapper {
   position: fixed;
   width: 100%;
@@ -550,6 +573,9 @@ a {
 .b-card.m-project.m-clinics:before {
   background-color: #472b74; }
 
+.e-filters-trigger {
+  float: left; }
+
 /* Mobile Only ----------- */
 @media only screen and (max-width: 1024px) {
   .b-card .b-pop-controls {
@@ -591,7 +617,7 @@ a {
     background-color: #472b74;
     height: 4px; }
 
-  .b-card.m-people {
+  .b-card.m-people .e-card-content {
     height: 190px; }
 
   .b-card .b-pop-controls {
@@ -738,17 +764,6 @@ a {
   display: block;
   vertical-align: bottom;
   padding-bottom: 10px; }
-  .e-course-controls .e-button {
-    border-radius: 2px;
-    background-color: rgba(0, 0, 0, 0.3);
-    color: white;
-    font-weight: 400;
-    padding: 4px 14px;
-    margin: 5px 30px 5px 0;
-    display: block; }
-    .e-course-controls .e-button:hover {
-      background-color: rgba(0, 0, 0, 0.5);
-      box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
 
 .b-course-list-item.m-workshop:before {
   background-color: #00aff0; }
@@ -854,14 +869,6 @@ a {
     width: calc(70% - 34px);
     vertical-align: bottom;
     padding-bottom: 30px; }
-    .e-course-controls .e-button {
-      background-color: rgba(0, 0, 0, 0.3);
-      color: white;
-      display: inline-block;
-      margin: 0 5px 0 0; }
-      .e-course-controls .e-button:hover {
-        background-color: rgba(0, 0, 0, 0.5);
-        box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
 
   .e-course-faculty {
     height: 100px;
@@ -953,35 +960,44 @@ a {
   opacity: 0;
   transition: all 0.4s ease;
   pointer-events: none; }
-  .b-pop-controls .e-pop-button {
-    background-color: #ed135a;
-    width: 50px;
-    height: 50px;
-    padding: 14px 0;
-    margin-bottom: 10px;
-    text-align: center;
-    cursor: pointer;
-    display: block;
-    border-radius: 50%;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
-    transition: all 0.4s ease;
-    transform: scale(0, 0); }
-    .b-pop-controls .e-pop-button i {
-      font-size: 1.3rem;
-      color: white; }
-    .b-pop-controls .e-pop-button i.fa-file {
-      vertical-align: 3px;
-      text-indent: 2px; }
-    .b-pop-controls .e-pop-button i.fa-link {
-      vertical-align: 2px;
-      text-indent: 0; }
-    .b-pop-controls .e-pop-button i.fa-cubes {
-      vertical-align: 3px;
-      text-indent: 1px; }
-    .b-pop-controls .e-pop-button:hover {
-      background-color: #32b491; }
   .b-pop-controls.m-inline-buttons .e-pop-button {
     display: inline-block; }
+
+.e-pop-button {
+  background-color: #ed135a;
+  width: 50px;
+  height: 50px;
+  padding: 14px 0;
+  margin-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s ease; }
+  .e-pop-button i {
+    font-size: 1.3rem;
+    color: white; }
+  .e-pop-button i.fa-file {
+    vertical-align: 3px;
+    text-indent: 2px; }
+  .e-pop-button i.fa-link {
+    vertical-align: 2px;
+    text-indent: 0; }
+  .e-pop-button i.fa-cubes {
+    vertical-align: 3px;
+    text-indent: 1px; }
+  .e-pop-button i.fa-linkedin,
+  .e-pop-button i.fa-facebook,
+  .e-pop-button i.fa-github,
+  .e-pop-button i.fa-twitter {
+    vertical-align: 3px; }
+  .e-pop-button:hover {
+    background-color: #32b491; }
+
+.b-pop-controls-container:hover .b-pop-controls .e-pop-button {
+  transform: scale(0, 0);
+  display: block; }
 
 .b-pop-controls-container:hover .b-pop-controls {
   opacity: 1;
@@ -1420,6 +1436,18 @@ a {
     padding-bottom: 20px; }
   .b-faqs .e-answer li {
     padding-left: 20px; } }
+.b-project-header {
+  text-align: center;
+  position: relative; }
+
+.b-project-status {
+  position: absolute;
+  right: 0;
+  padding: 3px 12px;
+  background-color: #32b491;
+  border-radius: 2px;
+  color: white; }
+
 @media only screen and (min-width: 1024px) {
   h2 {
     font-size: 3rem;

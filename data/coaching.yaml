@@ -1,0 +1,21 @@
+---
+# Courses
+- name: "Coaching Program on Open Source Technology Practices For Civic Engagement"
+  partner: 
+  date: By Request # Date can be in two formats ie. "January 2015" or "By Request"
+  duration: every other week for 8 weeks
+  description_short: 
+  description_long: 
+  faculty_members: # Add list with faculty member names
+    - Brian Behlendorf
+  actions:
+    - label: 
+      link: 
+  certificates:
+    blended: true
+    online: false
+    in_person: false
+    for_credit: false
+    for_certificate: true
+  is_active: true
+

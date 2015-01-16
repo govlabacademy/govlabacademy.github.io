@@ -1,0 +1,14 @@
+.b-project-header {
+	text-align: center;
+	position: relative;
+}
+
+.b-project-status {
+	position: absolute;
+	right: 0;
+	padding: 3px 12px;
+	background-color: $green;
+	border-radius: 2px;
+	color: $white;
+
+}

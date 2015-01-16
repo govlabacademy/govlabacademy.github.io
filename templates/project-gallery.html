@@ -2,14 +2,16 @@
 {% block content %}
 <div id="master-courses-page" class="b-content-page">
 	<div class="row">
-		<span class="e-filters-trigger">Filters</span>
+		<span class="e-filters-trigger e-button">Filters</span>
+    <a href="/project-page.html" class="e-button">Project Page</a>
 		<h2>Project Gallery</h2>	
 	</div>
 	
 
 	<section class="b-filters">
 		<h4>Filters
-	    <span class="e-filter m-show-all" data-filter="all">Show All</span>
+      <span class="e-filter m-show-all" data-filter="all">Show All</span>
+	    
 		</h4>
     <ul>
 		{% for card in projects %}
@@ -23,11 +25,11 @@
 	</section>
 
 	<div class="row">
-    <h3 class="column large-12">Projects from Solving Public Problems with Technology</h3>		
-		
+    <h3 class="column large-12">Projects from Solving Public Problems with Technology</h3>
     <div class="b-card-deck column large-12">
       <div class="b-card-wrapper">
         {% for card in projects %}
+          {% if card.summary %}
           <article class="b-card m-project m-clinics b-pop-controls-container" data-filter="{{card.tag}}">
             <div class="e-card-content">
             <h3 title="{{card.title}}">{{card.title}}</h3>
@@ -39,6 +41,7 @@
             <p>{{card.summary}}</p>
             </div>
           </article>
+          {% endif %}
         {% endfor %}  
       </div>
     </div>

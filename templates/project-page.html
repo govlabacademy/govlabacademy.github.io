@@ -1,0 +1,48 @@
+{% extends "layout/base.html" %}
+{% block content %}
+<div id="project-page" class="b-content-page">
+	<div class="row">
+		<header class="column large-12 b-project-header">
+			
+			<h2>{{projects[0].title}} </h2>
+			{% if projects[0].status %}
+				<span class="b-project-status">{{projects[0].status}}</span>
+			{% endif %}
+			<h3>{{projects[0].name}}</h3>
+			<h4>{{projects[0].location}}</h4>			
+			<p>
+				<a class="e-pop-button" target-"_blank" href="{{projects[0].linkedin}}"><i class="fa fa-linkedin"></i></a>
+				<a class="e-pop-button" target-"_blank" href="{{projects[0].twitter}}"><i class="fa fa-twitter"></i></a>
+				<a class="e-pop-button" target-"_blank" href="{{projects[0].github}}"><i class="fa fa-github"></i></a>
+				<a class="e-pop-button" target-"_blank" href="{{projects[0].facebook}}"><i class="fa fa-facebook"></i></a>
+			</p>
+		</header>
+	</div>
+	<div class="row">
+		<div class="large-6 column">
+			<h3>Problem Statement</h3>
+			<p>{{projects[0].problem_statement}}</p>
+		</div>
+		<div class="large-6 column">
+			<h3>Project Summary</h3>
+			<p>{{projects[0].summary}}</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="large-6 column">
+			<h3>Problem Statement</h3>
+			<p>{{projects[0].problem_statement}}</p>
+		</div>
+		<div class="large-6 column">
+			<h3>Project Summary</h3>
+			<p>{{projects[0].why_compelling}}</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column large-12">
+			<h2>Resources</h2>
+		</div>
+	</div>
+
+
+{% endblock %}

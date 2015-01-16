@@ -157,6 +157,10 @@
 	&:before { background-color: $purple; }
 }
 
+.e-filters-trigger {
+	float: left;
+}
+
 /* Mobile Only ----------- */
 
 @media only screen and (max-width : $desktop_width) {
@@ -215,7 +219,7 @@
 	}
 }
 
-.b-card.m-people {
+.b-card.m-people .e-card-content {
 	height: 190px;
 }
 
@@ -234,9 +238,6 @@
 	.e-card-content {
 		max-height: 270px;
 	}
-}
-
-.e-filters-trigger {
 }
 
 .b-filters {
