@@ -995,7 +995,7 @@ a {
   .e-pop-button:hover {
     background-color: #32b491; }
 
-.b-pop-controls-container:hover .b-pop-controls .e-pop-button {
+.b-pop-controls-container .b-pop-controls .e-pop-button {
   transform: scale(0, 0);
   display: block; }
 
