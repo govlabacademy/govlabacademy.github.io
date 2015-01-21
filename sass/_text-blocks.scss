@@ -68,6 +68,12 @@ a {
 		background-color: $gray_50;
 		@include drop-shadow-light;
 	}
+
+	&.m-large {
+		padding: 12px 30px 10px;
+		font-size: 1.6rem;
+		border-radius: 3px;
+	}
 }
 
 /* Desktops and laptops ----------- */

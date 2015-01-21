@@ -1,0 +1,85 @@
+.b-detail-page {
+	.b-page-title {
+		margin-bottom: 0;
+
+		h2 {
+			font-size: 3.6rem;
+			line-height: 1.2;
+			color: $green_2;
+		}
+	}
+
+	.b-apply {
+		padding: 30px 0;
+		background-color: $green_4;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 60px;
+		box-shadow: 2px 0 7px rgba(0,0,0,0.7) inset;
+	}
+
+	.e-certifications {
+		margin-top: 20px;
+		text-align: right;
+
+		span {
+			font-size: 1rem;
+			font-weight: 400;
+			color: $green_2;
+		}		
+
+		img {
+			width: 50px;
+			@include circle;
+			background-color: $green_4;
+			margin: 0 10px;
+		}
+	}
+}
+
+.b-dates {
+	margin-top: 40px;
+	border-top: 1px solid $white_30;
+	padding-top: 30px;
+	
+	span {
+		background-color: $gray_20;
+		@include circle;
+		display: inline-block;
+		padding: 16px;
+		height: 48px;
+		width: 48px;
+		margin: 0 10px;
+		float: left;
+		text-align: center;
+	}
+
+	.fa-calendar {
+		color: $white;
+		vertical-align: 4px;
+		text-indent: -1px;
+	}
+
+	h4, h5 {
+		margin: 0;
+	}
+
+	h5 {
+		color: $white_50;
+		text-transform: uppercase;
+		letter-spacing: .5px;
+		font-size: 1rem;
+	}
+
+	h4 {
+		font-weight: 100;
+		font-size: 1.6rem;
+		color: $white;
+	}
+}
+
+.b-format {
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-top: 30px;
+}

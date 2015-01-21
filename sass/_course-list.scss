@@ -45,6 +45,12 @@
 			font-weight: 600;
 			color: $gray_50;
 			display: block;
+
+			span {
+				font-weight: 300;
+				color: $gray_50;
+				text-transform: none;
+			}
 		}
 
 		.e-certifications {
@@ -151,8 +157,6 @@
 	vertical-align: bottom;
 	padding-bottom: 30px;
 }
-
-
 
 .e-course-faculty {
 	height: 100px;

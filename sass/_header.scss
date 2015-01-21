@@ -170,14 +170,14 @@
 		.e-sub-item {
 			display: block;
 			border: 0;
-			color: $purple;
-			background-color: $purple_20_matte;
-			border: 1px solid $purple_20;
+			color: $gray_80;
+			background-color: $gray_30;
+			border: 1px solid $gray_60;
 			border-top: 0;
 			padding: 3px 18px;
 
 			&:hover {
-				background-color: $purple;
+				background-color: $gray_60;
 				color: $white;
 
 			}
