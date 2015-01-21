@@ -3,6 +3,7 @@ import os
 import json
 import yaml
 import sys
+from slugify import slugify
 
 # We define constants for the deployment.
 cwd = os.getcwd()
@@ -46,6 +47,14 @@ filters = {
 	'isEmpty': isEmpty, 
 }
 
+# We generate a bunch of template pages; dirty hack for now.
+coaching_class_detail_template = open('%s/coaching-detail-page.html' % searchpath).read()
+for index, coaching_class in enumerate(COACHING):
+	filename = slugify(coaching_class['name'], to_lower=True)
+	f = open("templates/%s-detail.html" % filename, 'w+')
+	page_template = coaching_class_detail_template.replace('coaching[0]', 'coaching[%d]' % index)
+	f.write(page_template)
+	f.close()
 
 site = staticjinja.make_site(
 	searchpath=searchpath,
