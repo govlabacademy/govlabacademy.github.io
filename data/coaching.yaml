@@ -44,7 +44,7 @@
       - "Hoping to obtain substantial input from the public, up to/including co-creation?"
       - "Does your project represent needs that are similar to the needs of comparable organizations?"
       - "Planning on scaling your project from the pilot phase with an iterative approach?"
-  description_short: "Open Source technology offers governments and institutions a chance to reshape how civic technology is procured, evolved, and supported. It allows cost sharing, vendor independence, co-innovation with constituents and other stakeholders, and greater trust and transparency in the operations of government."
+  description_short: "This coaching program is designed to help projects that leverage open source technology to reshape how government procures, develops, and supports the application of civic technology to public problems. "
   description_long: >
     Open Source technology offers governments and institutions a chance to reshape how civic technology is procured, evolved, and supported. It allows cost sharing, vendor independence, co-innovation with constituents and other stakeholders, and greater trust and transparency in the operations of government. We'll work together to design your civic-tech project to make optimal use of this approach, from working with existing Open Source communities and organizations, to hosting "hackathons" and other creative ways of finding and engaging stakeholders, to, questions about software licensing and community stewardship.
   prerequisites:
@@ -60,7 +60,7 @@
     in_person: false
     for_credit: false
     for_certificate: true
-  is_active: false
+  is_active: true
   format: 1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
 - name: "Freedom of Information and FOIA Project Coaching: Breaking Down the Walls and Opening Up Communications"

@@ -107,6 +107,14 @@ $yellow_4_30: rgba(201,181,34,.3);
 	.e-certifications img { background-color: $green !important; }
 	.e-partner { color: $green !important; }
 }
+.b-detail-page.m-coaching {
+	.b-page-title h2 { color: $green_2; }
+	.b-apply { background-color: $green_4; }
+	.e-certifications {
+		span { color: $green_2; }
+		img { background-color: $green_4; }
+	}
+}
 
 
 .m-workshops {
@@ -128,9 +136,17 @@ $yellow_4_30: rgba(201,181,34,.3);
 	.e-partner { color: $blue !important; }
 }
 
-
 .m-workshops,
 .b-courses-overview .nav-workshops.m-active {background-color: $blue !important;}
+
+.b-detail-page.m-workshops {
+	.b-page-title h2 { color: $blue_2; }
+	.b-apply { background-color: $blue_4; }
+	.e-certifications {
+		span { color: $blue_2; }
+		img { background-color: $blue_4; }
+	}
+}
 
 .m-master-courses {
 	background-color: $red_2 !important;
@@ -152,6 +168,15 @@ $yellow_4_30: rgba(201,181,34,.3);
 	.e-partner { background-color: $red_2 !important; }
 	.e-certifications img { background-color: $red !important; }
 	.e-partner { color: $red !important; }
+}
+
+.b-detail-page.m-master {
+	.b-page-title h2 { color: $red_2; }
+	.b-apply { background-color: $red_4; }
+	.e-certifications {
+		span { color: $red_2; }
+		img { background-color: $red_4; }
+	}
 }
 
 .m-normal-courses {
@@ -176,7 +201,14 @@ $yellow_4_30: rgba(201,181,34,.3);
 	.e-partner { color: $yellow_1 !important; }
 }
 
-
+.b-detail-page.m-clinic {
+	.b-page-title h2 { color: $yellow_2; }
+	.b-apply { background-color: $yellow_4; }
+	.e-certifications {
+		span { color: $yellow_2; }
+		img { background-color: $yellow_4; }
+	}
+}
 
 
 

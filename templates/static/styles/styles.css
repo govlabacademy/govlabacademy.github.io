@@ -22,6 +22,15 @@
 .b-course-list-item.m-coaching .e-partner {
   color: #2eb49a !important; }
 
+.b-detail-page.m-coaching .b-page-title h2 {
+  color: #0d342d; }
+.b-detail-page.m-coaching .b-apply {
+  background-color: #279a84; }
+.b-detail-page.m-coaching .e-certifications span {
+  color: #0d342d; }
+.b-detail-page.m-coaching .e-certifications img {
+  background-color: #279a84; }
+
 .m-workshops {
   background-color: #39427f !important;
   border-top-color: #7385ff !important;
@@ -45,6 +54,15 @@
 .m-workshops,
 .b-courses-overview .nav-workshops.m-active {
   background-color: #7385ff !important; }
+
+.b-detail-page.m-workshops .b-page-title h2 {
+  color: #39427f; }
+.b-detail-page.m-workshops .b-apply {
+  background-color: #6778e5; }
+.b-detail-page.m-workshops .e-certifications span {
+  color: #39427f; }
+.b-detail-page.m-workshops .e-certifications img {
+  background-color: #6778e5; }
 
 .m-master-courses {
   background-color: #f72e6b !important;
@@ -70,6 +88,15 @@
 .b-course-list-item.m-master .e-partner {
   color: #ab204a !important; }
 
+.b-detail-page.m-master .b-page-title h2 {
+  color: #f72e6b; }
+.b-detail-page.m-master .b-apply {
+  background-color: #911b3f; }
+.b-detail-page.m-master .e-certifications span {
+  color: #f72e6b; }
+.b-detail-page.m-master .e-certifications img {
+  background-color: #911b3f; }
+
 .m-normal-courses {
   background-color: #635911 !important;
   border-top-color: #e3cc26 !important;
@@ -93,6 +120,15 @@
   background-color: #e3cc26 !important; }
 .b-course-list-item.m-clinic .e-partner {
   color: #a3931b !important; }
+
+.b-detail-page.m-clinic .b-page-title h2 {
+  color: #635911; }
+.b-detail-page.m-clinic .b-apply {
+  background-color: #c9b522; }
+.b-detail-page.m-clinic .e-certifications span {
+  color: #635911; }
+.b-detail-page.m-clinic .e-certifications img {
+  background-color: #c9b522; }
 
 body {
   background-color: rgba(0, 0, 0, 0.03); }
@@ -221,6 +257,15 @@ a {
 .b-course-list-item.m-coaching .e-partner {
   color: #2eb49a !important; }
 
+.b-detail-page.m-coaching .b-page-title h2 {
+  color: #0d342d; }
+.b-detail-page.m-coaching .b-apply {
+  background-color: #279a84; }
+.b-detail-page.m-coaching .e-certifications span {
+  color: #0d342d; }
+.b-detail-page.m-coaching .e-certifications img {
+  background-color: #279a84; }
+
 .m-workshops {
   background-color: #39427f !important;
   border-top-color: #7385ff !important;
@@ -244,6 +289,15 @@ a {
 .m-workshops,
 .b-courses-overview .nav-workshops.m-active {
   background-color: #7385ff !important; }
+
+.b-detail-page.m-workshops .b-page-title h2 {
+  color: #39427f; }
+.b-detail-page.m-workshops .b-apply {
+  background-color: #6778e5; }
+.b-detail-page.m-workshops .e-certifications span {
+  color: #39427f; }
+.b-detail-page.m-workshops .e-certifications img {
+  background-color: #6778e5; }
 
 .m-master-courses {
   background-color: #f72e6b !important;
@@ -269,6 +323,15 @@ a {
 .b-course-list-item.m-master .e-partner {
   color: #ab204a !important; }
 
+.b-detail-page.m-master .b-page-title h2 {
+  color: #f72e6b; }
+.b-detail-page.m-master .b-apply {
+  background-color: #911b3f; }
+.b-detail-page.m-master .e-certifications span {
+  color: #f72e6b; }
+.b-detail-page.m-master .e-certifications img {
+  background-color: #911b3f; }
+
 .m-normal-courses {
   background-color: #635911 !important;
   border-top-color: #e3cc26 !important;
@@ -292,6 +355,15 @@ a {
   background-color: #e3cc26 !important; }
 .b-course-list-item.m-clinic .e-partner {
   color: #a3931b !important; }
+
+.b-detail-page.m-clinic .b-page-title h2 {
+  color: #635911; }
+.b-detail-page.m-clinic .b-apply {
+  background-color: #c9b522; }
+.b-detail-page.m-clinic .e-certifications span {
+  color: #635911; }
+.b-detail-page.m-clinic .e-certifications img {
+  background-color: #c9b522; }
 
 .b-top-navigation-wrapper {
   position: fixed;
@@ -1576,11 +1648,9 @@ a {
   margin-bottom: 0; }
   .b-detail-page .b-page-title h2 {
     font-size: 3.6rem;
-    line-height: 1.2;
-    color: #0d342d; }
+    line-height: 1.2; }
 .b-detail-page .b-apply {
   padding: 30px 0;
-  background-color: #279a84;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 60px;
@@ -1590,12 +1660,10 @@ a {
   text-align: right; }
   .b-detail-page .e-certifications span {
     font-size: 1rem;
-    font-weight: 400;
-    color: #0d342d; }
+    font-weight: 400; }
   .b-detail-page .e-certifications img {
     width: 50px;
     border-radius: 50%;
-    background-color: #279a84;
     margin: 0 10px; }
 
 .b-dates {
@@ -1633,6 +1701,7 @@ a {
   font-weight: 400;
   margin-top: 30px; }
 
+/* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
   h2 {
     font-size: 3rem;

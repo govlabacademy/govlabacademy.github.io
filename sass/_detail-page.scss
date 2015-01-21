@@ -1,17 +1,15 @@
 .b-detail-page {
 	.b-page-title {
 		margin-bottom: 0;
-
 		h2 {
 			font-size: 3.6rem;
 			line-height: 1.2;
-			color: $green_2;
+			
 		}
 	}
 
 	.b-apply {
 		padding: 30px 0;
-		background-color: $green_4;
 		text-align: center;
 		text-transform: uppercase;
 		margin-bottom: 60px;
@@ -25,13 +23,11 @@
 		span {
 			font-size: 1rem;
 			font-weight: 400;
-			color: $green_2;
 		}		
 
 		img {
 			width: 50px;
 			@include circle;
-			background-color: $green_4;
 			margin: 0 10px;
 		}
 	}
@@ -82,4 +78,9 @@
 	text-transform: uppercase;
 	font-weight: 400;
 	margin-top: 30px;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : $desktop_width) {
+	
 }
