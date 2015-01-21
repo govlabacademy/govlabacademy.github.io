@@ -5,8 +5,56 @@
   is_govlab: false
   description: "Brian Behlendorf is Managing Director at Mithril Capital Management in San Francisco.  His career has been a mix of technology start-up, public policy, and non-profit tech leadership. Brian serves on the Boards of the Mozilla Foundation, the Electronic Frontier Foundation, and Benetech, three organizations using technology to fight for civil liberties, open technologies, and social impact in the digital domain.  Prior to Mithril, Brian was Chief Technology Officer at the World Economic Forum.  He also served for two years at the White House as advisor to the Open Government project within the Office of Science and Technology Policy, and then later as advisor to Health and Human Services on open software approaches to health information sharing.  Before that he has founded two tech companies (CollabNet and Organic) and several Open Source software projects (Apache, Subversion, and more)."
   img_url: brian-behlendorf.jpg
-  bio_url: 
+  bio_url: http://en.wikipedia.org/wiki/Brian_Behlendorf
   tags: 
+
+- name: Brian Forde
+  job: "Senior Advisor to the U.S. CTO, White House Office of Science Technology and Policy"
+  is_govlab: false
+  description: "Brian Forde is the Senior Advisor to the U.S. CTO, White House Office of Science Technology and Policy - Most recently I led the White House's tech response to Hurricane Sandy, worked with the Mayor of Detroit to help build a 21st Century Government, started the White House Tech Inclusion Initiative and helped lead the President's Public Safety and Climate Change Data Initiatives. I'm really interested in exploring opportunities to leverage drones or the blockchain. Before working at the White House, I co-founded a low-cost internet phone service provider serving more than 225,000 Nicaraguans every month.  Prior to that I was a Peace Corp volunteer in Nicaragua teaching small business skills in rural mountain areas.  I have a B.A. in Sociology from University of California at Los Angeles and an M.B.A. from London Business School."
+  img_url: brian-forde.jpg
+  bio_url: https://www.linkedin.com/in/brianforde
+  tags: 
+
+- name: Alexandra Clare 
+  job: International Crisis Group at UN Advocacy Division
+  is_govlab: false
+  description: "Before arriving at the GovLab, Ali worked as a criminal prosecutor for the Australian Government and as a fellow at United Nations Office of the Special Representative for Children and Armed Conflict, Human Rights Watch and at International Crisis Group undertaking research and advocacy on various crisis situations from Syria to the Democratic Republic of Congo."
+  img_url: alexandra-clare.jpg
+  bio_url: https://www.linkedin.com/pub/alexandra-clare/43/582/819
+  tags:
+
+- name: Christian Bason
+  job: CEO at Danish Design Centre
+  is_govlab: false
+  description: "Christian Bason has been head of MindLab since 2007. MindLab is a cross-governmental innovation unit run by a range of national ministries and a city government, based in Copenhagen, Denmark. Prior to joining MindLab, he held various leading positions at Ramboll, an international consultancy, including as Head of the public organization and management practice and as Head of employment and human resource policy evaluation. Bason is passionate about transforming the public sector’s ability to better meet the needs of citizens and society. He has presented to and advised a wide range of governments around the world on innovation in the public sector, and is a member of a number of advisory bodies in Denmark and internationally. Most recently, he was Chair of the European Commission’s High-Level Expert Group on Public Sector Innovation. He is a regular columnist and blogger and the author of five books on leadership, design, innovation and change in the public sector. Christian Basons most recent books include Design for Policy and, Leading Public Sector Innovation: Co-creating for a Better Society. Recent research publications include “Discovering co-production by design”, “Engaging Citizens in Policy Innovation: Benefiting public policy from the design inputs of citizens and stakeholders as ‘experts’ and “Powering Collaborative Innovation: Can Innovation Labs Help?”."
+  img_url: christian-bason.png
+  bio_url: http://ddc.dk/en/2014/09/christian-bason-is-the-new-ceo-at-danish-design-centre/
+  tags: 
+
+- name: Geoff Mulgan
+  job: Chief Executive of NESTA
+  is_govlab: false
+  description: "Geoff Mulgan CBE (born 1961) is Chief Executive of the National Endowment for Science Technology and the Arts (NESTA)[1] and Visiting Professor at University College London, the London School of Economics, the University of Melbourne and a regular lecturer at the China Executive Leadership Academy. He is an adviser to many governments around the world, and has been a board member of the Work Foundation, the Health Innovation Council, Political Quarterly and the Design Council, and chair of Involve. He is also currently chair of the Studio Schools Trust and the Social Innovation Exchange. His recent books include The Art of Public Strategy - Mobilising Power and Knowledge for the Public Good, Good and Bad Power: the ideals and betrayals of government and Connexity. His latest book The Locust and the Bee was published by Princeton University Press in March 2013. Read more on some of the ideas Geoff has been involved in over the years."
+  img_url: geoff-mulgan.jpg
+  bio_url: http://www.nesta.org.uk/users/geoff-mulgan
+  tags: 
+
+- name: Ben Kallos
+  job: Chair of the Committee on Governmental Operations of the City Council
+  is_govlab: false
+  description: 'At the beginning of his career in public service, Ben Kallos put Albany voting records online so New Yorkers could hold politicians accountable. Since then, he has run a government reform organization that helped defeat a corrupt politician and has served as Policy Director for former Public Advocate Mark Green. Council Member Kallos serves as Chair of the Committee on Governmental Operations of the City Council, where he has fought to bring reform and transparency to government agencies. Praised by the New York Times for his "fresh ideas," Council Member Kallos has advocated for improving our schools, senior services and transportation. Council Member Kallos graduated from Bronx Science, SUNY Albany and SUNY Buffalo Law School. He has a background in law, working as a union-side labor attorney, as well as technology and government, and has served as a member of Community Board 8 and Statewide Committee Chair for the New York Democratic Lawyers Council. He and his wife reside on the East Side, where he has lived his entire life.'
+  img_url: ben-kallos.jpg
+  bio_url: http://en.wikipedia.org/wiki/Ben_Kallos
+  tags: 
+
+- name: Tiago Peixoto
+  job: Open Government Specialist at the World Bank
+  is_govlab: false
+  description: 'The Citizen Engagement and Technology: The Fundamentals Program will be led by Tiago Peixoto with the active support of Alan Kantrow (Chief Learning and Communications Officer of The GovLab), Arnaud Sahuguet (Chief Technology Officer of The GovLab) and Beth Noveck (Founder and Director of The GovLab). Having worked for 10 years as a practitioner and researcher in the field of ICT and participatory governance, Tiago is currently an open government specialist at the ICT4Gov program of WBI’s Open Government cluster. Prior to joining the Bank, Tiago has managed projects and worked as an advisor and consultant for various organizations in the field of participation and technology, such as the European Commission, OECD, the United Nations, and the Brazilian and UK governments. He is also research coordinator of the Electronic Democracy Centre, a joint venture of the European University Institute, the University of Zurich and the Oxford Internet Institute of the University of Oxford.'
+  img_url: tiago-peixoto.png
+  bio_url: https://twitter.com/participatory
+  tags:
 
 - name: Timothy Savage
   job: Guest Scholar - NYU CUSP
@@ -17,7 +65,7 @@
   tags: 
   
 - name: Miriam Nisbet
-  job: Guest Scholar - Office of Government Information Services
+  job: Director of the Office of Government Information Services
   is_govlab: false
   description: "Miriam Nisbet was the founding Director of the Office of Government Information Services (OGIS), National Archives and Records Administration (NARA). Created by the 2007 amendments to the Freedom of Information Act, OGIS is the federal FOIA ombudsman office, charged with providing mediation services to resolve disputes between FOIA requesters and federal agencies and with improving FOIA administration. Miriam retired in November 2014. She previously worked for the United Nations Educational, Scientific and Cultural Organization (UNESCO), the American Library Association, NARA, and the US Department of Justice. She is a member of the Bars of the District of Columbia and North Carolina."
   img_url: mirian-nisbet.jpg
@@ -55,6 +103,9 @@
 #   img_url: govlab-default.jpg
 #   bio_url: 
 #   tags: govLab-academy-producer
+
+
+
 
 - name: Andrew Young
   job: Associate Director of Research

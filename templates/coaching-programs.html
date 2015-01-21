@@ -49,6 +49,65 @@
 			<p>Every other week, faculty and staff hold an "office" hour with the team to address project progress.</p>
 		</div>
 	</section>
+
+  <section class="b-course-list row">
+    <ul class="column large-12">
+      {% for course in coaching %}
+
+      <li class="b-course-list-item m-coaching">
+        {% if course.date %}
+        <h4 class="e-course-date">{{course.date.start}}</h4>
+        {% endif %}
+
+        <h3 class="e-course-name">{{course.name}}</h3>
+        
+        <div class="e-certifications">
+          {% if course.certificates.blended %}
+            <img src="static/img/icons/icons-blended.png" title="Blended Course" class="e-course-icons m-blended">
+          {% endif %}
+
+          {% if course.certificates.online %}
+            <img src="static/img/icons/icons-online.png" title="Online Course" class="e-course-icons m-online">
+          {% endif %}
+
+          {% if course.certificates.in_person %}
+            <img src="static/img/icons/icons-in-person.png" title="In Person Course" class="e-course-icons m-in-person">
+          {% endif %}
+
+          {% if course.certificates.for_certificate %}
+          <img src="static/img/icons/icons-certification.png" title="For Certification Course" class="e-course-icons m-certification">
+          {% endif %}
+
+          {% if course.certificates.for_credit %}
+          <img src="static/img/icons/icons-credit.png" title="For Credit Course" class="e-course-icons m-credit">
+          {% endif %}
+
+        </div>
+        <div class="e-course-description">
+          <p>{{course.description_short}}</p>
+        </div>
+        
+        {% if course.actions %}
+          <div class="e-course-controls">
+            {% for button in course.actions %}
+            <a class="e-button" href="{{button.link}}" target="_blank">{{button.label}}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        {% if course.faculty_members %}
+          <div class="e-course-faculty">
+            {% for name in course.faculty_members %}
+              {{ showPerson(people|selectattr("name", "equalto", name)|first) }}
+            {% endfor %}
+          </div>
+        {% endif %}
+        
+      </li>
+
+      {% endfor %}      
+    </ul>
+  </section>
 	
 	<section class="b-faqs">
     <div class="row">
