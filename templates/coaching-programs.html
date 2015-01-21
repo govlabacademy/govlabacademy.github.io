@@ -97,8 +97,12 @@
 
         {% if course.faculty_members %}
           <div class="e-course-faculty">
-            {% for name in course.faculty_members %}
-              {{ showPerson(people|selectattr("name", "equalto", name)|first) }}
+            {% for name in course.faculty_members %}              
+              {% if people|selectattr("name", "equalto", name)|first|isEmpty %}
+                {{("!!!! ERROR !!!!!: person cannot be found: " + name) |debug}}
+              {% else %}
+                {{ showPerson(people|selectattr("name", "equalto", name)|first) }}
+              {% endif %}
             {% endfor %}
           </div>
         {% endif %}
@@ -109,6 +113,7 @@
     </ul>
   </section>
 	
+
 	<section class="b-faqs">
     <div class="row">
       <div class="column large-12">

@@ -2,6 +2,7 @@ import staticjinja
 import os
 import json
 import yaml
+import sys
 
 # We define constants for the deployment.
 cwd = os.getcwd()
@@ -30,9 +31,19 @@ def containsTag(x, y):
 		return None
 	return x if y in x['tags'] else None
 
+def debug(text):
+  print text
+  sys.stdout.flush()
+  return ''
+
+def isEmpty(seq):
+	return len([k for k in seq]) == 0
+
 filters = {
 	'byName':   lambda x: [p for p in PEOPLE if p.name == x],
 	'containsTag': containsTag,
+	'debug': debug,
+	'isEmpty': isEmpty, 
 }
 
 
