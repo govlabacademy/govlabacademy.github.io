@@ -44,7 +44,8 @@ filters = {
 	'byName':   lambda x: [p for p in PEOPLE if p.name == x],
 	'containsTag': containsTag,
 	'debug': debug,
-	'isEmpty': isEmpty, 
+	'isEmpty': isEmpty,
+	'slug': lambda x: slugify(x, to_lower=True),
 }
 
 # We generate a bunch of template pages; dirty hack for now.
