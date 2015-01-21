@@ -924,6 +924,8 @@ a {
     padding: 5px 0 5px 30px;
     margin: 0;
     color: rgba(0, 0, 0, 0.8); }
+  .b-course-list .b-course-list-item .e-button:hover {
+    color: white; }
 
 .e-course-controls {
   display: block;
