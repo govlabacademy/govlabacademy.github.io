@@ -73,43 +73,6 @@
 	padding-bottom: 10px;
 }
 
-.b-course-list-item.m-workshop {
-	&:before { background-color: $blue; }
-	.e-course-date { color: $blue; }
-	.e-course-controls .e-button:hover { background-color: $blue; }
-	.e-partner { background-color: $blue_20; }
-	.e-certifications img { background-color: $blue; }
-	.e-partner { color: $blue; }
-}
-
-.b-course-list-item.m-clinic {
-	&:before { background-color: $orange; }
-	.e-course-date { color: $orange; }
-	.e-course-controls .e-button:hover { background-color: $orange; }
-	.e-partner { background-color: $orange_20; }
-	.e-certifications img { background-color: $orange; }
-	.e-partner { color: $orange; }
-}
-
-.b-course-list-item.m-master {
-	&:before { background-color: $purple; }
-	.e-course-date { color: $purple; }
-	.e-course-controls .e-button:hover { background-color: $purple; }
-	.e-partner { background-color: $purple_20; }
-	.e-certifications img { background-color: $purple; }
-	.e-partner { color: $purple; }
-}
-
-.b-course-list-item.m-coaching {
-	&:before { background-color: $green; }
-	.e-course-date { color: $green; }
-	.e-course-controls .e-button:hover { background-color: $green; }
-	.e-partner { background-color: $green_20; }
-	.e-certifications img { background-color: $green; }
-	.e-partner { color: $green; }
-}
-
-
 .e-course-faculty {
 	height: 100px;
 	display: block;
@@ -129,8 +92,8 @@
 		overflow: hidden;
 		width: 80px;
 		height: 80px;
-		border: 2px solid $green;
-		background-color: $green;
+		border: 2px solid $scheme-comp_3;
+		background-color: $scheme-comp_3;
 		text-align: center;
 	  background-position: center center;
 	  background-repeat: no-repeat;
@@ -211,8 +174,8 @@
 		overflow: hidden;
 		width: 80px;
 		height: 80px;
-		border: 2px solid $green;
-		background-color: $green;
+		border: 2px solid $scheme-comp_3;
+		background-color: $scheme-comp_3;
 		text-align: center;
 	  background-position: center center;
 	  background-repeat: no-repeat;

@@ -1,46 +1,98 @@
 .m-project-coaching {
-  background-color: rgba(50, 180, 145, 0.2);
-  border-top-color: #32b491;
-  border-bottom-color: #32b491; }
+  background-color: #0d342d;
+  border-top-color: #2eb49a;
+  border-bottom-color: #2eb49a; }
   .m-project-coaching h3 {
-    color: #32b491; }
+    color: #0d342d !important; }
 
 .m-project-coaching,
 .b-courses-overview .nav-coaching.m-active {
-  background-color: #32b491 !important; }
+  background-color: #2eb49a !important; }
+
+.b-course-list-item.m-coaching:before {
+  background-color: #2eb49a !important; }
+.b-course-list-item.m-coaching .e-course-date {
+  color: #2eb49a !important; }
+.b-course-list-item.m-coaching .e-course-controls .e-button:hover {
+  background-color: #2eb49a !important; }
+.b-course-list-item.m-coaching .e-partner {
+  background-color: #0d342d !important; }
+.b-course-list-item.m-coaching .e-certifications img {
+  background-color: #2eb49a !important; }
+.b-course-list-item.m-coaching .e-partner {
+  color: #2eb49a !important; }
 
 .m-workshops {
-  background-color: rgba(0, 175, 240, 0.2);
-  border-top-color: #00aff0;
-  border-bottom-color: #00aff0; }
+  background-color: #39427f !important;
+  border-top-color: #7385ff !important;
+  border-bottom-color: #7385ff !important; }
   .m-workshops h3 {
-    color: #00aff0; }
+    color: #39427f !important; }
+
+.b-course-list-item.m-workshop:before {
+  background-color: #7385ff !important; }
+.b-course-list-item.m-workshop .e-course-date {
+  color: #7385ff !important; }
+.b-course-list-item.m-workshop .e-course-controls .e-button:hover {
+  background-color: #7385ff !important; }
+.b-course-list-item.m-workshop .e-partner {
+  background-color: rgba(103, 120, 229, 0.3) !important; }
+.b-course-list-item.m-workshop .e-certifications img {
+  background-color: #7385ff !important; }
+.b-course-list-item.m-workshop .e-partner {
+  color: #7385ff !important; }
 
 .m-workshops,
 .b-courses-overview .nav-workshops.m-active {
-  background-color: #00aff0 !important; }
+  background-color: #7385ff !important; }
 
 .m-master-courses {
-  background-color: rgba(71, 43, 116, 0.2);
-  border-top-color: #472b74;
-  border-bottom-color: #472b74; }
+  background-color: #f72e6b !important;
+  border-top-color: #ab204a !important;
+  border-bottom-color: #ab204a !important; }
   .m-master-courses h3 {
-    color: #472b74; }
+    color: #6b142e; }
 
 .m-master-courses,
 .b-courses-overview .nav-master-courses.m-active {
-  background-color: #472b74 !important; }
+  background-color: #ab204a !important; }
+
+.b-course-list-item.m-master:before {
+  background-color: #ab204a !important; }
+.b-course-list-item.m-master .e-course-date {
+  color: #ab204a !important; }
+.b-course-list-item.m-master .e-course-controls .e-button:hover {
+  background-color: #ab204a !important; }
+.b-course-list-item.m-master .e-partner {
+  background-color: #f72e6b !important; }
+.b-course-list-item.m-master .e-certifications img {
+  background-color: #ab204a !important; }
+.b-course-list-item.m-master .e-partner {
+  color: #ab204a !important; }
 
 .m-normal-courses {
-  background-color: rgba(240, 85, 30, 0.2);
-  border-top-color: #f0551e;
-  border-bottom-color: #f0551e; }
+  background-color: #635911 !important;
+  border-top-color: #e3cc26 !important;
+  border-bottom-color: #e3cc26 !important; }
   .m-normal-courses h3 {
-    color: #f0551e; }
+    color: #635911 !important; }
 
 .m-normal-courses,
 .b-courses-overview .nav-courses.m-active {
-  background-color: #f0551e !important; }
+  background-color: #e3cc26 !important; }
+
+.b-course-list-item.m-clinic:before {
+  background-color: #e3cc26 !important; }
+.b-course-list-item.m-clinic .e-course-date {
+  color: #e3cc26 !important; }
+.b-course-list-item.m-clinic .e-course-controls .e-button:hover {
+  background-color: #e3cc26 !important; }
+.b-course-list-item.m-clinic .e-partner {
+  background-color: rgba(201, 181, 34, 0.3) !important; }
+.b-course-list-item.m-clinic .e-certifications img {
+  background-color: #e3cc26 !important; }
+.b-course-list-item.m-clinic .e-partner {
+  color: #a3931b !important; }
 
 body {
   background-color: rgba(0, 0, 0, 0.03); }
@@ -102,7 +154,7 @@ li {
   .b-list li:before {
     width: 0;
     height: 0;
-    border-left: 6px solid #f0551e;
+    border-left: 6px solid #c0ba21;
     border-top: 6px solid transparent;
     border-bottom: 6px solid transparent;
     content: "";
@@ -113,10 +165,10 @@ p {
   margin-bottom: 0.5rem; }
 
 a {
-  color: #32b491; }
+  color: #74712b; }
   a:hover {
-    background-color: #32b491;
-    color: white; }
+    background-color: #c0ba21;
+    color: #74712b; }
 
 .e-button {
   border-radius: 2px;
@@ -141,6 +193,102 @@ a {
     .e-button:hover {
       background-color: rgba(0, 0, 0, 0.5);
       box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); } }
+.m-project-coaching {
+  background-color: #0d342d;
+  border-top-color: #2eb49a;
+  border-bottom-color: #2eb49a; }
+  .m-project-coaching h3 {
+    color: #0d342d !important; }
+
+.m-project-coaching,
+.b-courses-overview .nav-coaching.m-active {
+  background-color: #2eb49a !important; }
+
+.b-course-list-item.m-coaching:before {
+  background-color: #2eb49a !important; }
+.b-course-list-item.m-coaching .e-course-date {
+  color: #2eb49a !important; }
+.b-course-list-item.m-coaching .e-course-controls .e-button:hover {
+  background-color: #2eb49a !important; }
+.b-course-list-item.m-coaching .e-partner {
+  background-color: #0d342d !important; }
+.b-course-list-item.m-coaching .e-certifications img {
+  background-color: #2eb49a !important; }
+.b-course-list-item.m-coaching .e-partner {
+  color: #2eb49a !important; }
+
+.m-workshops {
+  background-color: #39427f !important;
+  border-top-color: #7385ff !important;
+  border-bottom-color: #7385ff !important; }
+  .m-workshops h3 {
+    color: #39427f !important; }
+
+.b-course-list-item.m-workshop:before {
+  background-color: #7385ff !important; }
+.b-course-list-item.m-workshop .e-course-date {
+  color: #7385ff !important; }
+.b-course-list-item.m-workshop .e-course-controls .e-button:hover {
+  background-color: #7385ff !important; }
+.b-course-list-item.m-workshop .e-partner {
+  background-color: rgba(103, 120, 229, 0.3) !important; }
+.b-course-list-item.m-workshop .e-certifications img {
+  background-color: #7385ff !important; }
+.b-course-list-item.m-workshop .e-partner {
+  color: #7385ff !important; }
+
+.m-workshops,
+.b-courses-overview .nav-workshops.m-active {
+  background-color: #7385ff !important; }
+
+.m-master-courses {
+  background-color: #f72e6b !important;
+  border-top-color: #ab204a !important;
+  border-bottom-color: #ab204a !important; }
+  .m-master-courses h3 {
+    color: #6b142e; }
+
+.m-master-courses,
+.b-courses-overview .nav-master-courses.m-active {
+  background-color: #ab204a !important; }
+
+.b-course-list-item.m-master:before {
+  background-color: #ab204a !important; }
+.b-course-list-item.m-master .e-course-date {
+  color: #ab204a !important; }
+.b-course-list-item.m-master .e-course-controls .e-button:hover {
+  background-color: #ab204a !important; }
+.b-course-list-item.m-master .e-partner {
+  background-color: #f72e6b !important; }
+.b-course-list-item.m-master .e-certifications img {
+  background-color: #ab204a !important; }
+.b-course-list-item.m-master .e-partner {
+  color: #ab204a !important; }
+
+.m-normal-courses {
+  background-color: #635911 !important;
+  border-top-color: #e3cc26 !important;
+  border-bottom-color: #e3cc26 !important; }
+  .m-normal-courses h3 {
+    color: #635911 !important; }
+
+.m-normal-courses,
+.b-courses-overview .nav-courses.m-active {
+  background-color: #e3cc26 !important; }
+
+.b-course-list-item.m-clinic:before {
+  background-color: #e3cc26 !important; }
+.b-course-list-item.m-clinic .e-course-date {
+  color: #e3cc26 !important; }
+.b-course-list-item.m-clinic .e-course-controls .e-button:hover {
+  background-color: #e3cc26 !important; }
+.b-course-list-item.m-clinic .e-partner {
+  background-color: rgba(201, 181, 34, 0.3) !important; }
+.b-course-list-item.m-clinic .e-certifications img {
+  background-color: #e3cc26 !important; }
+.b-course-list-item.m-clinic .e-partner {
+  color: #a3931b !important; }
+
 .b-top-navigation-wrapper {
   position: fixed;
   width: 100%;
@@ -505,7 +653,7 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #32b491;
+    background-color: #c0ba21;
     height: 4px;
     z-index: 1; }
   .b-card .e-card-content {
@@ -514,7 +662,7 @@ a {
     padding: 0 15px 15px; }
     .b-card .e-card-content h4 {
       font-size: 1rem;
-      color: #32b491; }
+      color: #2eb49a; }
     .b-card .e-card-content p {
       font-size: 14px;
       line-height: 17px;
@@ -600,7 +748,7 @@ a {
       padding: 0 15px 15px; }
       .b-card .e-card-content h4 {
         font-size: 1rem;
-        color: #32b491; }
+        color: #74712b; }
       .b-card .e-card-content p {
         font-size: 14px;
         line-height: 17px;
@@ -657,11 +805,8 @@ a {
       height: 100%; }
     .b-filters .m-show-all {
       margin: 3px 0 0 0; } }
-.b-main-content {
-  padding-top: 60px; }
-
 .b-content-page {
-  padding: 20px 0; }
+  padding: 0 0 20px 0; }
   .b-content-page > h2 {
     margin-top: 0;
     margin-bottom: 30px; }
@@ -680,6 +825,26 @@ a {
       border-bottom: 0;
       margin-bottom: 0; }
 
+.b-page-title {
+  box-shadow: 2px 0 7px rgba(0, 0, 0, 0.7);
+  padding-top: 110px;
+  padding-bottom: 60px;
+  background-color: #c0ba21;
+  margin-bottom: 60px; }
+  .b-page-title h2 {
+    font-size: 6rem;
+    line-height: 1;
+    margin-bottom: 45px;
+    color: white;
+    opacity: .7;
+    text-align: left; }
+  .b-page-title p {
+    color: white;
+    opacity: .7;
+    font-size: 1.6rem; }
+  .b-page-title *:last-child {
+    margin-bottom: 0; }
+
 #overlay {
   position: fixed;
   top: 0;
@@ -695,7 +860,7 @@ a {
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
   .b-content-page {
-    padding: 40px 0; }
+    padding: 0 0 40px 0; }
     .b-content-page > .row {
       padding-bottom: 30px;
       border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -765,58 +930,6 @@ a {
   vertical-align: bottom;
   padding-bottom: 10px; }
 
-.b-course-list-item.m-workshop:before {
-  background-color: #00aff0; }
-.b-course-list-item.m-workshop .e-course-date {
-  color: #00aff0; }
-.b-course-list-item.m-workshop .e-course-controls .e-button:hover {
-  background-color: #00aff0; }
-.b-course-list-item.m-workshop .e-partner {
-  background-color: rgba(0, 175, 240, 0.2); }
-.b-course-list-item.m-workshop .e-certifications img {
-  background-color: #00aff0; }
-.b-course-list-item.m-workshop .e-partner {
-  color: #00aff0; }
-
-.b-course-list-item.m-clinic:before {
-  background-color: #f0551e; }
-.b-course-list-item.m-clinic .e-course-date {
-  color: #f0551e; }
-.b-course-list-item.m-clinic .e-course-controls .e-button:hover {
-  background-color: #f0551e; }
-.b-course-list-item.m-clinic .e-partner {
-  background-color: rgba(240, 85, 30, 0.2); }
-.b-course-list-item.m-clinic .e-certifications img {
-  background-color: #f0551e; }
-.b-course-list-item.m-clinic .e-partner {
-  color: #f0551e; }
-
-.b-course-list-item.m-master:before {
-  background-color: #472b74; }
-.b-course-list-item.m-master .e-course-date {
-  color: #472b74; }
-.b-course-list-item.m-master .e-course-controls .e-button:hover {
-  background-color: #472b74; }
-.b-course-list-item.m-master .e-partner {
-  background-color: rgba(71, 43, 116, 0.2); }
-.b-course-list-item.m-master .e-certifications img {
-  background-color: #472b74; }
-.b-course-list-item.m-master .e-partner {
-  color: #472b74; }
-
-.b-course-list-item.m-coaching:before {
-  background-color: #32b491; }
-.b-course-list-item.m-coaching .e-course-date {
-  color: #32b491; }
-.b-course-list-item.m-coaching .e-course-controls .e-button:hover {
-  background-color: #32b491; }
-.b-course-list-item.m-coaching .e-partner {
-  background-color: rgba(50, 180, 145, 0.2); }
-.b-course-list-item.m-coaching .e-certifications img {
-  background-color: #32b491; }
-.b-course-list-item.m-coaching .e-partner {
-  color: #32b491; }
-
 .e-course-faculty {
   height: 100px;
   display: block;
@@ -834,8 +947,8 @@ a {
     overflow: hidden;
     width: 80px;
     height: 80px;
-    border: 2px solid #32b491;
-    background-color: #32b491;
+    border: 2px solid #c0ba21;
+    background-color: #c0ba21;
     text-align: center;
     background-position: center center;
     background-repeat: no-repeat;
@@ -892,8 +1005,8 @@ a {
       overflow: hidden;
       width: 80px;
       height: 80px;
-      border: 2px solid #32b491;
-      background-color: #32b491;
+      border: 2px solid #c0ba21;
+      background-color: #c0ba21;
       text-align: center;
       background-position: center center;
       background-repeat: no-repeat;
@@ -964,7 +1077,7 @@ a {
     display: inline-block; }
 
 .e-pop-button {
-  background-color: #ed135a;
+  background-color: #6a34c0;
   width: 50px;
   height: 50px;
   padding: 14px 0;
@@ -993,7 +1106,7 @@ a {
   .e-pop-button i.fa-twitter {
     vertical-align: 3px; }
   .e-pop-button:hover {
-    background-color: #32b491; }
+    background-color: #825bc0; }
 
 .b-pop-controls-container .b-pop-controls .e-pop-button {
   transform: scale(0, 0);
@@ -1057,7 +1170,7 @@ a {
   #homepage #explanation {
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.3) inset;
     padding-top: 40px;
-    background-color: #32b491; }
+    background-color: #c0ba21; }
     #homepage #explanation p, #homepage #explanation li {
       color: white;
       font-weight: 100; }
@@ -1162,7 +1275,6 @@ a {
     color: white; }
   .b-courses-overview .e-course-navigation span:hover,
   .b-courses-overview .e-course-navigation span.m-active:hover {
-    background-color: #f0551e;
     color: white; }
 .b-courses-overview .b-course-summary {
   padding: 10px 40px 40px;
@@ -1356,7 +1468,7 @@ a {
     color: rgba(0, 0, 0, 0.8); }
   #about-page .b-filters .e-filter-tag.m-active {
     color: white;
-    background-color: #f0551e; }
+    background-color: #825bc0; }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
@@ -1370,8 +1482,7 @@ a {
     #about-page .b-filters .e-filter-tag:hover {
       color: rgba(0, 0, 0, 0.8); }
     #about-page .b-filters .e-filter-tag.m-active {
-      color: white;
-      background-color: #f0551e; } }
+      color: white; } }
 .b-faqs {
   background-color: rgba(0, 0, 0, 0.03);
   padding-top: 30px;
@@ -1387,7 +1498,7 @@ a {
     position: absolute;
     right: 0;
     top: 12px;
-    border-right: 16px solid #32b491;
+    border-right: 16px solid #c0ba21;
     border-top: 16px solid transparent;
     border-bottom: 16px solid transparent;
     transition: all 0.4s ease; }
@@ -1409,7 +1520,7 @@ a {
       .b-faqs .b-faq-item .e-answer li:before {
         width: 0;
         height: 0;
-        border-left: 6px solid #f0551e;
+        border-left: 6px solid #c0ba21;
         border-top: 6px solid transparent;
         border-bottom: 6px solid transparent;
         content: "";
@@ -1419,10 +1530,13 @@ a {
       border-collapse: collapse;
       width: 100%; }
       .b-faqs .b-faq-item .e-answer table thead th {
-        background-color: #f0551e;
+        background-color: #c0ba21;
         text-align: left;
         color: white;
-        padding: 5px 10px; }
+        padding: 5px 10px;
+        letter-spacing: .5px;
+        text-transform: uppercase;
+        font-weight: 400; }
       .b-faqs .b-faq-item .e-answer table tr {
         border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
         .b-faqs .b-faq-item .e-answer table tr td {
@@ -1444,7 +1558,7 @@ a {
   position: absolute;
   right: 0;
   padding: 3px 12px;
-  background-color: #32b491;
+  background-color: #2eb49a;
   border-radius: 2px;
   color: white; }
 

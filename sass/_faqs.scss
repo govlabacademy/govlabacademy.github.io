@@ -14,7 +14,7 @@
 		position: absolute;
 		right: 0;
 		top: 12px;
-		border-right: 16px solid $green;
+		border-right: 16px solid $scheme-comp_3;
 		border-top: 16px solid transparent;
 		border-bottom: 16px solid transparent;
 		@include transition;
@@ -47,7 +47,7 @@
 				&:before {
 					width: 0;
 					height: 0;
-					border-left: 6px solid $orange;
+					border-left: 6px solid $scheme-comp_3;
 					border-top: 6px solid transparent;
 					border-bottom: 6px solid transparent;
 					content: "";
@@ -61,10 +61,13 @@
 				width: 100%;
 				thead {
 					th {
-						background-color: $orange;
+						background-color: $scheme-comp_3;
 						text-align: left;
 						color: $white;
 						padding: 5px 10px;
+						letter-spacing: .5px;
+						text-transform: uppercase;
+						font-weight: 400;
 					}
 				}
 
@@ -75,7 +78,6 @@
 					td {
 						padding: 5px 10px;
 					}
-
 				}
 			}
 		}

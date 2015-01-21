@@ -32,7 +32,7 @@ li {
 	&:before {
 		width: 0;
 		height: 0;
-		border-left: 6px solid $orange;
+		border-left: 6px solid $scheme-comp_3;
 		border-top: 6px solid transparent;
 		border-bottom: 6px solid transparent;
 		content: "";
@@ -46,11 +46,11 @@ p {
 }
 
 a {
-	color: $green;
+	color: $scheme-comp_4;
 
 	&:hover {
-		background-color: $green;
-		color: $white;
+		background-color: $scheme-comp_3;
+		color: $scheme-comp_4;
 	}
 }
 

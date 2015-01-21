@@ -51,7 +51,7 @@
 	#explanation {
 		@include inner-shadow;
 		padding-top: 40px;
-		background-color: $green;
+		background-color: $scheme-comp_3;
 
 
 		p, li {
@@ -208,7 +208,7 @@
 
 		span:hover,
 		span.m-active:hover {
-			background-color: $orange;
+			// background-color: $orange;
 			color: $white;
 		}
 	}

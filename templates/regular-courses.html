@@ -1,12 +1,14 @@
 {% extends "layout/base.html" %}
 {% block content %}
 <div id="normal-courses-page" class="b-content-page">
-	<h2>Courses and Project Clinics</h2>
-	<section class="b-course-description row">
-    <div class="column large-12">
-      <p>Graduate - and professional-level courses, for credit and/or for certification, on the overall governance innovation process, as well as on specific technology-enabled approaches to governance innovation.</p>
-		</div>
-	</section>
+	<div class="b-page-title m-normal-courses">
+    <div class="row">
+      <div class="column large-12">
+        <h2 style="letter-spacing: -3px;">Courses &amp; Project Clinics</h2>    
+        <p>Graduate - and professional-level courses, for credit and/or for certification, on the overall governance innovation process, as well as on specific technology-enabled approaches to governance innovation.</p>
+      </div>
+    </div>
+  </div>
 	<section class="b-course-list row">
 		<ul class="column large-12">
 			{% for course in clinics %}
