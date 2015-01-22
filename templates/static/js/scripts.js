@@ -164,15 +164,15 @@ $('.e-filters-trigger').click(function() {
 	}
 });
 
-$('.b-card').click(function() {
-		$(this).addClass('m-active');
-		$('#overlay').addClass('m-active');
-});
+// $('.b-card').click(function() {
+// 		$(this).addClass('m-active');
+// 		$('#overlay').addClass('m-active');
+// });
 
 $('#overlay').click(function() {
 	$(this).removeClass('m-active');
 	$('.b-filters').removeClass('m-active');
-	$('.b-card').removeClass('m-active');
+	// $('.b-card').removeClass('m-active');
 });
 
 
