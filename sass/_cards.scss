@@ -1,0 +1,302 @@
+// Cards General Styles
+.b-card {
+	margin: 5px 0 10px;
+	position: relative;
+	@include drop-shadow-light;
+	background-color: $white;
+	width: calc(100%);
+	height: 560px;
+
+	&:before {
+		content:"";
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 100%;
+		background-color: $scheme-comp_3;
+		height: 4px;
+		z-index: 1;
+	}
+
+	.e-card-content {
+		margin-top: 10px;
+		overflow-y: hidden;
+		padding: 0 15px 15px;
+
+		h4 {
+			font-size: 1rem;
+			color: $green;
+		}
+
+		p {
+			font-size: 14px;
+			line-height: 17px;
+			margin-bottom: .5rem;
+		}
+	}
+}
+
+.b-card.m-govlab-True {
+	h4 { color: $purple;}
+
+	&:before {
+		content:"";
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 100%;
+		background-color: $purple;
+		height: 4px;
+	}
+}
+
+.b-card.m-people {
+	
+	.e-person-pic {
+		min-width: 100%;
+		height: 0;
+		padding-bottom: 80%;
+		overflow: hidden;
+		position: relative;
+		margin: 0;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+	}
+	
+	h3 {
+		font-size: 1.2rem;
+		color: $white;
+		margin: 0;
+		padding: 20px 15px 0;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		height: 50px;
+		@include card-gradient;
+	}
+
+	.e-card-content {
+		max-height: 255px;
+	}
+}
+
+.b-card.m-project {
+	h3 {
+		font-size: 1.1rem;
+	}
+}
+
+.b-card.m-project.m-clinics {
+	h4 { color: $purple; }
+	&:before { background-color: $purple; }
+}
+
+.e-filters-trigger {
+	float: left;
+}
+
+.b-card.m-mini-card {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	&:before {display: none;}
+	.b-pop-controls { display: none;}
+	.e-card-content { display: none;}
+}
+
+.b-card.m-mini-card {
+	text-align: center;
+	width: 86px;
+	height: 86px;
+	margin: 0;
+	display: inline-block;
+	vertical-align: top;
+	
+	.b-card-header {
+		.e-person-pic {
+			border-radius: 50%;
+			margin: 0 auto;
+			overflow: hidden;
+			width: 80px;
+			height: 80px;
+			border: 2px solid $scheme-comp_3;
+			background-color: $scheme-comp_3;
+			text-align: center;
+		  background-position: center center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  @include drop-shadow-light;
+		}
+
+		h3 {
+			font-size: 12px;
+			font-weight: 600 !important;
+			text-align: center;
+			background: transparent !important;
+			@include transition;
+			width: 140px;
+			color: $gray_60;
+			position: absolute;
+			bottom: 5px;
+			left: -30px;
+			opacity: 0;
+		}
+	}
+
+
+	&.m-govlab-True {
+		.e-person-pic {
+			border-color: $purple;
+			background-color: $purple;
+		}
+	}
+}
+
+
+
+/* Mobile Only ----------- */
+
+@media only screen and (max-width : $desktop_width) {
+
+.b-card .b-pop-controls {
+	right: 15px;
+	top: 15px;
+	opacity: 1;
+	pointer-events: auto;
+	.e-pop-button { display: none; }
+	.e-pop-button-link {
+		display: block;
+		transform: scale(1.1, 1.1);
+	}
+}
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : $desktop_width) {
+
+// Cards General Styles
+.b-card {
+	width: 232px;
+	height: 400px;
+	margin: 5px;
+
+	.e-card-content {
+		margin-top: 10px;
+		overflow-y: hidden;
+		padding: 0 15px 15px;
+
+		h4 {
+			font-size: 1rem;
+			color: $scheme-comp_4;
+		}
+
+		p {
+			font-size: 14px;
+			line-height: 17px;
+			margin-bottom: .5rem;
+		}
+	}
+}
+
+.b-card.m-govlab-True {
+	h4 { color: $purple;}
+
+	&:before {
+		content:"";
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 100%;
+		background-color: $purple;
+		height: 4px;
+	}
+}
+
+.b-card.m-people .e-card-content {
+	height: 190px;
+}
+
+.b-card .b-pop-controls {
+	left: -15px;
+	top: 30px;
+}
+
+.b-card.m-project {
+	height: 300px;
+
+	h3 {
+		font-size: 1.1rem;
+	}
+
+	.e-card-content {
+		max-height: 270px;
+	}
+}
+
+.b-card.m-mini-card {
+	text-align: center;
+	float: right;
+	width: 80px;
+	margin:0 10px;
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	right: 0;
+	@include transition;
+
+	.e-person-pic {
+		border-radius: 50%;
+		margin: 0 auto;
+		overflow: hidden;
+		width: 80px;
+		height: 80px;
+		border: 2px solid $scheme-comp_3;
+		background-color: $scheme-comp_3;
+		text-align: center;
+	  background-position: center center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  @include drop-shadow-light;
+	}
+
+	h3 {
+		font-size: 12px;
+		font-weight: 400;
+		opacity: 0;
+		margin-top: -20px;
+		text-align: center;
+		@include transition;
+
+	}
+
+	&.m-govlab-True {
+		.e-person-pic {
+			border-color: $purple;
+			background-color: $purple;
+		}
+	}
+}
+
+.m-mini-card:nth-of-type(2) { 
+	right: 10px;
+	transition-duration: 0.2s;
+}
+
+.m-mini-card:nth-of-type(3) { 
+	right: 20px;
+	transition-duration: 0.4s;
+}
+
+.m-mini-card:nth-of-type(4) { 
+	right: 30px;
+	transition-duration: .6s;
+}
+
+.m-mini-card:nth-of-type(5) { 
+	right: 40px;
+	transition-duration: .7s;
+}
+
+} // Closes Media Query

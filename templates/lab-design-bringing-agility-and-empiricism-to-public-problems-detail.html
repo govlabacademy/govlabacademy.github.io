@@ -1,0 +1,127 @@
+{% extends "layout/base.html" %}
+{% block content %}
+{% set coaching_class = coaching[4] %}
+<div id="" class="b-content-page b-detail-page m-coaching">
+	<div class="b-page-title m-project-coaching">
+    <div class="row">
+      <div class="column large-9">
+        <h2>{{coaching_class.name}} </h2>
+      </div>
+      <ul class="e-certifications column large-3">
+        {% if coaching_class.certificates.blended %}          
+          <li>
+          	<span>Blended</span>
+	          <img src="static/img/icons/icons-blended.png" title="Blended Course" class="e-course-icons m-blended">
+          </li>
+        {% endif %}
+
+        {% if coaching_class.certificates.online %}
+        	<li>
+        		<span>Online</span>
+	          <img src="static/img/icons/icons-online.png" title="Online Course" class="e-course-icons m-online">
+	        </li>
+        {% endif %}
+
+        {% if coaching_class.certificates.in_person %}
+        	<li>
+	        	<span>In Person</span>
+	          <img src="static/img/icons/icons-in-person.png" title="In Person Course" class="e-course-icons m-in-person">
+          </li>
+        {% endif %}
+
+        {% if coaching_class.certificates.for_certificate %}
+	        <li>
+		        <span>For Certification</span>
+		        <img src="static/img/icons/icons-certification.png" title="For Certification Course" class="e-course-icons m-certification">
+	        </li>
+        {% endif %}
+
+        {% if coaching_class.certificates.for_credit %}
+        <li>
+	        <span>For Credit</span>
+	        <img src="static/img/icons/icons-credit.png" title="For Credit Course" class="e-course-icons m-credit">
+        </li>
+        {% endif %}
+    	</ul>
+    </div>
+    <div class="row">
+  		
+    </div>
+    <div class="b-dates row">
+    	<div class="column large-4">
+    		<span><i class="fa fa-calendar fa-lg"></i></span>
+      	<h5>Course starts in</h5>
+      	<h4>{{coaching_class.date.start}}</h4>
+      </div>
+      <div class="column large-4">
+    		<span><i class="fa fa-calendar fa-lg"></i></span>
+      	<h5>Course ends in</h5>
+      	<h4>{{coaching_class.date.end}}</h4>
+      </div>
+      <div class="column large-4">
+    		<span><i class="fa fa-calendar fa-lg"></i></span>
+      	<h5>Application Deadline</h5>
+      	<h4>{{coaching_class.date.application}}</h4>
+      </div>
+    </div>
+  </div>
+  <section class="b-apply">
+    <div class="row ">
+      <div class="column large-12">
+        <span class="e-button m-large">Apply</span>
+      </div>
+    </div>
+  </section>
+  <div class="row">
+		<div class="column large-12">
+			<h3>{{coaching_class.passion.title}}</h3>
+			<ul class="b-list">
+				{% for item in coaching_class.passion.bullets %}
+					<li>{{item}}</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column large-12">
+		<h2>Course Description</h2>
+			<p>{{coaching_class.description_long}}</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column large-6">
+			<h3>Prerequisites</h3>
+      {% if coaching_class.prerequisites %}
+        {% for item in coaching_class.prerequisites %}
+					<p>{{item}}</p>
+        {% endfor %}
+      {% else %}
+      <p>No prerequisites</p>
+      {% endif %}
+		</div>
+    <div class="column large-6">
+      <h3>Course Format</h3>
+      <p>{{coaching_class.format}}</p>
+      <h4 class="b-format">{{coaching_class.duration}}</h4>
+    </div>
+	</div>
+  <div class="row">
+    <div class="column large-12">
+      {% for name in coaching_class.faculty_members %}              
+        {% if people|selectattr("name", "equalto", name)|first|isEmpty %}
+          {{("!!!! ERROR !!!!!: person cannot be found: " + name) |debug}}
+        {% else %}
+          {{ showPerson(people|selectattr("name", "equalto", name)|first) }}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  
+  <section id="contact-message" class="row">
+    <div class="column large-12">
+      <h4>Still hungry for more information?</h4>
+      <p>For more detailed information, questions, doubts, etc. Send us an email at <a href="mailto:info-academy@thegovlab.org">info-academy@thegovlab.org</a></p>
+    </div>
+  </section>
+
+{% endblock %}

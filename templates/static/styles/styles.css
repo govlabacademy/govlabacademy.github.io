@@ -736,145 +736,8 @@ a {
   float: right;
   font-size: 1rem; }
 
-.b-card {
-  margin: 5px 0 10px;
-  position: relative;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
-  background-color: white;
-  width: calc(100%);
-  height: 560px; }
-  .b-card:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #c0ba21;
-    height: 4px;
-    z-index: 1; }
-  .b-card .e-card-content {
-    margin-top: 10px;
-    overflow-y: hidden;
-    padding: 0 15px 15px; }
-    .b-card .e-card-content h4 {
-      font-size: 1rem;
-      color: #2eb49a; }
-    .b-card .e-card-content p {
-      font-size: 14px;
-      line-height: 17px;
-      margin-bottom: .5rem; }
-
-.b-card.m-govlab-True h4 {
-  color: #472b74; }
-.b-card.m-govlab-True:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #472b74;
-  height: 4px; }
-
-.b-card.m-people .e-person-pic {
-  min-width: 100%;
-  height: 0;
-  padding-bottom: 80%;
-  overflow: hidden;
-  position: relative;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover; }
-.b-card.m-people h3 {
-  font-size: 1.2rem;
-  color: white;
-  margin: 0;
-  padding: 20px 15px 0;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  height: 50px;
-  background-color: rgba(0, 0, 0, 0.3);
-  /* fallback */
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.4)));
-  /* Safari 4-5, Chrome 1-9 */
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-  /* Safari 5.1, Chrome 10+ */
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-  /* Firefox 3.6+ */
-  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-  /* IE 10 */
-  background: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-  /* Opera 11.10+ */ }
-.b-card.m-people .e-card-content {
-  max-height: 255px; }
-
-.b-card.m-project h3 {
-  font-size: 1.1rem; }
-
-.b-card.m-project.m-clinics h4 {
-  color: #472b74; }
-.b-card.m-project.m-clinics:before {
-  background-color: #472b74; }
-
-.e-filters-trigger {
-  float: left; }
-
-/* Mobile Only ----------- */
-@media only screen and (max-width: 1024px) {
-  .b-card .b-pop-controls {
-    right: 15px;
-    top: 15px;
-    opacity: 1;
-    pointer-events: auto; }
-    .b-card .b-pop-controls .e-pop-button {
-      display: none; }
-    .b-card .b-pop-controls .e-pop-button-link {
-      display: block;
-      transform: scale(1.1, 1.1); } }
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
-  .b-card {
-    width: 232px;
-    height: 400px;
-    margin: 5px; }
-    .b-card .e-card-content {
-      margin-top: 10px;
-      overflow-y: hidden;
-      padding: 0 15px 15px; }
-      .b-card .e-card-content h4 {
-        font-size: 1rem;
-        color: #74712b; }
-      .b-card .e-card-content p {
-        font-size: 14px;
-        line-height: 17px;
-        margin-bottom: .5rem; }
-
-  .b-card.m-govlab-True h4 {
-    color: #472b74; }
-  .b-card.m-govlab-True:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #472b74;
-    height: 4px; }
-
-  .b-card.m-people .e-card-content {
-    height: 190px; }
-
-  .b-card .b-pop-controls {
-    left: -15px;
-    top: 30px; }
-
-  .b-card.m-project {
-    height: 300px; }
-    .b-card.m-project h3 {
-      font-size: 1.1rem; }
-    .b-card.m-project .e-card-content {
-      max-height: 270px; }
-
   .b-filters {
     width: 300px;
     padding: 60px 0 20px;
@@ -1033,35 +896,7 @@ a {
 .e-course-faculty {
   height: 100px;
   display: block;
-  margin: 0 0 10px 30px; }
-
-.b-mini-card {
-  text-align: center;
-  width: 86px;
-  margin: 0;
-  display: inline-block;
-  vertical-align: top; }
-  .b-mini-card .e-person-pic {
-    border-radius: 50%;
-    margin: 0 auto;
-    overflow: hidden;
-    width: 80px;
-    height: 80px;
-    border: 2px solid #c0ba21;
-    background-color: #c0ba21;
-    text-align: center;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
-  .b-mini-card h3 {
-    font-size: 12px;
-    font-weight: 400;
-    text-align: center;
-    transition: all 0.4s ease; }
-  .b-mini-card.m-govlab-True .e-person-pic {
-    border-color: #472b74;
-    background-color: #472b74; }
+  margin: 0 10px 10px 30px; }
 
 .b-course-list-item.m-workshop.m-crosslisted-True .e-partner:before {
   content: "This workshop is offered by "; }
@@ -1084,89 +919,42 @@ a {
     display: inline-block;
     width: calc(70% - 34px);
     vertical-align: bottom;
-    padding-bottom: 30px; }
+    padding-bottom: 40px;
+    padding-top: 20px; }
 
   .e-course-faculty {
     height: 100px;
-    display: inline-block;
-    width: calc(30% - 34px);
-    margin-top: -30px; }
-
-  .b-mini-card {
-    text-align: center;
-    float: right;
-    width: 100px;
-    margin: 0 10px;
-    display: inline-block;
-    vertical-align: top;
     position: absolute;
     right: 0;
+    bottom: 10px;
+    width: calc(30% - 34px); }
+
+  .b-course-list-item:hover .m-mini-card {
     transition: all 0.4s ease; }
-    .b-mini-card .e-person-pic {
-      border-radius: 50%;
-      margin: 0 auto;
-      overflow: hidden;
-      width: 80px;
-      height: 80px;
-      border: 2px solid #c0ba21;
-      background-color: #c0ba21;
-      text-align: center;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
-    .b-mini-card h3 {
-      font-size: 12px;
-      font-weight: 400;
-      opacity: 0;
-      margin-top: -20px;
-      text-align: center;
-      transition: all 0.4s ease; }
-    .b-mini-card.m-govlab-True .e-person-pic {
-      border-color: #472b74;
-      background-color: #472b74; }
-
-  .b-mini-card:nth-of-type(2) {
-    right: 10px;
+    .b-course-list-item:hover .m-mini-card h3 {
+      opacity: 1 !important;
+      bottom: -30px !important;
+      transition: all 0.4s ease;
+      background-color: transparent; }
+  .b-course-list-item:hover .m-mini-card:nth-of-type(2) {
+    right: 100px;
     transition-duration: 0.2s; }
-
-  .b-mini-card:nth-of-type(3) {
-    right: 20px;
-    transition-duration: 0.4s; }
-
-  .b-mini-card:nth-of-type(4) {
-    right: 30px;
-    transition-duration: .6s; }
-
-  .b-mini-card:nth-of-type(5) {
-    right: 40px;
-    transition-duration: .7s; }
-
-  .e-course-faculty:hover .b-mini-card {
-    transition: all 0.4s ease; }
-    .e-course-faculty:hover .b-mini-card h3 {
-      opacity: 1;
-      margin-top: 5px;
-      transition: all 0.4s ease; }
-  .e-course-faculty:hover .b-mini-card:nth-of-type(2) {
-    right: 95px;
-    transition-duration: 0.2s; }
-    .e-course-faculty:hover .b-mini-card:nth-of-type(2) h3 {
+    .b-course-list-item:hover .m-mini-card:nth-of-type(2) h3 {
       transition-delay: 0.1s; }
-  .e-course-faculty:hover .b-mini-card:nth-of-type(3) {
-    right: 190px;
+  .b-course-list-item:hover .m-mini-card:nth-of-type(3) {
+    right: 200px;
     transition-duration: 0.4s; }
-    .e-course-faculty:hover .b-mini-card:nth-of-type(3) h3 {
+    .b-course-list-item:hover .m-mini-card:nth-of-type(3) h3 {
       transition-delay: 0.2s; }
-  .e-course-faculty:hover .b-mini-card:nth-of-type(4) {
-    right: 285px;
+  .b-course-list-item:hover .m-mini-card:nth-of-type(4) {
+    right: 300px;
     transition-duration: .6s; }
-    .e-course-faculty:hover .b-mini-card:nth-of-type(4) h3 {
+    .b-course-list-item:hover .m-mini-card:nth-of-type(4) h3 {
       transition-delay: 0.3s; }
-  .e-course-faculty:hover .b-mini-card:nth-of-type(5) {
-    right: 380px;
+  .b-course-list-item:hover .m-mini-card:nth-of-type(5) {
+    right: 400px;
     transition-duration: .7s; }
-    .e-course-faculty:hover .b-mini-card:nth-of-type(5) h3 {
+    .b-course-list-item:hover .m-mini-card:nth-of-type(5) h3 {
       transition-delay: 0.4s; } }
 .b-pop-controls-container {
   position: relative; }
@@ -1234,6 +1022,241 @@ a {
       box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
       transition-delay: 0; }
 
+.b-card {
+  margin: 5px 0 10px;
+  position: relative;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  width: calc(100%);
+  height: 560px; }
+  .b-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #c0ba21;
+    height: 4px;
+    z-index: 1; }
+  .b-card .e-card-content {
+    margin-top: 10px;
+    overflow-y: hidden;
+    padding: 0 15px 15px; }
+    .b-card .e-card-content h4 {
+      font-size: 1rem;
+      color: #2eb49a; }
+    .b-card .e-card-content p {
+      font-size: 14px;
+      line-height: 17px;
+      margin-bottom: .5rem; }
+
+.b-card.m-govlab-True h4 {
+  color: #472b74; }
+.b-card.m-govlab-True:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #472b74;
+  height: 4px; }
+
+.b-card.m-people .e-person-pic {
+  min-width: 100%;
+  height: 0;
+  padding-bottom: 80%;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+.b-card.m-people h3 {
+  font-size: 1.2rem;
+  color: white;
+  margin: 0;
+  padding: 20px 15px 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* fallback */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.4)));
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  /* Safari 5.1, Chrome 10+ */
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  /* Firefox 3.6+ */
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  /* IE 10 */
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  /* Opera 11.10+ */ }
+.b-card.m-people .e-card-content {
+  max-height: 255px; }
+
+.b-card.m-project h3 {
+  font-size: 1.1rem; }
+
+.b-card.m-project.m-clinics h4 {
+  color: #472b74; }
+.b-card.m-project.m-clinics:before {
+  background-color: #472b74; }
+
+.e-filters-trigger {
+  float: left; }
+
+.b-card.m-mini-card {
+  background-color: transparent;
+  border: none;
+  box-shadow: none; }
+  .b-card.m-mini-card:before {
+    display: none; }
+  .b-card.m-mini-card .b-pop-controls {
+    display: none; }
+  .b-card.m-mini-card .e-card-content {
+    display: none; }
+
+.b-card.m-mini-card {
+  text-align: center;
+  width: 86px;
+  height: 86px;
+  margin: 0;
+  display: inline-block;
+  vertical-align: top; }
+  .b-card.m-mini-card .b-card-header .e-person-pic {
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #c0ba21;
+    background-color: #c0ba21;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
+  .b-card.m-mini-card .b-card-header h3 {
+    font-size: 12px;
+    font-weight: 600 !important;
+    text-align: center;
+    background: transparent !important;
+    transition: all 0.4s ease;
+    width: 140px;
+    color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 5px;
+    left: -30px;
+    opacity: 0; }
+  .b-card.m-mini-card.m-govlab-True .e-person-pic {
+    border-color: #472b74;
+    background-color: #472b74; }
+
+/* Mobile Only ----------- */
+@media only screen and (max-width: 1024px) {
+  .b-card .b-pop-controls {
+    right: 15px;
+    top: 15px;
+    opacity: 1;
+    pointer-events: auto; }
+    .b-card .b-pop-controls .e-pop-button {
+      display: none; }
+    .b-card .b-pop-controls .e-pop-button-link {
+      display: block;
+      transform: scale(1.1, 1.1); } }
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1024px) {
+  .b-card {
+    width: 232px;
+    height: 400px;
+    margin: 5px; }
+    .b-card .e-card-content {
+      margin-top: 10px;
+      overflow-y: hidden;
+      padding: 0 15px 15px; }
+      .b-card .e-card-content h4 {
+        font-size: 1rem;
+        color: #74712b; }
+      .b-card .e-card-content p {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: .5rem; }
+
+  .b-card.m-govlab-True h4 {
+    color: #472b74; }
+  .b-card.m-govlab-True:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #472b74;
+    height: 4px; }
+
+  .b-card.m-people .e-card-content {
+    height: 190px; }
+
+  .b-card .b-pop-controls {
+    left: -15px;
+    top: 30px; }
+
+  .b-card.m-project {
+    height: 300px; }
+    .b-card.m-project h3 {
+      font-size: 1.1rem; }
+    .b-card.m-project .e-card-content {
+      max-height: 270px; }
+
+  .b-card.m-mini-card {
+    text-align: center;
+    float: right;
+    width: 80px;
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    right: 0;
+    transition: all 0.4s ease; }
+    .b-card.m-mini-card .e-person-pic {
+      border-radius: 50%;
+      margin: 0 auto;
+      overflow: hidden;
+      width: 80px;
+      height: 80px;
+      border: 2px solid #c0ba21;
+      background-color: #c0ba21;
+      text-align: center;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
+    .b-card.m-mini-card h3 {
+      font-size: 12px;
+      font-weight: 400;
+      opacity: 0;
+      margin-top: -20px;
+      text-align: center;
+      transition: all 0.4s ease; }
+    .b-card.m-mini-card.m-govlab-True .e-person-pic {
+      border-color: #472b74;
+      background-color: #472b74; }
+
+  .m-mini-card:nth-of-type(2) {
+    right: 10px;
+    transition-duration: 0.2s; }
+
+  .m-mini-card:nth-of-type(3) {
+    right: 20px;
+    transition-duration: 0.4s; }
+
+  .m-mini-card:nth-of-type(4) {
+    right: 30px;
+    transition-duration: .6s; }
+
+  .m-mini-card:nth-of-type(5) {
+    right: 40px;
+    transition-duration: .7s; } }
 #homepage {
   padding-top: 0; }
   #homepage #intro {
