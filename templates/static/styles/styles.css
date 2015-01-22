@@ -143,7 +143,7 @@
 body {
   background-color: rgba(0, 0, 0, 0.03); }
 
-body, h1, h2, h3, h4, h5 {
+body, h1, h2, h3, h4, h5, input {
   font-family: proxima-nova, sans-serif; }
 
 .swipe {
@@ -1022,6 +1022,12 @@ a {
       box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
       transition-delay: 0; }
 
+.b-card-isotopes .b-card {
+  display: block; }
+
+.b-card {
+  display: inline-block; }
+
 .b-card {
   margin: 5px 0 10px;
   position: relative;
@@ -1347,6 +1353,39 @@ a {
     border-right: 12px solid transparent;
     right: 15px;
     top: 12px; }
+
+.b-signup {
+  text-align: center;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3) inset;
+  padding-top: 40px;
+  background-color: #4f3081; }
+  .b-signup label {
+    font-size: 2.8rem;
+    color: #9981c0;
+    font-weight: 300;
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: bottom;
+    margin-bottom: 10px; }
+  .b-signup input.email {
+    padding: 10px 16px 8px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    width: 400px;
+    vertical-align: bottom;
+    border: 1px solid #281841;
+    border-right: 0;
+    border-radius: 3px 0 0 3px; }
+  .b-signup .e-button {
+    width: auto;
+    border-radius: 0 3px 3px 0;
+    vertical-align: bottom;
+    padding: 8px 16px 8px;
+    margin-left: -4px;
+    border: 1px solid #281841;
+    background-color: #9981c0; }
+    .b-signup .e-button:hover {
+      background-color: #6f5d8b; }
 
 #canvas {
   display: none; }

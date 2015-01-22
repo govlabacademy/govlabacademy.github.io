@@ -50,12 +50,12 @@
     <div class="b-dates row">
     	<div class="column large-4">
     		<span><i class="fa fa-calendar fa-lg"></i></span>
-      	<h5>Course starts in</h5>
+      	<h5>Course starts on</h5>
       	<h4>{{coaching_class.date.start}}</h4>
       </div>
       <div class="column large-4">
     		<span><i class="fa fa-calendar fa-lg"></i></span>
-      	<h5>Course ends in</h5>
+      	<h5>Course ends on</h5>
       	<h4>{{coaching_class.date.end}}</h4>
       </div>
       <div class="column large-4">
@@ -107,12 +107,24 @@
 	</div>
   <div class="row">
     <div class="column large-12">
-      {% for name in coaching_class.faculty_members %}              
-        {% if people|selectattr("name", "equalto", name)|first|isEmpty %}
-          {{("!!!! ERROR !!!!!: person cannot be found: " + name) |debug}}
-        {% else %}
-          {{ showPerson(people|selectattr("name", "equalto", name)|first) }}
-        {% endif %}
+      <h2>Faculty Members</h2>
+    </div>
+    <div class="column large-12">
+
+      {% for card in coaching_class.faculty_members %}              
+        <article class="b-card m-people m-govlab-{{card.is_govlab}} b-pop-controls-container" data-filter="{{card.tags}}">
+          <div class="e-person-pic" style="background-image: url(static/img/people/{{card.img_url}})" title="{{card.name}}">
+            <h3 title="{{card.name}}">{{card.name}}</h3>
+          </div>
+          <div class="b-pop-controls">
+            <span class="e-pop-button" href="{{card.bio_url}}"><i class="fa fa-thumb-tack"></i></span>
+            <a class="e-pop-button e-pop-button-link" href="{{card.bio_url}}"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="e-card-content"> 
+            <h4>{{card.job}}</h4>
+            <p>{{card.description}}</p>
+          </div>
+        </article>
       {% endfor %}
     </div>
   </div>

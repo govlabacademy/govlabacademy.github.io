@@ -24,18 +24,10 @@
       <h2>People</h2>
       <div class="row">
         <h3 class="column large-12">Faculty Mambers</h3>
-        <div class="b-card-deck column large-12">
+        <div class="b-card-isotopes column large-12">
           <div class="b-card-wrapper">
-            {% for name in people %}              
-              {% if people|selectattr("name", "equalto", name)|first|isEmpty %}
-                {{("!!!! ERROR !!!!!: person cannot be found: " + name) |debug}}
-              {% else %}
-                {{ showPerson(people|selectattr("name", "equalto", name)|first) }}
-              {% endif %}
-            {% endfor %}
-
-
-              <!-- <article class="b-card m-people m-govlab-{{card.is_govlab}} b-pop-controls-container" data-filter="{{card.tags}}">
+            {% for card in people %}
+              <article class="b-card m-people m-govlab-{{card.is_govlab}} b-pop-controls-container" data-filter="{{card.tags}}">
                 <div class="e-person-pic" style="background-image: url(static/img/people/{{card.img_url}})" title="{{card.name}}">
                   <h3 title="{{card.name}}">{{card.name}}</h3>
                 </div>
@@ -47,7 +39,8 @@
                   <h4>{{card.job}}</h4>
                   <p>{{card.description}}</p>
                 </div>
-              </article> -->
+              </article>
+            {% endfor %}  
           </div>
         </div>
       </div>
