@@ -90,7 +90,7 @@
           {% if course.actions %}
             <div class="e-course-controls">
               {% for button in course.actions %}
-              <a class="e-button" href="{{button.link}}" target="_blank">{{button.label}}</a>
+              <a class="e-button" href="{{button.link}}">{{button.label}}</a>
               {% endfor %}
             </div>
           {% endif %}

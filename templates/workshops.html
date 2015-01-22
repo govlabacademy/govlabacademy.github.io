@@ -30,7 +30,7 @@
 		<ul class="column large-12">
 			{% for course in workshops %}
 
-			<li class="b-course-list-item m-workshop">
+			<li class="b-course-list-item m-workshop m-crosslisted-{{course.is_crosslisted}}">
         {% if course.date %}
         <h4 class="e-course-date">{{course.date}}</h4>
         {% endif %}
@@ -80,7 +80,7 @@
         {% endif %}
 
         {% if course.partner %}
-          <h5 class="e-partner">In partnership with {{course.partner}}</h5>
+          <h5 class="e-partner">{{course.partner}}</h5>
 		    {% endif %}
         
       </li>

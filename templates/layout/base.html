@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GovLab Academy - v0.3</title>
+    <title>{% block title %}The GovLab Academy - Beta{% endblock %}</title>
     <link rel="stylesheet" href="static/assets/foundation/css/foundation.css" />
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="static/styles/styles.css" />
@@ -22,11 +22,22 @@
 
       <!-- Template to generate faculty members in course-lists -->
     {% macro showPerson(person, class="defautl-class") -%}
-      <article class="{{class}} b-mini-card m-govlab-{{person.is_govlab}}">
-        <div class="e-person-pic" style="background-image: url('static/img/people/{{person.img_url}}')"></div>
-        <h3 title="{{person.name}}">{{person.name}}</h3>
+      <article class="{{class}}  b-card m-people m-govlab-{{person.is_govlab}} b-pop-controls-container m-mini-card" data-filter="{{person.tags}}">
+        <div class="b-card-header">
+          <div class="e-person-pic" style="background-image: url(static/img/people/{{person.img_url}})" title="{{person.name}}"></div>
+          <h3 title="{{person.name}}">{{person.name}}</h3>
+        </div>
+        <div class="b-pop-controls">
+          <span class="e-pop-button" href="{{person.bio_url}}"><i class="fa fa-thumb-tack"></i></span>
+          <a class="e-pop-button e-pop-button-link" href="{{person.bio_url}}"><i class="fa fa-link"></i></a>
+        </div>
+        <div class="e-card-content"> 
+          <h4>{{person.job}}</h4>
+          <p>{{person.description}}</p>
+        </div>
       </article>
     {%- endmacro %}
+
     
     <header class="b-top-navigation-wrapper">
       <div class="b-top-navigation">
