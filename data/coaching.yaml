@@ -20,7 +20,7 @@
     - Arnaud Sahuguet
   actions:
     - label: Apply Here
-      link: http://apply-here
+      link: /civic-tech-for-local-legislatures-and-legislators-detail.html
   certificates:
     blended: false
     online: true
@@ -53,7 +53,7 @@
     - Brian Behlendorf
   actions:
     - label: Apply Here
-      link: http://apply-here
+      link: /open-source-technology-practices-for-civic-engagement-projects-detail.html
   certificates:
     blended: false
     online: true
@@ -83,7 +83,7 @@
     - Miriam Nisbet
   actions:
     - label: Apply Here
-      link: http://apply-here
+      link: /freedom-of-information-and-foia-project-coaching-breaking-down-the-walls-and-opening-up-communications-detail.html
   certificates:
     blended: false
     online: true
@@ -114,7 +114,7 @@
     - Alexandra Clare
   actions:
     - label: Apply Here
-      link: http://apply-here
+      link: /humanitarian-innovation-project-collaborative-detail.html
   certificates:
     blended: false
     online: true
@@ -146,7 +146,7 @@
     - Beth Simone Noveck
   actions:
     - label: Apply Here
-      link: http://apply-here
+      link: /lab-design-bringing-agility-and-empiricism-to-public-problems-detail.html
   certificates:
     blended: false
     online: true
@@ -178,7 +178,7 @@
     - Beth Simone Noveck
   actions:
     - label: Apply Here
-      link: http://apply-here
+      link: /citizen-engagement-projects-detail.html
   certificates:
     blended: false
     online: true

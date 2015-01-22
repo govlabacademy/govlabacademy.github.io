@@ -105,6 +105,18 @@
       <h4 class="b-format">{{coaching_class.duration}}</h4>
     </div>
 	</div>
+  <div class="row">
+    <div class="column large-12">
+      {% for name in coaching_class.faculty_members %}              
+        {% if people|selectattr("name", "equalto", name)|first|isEmpty %}
+          {{("!!!! ERROR !!!!!: person cannot be found: " + name) |debug}}
+        {% else %}
+          {{ showPerson(people|selectattr("name", "equalto", name)|first) }}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  
   <section id="contact-message" class="row">
     <div class="column large-12">
       <h4>Still hungry for more information?</h4>

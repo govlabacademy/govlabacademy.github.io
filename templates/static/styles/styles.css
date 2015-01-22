@@ -479,12 +479,12 @@ a {
         display: block;
         border: 0;
         color: rgba(0, 0, 0, 0.8);
-        background-color: rgba(0, 0, 0, 0.3);
-        border: 1px solid rgba(0, 0, 0, 0.6);
+        background-color: #6f5d8b;
+        border: 1px solid rgba(0, 0, 0, 0.8);
         border-top: 0;
         padding: 3px 18px; }
         .e-submenu ul .e-sub-item:hover {
-          background-color: rgba(0, 0, 0, 0.6);
+          background-color: #201334;
           color: white; }
 
   .e-submenu:hover ul {
