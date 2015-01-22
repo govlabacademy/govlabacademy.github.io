@@ -30,7 +30,7 @@
   description: "Christian Bason has been head of MindLab since 2007. MindLab is a cross-governmental innovation unit run by a range of national ministries and a city government, based in Copenhagen, Denmark. Prior to joining MindLab, he held various leading positions at Ramboll, an international consultancy, including as Head of the public organization and management practice and as Head of employment and human resource policy evaluation. Bason is passionate about transforming the public sector’s ability to better meet the needs of citizens and society. He has presented to and advised a wide range of governments around the world on innovation in the public sector, and is a member of a number of advisory bodies in Denmark and internationally. Most recently, he was Chair of the European Commission’s High-Level Expert Group on Public Sector Innovation. He is a regular columnist and blogger and the author of five books on leadership, design, innovation and change in the public sector. Christian Basons most recent books include Design for Policy and, Leading Public Sector Innovation: Co-creating for a Better Society. Recent research publications include “Discovering co-production by design”, “Engaging Citizens in Policy Innovation: Benefiting public policy from the design inputs of citizens and stakeholders as ‘experts’ and “Powering Collaborative Innovation: Can Innovation Labs Help?”."
   img_url: christian-bason.png
   bio_url: http://ddc.dk/en/2014/09/christian-bason-is-the-new-ceo-at-danish-design-centre/
-  tags: 
+  tags: design-labs
 
 - name: Geoff Mulgan
   job: Chief Executive of NESTA
@@ -38,14 +38,14 @@
   description: "Geoff Mulgan CBE (born 1961) is Chief Executive of the National Endowment for Science Technology and the Arts (NESTA)[1] and Visiting Professor at University College London, the London School of Economics, the University of Melbourne and a regular lecturer at the China Executive Leadership Academy. He is an adviser to many governments around the world, and has been a board member of the Work Foundation, the Health Innovation Council, Political Quarterly and the Design Council, and chair of Involve. He is also currently chair of the Studio Schools Trust and the Social Innovation Exchange. His recent books include The Art of Public Strategy - Mobilising Power and Knowledge for the Public Good, Good and Bad Power: the ideals and betrayals of government and Connexity. His latest book The Locust and the Bee was published by Princeton University Press in March 2013. Read more on some of the ideas Geoff has been involved in over the years."
   img_url: geoff-mulgan.jpg
   bio_url: http://www.nesta.org.uk/users/geoff-mulgan
-  tags: 
+  tags: design-labs
 
 - name: Benjamin Kallos
   job: Chair of the Committee on Governmental Operations of the City Council
   is_govlab: false
   description: 'At the beginning of his career in public service, Ben Kallos put Albany voting records online so New Yorkers could hold politicians accountable. Since then, he has run a government reform organization that helped defeat a corrupt politician and has served as Policy Director for former Public Advocate Mark Green. Council Member Kallos serves as Chair of the Committee on Governmental Operations of the City Council, where he has fought to bring reform and transparency to government agencies. Praised by the New York Times for his "fresh ideas," Council Member Kallos has advocated for improving our schools, senior services and transportation. Council Member Kallos graduated from Bronx Science, SUNY Albany and SUNY Buffalo Law School. He has a background in law, working as a union-side labor attorney, as well as technology and government, and has served as a member of Community Board 8 and Statewide Committee Chair for the New York Democratic Lawyers Council. He and his wife reside on the East Side, where he has lived his entire life.'
   img_url: ben-kallos.jpg
-  bio_url: http://en.wikipedia.org/wiki/Ben_Kallos
+  bio_url: http://benkallos.com/
   tags: 
 
 - name: Tiago Peixoto
@@ -77,7 +77,7 @@
   is_govlab: false
   description: "Hollie Russon Gilman holds a Ph.D. and M.A. from the Department of Government at Harvard University and A.B. from the University of Chicago with highest honors in political science.  Her dissertation is the first academic study of participatory budgeting in the U.S.  Dr. Gilman is an expert in technology, civic engagement, innovation, and governance. She most recently served as Open Government and Innovation Advisor in the White House Office of Science and Technology Policy.  In this role, she worked to implement President Obama's second term Open Government agenda, including inter-agency commitments under the international Open Government Partnership. Dr. Gilman is a founding researcher and organizer for the Open Society Foundation's Transparency and Accountability Initiative and Harvard's Gettysburg Project to revitalize 21st Century civic engagement. She has worked as an advisor, researcher, and consultant to leading non-profits and foundations at the intersection of technology and the public sector including the Case Foundation, Center for Global Development, Google.org, and the World Bank Institute. She has published in numerous academic and popular audience publications including the International Studies Review and Journal of Public Deliberation.  Her writings appear frequently in diverse publications including Al Jazeera America, Brookings' TechTank, Boston Globe, Harvard's Challenges to Democracy, Next City, Slate and Vox."
   img_url: hollie-gilman.jpg
-  bio_url: 
+  bio_url: https://twitter.com/hrgilman
   tags:
 
 - name: Beth Simone Noveck
@@ -117,7 +117,7 @@
   is_govlab: true
   description: "Dr. Arnaud Sahuguet was until recently a Product Manager for Google.org in New York working on civic innovation, as part of the Google social impact team. For the last two years, he has been working on mobile micro-donations (OneToday) and child protection (in collaboration with the National Center for Missing and Exploited Children). Before Google.org, he worked on Google Maps infrastructure and helped the Google Speech team productize its technology, with products such as GOOG-411 and Voice Search. Before joining Google in 2006, he worked almost 5 years as a Member of Technical Staff at Bell Labs research, in Murray Hill, NJ, where he published numerous papers, worked on standards for user profile management in telecom networks, identity management, personalization and converged services. Arnaud got his PhD from UPenn, on the topic of distributed query languages and optimization. While at UPenn, Arnaud founded Tropean Inc, to commercialize a screen scrapping technology for web sites. Before that, he graduated from Ecole Nationale des Ponts et Chaussées in France (MSc in Civil Engineering) and from Ecole Polytechnique (BS)."
   img_url: arnaud-sahuguet.jpg
-  bio_url: 
+  bio_url: twitter.com/sahuguet
   tags: citizen-service-delivery open-data
 
 - name: Dinorah Cantu
@@ -125,7 +125,7 @@
   is_govlab: true
   description: "Dinorah is a Human Rights lawyer and activist from Monterrey, Mexico. She moved to New York City since 2012 to study the MPA in Public and Nonprofit Management and Policy at NYU Robert F. Wagner School of Public Service because she was interested in the advocacy of economic, social and cultural rights. Now she believes the best advocacy agenda for every human right must involve and leverage the new communication and information technologies. As a fellow at the GovLab she will be researching and testing how experts systems can be used as a tool to better share knowledge and expertise. Ultimately, she hopes to explore and re-imagine our present, forming new communities and organizational structures guided by the principles of empathy and collaboration.Before she moved here, she was the founder and director of the Human Rights Center of the Facultad Libre de Derecho de Monterrey and volunteered for pro bono legal services. In her free time she is developing an online platform that will nurture a collaborative network of legal practitioners, activists and stakeholders.The platform will be intended to crowdsource legal arguments, infographics and visual media, a social media campaign and plaintiffs. The ultimate goal of the project is to create ready-to-print, ready-to-be-filed legal motions for constitutional control (Amparo) by anyone interested in advocating for any human rights cause."
   img_url: dinorah-cantu.jpg
-  bio_url: 
+  bio_url: http://thegovlab.org/about/team/
   tags: legal-innovation
 
 - name: Stefaan Verhulst
@@ -135,3 +135,28 @@
   img_url: stefaan-verhulst.jpg
   bio_url: 
   tags: rapid-results-research designing-metrics-of-success 
+  
+  - name: Francois Grey
+  job: Coordinator of the Citizen Cyberscience Centre 
+  is_govlab: false
+  description: "Francois Grey is passionate about advancing Open Science, specifically Citizen Cyberscience. Citizen cyberscience is a collective term for a diverse, grass-roots movement that is enabling ordinary citizens to participate in real scientific research thanks to the Web. Practically anyone with an Internet connection can join: schoolchildren, office workers, pensioners. Using PCs, laptops and even mobile phones, volunteers can classify images of distant galaxies or track the migration patterns of endangered species, to name just two examples. Citizen cyberscience is social networking with a purpose. It turns science education into a highly motivating participative activity. At present, citizen cyberscientists are mainly concentrated in Europe and North America, and number in the hundreds of thousands. Francois’s aim is to help make this number grow to tens of millions. He is catalysing a trend in the scientific community that will boost the number of online science projects, from dozens today to thousands in a few years. Most importantly, he wants to help more scientists in the developing world – Africa, Latin America and South-East Asia – to exploit citizen cyberscience, since it is a highly appropriate technology for researchers with limited resources. Francois is a physicist by training, with a background in nanotechnology and a strong interest in science communication. He spent six years at CERN, managing IT communications. In 2004 he initiated and managed the launch of a volunteer computing project called LHC@home. This led to another project called Africa@home, launched in 2005 in collaboration with several academic institutions, NGOs and United Nations agencies.  He is currently based in Beijing and NYC, where he has spent the last two years as a visiting professor at Tsinghua University, part of that time supported by the Chinese Academy of Sciences to develop citizen cyberscience in China and more widely in South-East Asia, through an initiative called Asia@home and a project called CAS@home. In 2009, he helped establish a Citizen Cyberscience Centre in Geneva, which is a partnership between CERN, the United Nations Institute for Training and Research and the University of Geneva."
+  img_url:
+  bio_url: https://twitter.com/francoisgrey
+  tags: citizen-science 
+  
+  - name: Clay Johnson
+  job: CEO of the Department of Better Technology
+  is_govlab: false
+  description: "Clay Johnson is an American technologist, co-founder and the CEO of the Department of Better Technology and best known for his role in supporting political campaigns and government agencies with technology services. He was one of the founders of Blue State Digital, the firm that built and managed Barack Obama’s online campaign for the presidency in 2008. After leaving Blue State, Johnson was the director of Sunlight Labs at the Sunlight Foundation, where he built an army of 2000 developers and designers to build open source tools to give people greater access to government data. He was awarded the Google/O’Reilly Open Source Organizer of the year in 2009, was one of Federal Computing Week’s Fed 100 in 2010, and won the CampaignTech Innovator award in 2011. Johnson’s combination of experience as a developer, working in politics, entrepreneurism, and non-profit work gives him a unique perspective on media and culture. His life is dedicated to giving people greater access to the truth about what’s going on in their communities, their cities and their governments. He still claims that he learned all he needs to know from a two year tour as the late-shift waiter at Waffle House in Atlanta, GA."
+
+  img_url: 
+  bio_url: https://twitter.com/cjoh
+  tags: procurement 
+  
+  - name: Joeri van den Steenhoven
+  job: Co-Founder and Chief Research and Development Officer
+  is_govlab:false
+  description: "Joeri van den Steenhoven is the Director of the MaRS Solutions Lab. He is a longtime social innovator fascinated by our society’s transition towards the knowledge society. Being a systems thinker, he likes to work on wicked problems and find innovative solutions with others. Joeri co-founded Kennisland, one of the leading change labs in the Netherlands and Europe. He also co-founded the KafkaBrigade, a research team that helps governments find and tackle red tape. He regularly advises, speaks and teaches on how to create system change. Joeri has worked with organizations like the Young Foundation (UK) and serves on the board of the Lisbon Council, the leading European thinktank on innovation and growth."
+  img_url: =
+  bio_url: https://www.linkedin.com/in/joerivandensteenhoven
+  tags: design-labs  
