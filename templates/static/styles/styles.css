@@ -227,7 +227,7 @@ a {
   cursor: pointer; }
   .e-button:hover {
     background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
   .e-button.m-large {
     padding: 12px 30px 10px;
     font-size: 1.6rem;
@@ -242,7 +242,7 @@ a {
     margin: 0 5px 0 0; }
     .e-button:hover {
       background-color: rgba(0, 0, 0, 0.5);
-      box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); } }
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); } }
 .m-project-coaching {
   background-color: #0d342d;
   border-top-color: #2eb49a;
@@ -491,7 +491,7 @@ a {
       top: -100px;
       margin: 0;
       left: 0;
-      box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
       transition: all 0.4s ease; }
       .e-submenu ul li:first-of-type a {
         padding-top: 6px; }
@@ -847,7 +847,7 @@ a {
   margin-bottom: 10px;
   padding: 0;
   padding-top: 20px;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
   .b-course-list .b-course-list-item:before {
     content: "";
     position: absolute;
@@ -929,32 +929,32 @@ a {
     bottom: 10px;
     width: calc(30% - 34px); }
 
-  .b-course-list-item:hover .m-mini-card {
+  .b-course-list-item .m-mini-card {
     transition: all 0.4s ease; }
-    .b-course-list-item:hover .m-mini-card h3 {
+    .b-course-list-item .m-mini-card h3 {
       opacity: 1 !important;
       bottom: -30px !important;
       transition: all 0.4s ease;
       background-color: transparent; }
-  .b-course-list-item:hover .m-mini-card:nth-of-type(2) {
+  .b-course-list-item .m-mini-card:nth-of-type(2) {
     right: 100px;
     transition-duration: 0.2s; }
-    .b-course-list-item:hover .m-mini-card:nth-of-type(2) h3 {
+    .b-course-list-item .m-mini-card:nth-of-type(2) h3 {
       transition-delay: 0.1s; }
-  .b-course-list-item:hover .m-mini-card:nth-of-type(3) {
+  .b-course-list-item .m-mini-card:nth-of-type(3) {
     right: 200px;
     transition-duration: 0.4s; }
-    .b-course-list-item:hover .m-mini-card:nth-of-type(3) h3 {
+    .b-course-list-item .m-mini-card:nth-of-type(3) h3 {
       transition-delay: 0.2s; }
-  .b-course-list-item:hover .m-mini-card:nth-of-type(4) {
+  .b-course-list-item .m-mini-card:nth-of-type(4) {
     right: 300px;
     transition-duration: .6s; }
-    .b-course-list-item:hover .m-mini-card:nth-of-type(4) h3 {
+    .b-course-list-item .m-mini-card:nth-of-type(4) h3 {
       transition-delay: 0.3s; }
-  .b-course-list-item:hover .m-mini-card:nth-of-type(5) {
+  .b-course-list-item .m-mini-card:nth-of-type(5) {
     right: 400px;
     transition-duration: .7s; }
-    .b-course-list-item:hover .m-mini-card:nth-of-type(5) h3 {
+    .b-course-list-item .m-mini-card:nth-of-type(5) h3 {
       transition-delay: 0.4s; } }
 .b-pop-controls-container {
   position: relative; }
@@ -1029,36 +1029,36 @@ a {
   display: inline-block; }
 
 .b-card {
-  margin: 5px 0 10px;
-  position: relative;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
-  background-color: white;
-  width: calc(100%);
-  height: 560px; }
-  .b-card:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #c0ba21;
-    height: 4px;
-    z-index: 1; }
-  .b-card .e-card-content {
-    margin-top: 10px;
-    overflow-y: hidden;
-    padding: 0 15px 15px; }
-    .b-card .e-card-content h4 {
-      font-size: 1rem;
-      color: #2eb49a; }
-    .b-card .e-card-content p {
-      font-size: 14px;
-      line-height: 17px;
-      margin-bottom: .5rem; }
+  margin: 5px; }
+  .b-card .b-wrapper {
+    position: relative;
+    background-color: white;
+    width: calc(100%);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
+    .b-card .b-wrapper:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #c0ba21;
+      height: 4px;
+      z-index: 1; }
+    .b-card .b-wrapper .e-card-content {
+      margin-top: 10px;
+      overflow-y: hidden;
+      padding: 0 15px 15px; }
+      .b-card .b-wrapper .e-card-content h4 {
+        font-size: 1rem;
+        color: #74712b; }
+      .b-card .b-wrapper .e-card-content p {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: .5rem; }
 
 .b-card.m-govlab-True h4 {
   color: #472b74; }
-.b-card.m-govlab-True:before {
+.b-card.m-govlab-True .b-wrapper:before {
   content: "";
   position: absolute;
   top: 0;
@@ -1067,6 +1067,9 @@ a {
   background-color: #472b74;
   height: 4px; }
 
+.b-card.m-people .b-card-header {
+  position: relative;
+  z-index: 0; }
 .b-card.m-people .e-person-pic {
   min-width: 100%;
   height: 0;
@@ -1112,25 +1115,25 @@ a {
 .e-filters-trigger {
   float: left; }
 
-.b-card.m-mini-card {
+.b-card.m-mini-card .b-wrapper {
   background-color: transparent;
   border: none;
   box-shadow: none; }
-  .b-card.m-mini-card:before {
+  .b-card.m-mini-card .b-wrapper:before {
     display: none; }
-  .b-card.m-mini-card .b-pop-controls {
+  .b-card.m-mini-card .b-wrapper .b-pop-controls {
     display: none; }
-  .b-card.m-mini-card .e-card-content {
+  .b-card.m-mini-card .b-wrapper .e-card-content {
     display: none; }
 
-.b-card.m-mini-card {
+.b-card.m-mini-card .b-wrapper {
   text-align: center;
   width: 86px;
   height: 86px;
   margin: 0;
   display: inline-block;
   vertical-align: top; }
-  .b-card.m-mini-card .b-card-header .e-person-pic {
+  .b-card.m-mini-card .b-wrapper .b-card-header .e-person-pic {
     border-radius: 50%;
     margin: 0 auto;
     overflow: hidden;
@@ -1142,8 +1145,8 @@ a {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
-  .b-card.m-mini-card .b-card-header h3 {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
+  .b-card.m-mini-card .b-wrapper .b-card-header h3 {
     font-size: 12px;
     font-weight: 600 !important;
     text-align: center;
@@ -1155,7 +1158,7 @@ a {
     bottom: 5px;
     left: -30px;
     opacity: 0; }
-  .b-card.m-mini-card.m-govlab-True .e-person-pic {
+  .b-card.m-mini-card .b-wrapper.m-govlab-True .e-person-pic {
     border-color: #472b74;
     background-color: #472b74; }
 
@@ -1173,31 +1176,30 @@ a {
       transform: scale(1.1, 1.1); } }
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
-  .b-card {
+  .b-card .b-wrapper {
     width: 232px;
-    height: 400px;
-    margin: 5px; }
-    .b-card .e-card-content {
+    height: 400px; }
+    .b-card .b-wrapper .e-card-content {
       margin-top: 10px;
       overflow-y: hidden;
       padding: 0 15px 15px; }
-      .b-card .e-card-content h4 {
+      .b-card .b-wrapper .e-card-content h4 {
         font-size: 1rem;
         color: #74712b; }
-      .b-card .e-card-content p {
+      .b-card .b-wrapper .e-card-content p {
         font-size: 14px;
         line-height: 17px;
         margin-bottom: .5rem; }
 
   .b-card.m-govlab-True h4 {
-    color: #472b74; }
-  .b-card.m-govlab-True:before {
+    color: #472b74 !important; }
+  .b-card.m-govlab-True .b-wrapper:before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #472b74;
+    background-color: #472b74 !important;
     height: 4px; }
 
   .b-card.m-people .e-card-content {
@@ -1215,38 +1217,39 @@ a {
       max-height: 270px; }
 
   .b-card.m-mini-card {
-    text-align: center;
-    float: right;
-    width: 80px;
-    margin: 0 10px;
-    display: inline-block;
-    vertical-align: top;
-    position: absolute;
-    right: 0;
-    transition: all 0.4s ease; }
-    .b-card.m-mini-card .e-person-pic {
-      border-radius: 50%;
-      margin: 0 auto;
-      overflow: hidden;
+    float: right; }
+    .b-card.m-mini-card .b-wrapper {
+      text-align: center;
       width: 80px;
-      height: 80px;
-      border: 2px solid #c0ba21;
-      background-color: #c0ba21;
-      text-align: center;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
-    .b-card.m-mini-card h3 {
-      font-size: 12px;
-      font-weight: 400;
-      opacity: 0;
-      margin-top: -20px;
-      text-align: center;
+      margin: 0 10px;
+      display: inline-block;
+      vertical-align: top;
+      position: absolute;
+      right: 0;
       transition: all 0.4s ease; }
-    .b-card.m-mini-card.m-govlab-True .e-person-pic {
-      border-color: #472b74;
-      background-color: #472b74; }
+      .b-card.m-mini-card .b-wrapper .e-person-pic {
+        border-radius: 50%;
+        margin: 0 auto;
+        overflow: hidden;
+        width: 80px;
+        height: 80px;
+        border: 2px solid #c0ba21;
+        background-color: #c0ba21;
+        text-align: center;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
+      .b-card.m-mini-card .b-wrapper h3 {
+        font-size: 12px;
+        font-weight: 400;
+        opacity: 0;
+        margin-top: -20px;
+        text-align: center;
+        transition: all 0.4s ease; }
+      .b-card.m-mini-card .b-wrapper.m-govlab-True .e-person-pic {
+        border-color: #472b74;
+        background-color: #472b74; }
 
   .m-mini-card:nth-of-type(2) {
     right: 10px;
@@ -1262,7 +1265,20 @@ a {
 
   .m-mini-card:nth-of-type(5) {
     right: 40px;
-    transition-duration: .7s; } }
+    transition-duration: .7s; }
+
+  .b-card.m-active {
+    position: fixed !important;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none; }
+    .b-card.m-active .b-wrapper {
+      margin: 40px auto;
+      width: 800px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.5); } }
 #homepage {
   padding-top: 0; }
   #homepage #intro {
@@ -1580,7 +1596,7 @@ a {
     height: 335px;
     margin-right: 1.3%;
     margin-bottom: 1.3%;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
     .b-courses-overview .b-course-summary h3 {
       font-size: 1.6rem; }
     .b-courses-overview .b-course-summary:before, .b-courses-overview .b-course-summary:after {
@@ -1780,8 +1796,6 @@ a {
     color: white; }
 
 .b-format {
-  text-transform: uppercase;
-  font-weight: 400;
   margin-top: 30px; }
 
 /* Desktops and laptops ----------- */

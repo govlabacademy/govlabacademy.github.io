@@ -9,6 +9,7 @@
   img_url: brian-behlendorf.jpg
   bio_url: http://en.wikipedia.org/wiki/Brian_Behlendorf
   tags: 
+
 - name:
     last: Forde
     first: Brian
@@ -79,7 +80,7 @@
   bio_url: 
   tags: 
   
-  - name:
+- name:
     last: Nisbet
     first: Miriam
   job: Director of the Office of Government Information Services
@@ -167,7 +168,7 @@
   bio_url: 
   tags: rapid-results-research designing-metrics-of-success 
   
-  - name:
+- name:
     last: Grey
     first: Francois
   job: Coordinator of the Citizen Cyberscience Centre 
@@ -177,7 +178,7 @@
   bio_url: https://twitter.com/francoisgrey
   tags: citizen-science 
   
-  - name:
+- name:
     last: Johnson
     first: Clay
   job: CEO of the Department of Better Technology
@@ -187,12 +188,12 @@
   bio_url: https://twitter.com/cjoh
   tags: procurement 
   
-  - name:
+- name:
     last: Joeri
     first: van den Steenhoven
   job: Co-Founder and Chief Research and Development Officer
-  is_govlab:false
+  is_govlab: false
   description: "Joeri van den Steenhoven is the Director of the MaRS Solutions Lab. He is a longtime social innovator fascinated by our society’s transition towards the knowledge society. Being a systems thinker, he likes to work on wicked problems and find innovative solutions with others. Joeri co-founded Kennisland, one of the leading change labs in the Netherlands and Europe. He also co-founded the KafkaBrigade, a research team that helps governments find and tackle red tape. He regularly advises, speaks and teaches on how to create system change. Joeri has worked with organizations like the Young Foundation (UK) and serves on the board of the Lisbon Council, the leading European thinktank on innovation and growth."
-  img_url: =
+  img_url:
   bio_url: https://www.linkedin.com/in/joerivandensteenhoven
   tags: design-labs  

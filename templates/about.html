@@ -39,6 +39,9 @@
       </div>
     </section>
   </section>
+  <section>
+    {{ showPerson(people|selectattr("name", "equalto", 'Beth Simone Noveck')|first) }}
+  </section>
 </div>
   <!-- [photo, plus link for each to cv/bio]
   All faculty have both subject matter and skills expertise. All programs are team taught.

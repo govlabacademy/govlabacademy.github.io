@@ -4,38 +4,40 @@
 
 // Cards General Styles
 .b-card {
-	margin: 5px 0 10px;
-	position: relative;
-	@include drop-shadow-light;
-	background-color: $white;
-	width: calc(100%);
-	height: 560px;
+	margin: 5px;
 
-	&:before {
-		content:"";
-		position: absolute;
-		top:0;
-		left: 0;
-		width: 100%;
-		background-color: $scheme-comp_3;
-		height: 4px;
-		z-index: 1;
-	}
+	.b-wrapper {
+		position: relative;
+		background-color: $white;
+		width: calc(100%);
+		@include drop-shadow-light;
 
-	.e-card-content {
-		margin-top: 10px;
-		overflow-y: hidden;
-		padding: 0 15px 15px;
-
-		h4 {
-			font-size: 1rem;
-			color: $green;
+		&:before {
+			content:"";
+			position: absolute;
+			top:0;
+			left: 0;
+			width: 100%;
+			background-color: $scheme-comp_3;
+			height: 4px;
+			z-index: 1;
 		}
 
-		p {
-			font-size: 14px;
-			line-height: 17px;
-			margin-bottom: .5rem;
+		.e-card-content {
+			margin-top: 10px;
+			overflow-y: hidden;
+			padding: 0 15px 15px;
+
+			h4 {
+				font-size: 1rem;
+				color: $scheme-comp_4;
+			}
+
+			p {
+				font-size: 14px;
+				line-height: 17px;
+				margin-bottom: .5rem;
+			}
 		}
 	}
 }
@@ -43,7 +45,7 @@
 .b-card.m-govlab-True {
 	h4 { color: $purple;}
 
-	&:before {
+	.b-wrapper:before {
 		content:"";
 		position: absolute;
 		top:0;
@@ -55,6 +57,11 @@
 }
 
 .b-card.m-people {
+
+	.b-card-header {
+		position: relative;
+		z-index: 0;
+	}
 	
 	.e-person-pic {
 		min-width: 100%;
@@ -100,7 +107,7 @@
 	float: left;
 }
 
-.b-card.m-mini-card {
+.b-card.m-mini-card .b-wrapper {
 	background-color: transparent;
 	border: none;
 	box-shadow: none;
@@ -109,7 +116,7 @@
 	.e-card-content { display: none;}
 }
 
-.b-card.m-mini-card {
+.b-card.m-mini-card .b-wrapper {
 	text-align: center;
 	width: 86px;
 	height: 86px;
@@ -175,16 +182,15 @@
 	}
 }
 
-}
+} // Closing Media Query
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : $desktop_width) {
 
 // Cards General Styles
-.b-card {
+.b-card .b-wrapper {
 	width: 232px;
 	height: 400px;
-	margin: 5px;
 
 	.e-card-content {
 		margin-top: 10px;
@@ -204,16 +210,16 @@
 	}
 }
 
-.b-card.m-govlab-True {
-	h4 { color: $purple;}
+.b-card.m-govlab-True  {
+	h4 { color: $purple !important;}
 
-	&:before {
+	.b-wrapper:before {
 		content:"";
 		position: absolute;
 		top:0;
 		left: 0;
 		width: 100%;
-		background-color: $purple;
+		background-color: $purple !important;
 		height: 4px;
 	}
 }
@@ -240,45 +246,48 @@
 }
 
 .b-card.m-mini-card {
-	text-align: center;
 	float: right;
-	width: 80px;
-	margin:0 10px;
-	display: inline-block;
-	vertical-align: top;
-	position: absolute;
-	right: 0;
-	@include transition;
 
-	.e-person-pic {
-		border-radius: 50%;
-		margin: 0 auto;
-		overflow: hidden;
+	.b-wrapper {
+		text-align: center;
 		width: 80px;
-		height: 80px;
-		border: 2px solid $scheme-comp_3;
-		background-color: $scheme-comp_3;
-		text-align: center;
-	  background-position: center center;
-	  background-repeat: no-repeat;
-	  background-size: cover;
-	  @include drop-shadow-light;
-	}
-
-	h3 {
-		font-size: 12px;
-		font-weight: 400;
-		opacity: 0;
-		margin-top: -20px;
-		text-align: center;
+		margin: 0 10px;
+		display: inline-block;
+		vertical-align: top;
+		position: absolute;
+		right: 0;
 		@include transition;
 
-	}
-
-	&.m-govlab-True {
 		.e-person-pic {
-			border-color: $purple;
-			background-color: $purple;
+			border-radius: 50%;
+			margin: 0 auto;
+			overflow: hidden;
+			width: 80px;
+			height: 80px;
+			border: 2px solid $scheme-comp_3;
+			background-color: $scheme-comp_3;
+			text-align: center;
+		  background-position: center center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  @include drop-shadow-light;
+		}
+
+		h3 {
+			font-size: 12px;
+			font-weight: 400;
+			opacity: 0;
+			margin-top: -20px;
+			text-align: center;
+			@include transition;
+
+		}
+
+		&.m-govlab-True {
+			.e-person-pic {
+				border-color: $purple;
+				background-color: $purple;
+			}
 		}
 	}
 }
@@ -301,6 +310,23 @@
 .m-mini-card:nth-of-type(5) { 
 	right: 40px;
 	transition-duration: .7s;
+}
+
+.b-card.m-active {
+	position: fixed !important;
+	z-index: 10;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+
+	.b-wrapper {
+		margin: 40px auto;
+		width: 800px;
+		@include drop-shadow-button;	
+	}
+	
 }
 
 } // Closes Media Query

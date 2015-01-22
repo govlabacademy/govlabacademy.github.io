@@ -101,7 +101,7 @@
                 {% if people|selectattr("name", "equalto", name)|first|isEmpty %}
                   {{("!!!! ERROR !!!!!: person cannot be found: " + name) |debug}}
                 {% else %}
-                  {{ showPerson(people|selectattr("name", "equalto", name)|first) }}
+                  {{ showPerson(people|selectattr("name", "equalto", name)|first, "m-mini-card") }}
                 {% endif %}
               {% endfor %}
             </div>
