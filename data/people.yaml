@@ -1,6 +1,8 @@
 ---
 
-- name: Brian Behlendorf
+- name:
+    last: Behlendorf
+    first: Brian
   job: Managing Director at Mithril Capital Management
   is_govlab: false
   description: "Brian Behlendorf is Managing Director at Mithril Capital Management in San Francisco.  His career has been a mix of technology start-up, public policy, and non-profit tech leadership. Brian serves on the Boards of the Mozilla Foundation, the Electronic Frontier Foundation, and Benetech, three organizations using technology to fight for civil liberties, open technologies, and social impact in the digital domain.  Prior to Mithril, Brian was Chief Technology Officer at the World Economic Forum.  He also served for two years at the White House as advisor to the Open Government project within the Office of Science and Technology Policy, and then later as advisor to Health and Human Services on open software approaches to health information sharing.  Before that he has founded two tech companies (CollabNet and Organic) and several Open Source software projects (Apache, Subversion, and more)."
