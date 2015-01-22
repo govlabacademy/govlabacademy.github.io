@@ -3,24 +3,24 @@
   border-top-color: #2eb49a;
   border-bottom-color: #2eb49a; }
   .m-project-coaching h3 {
-    color: #0d342d !important; }
+    color: #0d342d; }
 
 .m-project-coaching,
 .b-courses-overview .nav-coaching.m-active {
   background-color: #2eb49a !important; }
 
 .b-course-list-item.m-coaching:before {
-  background-color: #2eb49a !important; }
+  background-color: #2eb49a; }
 .b-course-list-item.m-coaching .e-course-date {
-  color: #2eb49a !important; }
+  color: #2eb49a; }
 .b-course-list-item.m-coaching .e-course-controls .e-button:hover {
-  background-color: #2eb49a !important; }
+  background-color: #2eb49a; }
 .b-course-list-item.m-coaching .e-partner {
-  background-color: #0d342d !important; }
+  background-color: #0d342d; }
 .b-course-list-item.m-coaching .e-certifications img {
-  background-color: #2eb49a !important; }
+  background-color: #2eb49a; }
 .b-course-list-item.m-coaching .e-partner {
-  color: #2eb49a !important; }
+  color: #2eb49a; }
 
 .b-detail-page.m-coaching .b-page-title h2 {
   color: #0d342d; }
@@ -32,24 +32,24 @@
   background-color: #279a84; }
 
 .m-workshops {
-  background-color: #39427f !important;
-  border-top-color: #7385ff !important;
-  border-bottom-color: #7385ff !important; }
+  background-color: #39427f;
+  border-top-color: #7385ff;
+  border-bottom-color: #7385ff; }
   .m-workshops h3 {
-    color: #39427f !important; }
+    color: #39427f; }
 
 .b-course-list-item.m-workshop:before {
-  background-color: #7385ff !important; }
+  background-color: #7385ff; }
 .b-course-list-item.m-workshop .e-course-date {
-  color: #7385ff !important; }
+  color: #7385ff; }
 .b-course-list-item.m-workshop .e-course-controls .e-button:hover {
-  background-color: #7385ff !important; }
+  background-color: #7385ff; }
 .b-course-list-item.m-workshop .e-partner {
-  background-color: rgba(103, 120, 229, 0.3) !important; }
+  background-color: rgba(103, 120, 229, 0.3); }
 .b-course-list-item.m-workshop .e-certifications img {
-  background-color: #7385ff !important; }
+  background-color: #7385ff; }
 .b-course-list-item.m-workshop .e-partner {
-  color: #7385ff !important; }
+  color: #7385ff; }
 
 .m-workshops,
 .b-courses-overview .nav-workshops.m-active {
@@ -64,10 +64,20 @@
 .b-detail-page.m-workshops .e-certifications img {
   background-color: #6778e5; }
 
+.b-course-list-item.m-workshop.m-crosslisted-True:before {
+  background-color: #39427f; }
+.b-course-list-item.m-workshop.m-crosslisted-True .e-course-name {
+  color: #39427f; }
+.b-course-list-item.m-workshop.m-crosslisted-True .e-course-controls .e-button:hover {
+  background-color: #39427f; }
+.b-course-list-item.m-workshop.m-crosslisted-True .e-partner {
+  background-color: rgba(57, 66, 127, 0.3);
+  color: #39427f; }
+
 .m-master-courses {
-  background-color: #f72e6b !important;
-  border-top-color: #ab204a !important;
-  border-bottom-color: #ab204a !important; }
+  background-color: #f72e6b;
+  border-top-color: #ab204a;
+  border-bottom-color: #ab204a; }
   .m-master-courses h3 {
     color: #6b142e; }
 
@@ -76,17 +86,17 @@
   background-color: #ab204a !important; }
 
 .b-course-list-item.m-master:before {
-  background-color: #ab204a !important; }
+  background-color: #ab204a; }
 .b-course-list-item.m-master .e-course-date {
-  color: #ab204a !important; }
+  color: #ab204a; }
 .b-course-list-item.m-master .e-course-controls .e-button:hover {
-  background-color: #ab204a !important; }
+  background-color: #ab204a; }
 .b-course-list-item.m-master .e-partner {
-  background-color: #f72e6b !important; }
+  background-color: #f72e6b; }
 .b-course-list-item.m-master .e-certifications img {
-  background-color: #ab204a !important; }
+  background-color: #ab204a; }
 .b-course-list-item.m-master .e-partner {
-  color: #ab204a !important; }
+  color: #ab204a; }
 
 .b-detail-page.m-master .b-page-title h2 {
   color: #f72e6b; }
@@ -98,28 +108,28 @@
   background-color: #911b3f; }
 
 .m-normal-courses {
-  background-color: #635911 !important;
-  border-top-color: #e3cc26 !important;
-  border-bottom-color: #e3cc26 !important; }
+  background-color: #635911;
+  border-top-color: #e3cc26;
+  border-bottom-color: #e3cc26; }
   .m-normal-courses h3 {
-    color: #635911 !important; }
+    color: #635911; }
 
 .m-normal-courses,
 .b-courses-overview .nav-courses.m-active {
   background-color: #e3cc26 !important; }
 
 .b-course-list-item.m-clinic:before {
-  background-color: #e3cc26 !important; }
+  background-color: #e3cc26; }
 .b-course-list-item.m-clinic .e-course-date {
-  color: #e3cc26 !important; }
+  color: #e3cc26; }
 .b-course-list-item.m-clinic .e-course-controls .e-button:hover {
-  background-color: #e3cc26 !important; }
+  background-color: #e3cc26; }
 .b-course-list-item.m-clinic .e-partner {
-  background-color: rgba(201, 181, 34, 0.3) !important; }
+  background-color: rgba(201, 181, 34, 0.3); }
 .b-course-list-item.m-clinic .e-certifications img {
-  background-color: #e3cc26 !important; }
+  background-color: #e3cc26; }
 .b-course-list-item.m-clinic .e-partner {
-  color: #a3931b !important; }
+  color: #a3931b; }
 
 .b-detail-page.m-clinic .b-page-title h2 {
   color: #635911; }
@@ -238,24 +248,24 @@ a {
   border-top-color: #2eb49a;
   border-bottom-color: #2eb49a; }
   .m-project-coaching h3 {
-    color: #0d342d !important; }
+    color: #0d342d; }
 
 .m-project-coaching,
 .b-courses-overview .nav-coaching.m-active {
   background-color: #2eb49a !important; }
 
 .b-course-list-item.m-coaching:before {
-  background-color: #2eb49a !important; }
+  background-color: #2eb49a; }
 .b-course-list-item.m-coaching .e-course-date {
-  color: #2eb49a !important; }
+  color: #2eb49a; }
 .b-course-list-item.m-coaching .e-course-controls .e-button:hover {
-  background-color: #2eb49a !important; }
+  background-color: #2eb49a; }
 .b-course-list-item.m-coaching .e-partner {
-  background-color: #0d342d !important; }
+  background-color: #0d342d; }
 .b-course-list-item.m-coaching .e-certifications img {
-  background-color: #2eb49a !important; }
+  background-color: #2eb49a; }
 .b-course-list-item.m-coaching .e-partner {
-  color: #2eb49a !important; }
+  color: #2eb49a; }
 
 .b-detail-page.m-coaching .b-page-title h2 {
   color: #0d342d; }
@@ -267,24 +277,24 @@ a {
   background-color: #279a84; }
 
 .m-workshops {
-  background-color: #39427f !important;
-  border-top-color: #7385ff !important;
-  border-bottom-color: #7385ff !important; }
+  background-color: #39427f;
+  border-top-color: #7385ff;
+  border-bottom-color: #7385ff; }
   .m-workshops h3 {
-    color: #39427f !important; }
+    color: #39427f; }
 
 .b-course-list-item.m-workshop:before {
-  background-color: #7385ff !important; }
+  background-color: #7385ff; }
 .b-course-list-item.m-workshop .e-course-date {
-  color: #7385ff !important; }
+  color: #7385ff; }
 .b-course-list-item.m-workshop .e-course-controls .e-button:hover {
-  background-color: #7385ff !important; }
+  background-color: #7385ff; }
 .b-course-list-item.m-workshop .e-partner {
-  background-color: rgba(103, 120, 229, 0.3) !important; }
+  background-color: rgba(103, 120, 229, 0.3); }
 .b-course-list-item.m-workshop .e-certifications img {
-  background-color: #7385ff !important; }
+  background-color: #7385ff; }
 .b-course-list-item.m-workshop .e-partner {
-  color: #7385ff !important; }
+  color: #7385ff; }
 
 .m-workshops,
 .b-courses-overview .nav-workshops.m-active {
@@ -299,10 +309,20 @@ a {
 .b-detail-page.m-workshops .e-certifications img {
   background-color: #6778e5; }
 
+.b-course-list-item.m-workshop.m-crosslisted-True:before {
+  background-color: #39427f; }
+.b-course-list-item.m-workshop.m-crosslisted-True .e-course-name {
+  color: #39427f; }
+.b-course-list-item.m-workshop.m-crosslisted-True .e-course-controls .e-button:hover {
+  background-color: #39427f; }
+.b-course-list-item.m-workshop.m-crosslisted-True .e-partner {
+  background-color: rgba(57, 66, 127, 0.3);
+  color: #39427f; }
+
 .m-master-courses {
-  background-color: #f72e6b !important;
-  border-top-color: #ab204a !important;
-  border-bottom-color: #ab204a !important; }
+  background-color: #f72e6b;
+  border-top-color: #ab204a;
+  border-bottom-color: #ab204a; }
   .m-master-courses h3 {
     color: #6b142e; }
 
@@ -311,17 +331,17 @@ a {
   background-color: #ab204a !important; }
 
 .b-course-list-item.m-master:before {
-  background-color: #ab204a !important; }
+  background-color: #ab204a; }
 .b-course-list-item.m-master .e-course-date {
-  color: #ab204a !important; }
+  color: #ab204a; }
 .b-course-list-item.m-master .e-course-controls .e-button:hover {
-  background-color: #ab204a !important; }
+  background-color: #ab204a; }
 .b-course-list-item.m-master .e-partner {
-  background-color: #f72e6b !important; }
+  background-color: #f72e6b; }
 .b-course-list-item.m-master .e-certifications img {
-  background-color: #ab204a !important; }
+  background-color: #ab204a; }
 .b-course-list-item.m-master .e-partner {
-  color: #ab204a !important; }
+  color: #ab204a; }
 
 .b-detail-page.m-master .b-page-title h2 {
   color: #f72e6b; }
@@ -333,28 +353,28 @@ a {
   background-color: #911b3f; }
 
 .m-normal-courses {
-  background-color: #635911 !important;
-  border-top-color: #e3cc26 !important;
-  border-bottom-color: #e3cc26 !important; }
+  background-color: #635911;
+  border-top-color: #e3cc26;
+  border-bottom-color: #e3cc26; }
   .m-normal-courses h3 {
-    color: #635911 !important; }
+    color: #635911; }
 
 .m-normal-courses,
 .b-courses-overview .nav-courses.m-active {
   background-color: #e3cc26 !important; }
 
 .b-course-list-item.m-clinic:before {
-  background-color: #e3cc26 !important; }
+  background-color: #e3cc26; }
 .b-course-list-item.m-clinic .e-course-date {
-  color: #e3cc26 !important; }
+  color: #e3cc26; }
 .b-course-list-item.m-clinic .e-course-controls .e-button:hover {
-  background-color: #e3cc26 !important; }
+  background-color: #e3cc26; }
 .b-course-list-item.m-clinic .e-partner {
-  background-color: rgba(201, 181, 34, 0.3) !important; }
+  background-color: rgba(201, 181, 34, 0.3); }
 .b-course-list-item.m-clinic .e-certifications img {
-  background-color: #e3cc26 !important; }
+  background-color: #e3cc26; }
 .b-course-list-item.m-clinic .e-partner {
-  color: #a3931b !important; }
+  color: #a3931b; }
 
 .b-detail-page.m-clinic .b-page-title h2 {
   color: #635911; }
@@ -478,7 +498,7 @@ a {
       .e-submenu ul .e-sub-item {
         display: block;
         border: 0;
-        color: rgba(0, 0, 0, 0.8);
+        color: rgba(255, 255, 255, 0.7);
         background-color: #6f5d8b;
         border: 1px solid rgba(0, 0, 0, 0.8);
         border-top: 0;
@@ -971,8 +991,7 @@ a {
     top: 0;
     left: 0;
     width: 6px;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); }
+    height: 100%; }
   .b-course-list .b-course-list-item .e-course-description,
   .b-course-list .b-course-list-item .e-course-date,
   .b-course-list .b-course-list-item .e-course-name,
@@ -986,7 +1005,6 @@ a {
     line-height: 1.1rem;
     text-transform: uppercase;
     font-weight: 600;
-    color: rgba(0, 0, 0, 0.5);
     display: block; }
     .b-course-list .b-course-list-item .e-course-date span {
       font-weight: 300;
@@ -1000,10 +1018,10 @@ a {
       border-radius: 50%;
       background-color: rgba(0, 0, 0, 0.2); }
   .b-course-list .b-course-list-item .e-partner {
-    background-color: rgba(0, 0, 0, 0.2);
     padding: 5px 0 5px 30px;
-    margin: 0;
-    color: rgba(0, 0, 0, 0.8); }
+    margin: 0; }
+    .b-course-list .b-course-list-item .e-partner:before {
+      content: "In partnership with "; }
   .b-course-list .b-course-list-item .e-button:hover {
     color: white; }
 
@@ -1044,6 +1062,9 @@ a {
   .b-mini-card.m-govlab-True .e-person-pic {
     border-color: #472b74;
     background-color: #472b74; }
+
+.b-course-list-item.m-workshop.m-crosslisted-True .e-partner:before {
+  content: "This workshop is offered by "; }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {

@@ -70,6 +70,7 @@ $red_4: rgba(145,27,63,1);
 
 $blue_1: rgba(86,100,191,1);
 $blue_2: rgba(57,66,127,1);
+$blue_2_30: rgba(57,66,127,.3);
 $blue_3: rgba(29,33,64,1);
 $blue_4: rgba(103,120,229,1);
 $blue_4_30: rgba(103,120,229,.3);
@@ -86,13 +87,17 @@ $yellow_4: rgba(201,181,34,1);
 $yellow_4_30: rgba(201,181,34,.3);
 
 // Content Colors Modifiers
+
+
+// COACHING
+
 .m-project-coaching {
 	background-color: $green_2;
 	border-top-color: $green;
 	border-bottom-color: $green;
 
 	h3 {
-		color: $green_2 !important;
+		color: $green_2;
 	}
 }
 
@@ -100,12 +105,12 @@ $yellow_4_30: rgba(201,181,34,.3);
 .b-courses-overview .nav-coaching.m-active {background-color: $green !important;}
 
 .b-course-list-item.m-coaching {
-	&:before { background-color: $green !important; }
-	.e-course-date { color: $green !important; }
-	.e-course-controls .e-button:hover { background-color: $green !important; }
-	.e-partner { background-color: $green_2 !important; }
-	.e-certifications img { background-color: $green !important; }
-	.e-partner { color: $green !important; }
+	&:before { background-color: $green; }
+	.e-course-date { color: $green; }
+	.e-course-controls .e-button:hover { background-color: $green; }
+	.e-partner { background-color: $green_2; }
+	.e-certifications img { background-color: $green; }
+	.e-partner { color: $green; }
 }
 .b-detail-page.m-coaching {
 	.b-page-title h2 { color: $green_2; }
@@ -117,23 +122,25 @@ $yellow_4_30: rgba(201,181,34,.3);
 }
 
 
+// WORKSHOPS
+
 .m-workshops {
-	background-color: $blue_2 !important;
-	border-top-color: $blue !important;
-	border-bottom-color: $blue !important;
+	background-color: $blue_2;
+	border-top-color: $blue;
+	border-bottom-color: $blue;
 
 	h3 {
-		color: $blue_2 !important;
+		color: $blue_2;
 	}
 }
 
 .b-course-list-item.m-workshop {
-	&:before { background-color: $blue !important; }
-	.e-course-date { color: $blue !important; }
-	.e-course-controls .e-button:hover { background-color: $blue !important; }
-	.e-partner { background-color: $blue_4_30 !important; }
-	.e-certifications img { background-color: $blue !important; }
-	.e-partner { color: $blue !important; }
+	&:before { background-color: $blue; }
+	.e-course-date { color: $blue; }
+	.e-course-controls .e-button:hover { background-color: $blue; }
+	.e-partner { background-color: $blue_4_30; }
+	.e-certifications img { background-color: $blue; }
+	.e-partner { color: $blue; }
 }
 
 .m-workshops,
@@ -148,10 +155,23 @@ $yellow_4_30: rgba(201,181,34,.3);
 	}
 }
 
+.b-course-list-item.m-workshop.m-crosslisted-True {
+	&:before { background-color: $blue_2;	}
+	.e-course-name { color: $blue_2; }
+	.e-course-controls .e-button:hover { background-color: $blue_2; }	
+	.e-partner { 
+		background-color: $blue_2_30;
+		color: $blue_2;
+	}
+}
+
+
+// MASTER CLASSES
+
 .m-master-courses {
-	background-color: $red_2 !important;
-	border-top-color: $red !important;
-	border-bottom-color: $red !important;
+	background-color: $red_2;
+	border-top-color: $red;
+	border-bottom-color: $red;
 
 	h3 {
 		color: $red_1;
@@ -162,12 +182,12 @@ $yellow_4_30: rgba(201,181,34,.3);
 .b-courses-overview .nav-master-courses.m-active {background-color: $red !important;}
 
 .b-course-list-item.m-master {
-	&:before { background-color: $red !important; }
-	.e-course-date { color: $red !important; }
-	.e-course-controls .e-button:hover { background-color: $red !important; }
-	.e-partner { background-color: $red_2 !important; }
-	.e-certifications img { background-color: $red !important; }
-	.e-partner { color: $red !important; }
+	&:before { background-color: $red; }
+	.e-course-date { color: $red; }
+	.e-course-controls .e-button:hover { background-color: $red; }
+	.e-partner { background-color: $red_2; }
+	.e-certifications img { background-color: $red; }
+	.e-partner { color: $red; }
 }
 
 .b-detail-page.m-master {
@@ -179,13 +199,16 @@ $yellow_4_30: rgba(201,181,34,.3);
 	}
 }
 
+
+// CLINICS
+
 .m-normal-courses {
-	background-color: $yellow_2 !important;
-	border-top-color: $yellow !important;
-	border-bottom-color: $yellow !important;
+	background-color: $yellow_2;
+	border-top-color: $yellow;
+	border-bottom-color: $yellow;
 
 	h3 {
-		color: $yellow_2 !important;
+		color: $yellow_2;
 	}
 }
 
@@ -193,12 +216,12 @@ $yellow_4_30: rgba(201,181,34,.3);
 .b-courses-overview .nav-courses.m-active {background-color: $yellow !important;}
 
 .b-course-list-item.m-clinic {
-	&:before { background-color: $yellow !important; }
-	.e-course-date { color: $yellow !important; }
-	.e-course-controls .e-button:hover { background-color: $yellow !important; }
-	.e-partner { background-color: $yellow_4_30 !important; }
-	.e-certifications img { background-color: $yellow !important; }
-	.e-partner { color: $yellow_1 !important; }
+	&:before { background-color: $yellow; }
+	.e-course-date { color: $yellow; }
+	.e-course-controls .e-button:hover { background-color: $yellow; }
+	.e-partner { background-color: $yellow_4_30; }
+	.e-certifications img { background-color: $yellow; }
+	.e-partner { color: $yellow_1; }
 }
 
 .b-detail-page.m-clinic {

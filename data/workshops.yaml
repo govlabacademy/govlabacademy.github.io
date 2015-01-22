@@ -198,7 +198,24 @@
     for_certificate: false
   is_active: true
 
-
+- name: "Defining Problems"
+  partner: IOG - Institute on Governance
+  date:
+  duration: 
+  description_short: "A two-day, deep-dive workshop on problem definition – is consistent with the latest approaches to design-thinking. Its purpose is to help participants think more critically about the problem they are trying to solve, maximize the value of their solution by repositioning it upstream when appropriate, and ensure the problem is understood by the end users most affected."
+  description_long: 
+  faculty_members:
+  actions:
+    - label: Course Information
+      link: static/files/defining-problems-workshop.pdf
+  certificates:
+    blended: false
+    online: false
+    in_person: false
+    for_credit: false
+    for_certificate: false
+  is_active: true
+  is_crosslisted: true
 
 
 
