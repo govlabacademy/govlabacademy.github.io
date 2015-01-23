@@ -9,12 +9,12 @@
   description: "Brian Behlendorf is Managing Director at Mithril Capital Management in San Francisco.  His career has been a mix of technology start-up, public policy, and non-profit tech leadership. Brian serves on the Boards of the Mozilla Foundation, the Electronic Frontier Foundation, and Benetech, three organizations using technology to fight for civil liberties, open technologies, and social impact in the digital domain.  Prior to Mithril, Brian was Chief Technology Officer at the World Economic Forum.  He also served for two years at the White House as advisor to the Open Government project within the Office of Science and Technology Policy, and then later as advisor to Health and Human Services on open software approaches to health information sharing.  Before that he has founded two tech companies (CollabNet and Organic) and several Open Source software projects (Apache, Subversion, and more)."
   img_url: brian-behlendorf.jpg
   link:
-    url: http://en.wikipedia.org/wiki/Brian_Behlendorf
-    twitter:
-    linkedin:
-    github:
-    email:
-  tags: 
+    url: http://brian.behlendorf.com/
+    twitter: https://twitter.com/brianbehlendorf
+    linkedin: https://www.linkedin.com/in/brianbehlendorf
+    github: https://github.com/brianbehlendorf
+    email: brian@behlendorf.com
+  tags: open-source open-technologies mozilla 
 
 - name:
     last: Forde
@@ -25,12 +25,12 @@
   description: "Brian Forde is the Senior Advisor to the U.S. CTO, White House Office of Science Technology and Policy - Most recently I led the White House's tech response to Hurricane Sandy, worked with the Mayor of Detroit to help build a 21st Century Government, started the White House Tech Inclusion Initiative and helped lead the President's Public Safety and Climate Change Data Initiatives. I'm really interested in exploring opportunities to leverage drones or the blockchain. Before working at the White House, I co-founded a low-cost internet phone service provider serving more than 225,000 Nicaraguans every month.  Prior to that I was a Peace Corp volunteer in Nicaragua teaching small business skills in rural mountain areas.  I have a B.A. in Sociology from University of California at Los Angeles and an M.B.A. from London Business School."
   img_url: brian-forde.jpg
   link:
-    url: https://www.linkedin.com/in/brianforde
-    twitter:
-    linkedin:
+    url: http://www.peacecorpsconnect.org/about/board-of-directors/brian-forde/
+    twitter: https://twitter.com/brianforde
+    linkedin: https://www.linkedin.com/in/brianforde
     github:
-    email:
-  tags: 
+    email: brian@forde.com
+  tags: legal-innovation 
 
 - name:
     last: Clare
@@ -46,8 +46,8 @@
     twitter:
     linkedin: https://www.linkedin.com/pub/alexandra-clare/43/582/819
     github:
-    email:
-  tags:
+    email: acc578@nyu.edu
+  tags: legal-innovation
 
 - name:
     last: Bason
@@ -60,10 +60,10 @@
   bio_url: 
   link:
     url: http://ddc.dk/en/2014/09/christian-bason-is-the-new-ceo-at-danish-design-centre/
-    twitter:
-    linkedin:
+    twitter: https://twitter.com/christianbason
+    linkedin: https://twitter.com/christianbason
     github:
-    email:
+    email: chb@ddc.dk
   tags: design-labs
 
 - name:
@@ -76,10 +76,10 @@
   img_url: geoff-mulgan.jpg
   link:
     url: http://www.nesta.org.uk/users/geoff-mulgan
-    twitter:
-    linkedin:
+    twitter: https://twitter.com/geoffmulgan
+    linkedin: uk.linkedin.com/pub/geoff-mulgan/63/92/546
     github:
-    email:
+    email: geoff.mulgan@nesta.org.uk
   tags: design-labs
 
 - name:
@@ -92,10 +92,10 @@
   img_url: ben-kallos.jpg
   link:
     url: http://benkallos.com/
-    twitter:
-    linkedin:
-    github:
-    email:
+    twitter: https://twitter.com/kallos
+    linkedin: https://www.linkedin.com/in/kallos
+    github: https://github.com/kallosforcouncil
+    email: kallos@gmail.com
   tags: 
 
 - name:
@@ -113,7 +113,7 @@
     linkedin: https://www.linkedin.com/in/tcpeixoto
     github:
     email: tpeixoto@worldbank.org
-  tags:
+  tags:citizen-engagement
 
 - name:
     last: Savage
@@ -124,7 +124,7 @@
   description: "Timothy H. Savage is a visiting scholar at NYU CUSP. Dr. Savage has nearly 15 years of experience in consulting focused on complex quantitative analysis.  His experience ranges from large antitrust and commercial damage engagements to civil and criminal engagements in the financial services sector. Most recently, Dr. Savage has conducted detailed analyses of international benchmarks for interest rates. In the areas of energy and the environment, Dr. Savage has developed a sophisticated econometric model to forecast land use in California, as well as “rare-event” models to examine alleged violations of federal air quality standards. Dr. Savage’s published research uses complex econometric methods to examine hypotheses ranging from labor mobility to consumer demand. He has also developed survey instruments and conducted subsequent data analysis to examine consumers’ willingness to pay for improvements in air quality."
   img_url: timothy-savage.png
   link:
-    url:
+    url:http://cusp.nyu.edu/people/timothy-h-savage/
     twitter:
     linkedin:
     github:
@@ -140,12 +140,12 @@
   description: "Miriam Nisbet was the founding Director of the Office of Government Information Services (OGIS), National Archives and Records Administration (NARA). Created by the 2007 amendments to the Freedom of Information Act, OGIS is the federal FOIA ombudsman office, charged with providing mediation services to resolve disputes between FOIA requesters and federal agencies and with improving FOIA administration. Miriam retired in November 2014. She previously worked for the United Nations Educational, Scientific and Cultural Organization (UNESCO), the American Library Association, NARA, and the US Department of Justice. She is a member of the Bars of the District of Columbia and North Carolina."
   img_url: mirian-nisbet.jpg
   link:
-    url: 
+    url: http://www.archives.gov/press/press-releases/2009/nr09-93.html
     twitter:
     linkedin:
     github:
-    email: 
-  tags:
+    email: mmnisbet@me.com
+  tags:FOIA
 
 - name:
     last: Russon Gilman
@@ -156,12 +156,12 @@
   description: "Hollie Russon Gilman holds a Ph.D. and M.A. from the Department of Government at Harvard University and A.B. from the University of Chicago with highest honors in political science.  Her dissertation is the first academic study of participatory budgeting in the U.S.  Dr. Gilman is an expert in technology, civic engagement, innovation, and governance. She most recently served as Open Government and Innovation Advisor in the White House Office of Science and Technology Policy.  In this role, she worked to implement President Obama's second term Open Government agenda, including inter-agency commitments under the international Open Government Partnership. Dr. Gilman is a founding researcher and organizer for the Open Society Foundation's Transparency and Accountability Initiative and Harvard's Gettysburg Project to revitalize 21st Century civic engagement. She has worked as an advisor, researcher, and consultant to leading non-profits and foundations at the intersection of technology and the public sector including the Case Foundation, Center for Global Development, Google.org, and the World Bank Institute. She has published in numerous academic and popular audience publications including the International Studies Review and Journal of Public Deliberation.  Her writings appear frequently in diverse publications including Al Jazeera America, Brookings' TechTank, Boston Globe, Harvard's Challenges to Democracy, Next City, Slate and Vox."
   img_url: hollie-gilman.jpg
   link:
-    url: 
+    url: http://scholar.harvard.edu/hrgilman/home
     twitter: https://twitter.com/hrgilman
     linkedin:
     github:
-    email:
-  tags:
+    email:hrgilman@gmail.com
+  tags:participatory-budgeting
 
 - name:
     last: Noveck
@@ -173,11 +173,11 @@
   img_url: beth-noveck.jpg
   link:
     url: http://thegovlab.org/about/team/beth-simone-noveck/
-    twitter:
-    linkedin:
+    twitter: https://twitter.com/bethnoveck
+    linkedin: https://www.linkedin.com/pub/beth-noveck/40/9a8/a46
     github:
-    email:
-  tags: citizen-service-delivery crowdsourcing-and-citizen-engagement open-contracting-and-procurement-innovation
+    email: noveck@thegovlab.org
+  tags: citizen-service-delivery crowdsourcing-and-citizen-engagement open-contracting procurement-innovation
 
 - name:
     last: Kantrow
@@ -190,9 +190,9 @@
   link:
     url: http://thegovlab.org/about/team/alan-kantrow/
     twitter:
-    linkedin:
+    linkedin: https://www.linkedin.com/pub/alan-kantrow/11/345/4a0
     github:
-    email:
+    email: alan@thegovlab.org
   tags: effective-communication defining-your-problems analyzing-and-segmenting-users designing-metrics-of-success citizen-service-delivery
 
 # - name: GovLabber
@@ -217,7 +217,7 @@
     twitter:
     linkedin:
     github:
-    email: 
+    email: andrew@thegovlab.org
   tags: rapid-results-research
 
 - name:
@@ -230,29 +230,29 @@
   img_url: arnaud-sahuguet.jpg
   bio_url: 
   link:
-    url: 
+    url: http://arnaud.sahuguet.com/arnaud-sahuguet-cv.pdf
     twitter: twitter.com/sahuguet
-    linkedin:
-    github:
-    email:
+    linkedin: https://www.linkedin.com/in/sahuguet
+    github: https://github.com/sahuguet
+    email: arnaud@thegovlab.org
   tags: citizen-service-delivery open-data
 
 - name:
     last: Cantú-Pedraza
     first: Dinorah
     slug: dinorah-cantu
-  job: GovLab Fellow
+  job: Coaching Programs Coordinator
   is_govlab: true
   description: "Dinorah is a Human Rights lawyer and activist from Monterrey, Mexico. She moved to New York City since 2012 to study the MPA in Public and Nonprofit Management and Policy at NYU Robert F. Wagner School of Public Service because she was interested in the advocacy of economic, social and cultural rights. Now she believes the best advocacy agenda for every human right must involve and leverage the new communication and information technologies. As a fellow at the GovLab she will be researching and testing how experts systems can be used as a tool to better share knowledge and expertise. Ultimately, she hopes to explore and re-imagine our present, forming new communities and organizational structures guided by the principles of empathy and collaboration.Before she moved here, she was the founder and director of the Human Rights Center of the Facultad Libre de Derecho de Monterrey and volunteered for pro bono legal services. In her free time she is developing an online platform that will nurture a collaborative network of legal practitioners, activists and stakeholders.The platform will be intended to crowdsource legal arguments, infographics and visual media, a social media campaign and plaintiffs. The ultimate goal of the project is to create ready-to-print, ready-to-be-filed legal motions for constitutional control (Amparo) by anyone interested in advocating for any human rights cause."
   img_url: dinorah-cantu.jpg
   bio_url: 
   link:
     url: http://thegovlab.org/about/team/
-    twitter:
-    linkedin:
-    github:
-    email:
-  tags: legal-innovation
+    twitter: https://twitter.com/dinorah_cantu
+    linkedin: https://www.linkedin.com/pub/dinorah-cantu/35/568/56a
+    github: https://github.com/dino-at-thegovlab
+    email: dinorah@thegovlab.org
+  tags: legal-innovation crowdsourcing-and-citizen-engagement
 
 - name:
     last: Verhulst
@@ -263,11 +263,11 @@
   description: "Stefaan G. Verhulst is Co-Founder and Chief Research and Development Officer of the Governance Laboratory @NYU (GovLab) where he is responsible for building a research foundation on how to transform governance using advances in science and technology. Verhulst’s latest scholarship centers on how technology can improve people’s lives and the creation of more effective and collaborative forms of governance. Specifically, he is interested in the perils and promise of collaborative technologies and how to harness the unprecedented volume of information to advance the public good. Before joining NYU full time, Verhulst spent more than a decade as Chief of Research for the Markle Foundation, where he continues to serve as Senior Advisor. At Markle, an operational foundation based in New York, he was responsible for overseeing strategic research on all the priority areas of the Foundation including, for instance: transforming health care using information and technology, re-engineering government to respond to new national security threats, improving people’s lives in developing countries by connecting them to information networks, developing multi-stakeholder networks to tackle global governance challenges, changing education through information technology et al. Many of Markle’s reports have been translated into legislation and executive orders, and have informed the creation of new organizations and businesses. He is also an Adjunct Professor in the Department of Culture and Communications at New York University, Senior Research Fellow for the Center for Media and Communications Studies at Central European University in Budapest; and an Affiliated Senior Research Fellow at the Center for Global Communications Studies at the University of Pennsylvania’s Annenberg School for Communications. Previously at Oxford University he co-founded and was the Head of the Programme in Comparative Media Law and Policy at the Centre for Socio Legal Studies, and also served as Senior Research Fellow of Wolfson College. He is still an emeritus fellow at Oxford. He also taught several years at the London School of Economics. Verhulst was the UNESCO Chairholder in Communications Law and Policy for the UK, a former lecturer on Communications Law and Policy issues in Belgium, and Founder and Co-Director of the International Media and Info-Comms Policy and Law Studies at the University of Glasgow School of Law. He has served as a consultant to numerous international and national organizations, including the Council of Europe, the European Commission, UNESCO, World Bank, UNDP, USAID, the UK Department for International Development among others. He has been a grant recipient of the Bertelsmann Foundation, the Ford Foundation, the Rockefeller Foundation, and the Markle Foundation. Verhulst has authored and co-authored several books, including: In Search of the Self: Conceptual Approaches to Internet Self Regulation (Routledge, 2001); Convergence in European Communications Regulation (Blackstone, 1999); EC Media Law and Policy (AWL, 1998); Legal Responses to the Changing Media (OUP, 1998); and Broadcasting Reform in India (OUP, 1998). Most recently, he co-edited The Routledge Handbook of Media Law (2013). Verhulst is also founder and editor of numerous journals including the International Journal of Communications Law and Policy, and the Communications Law in Transition Newsletter."
   img_url: stefaan-verhulst.jpg
   link:
-    url: 
-    twitter:
-    linkedin:
+    url: http://thegovlab.org/about/team/stefaan-verhulst/
+    twitter: https://twitter.com/sverhulst
+    linkedin: https://www.linkedin.com/pub/stefaan-verhulst/0/334/85a
     github:
-    email: 
+    email: stefaan@thegovlab.org
   tags: rapid-results-research designing-metrics-of-success 
   
 - name:
@@ -279,11 +279,11 @@
   description: "Francois Grey is passionate about advancing Open Science, specifically Citizen Cyberscience. Citizen cyberscience is a collective term for a diverse, grass-roots movement that is enabling ordinary citizens to participate in real scientific research thanks to the Web. Practically anyone with an Internet connection can join: schoolchildren, office workers, pensioners. Using PCs, laptops and even mobile phones, volunteers can classify images of distant galaxies or track the migration patterns of endangered species, to name just two examples. Citizen cyberscience is social networking with a purpose. It turns science education into a highly motivating participative activity. At present, citizen cyberscientists are mainly concentrated in Europe and North America, and number in the hundreds of thousands. Francois’s aim is to help make this number grow to tens of millions. He is catalysing a trend in the scientific community that will boost the number of online science projects, from dozens today to thousands in a few years. Most importantly, he wants to help more scientists in the developing world – Africa, Latin America and South-East Asia – to exploit citizen cyberscience, since it is a highly appropriate technology for researchers with limited resources. Francois is a physicist by training, with a background in nanotechnology and a strong interest in science communication. He spent six years at CERN, managing IT communications. In 2004 he initiated and managed the launch of a volunteer computing project called LHC@home. This led to another project called Africa@home, launched in 2005 in collaboration with several academic institutions, NGOs and United Nations agencies.  He is currently based in Beijing and NYC, where he has spent the last two years as a visiting professor at Tsinghua University, part of that time supported by the Chinese Academy of Sciences to develop citizen cyberscience in China and more widely in South-East Asia, through an initiative called Asia@home and a project called CAS@home. In 2009, he helped establish a Citizen Cyberscience Centre in Geneva, which is a partnership between CERN, the United Nations Institute for Training and Research and the University of Geneva."
   img_url:
   link:
-    url: 
+    url: http://www.citizencyberscience.net/about-the-team/
     twitter: https://twitter.com/francoisgrey
     linkedin:
     github:
-    email:
+    email: francois.grey@cern.ch
   tags: citizen-science 
   
 - name:
@@ -295,12 +295,12 @@
   description: "Clay Johnson is an American technologist, co-founder and the CEO of the Department of Better Technology and best known for his role in supporting political campaigns and government agencies with technology services. He was one of the founders of Blue State Digital, the firm that built and managed Barack Obama’s online campaign for the presidency in 2008. After leaving Blue State, Johnson was the director of Sunlight Labs at the Sunlight Foundation, where he built an army of 2000 developers and designers to build open source tools to give people greater access to government data. He was awarded the Google/O’Reilly Open Source Organizer of the year in 2009, was one of Federal Computing Week’s Fed 100 in 2010, and won the CampaignTech Innovator award in 2011. Johnson’s combination of experience as a developer, working in politics, entrepreneurism, and non-profit work gives him a unique perspective on media and culture. His life is dedicated to giving people greater access to the truth about what’s going on in their communities, their cities and their governments. He still claims that he learned all he needs to know from a two year tour as the late-shift waiter at Waffle House in Atlanta, GA."
   img_url: 
   link:
-    url:
+    url: http://www.dobt.co/
     twitter: https://twitter.com/cjoh
-    linkedin:
+    linkedin: https://www.linkedin.com/in/claydc
     github:
-    email:
-  tags: procurement 
+    email: clay@clayjohnson.org
+  tags: procurement-innovation
   
 - name:
     last: van den Steenhoven
@@ -311,9 +311,9 @@
   description: "Joeri van den Steenhoven is the Director of the MaRS Solutions Lab. He is a longtime social innovator fascinated by our society’s transition towards the knowledge society. Being a systems thinker, he likes to work on wicked problems and find innovative solutions with others. Joeri co-founded Kennisland, one of the leading change labs in the Netherlands and Europe. He also co-founded the KafkaBrigade, a research team that helps governments find and tackle red tape. He regularly advises, speaks and teaches on how to create system change. Joeri has worked with organizations like the Young Foundation (UK) and serves on the board of the Lisbon Council, the leading European thinktank on innovation and growth."
   img_url:
   link:
-    url:
-    twitter:
+    url: http://www.marsdd.com/bio/joeri-van-den-steenhoven/
+    twitter: https://twitter.com/joerivds
     linkedin: https://www.linkedin.com/in/joerivandensteenhoven
     github:
-    email:
+    email: jvandensteenhoven@marsdd.com
   tags: design-labs  
