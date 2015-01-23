@@ -18,6 +18,11 @@ CLINICS   = yaml.load(open('data/clinics.yaml'))
 COACHING  = yaml.load(open('data/coaching.yaml'))
 PROJECTS  = yaml.load(open('data/gallery-of-projects.yaml'))
 
+for person in PEOPLE:
+	person['fullName'] = "%s %s" % (person['name']['first'], person['name']['last'])
+
+print PEOPLE[0]
+
 def loadAcademyData():
 	return { 'people': PEOPLE,
 					 'workshops': WORKSHOPS,
@@ -40,12 +45,16 @@ def debug(text):
 def isEmpty(seq):
 	return len([k for k in seq]) == 0
 
+def nameTest(name, value):
+	return "%s %s" % (name['first'], name['last']) == value
+
 filters = {
 	'byName':   lambda x: [p for p in PEOPLE if p.name == x],
 	'containsTag': containsTag,
 	'debug': debug,
 	'isEmpty': isEmpty,
 	'slug': lambda x: slugify(x, to_lower=True),
+	'nameTest': nameTest,
 }
 
 # We generate a bunch of template pages; dirty hack for now.

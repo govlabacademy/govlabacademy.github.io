@@ -57,22 +57,25 @@ We can use a macro for that.</p>
 </ul>
 
 <p>Now what about making it easy to just grab one user.</p>
-{{ people|selectattr("name", "equalto", "Beth Simone Noveck")|first }}
+{{ people|selectattr("fullName", "equalto", "Beth Simone Noveck")|first }}
 
-{{ showPerson(people|selectattr("name", "equalto", "Beth Simone Noveck")|first) }}
+{# {{ showPerson(people|selectattr("fullName", "equalto", "Beth Simone Noveck")|first) }} #}
 
 <ul>
-{% for p in people|selectattr("name", "equalto", "Beth Simone Noveck") %}
+{% for p in people|selectattr("fullName", "equalto", "Beth Simone Noveck") %}
 <li>{{p}}</li>
 {% endfor %}
 </ul>
 
 {% macro showPersonByName(name) -%}
-{{ showPerson(people|selectattr("name", "equalto", name)|first) }}
+{{ showPerson(people|selectattr("fullName", "equalto", name)|first) }}
 {%- endmacro %}
 
+{#
 {{ showPersonByName('Beth Simone Noveck')}}
 {{ showPersonByName('Arnaud Sahuguet')}}
+#}
+
 
 <h1>Test list filter</h1>
 

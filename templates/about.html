@@ -27,11 +27,11 @@
         <div class="b-card-isotopes column large-12">
           <div class="b-card-wrapper">
             {% for person in people %}              
-              {% if people|selectattr("name", "equalto", person.name)|first|isEmpty %}
+              {% if people|selectattr("fullName", "equalto", person.fullName)|first|isEmpty %}
                 {{name|debug}}
-                {{("!!!! ERROR !!!!!: person cannot be found: " + person.name) |debug}}
+                {{("!!!! ERROR !!!!!: person cannot be found: " + person.fullName) |debug}}
               {% else %}
-                {{ showPerson(people|selectattr("name", "equalto", person.name)|first, "arnaud-class") }}
+                {{ showPerson(people|selectattr("fullName", "equalto", person.fullName)|first, "arnaud-class") }}
               {% endif %}
             {% endfor %}
           </div>

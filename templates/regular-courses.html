@@ -54,7 +54,12 @@
         {% if course.faculty_members %}
           <div class="e-course-faculty">
             {% for name in course.faculty_members %}
-              {{ showPerson(people|selectattr("name", "equalto", name)|first) }}
+              {% if people|selectattr("fullName", "equalto", name)|first|isEmpty %}
+                {{name|debug}}
+                {{("!!!! ERROR !!!!!: person cannot be found: " + name) |debug}}
+              {% else %}
+                {{ showPerson(people|selectattr("fullNname", "equalto", name)|first) }}
+              {% endif %}
             {% endfor %}
           </div>
         {% endif %}

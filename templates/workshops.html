@@ -74,7 +74,7 @@
         {% if course.faculty_members %}
           <div class="e-course-faculty">
             {% for name in course.faculty_members %}
-              {{ showPerson(people|selectattr("name", "equalto", name)|first) }}
+              {{ showPerson(people|selectattr("fullName", "equalto", name)|first) }}
             {% endfor %}
           </div>
         {% endif %}
