@@ -1562,7 +1562,7 @@ a {
     display: inline-block;
     vertical-align: top; }
   .b-person section {
-    width: calc(100% - 304px);
+    width: calc(100% - 305px);
     padding: 30px;
     vertical-align: top;
     display: inline-block; }
