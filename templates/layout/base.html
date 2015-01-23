@@ -23,6 +23,7 @@
       <!-- Template to generate faculty members -->
     {% macro showPerson(person, class="default-class") -%}
       <article class="{{class}} b-card m-people m-govlab-{{person.is_govlab}} b-pop-controls-container" data-filter="{{person.tags}}">
+        <a href="faculty-members.html#{{person.name.slug}}">
         <div class="b-wrapper">
           <header class="b-card-header">
             <div class="e-person-pic" style="background-image: url(static/img/people/{{person.img_url}})" title="{{person.name.first}} {{person.name.last}}"></div>
@@ -41,6 +42,7 @@
             <p>{{person.description}}</p>
           </section>
         </div>
+        </a>
       </article>
     {%- endmacro %}
 

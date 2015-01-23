@@ -5,6 +5,7 @@ $desktop_width: 1024px;
 
 @mixin circle {
 	border-radius: 50%;
+	overflow: hidden;
 }
 
 @mixin transition {

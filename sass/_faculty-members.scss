@@ -1,0 +1,73 @@
+.b-person-wrapper {
+	padding-top: 80px;
+}
+
+.b-person {
+	@include drop-shadow-light;
+	background-color: $white;
+	display: block;
+	position: relative;
+	margin-bottom: 20px;
+	border: 1px solid $gray_20;
+
+	&:before {
+		content:"";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 4px;
+		z-index: 1;
+	}
+
+	header {
+		width: 300px;
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	section {
+		width: calc(100% - 304px);
+		padding: 30px;
+		vertical-align: top;
+		display: inline-block;
+	}
+
+	.e-person-pic {
+		height: 300px;
+		width: 300px;
+		overflow: hidden;
+		position: relative;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+	}	
+
+	h3 { font-size: 2.4rem; }
+	h4 { 
+		font-size: 1.3rem;
+		margin-bottom: 30px;
+	}
+
+	.b-pop-controls {
+		left: -15px;
+		top: 30px;
+
+		.e-pop-button {
+		}
+	}
+
+	.e-card-content {
+		p {
+			font-size: 1.1rem;
+			line-height: 1.5;
+		}
+	}
+}
+
+.b-person.m-govlab-True h4 { color: $purple; }
+.b-person.m-govlab-True:before { background-color: $purple; }
+
+.b-person.m-govlab-False h4 { color: $scheme-comp_4; }
+.b-person.m-govlab-False:before { background-color: $scheme-comp_3; }

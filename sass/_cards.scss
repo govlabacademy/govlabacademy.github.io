@@ -15,13 +15,13 @@
 		&:before {
 			content:"";
 			position: absolute;
-			top:0;
+			top: 0;
 			left: 0;
 			width: 100%;
-			background-color: $scheme-comp_3;
 			height: 4px;
 			z-index: 1;
 		}
+
 		.b-pop-controls {
 			.e-pop-button { display: none; }
 			.e-pop-button:first-of-type,
@@ -33,10 +33,7 @@
 			overflow-y: hidden;
 			padding: 0 15px 15px;
 
-			h4 {
-				font-size: 1rem;
-				color: $scheme-comp_4;
-			}
+			h4 { font-size: 1rem; }
 
 			p {
 				font-size: 14px;
@@ -48,22 +45,15 @@
 	}
 }
 
-.b-card.m-govlab-True {
-	h4 { color: $purple;}
+.b-card.m-govlab-True { h4 { color: $purple; }
+	.b-wrapper:before { background-color: $purple; }
+}
 
-	.b-wrapper:before {
-		content:"";
-		position: absolute;
-		top:0;
-		left: 0;
-		width: 100%;
-		background-color: $purple;
-		height: 4px;
-	}
+.b-card.m-govlab-False { h4 { color: $scheme-comp_4; }
+	.b-wrapper:before { background-color: $scheme-comp_4; }
 }
 
 .b-card.m-people {
-
 	.b-card-header {
 		position: relative;
 		z-index: 0;
@@ -71,48 +61,33 @@
 	
 	.e-person-pic {
 		min-width: 100%;
+		margin: 0;
 		height: 0;
 		padding-bottom: 80%;
 		overflow: hidden;
 		position: relative;
-		margin: 0;
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-size: cover;
 	}
 	
 	h3 {
+		position: absolute;
+		bottom: 0;
 		font-size: 1.2rem;
 		color: $white;
 		margin: 0;
 		padding: 20px 15px 0;
 		width: 100%;
-		position: absolute;
-		bottom: 0;
 		height: 50px;
 		@include card-gradient;
 	}
 
-	.e-card-content {
-		max-height: 255px;
-	}
+	.e-card-content { max-height: 255px; }
 }
 
-.b-card.m-project {
-	h3 {
-		font-size: 1.1rem;
-	}
-}
 
-.b-card.m-project.m-clinics {
-	h4 { color: $purple; }
-	&:before { background-color: $purple; }
-}
-
-.e-filters-trigger {
-	float: left;
-}
-
+// Resetting some values of the basic card
 .b-card.m-mini-card .b-wrapper {
 	background-color: transparent;
 	border: none;
@@ -122,55 +97,55 @@
 	.e-card-content { display: none;}
 }
 
+// Setting values for the mini-card modifier
+
+.b-card.m-mini-card { margin: 0 5px; }
+
 .b-card.m-mini-card .b-wrapper {
 	text-align: center;
-	width: 86px;
-	height: 86px;
-	margin: 0;
-	display: inline-block;
-	vertical-align: top;
+	width: auto;
+	height: auto;
 	
 	.b-card-header {
 		.e-person-pic {
-			border-radius: 50%;
-			margin: 0 auto;
-			overflow: hidden;
 			width: 80px;
+			min-width: 0;
 			height: 80px;
-			border: 2px solid $scheme-comp_3;
-			background-color: $scheme-comp_3;
-			text-align: center;
+			margin: 0 auto 10px;
+			padding: 0;
+			border-width: 2px;
+			border-style: solid;
 		  background-position: center center;
 		  background-repeat: no-repeat;
 		  background-size: cover;
 		  @include drop-shadow-light;
+		  @include circle;
 		}
 
 		h3 {
 			font-size: 12px;
-			font-weight: 600 !important;
+			font-weight: 600;
 			text-align: center;
-			background: transparent !important;
+			background: transparent;
+			position: static;
 			@include transition;
-			width: 140px;
+			width: auto;
 			color: $gray_60;
-			position: absolute;
-			bottom: 5px;
-			left: -30px;
-			opacity: 0;
-		}
-	}
-
-
-	&.m-govlab-True {
-		.e-person-pic {
-			border-color: $purple;
-			background-color: $purple;
+			padding: 0;
+			height: auto;
 		}
 	}
 }
 
+.b-card.m-mini-card.m-govlab-True .e-person-pic {
+	border-color: $purple;
+	background-color: $purple;
+}
 
+.b-card.m-mini-card.m-govlab-False .e-person-pic {
+	border-color: $scheme-comp_3;
+	background-color: $scheme-comp_3;
+}
 
 
 /* Mobile Only ----------- */
@@ -189,6 +164,10 @@
 	}
 }
 
+.b-card.m-mini-card {
+	margin-bottom: 10px;
+}
+
 } // Closing Media Query
 
 /* Desktops and laptops ----------- */
@@ -204,10 +183,7 @@
 		overflow-y: hidden;
 		padding: 0 15px 15px;
 
-		h4 {
-			font-size: 1rem;
-			color: $scheme-comp_4;
-		}
+		h4 { font-size: 1rem; }
 
 		p {
 			font-size: 14px;
@@ -217,195 +193,16 @@
 	}
 }
 
-.b-card.m-govlab-True  {
-	h4 { color: $purple !important;}
-
-	.b-wrapper:before {
-		content:"";
-		position: absolute;
-		top:0;
-		left: 0;
-		width: 100%;
-		background-color: $purple !important;
-		height: 4px;
-	}
-}
-
-.b-card.m-people .e-card-content {
-	height: 190px;
-}
+.b-card.m-people .e-card-content { height: 190px; }
 
 .b-card .b-pop-controls {
 	left: -15px;
 	top: 30px;
 }
 
-.b-card.m-project {
-	height: 300px;
+.b-card.m-mini-card { float: right; }
 
-	h3 {
-		font-size: 1.1rem;
-	}
 
-	.e-card-content {
-		max-height: 270px;
-	}
-}
 
-.b-card.m-mini-card {
-	float: right;
-
-	.b-wrapper {
-		text-align: center;
-		width: 80px;
-		margin: 0 10px;
-		display: inline-block;
-		vertical-align: top;
-		position: absolute;
-		right: 0;
-		@include transition;
-
-		.e-person-pic {
-			border-radius: 50%;
-			margin: 0 auto;
-			overflow: hidden;
-			width: 80px;
-			height: 80px;
-			border: 2px solid $scheme-comp_3;
-			background-color: $scheme-comp_3;
-			text-align: center;
-		  background-position: center center;
-		  background-repeat: no-repeat;
-		  background-size: cover;
-		  @include drop-shadow-light;
-		}
-
-		h3 {
-			font-size: 12px;
-			font-weight: 400;
-			opacity: 0;
-			margin-top: -20px;
-			text-align: center;
-			@include transition;
-
-		}
-
-		&.m-govlab-True {
-			.e-person-pic {
-				border-color: $purple;
-				background-color: $purple;
-			}
-		}
-	}
-}
-
-.m-mini-card:nth-of-type(2) { 
-	right: 10px;
-	transition-duration: 0.2s;
-}
-
-.m-mini-card:nth-of-type(3) { 
-	right: 20px;
-	transition-duration: 0.4s;
-}
-
-.m-mini-card:nth-of-type(4) { 
-	right: 30px;
-	transition-duration: .6s;
-}
-
-.m-mini-card:nth-of-type(5) { 
-	right: 40px;
-	transition-duration: .7s;
-}
-
-.b-card.m-active {
-	position: fixed;
-	z-index: 12;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	pointer-events: none;
-	@include transition_fast;
-
-	.b-wrapper {
-		margin: 40px auto;
-		width: 860px;
-		height: 600px;
-		@include drop-shadow-button;
-		pointer-events: auto;
-	}
-
-	.b-card-header {
-		float: left;
-		box-shadow: 0 0 4px $gray_30;
-
-		.e-person-pic {
-			height: 300px;
-			width: 300px;
-			min-width: 0;
-			min-height: 0;
-			overflow: hidden;
-			display: inline-block;
-			padding: 0;
-			float: left;
-		}
-
-		h3 {
-			position: absolute;
-			bottom: 0;
-			width: 300px;
-			text-align: center;
-			padding: 10px 0 20px;
-			height: 50px;
-			font-size: 1.5rem;
-			@include card-gradient;
-		}
-	}
-
-	.b-pop-controls {
-		position: absolute;
-		left: 0;
-		top: 310px;
-		text-align: center;
-		pointer-events: auto;
-		opacity: 1;
-		width: 300px;
-		height: 50px;
-
-		.e-pop-button:not(.m-pin) {
-			transform: scale(1, 1);
-			display: inline-block !important;
-			vertical-align: top;
-			margin-right: 5px;
-		}
-
-		.e-pop-button:last-child {margin-right: 0;}
-		.e-pop-button.m-pin { display: none; }
-
-	}
-
-	.e-card-content {
-		margin: 0 40px 20px 0;
-		border-bottom: 1px solid $gray_10;
-		padding: 20px 20px 0 30px;
-		height: auto;
-		max-height: 560px;
-		overflow-y: scroll;
-		min-height: 340px;
-
-		
-		h4 {
-			font-size: 1.4rem;
-		}
-
-		p {
-			font-size: 1.1rem;
-			line-height: 1.5;
-		}
-	}
-	
-}
 
 } // Closes Media Query

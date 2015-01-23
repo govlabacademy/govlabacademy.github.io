@@ -165,26 +165,10 @@ $('.e-filters-trigger').click(function() {
 	}
 });
 
-// Function for the Faculty Member Detail
-
-var detailCardCoords = {};
-var detailCard = {};
-
-$('.b-card').click(function() {
-	detailCard = $(this);
-	detailCardCoords = detailCard.css(['left', 'top']);
-	detailCard.addClass('m-active');
-	detailCard.css({ "left":"0", "top":"0", "position":"fixed"});
-	$('#overlay').addClass('m-active m-visible');
-	$('body').addClass('m-modal-open');
-});
 
 $('#overlay').click(function() {
-	$(this).removeClass('m-active m-visible');
-	$('.b-card').removeClass('m-active');
-	detailCard.css({'left':detailCardCoords.left, 'top': detailCardCoords.top, 'position':'absolute'});
+	$(this).removeClass('m-active');
 	$('.b-filters').removeClass('m-active');
-	$('body').removeClass('m-modal-open');
 });
 
 // Multiple SwipeJS Galleries

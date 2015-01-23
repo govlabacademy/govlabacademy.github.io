@@ -86,14 +86,6 @@
           <div class="e-course-description">
             <p>{{course.description_short}}</p>
           </div>
-          
-          {% if course.actions %}
-            <div class="e-course-controls">
-              {% for button in course.actions %}
-              <a class="e-button" href="{{button.link}}">{{button.label}}</a>
-              {% endfor %}
-            </div>
-          {% endif %}
 
           {% if course.faculty_members %}
             <div class="e-course-faculty">
@@ -103,6 +95,14 @@
                 {% else %}
                   {{ showPerson(people|selectattr("fullName", "equalto", name)|first, "m-mini-card") }}
                 {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
+          
+          {% if course.actions %}
+            <div class="e-course-controls">
+              {% for button in course.actions %}
+              <a class="e-button" href="{{button.link}}">{{button.label}}</a>
               {% endfor %}
             </div>
           {% endif %}

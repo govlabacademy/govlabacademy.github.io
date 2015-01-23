@@ -84,9 +84,8 @@
 }
 
 .e-course-faculty {
-	height: 100px;
 	display: block;
-	margin: 0 10px 10px 30px;
+	margin: 0 20px 40px 30px;
 }
 
 .b-course-list-item.m-workshop.m-crosslisted-True {
@@ -120,53 +119,14 @@
 
 .e-course-controls {
 	display: inline-block;
-	width: calc(70% - 34px);
 	vertical-align: bottom;
 	padding-bottom: 40px;
-	padding-top: 20px;
+	padding-top: 40px;
 }
 
 .e-course-faculty {
 	height: 100px;
-	position: absolute;
-	right: 0;
-	bottom: 10px;
-	width: calc(30% - 34px);
+	float: right;
 }
-
-.b-course-list-item {
-	.m-mini-card {
-		@include transition;
-
-		h3 { 
-			opacity: 1 !important; 
-			bottom: -30px !important;
-			@include transition;
-			background-color: transparent;
-		}
-	}	
-
-	.m-mini-card:nth-of-type(2) { 
-		right: 100px;
-		transition-duration: 0.2s;
-		h3 {transition-delay: 0.1s}
-		}
-	.m-mini-card:nth-of-type(3) { 
-		right: 200px;
-		transition-duration: 0.4s;
-		h3 {transition-delay: 0.2s}
-		}
-	.m-mini-card:nth-of-type(4) { 
-		right: 300px;
-		transition-duration: .6s;
-		h3 {transition-delay: 0.3s}
-		}
-	.m-mini-card:nth-of-type(5) { 
-		right: 400px;
-		transition-duration: .7s;
-		h3 {transition-delay: 0.4s}
-		}
-}	
-
 
 } // Media query

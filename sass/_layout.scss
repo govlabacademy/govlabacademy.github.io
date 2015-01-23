@@ -42,7 +42,7 @@
 	// text-align: center;
 
 	h2 {
-		font-size: 6rem;
+		font-size: 4rem;
 		line-height: 1;
 		margin-bottom: 45px;
 		color: $white;
@@ -81,9 +81,6 @@
 	}
 }
 
-body.m-modal-open {
-  overflow: hidden;
-}
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : $desktop_width) {
@@ -111,7 +108,8 @@ body.m-modal-open {
 		> h2 + h3 {
 			margin-top: -50px;		
 		}
-		
 }
+
+.b-page-title h2 { font-size: 6rem;}
 
 } // Media Query
