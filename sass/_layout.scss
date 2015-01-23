@@ -73,11 +73,16 @@
 	
 	&.m-visible {
 		background-color: $white_70;
+		z-index: 11;
 	}
 
 	&.m-active {
 		display: block;
 	}
+}
+
+body.m-modal-open {
+  overflow: hidden;
 }
 
 /* Desktops and laptops ----------- */

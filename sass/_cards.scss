@@ -312,26 +312,27 @@
 	transition-duration: .7s;
 }
 
-.detail-test .b-card.b-card.b-card.b-card.b-card.b-card {
-	position: fixed !important;
-	z-index: 10;
+.b-card.m-active {
+	position: fixed;
+	z-index: 12;
 	left: 0;
 	top: 0;
 	right: 0;
 	bottom: 0;
-	pointer-events: auto;
+	pointer-events: none;
+	@include transition_fast;
 
 	.b-wrapper {
 		margin: 40px auto;
 		width: 860px;
 		height: 600px;
-		@include drop-shadow-button;	
+		@include drop-shadow-button;
+		pointer-events: auto;
 	}
 
 	.b-card-header {
 		float: left;
 		box-shadow: 0 0 4px $gray_30;
-
 
 		.e-person-pic {
 			height: 300px;
@@ -385,6 +386,7 @@
 		height: auto;
 		max-height: 560px;
 		overflow-y: scroll;
+		min-height: 340px;
 
 		
 		h4 {
