@@ -46,7 +46,6 @@ if (screen.width < 960) {
 
   $('.nav-coaching').addClass('m-active');
 
-
   // Click for Partner Logos
   $('.e-trigger').click(function() {
   	$(this).parent().parent().toggleClass('m-active');
@@ -119,7 +118,7 @@ else {
 
 // ISOTOPES CONFIG
 
-var $container = $('.b-card-wrapper');
+var $container = $('.b-card-isotopes');
 // init
 $container.isotope({
   // options
@@ -165,9 +164,15 @@ $('.e-filters-trigger').click(function() {
 	}
 });
 
+// $('.b-card').click(function() {
+// 		$(this).addClass('m-active');
+// 		$('#overlay').addClass('m-active');
+// });
+
 $('#overlay').click(function() {
 	$(this).removeClass('m-active');
 	$('.b-filters').removeClass('m-active');
+	// $('.b-card').removeClass('m-active');
 });
 
 

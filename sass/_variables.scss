@@ -20,7 +20,7 @@ $desktop_width: 1024px;
 }
 
 @mixin drop-shadow-light {
-	box-shadow: 0 0 3px rgba(0,0,0,0.15);
+	box-shadow: 0 0 3px rgba(0,0,0,0.3);
 }
 
 @mixin drop-shadow-button {

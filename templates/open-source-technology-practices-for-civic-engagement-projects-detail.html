@@ -50,12 +50,12 @@
     <div class="b-dates row">
     	<div class="column large-4">
     		<span><i class="fa fa-calendar fa-lg"></i></span>
-      	<h5>Course starts in</h5>
+      	<h5>Course starts on</h5>
       	<h4>{{coaching_class.date.start}}</h4>
       </div>
       <div class="column large-4">
     		<span><i class="fa fa-calendar fa-lg"></i></span>
-      	<h5>Course ends in</h5>
+      	<h5>Course ends on</h5>
       	<h4>{{coaching_class.date.end}}</h4>
       </div>
       <div class="column large-4">
@@ -89,29 +89,34 @@
 		</div>
 	</div>
 	<div class="row">
+    {% if coaching_class.prerequisites %}
 		<div class="column large-6">
 			<h3>Prerequisites</h3>
-      {% if coaching_class.prerequisites %}
+      
         {% for item in coaching_class.prerequisites %}
 					<p>{{item}}</p>
         {% endfor %}
-      {% else %}
       <p>No prerequisites</p>
-      {% endif %}
 		</div>
+    {% endif %}
+
     <div class="column large-6">
       <h3>Course Format</h3>
       <p>{{coaching_class.format}}</p>
-      <h4 class="b-format">{{coaching_class.duration}}</h4>
+      <h4 class="b-format">Course Duration</h4>
+      <h4>{{coaching_class.duration}}</h4>
     </div>
 	</div>
   <div class="row">
+    <div class="column large-12">
+      <h2>Faculty Members</h2>
+    </div>
     <div class="column large-12">
       {% for name in coaching_class.faculty_members %}              
         {% if people|selectattr("name", "equalto", name)|first|isEmpty %}
           {{("!!!! ERROR !!!!!: person cannot be found: " + name) |debug}}
         {% else %}
-          {{ showPerson(people|selectattr("name", "equalto", name)|first) }}
+          {{ showPerson(people|selectattr("name", "equalto", name)|first, "") }}
         {% endif %}
       {% endfor %}
     </div>

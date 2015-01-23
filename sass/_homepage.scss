@@ -127,6 +127,49 @@
 	}
 }
 
+.b-signup {
+	text-align: center;
+	@include inner-shadow;
+	padding-top: 40px;
+	background-color: $govlab-purple_6;
+
+
+	label {
+		font-size: 2.8rem;
+		color: $govlab-purple_1;
+		font-weight: 300;
+		display: inline-block;
+		margin-right: 50px;
+		vertical-align: bottom;
+		margin-bottom: 10px;
+	}
+
+	input.email {
+		padding: 10px 16px 8px;
+		font-size: 1.5rem;
+		font-weight: 200;
+		width: 400px;
+		vertical-align: bottom;
+		border: 1px solid $govlab-purple_2;
+		border-right: 0;
+		border-radius: 3px 0 0 3px;
+	}
+
+	.e-button {
+		width: auto;
+		border-radius: 0 3px 3px 0;
+		vertical-align: bottom;
+		padding: 8px 16px 8px;
+		margin-left: -4px;
+		border: 1px solid $govlab-purple_2;
+		background-color: $govlab-purple_1;
+
+		&:hover {
+			background-color: $govlab-purple_3;
+		}
+	}
+}
+
 #canvas {
 	display: none;
 
