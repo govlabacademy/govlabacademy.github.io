@@ -164,7 +164,6 @@ $('.e-filters-trigger').click(function() {
 	}
 });
 
-
 // Function for the Faculty Member Detail
 
 var detailCardCoords = {};
