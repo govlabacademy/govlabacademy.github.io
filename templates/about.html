@@ -31,7 +31,7 @@
                 {{name|debug}}
                 {{("!!!! ERROR !!!!!: person cannot be found: " + person.name) |debug}}
               {% else %}
-                {{ showPerson(people|selectattr("name", "equalto", person.name)|first) }}
+                {{ showPerson(people|selectattr("name", "equalto", person.name)|first, "arnaud-class") }}
               {% endif %}
             {% endfor %}
 
