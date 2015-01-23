@@ -113,10 +113,10 @@
     </div>
     <div class="column large-12">
       {% for name in coaching_class.faculty_members %}              
-        {% if people|selectattr("name", "equalto", name)|first|isEmpty %}
+        {% if people|selectattr("fullName", "equalto", name)|first|isEmpty %}
           {{("!!!! ERROR !!!!!: person cannot be found: " + name) |debug}}
         {% else %}
-          {{ showPerson(people|selectattr("name", "equalto", name)|first, "") }}
+          {{ showPerson(people|selectattr("fullName", "equalto", name)|first, "") }}
         {% endif %}
       {% endfor %}
     </div>

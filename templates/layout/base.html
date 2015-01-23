@@ -39,6 +39,10 @@
         </div>
       </article>
     {%- endmacro %}
+
+    {% macro showPersonByName(name) -%}
+    {{ showPerson(people|selectattr("fullName", "equalto", name)|first) }}
+    {%- endmacro %}
     
     <header class="b-top-navigation-wrapper">
       <div class="b-top-navigation">
@@ -83,7 +87,7 @@
       {% endblock %}
 
     </section>
-    <div id="overlay"></div>
+    <div id="overlay" class="m-visible"></div>
     <!-- Footer -->
     <footer class="b-footer" >
       <div class="row">
