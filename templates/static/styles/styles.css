@@ -1050,6 +1050,11 @@ body.m-modal-open {
       background-color: #c0ba21;
       height: 4px;
       z-index: 1; }
+    .b-card .b-wrapper .b-pop-controls .e-pop-button {
+      display: none; }
+    .b-card .b-wrapper .b-pop-controls .e-pop-button:first-of-type,
+    .b-card .b-wrapper .b-pop-controls .e-pop-button:nth-of-type(2) {
+      display: block; }
     .b-card .b-wrapper .e-card-content {
       margin-top: 10px;
       overflow-y: hidden;
@@ -1175,10 +1180,10 @@ body.m-modal-open {
     top: 15px;
     opacity: 1;
     pointer-events: auto; }
-    .b-card .b-pop-controls .e-pop-button {
+    .b-card .b-pop-controls .e-pop-button.m-pin {
       display: none; }
-    .b-card .b-pop-controls .e-pop-button-link {
-      display: block;
+    .b-card .b-pop-controls .e-pop-button:first-of-type,
+    .b-card .b-pop-controls .e-pop-button:nth-of-type(2) {
       transform: scale(1.1, 1.1); } }
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
@@ -1329,9 +1334,9 @@ body.m-modal-open {
       opacity: 1;
       width: 300px;
       height: 50px; }
-      .b-card.m-active .b-pop-controls .e-pop-button {
+      .b-card.m-active .b-pop-controls .e-pop-button:not(.m-pin) {
         transform: scale(1, 1);
-        display: inline-block;
+        display: inline-block !important;
         vertical-align: top;
         margin-right: 5px; }
       .b-card.m-active .b-pop-controls .e-pop-button:last-child {

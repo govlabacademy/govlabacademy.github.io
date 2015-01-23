@@ -123,7 +123,8 @@ var $container = $('.b-card-isotopes');
 $container.isotope({
   // options
   itemSelector: '.b-card',
-  layoutMode: 'fitRows'
+  layoutMode: 'fitRows',
+  sortBy: 'category'
 });
 
 // ISOTOPES FILTERS
