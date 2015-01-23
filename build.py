@@ -20,6 +20,7 @@ PROJECTS  = yaml.load(open('data/gallery-of-projects.yaml'))
 
 for person in PEOPLE:
 	person['fullName'] = "%s %s" % (person['name']['first'], person['name']['last'])
+PEOPLE = sorted(PEOPLE, key=lambda x:x['name']['last'])
 
 print PEOPLE[0]
 
