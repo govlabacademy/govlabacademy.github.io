@@ -27,19 +27,19 @@
 
 	<div class="row">
     <h3 class="column large-12">Projects from Solving Public Problems with Technology</h3>
-    <div class="b-card-deck column large-12">
+    <div class="b-card-isotopes column large-12">
       <div class="b-card-wrapper">
         {% for card in projects %}
           {% if card.summary %}
           <article class="b-card m-project m-clinics b-pop-controls-container" data-filter="{{card.tag}}">
-            <div class="e-card-content">
-            <h3 title="{{card.title}}">{{card.title}}</h3>
-            <div class="b-pop-controls">
-              <span class="e-pop-button" href="{{card.bio_url}}"><i class="fa fa-thumb-tack"></i></span>
-              <a class="e-pop-button e-pop-button-link" href="{{card.bio_url}}"><i class="fa fa-link"></i></a>
-            </div>
-            <h4>{{card.name}}</h4>
-            <p>{{card.summary}}</p>
+            <div class="b-wrapper">
+              <h3 title="{{card.title}}">{{card.title}}</h3>
+              <div class="b-pop-controls">
+                <span class="e-pop-button" href="{{card.bio_url}}"><i class="fa fa-thumb-tack"></i></span>
+                <a class="e-pop-button e-pop-button-link" href="{{card.bio_url}}"><i class="fa fa-link"></i></a>
+              </div>
+              <h4>{{card.name}}</h4>
+              <p>{{card.summary}}</p>
             </div>
           </article>
           {% endif %}

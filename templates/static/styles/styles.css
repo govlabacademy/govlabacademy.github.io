@@ -1094,6 +1094,29 @@ a {
 .b-card.m-people .e-card-content {
   max-height: 255px; }
 
+.b-card.m-project {
+  margin: 5px; }
+  .b-card.m-project .b-wrapper {
+    padding: 15px 10px;
+    display: flex;
+    flex-flow: column; }
+    .b-card.m-project .b-wrapper:before {
+      background-color: #c0ba21; }
+  .b-card.m-project h3 {
+    font-size: 1.3rem;
+    word-wrap: break-word; }
+  .b-card.m-project h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #c0ba21; }
+  .b-card.m-project p {
+    font-size: 1rem;
+    overflow-y: hidden;
+    flex: 1; }
+  .b-card.m-project .e-card-content {
+    max-height: 255px; }
+
 .b-card.m-mini-card .b-wrapper {
   background-color: transparent;
   border: none;
