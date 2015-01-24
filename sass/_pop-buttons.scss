@@ -2,17 +2,6 @@
 	position: relative;
 }
 
-.b-pop-controls {
-	position: absolute;
-	opacity: 0;
-	@include transition;
-	pointer-events: none;
-
-	&.m-inline-buttons .e-pop-button {
-		display: inline-block;
-	}
-}
-
 .e-pop-button {
 	background-color: $scheme-comp_1;
 	width: 50px;
@@ -50,12 +39,25 @@
 	i.fa-linkedin,
 	i.fa-facebook,
 	i.fa-github,
-	i.fa-twitter {
-		vertical-align: 3px;
-	}
+	i.fa-twitter { vertical-align: 3px; }
 
-	&:hover {
-		background-color: $scheme-comp_2;
+	&:hover { background-color: $scheme-comp_2; }
+}
+
+
+
+
+
+@media only screen and (min-width : $desktop_width) {
+
+.b-pop-controls {
+	position: absolute;
+	opacity: 0;
+	@include transition;
+	pointer-events: none;
+
+	&.m-inline-buttons .e-pop-button {
+		display: inline-block;
 	}
 }
 
@@ -88,3 +90,5 @@
 		}
 	}
 }
+
+} //Media Query

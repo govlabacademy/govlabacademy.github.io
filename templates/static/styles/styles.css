@@ -790,14 +790,13 @@ a {
 
 .b-page-title {
   box-shadow: 2px 0 7px rgba(0, 0, 0, 0.7);
-  padding-top: 110px;
-  padding-bottom: 60px;
+  padding-top: 70px;
+  padding-bottom: 40px;
   background-color: #c0ba21;
   margin-bottom: 60px; }
   .b-page-title h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1;
-    margin-bottom: 45px;
     color: white;
     opacity: .7;
     text-align: left; }
@@ -842,8 +841,13 @@ a {
     .b-content-page > h2 + h3 {
       margin-top: -50px; }
 
-  .b-page-title h2 {
-    font-size: 6rem; } }
+  .b-page-title {
+    padding-top: 110px;
+    padding-bottom: 60px;
+    margin-bottom: 60px; }
+    .b-page-title h2 {
+      font-size: 6rem;
+      margin-bottom: 45px; } }
 .b-course-list ul {
   margin-bottom: 0;
   margin-left: 0;
@@ -936,14 +940,6 @@ a {
 .b-pop-controls-container {
   position: relative; }
 
-.b-pop-controls {
-  position: absolute;
-  opacity: 0;
-  transition: all 0.4s ease;
-  pointer-events: none; }
-  .b-pop-controls.m-inline-buttons .e-pop-button {
-    display: inline-block; }
-
 .e-pop-button {
   background-color: #6a34c0;
   width: 50px;
@@ -977,35 +973,43 @@ a {
   .e-pop-button:hover {
     background-color: #825bc0; }
 
-.b-pop-controls-container .b-pop-controls .e-pop-button {
-  transform: scale(0, 0);
-  display: block; }
+@media only screen and (min-width: 1024px) {
+  .b-pop-controls {
+    position: absolute;
+    opacity: 0;
+    transition: all 0.4s ease;
+    pointer-events: none; }
+    .b-pop-controls.m-inline-buttons .e-pop-button {
+      display: inline-block; }
 
-.b-pop-controls-container:hover .b-pop-controls {
-  opacity: 1;
-  transition: all 0.4s ease;
-  pointer-events: auto; }
-  .b-pop-controls-container:hover .b-pop-controls .e-pop-button {
-    width: 50px;
-    height: 50px;
-    transform: scale(1, 1);
-    transition: all 0.2s ease; }
-    .b-pop-controls-container:hover .b-pop-controls .e-pop-button:nth-child(2) {
-      transition-delay: 0.1s; }
-    .b-pop-controls-container:hover .b-pop-controls .e-pop-button:nth-child(3) {
-      transition-delay: 0.2s; }
-    .b-pop-controls-container:hover .b-pop-controls .e-pop-button:nth-child(4) {
-      transition-delay: 0.3s; }
-    .b-pop-controls-container:hover .b-pop-controls .e-pop-button:nth-child(5) {
-      transition-delay: 0.4s; }
-    .b-pop-controls-container:hover .b-pop-controls .e-pop-button:nth-child(6) {
-      transition-delay: 0.5s; }
-    .b-pop-controls-container:hover .b-pop-controls .e-pop-button:nth-child(7) {
-      transition-delay: 0.6s; }
-    .b-pop-controls-container:hover .b-pop-controls .e-pop-button:hover {
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
-      transition-delay: 0; }
+  .b-pop-controls-container .b-pop-controls .e-pop-button {
+    transform: scale(0, 0);
+    display: block; }
 
+  .b-pop-controls-container:hover .b-pop-controls {
+    opacity: 1;
+    transition: all 0.4s ease;
+    pointer-events: auto; }
+    .b-pop-controls-container:hover .b-pop-controls .e-pop-button {
+      width: 50px;
+      height: 50px;
+      transform: scale(1, 1);
+      transition: all 0.2s ease; }
+      .b-pop-controls-container:hover .b-pop-controls .e-pop-button:nth-child(2) {
+        transition-delay: 0.1s; }
+      .b-pop-controls-container:hover .b-pop-controls .e-pop-button:nth-child(3) {
+        transition-delay: 0.2s; }
+      .b-pop-controls-container:hover .b-pop-controls .e-pop-button:nth-child(4) {
+        transition-delay: 0.3s; }
+      .b-pop-controls-container:hover .b-pop-controls .e-pop-button:nth-child(5) {
+        transition-delay: 0.4s; }
+      .b-pop-controls-container:hover .b-pop-controls .e-pop-button:nth-child(6) {
+        transition-delay: 0.5s; }
+      .b-pop-controls-container:hover .b-pop-controls .e-pop-button:nth-child(7) {
+        transition-delay: 0.6s; }
+      .b-pop-controls-container:hover .b-pop-controls .e-pop-button:hover {
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+        transition-delay: 0; } }
 .b-card-isotopes .b-card {
   display: block; }
 
@@ -1538,9 +1542,6 @@ a {
     .b-course-info li strong {
       width: 72px;
       left: -93px; } }
-.b-person-wrapper {
-  padding-top: 80px; }
-
 .b-person {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
   background-color: white;
@@ -1556,35 +1557,24 @@ a {
     width: 100%;
     height: 4px;
     z-index: 1; }
-  .b-person header {
-    width: 300px;
-    position: relative;
-    display: inline-block;
-    vertical-align: top; }
-  .b-person section {
-    width: calc(100% - 305px);
-    padding: 30px;
-    vertical-align: top;
-    display: inline-block; }
   .b-person .e-person-pic {
-    height: 300px;
-    width: 300px;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
     overflow: hidden;
     position: relative;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover; }
+  .b-person section {
+    padding: 20px; }
   .b-person h3 {
-    font-size: 2.4rem; }
+    font-size: 2rem; }
   .b-person h4 {
     font-size: 1.3rem;
     margin-bottom: 30px; }
-  .b-person .b-pop-controls {
-    left: -15px;
-    top: 30px; }
-  .b-person .e-card-content p {
-    font-size: 1.1rem;
-    line-height: 1.5; }
+  .b-person .e-pop-button.m-pin {
+    display: none; }
 
 .b-person.m-govlab-True h4 {
   color: #472b74; }
@@ -1598,6 +1588,38 @@ a {
 .b-person.m-govlab-False:before {
   background-color: #c0ba21; }
 
+@media only screen and (max-width: 1024px) {
+  .b-pop-controls {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    margin-top: -30px; }
+    .b-pop-controls .e-pop-button {
+      margin: 5px; }
+      .b-pop-controls .e-pop-button.m-pin {
+        display: none; } }
+@media only screen and (min-width: 1024px) {
+  .b-person-wrapper {
+    padding-top: 80px; }
+
+  .b-person header {
+    width: 300px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top; }
+  .b-person section {
+    width: calc(100% - 305px);
+    padding: 30px;
+    vertical-align: top;
+    display: inline-block; }
+  .b-person h3 {
+    font-size: 2.4rem; }
+  .b-person h4 {
+    font-size: 1.3rem;
+    margin-bottom: 30px; }
+  .b-person .b-pop-controls {
+    left: -15px;
+    top: 30px; } }
 #about-page .b-filters-wrapper {
   margin-bottom: 30px;
   padding: 0 10px; }
