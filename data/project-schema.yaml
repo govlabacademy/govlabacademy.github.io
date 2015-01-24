@@ -41,4 +41,31 @@
     - "big data & open data embeddability to improve our daily life"
     - "food & cooking"
 
-
+- title: ""
+  slug: ""
+  problem_statement: ""
+  why_compelling: ""
+  summary: ""
+  tags: ""
+  - "tag_name"
+  status: ""
+  links: ""
+  - trunonex: ""
+  - url: ""
+  - demo: ""
+  images:
+  - "image_filename.jpg"
+  authors:
+  - first_name: ""
+    last_name: ""
+    location: ""
+    links:
+    - linkedin: "" 
+    - facebook: ""
+    - github: ""
+    - twitter: ""
+    - url: ""
+    skills:
+    - "skill"
+    interests:
+    - "interest"
