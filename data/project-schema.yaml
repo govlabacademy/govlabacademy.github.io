@@ -11,16 +11,20 @@
   links:
   - trunonex: http://www.truonex.com/projects/12839/
   - url: 
-  - demo: 
+  - demo: https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=snv7xi1lnr0 
   files:
-  - label: "Label"
-    filename: "filename.pdf"
+  - label: "short-description"
+    filename: "SD-citizensopenagenda.pdf"
+  - label: "long-description"
+    filename: "LD-citizensopenagenda.pdf"
+  - label: "slide-deck"
+    filename: "slides-citizenopenagenda.pdf"
   images:
   - image_filename.jpg
   authors:
   - first_name: Dinorah
     last_name: Cantu-Pedraza
-    url: 
+    url: http://www.civic-discourse.org/users/dino/activity
 
 - title: ""
   slug: ""
