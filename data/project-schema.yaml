@@ -11,6 +11,9 @@
   - trunonex: http://www.truonex.com/projects/12839/
   - url: 
   - demo: 
+  files:
+    - label: "Label"
+      filename: "filename.pdf"
   images:
   - image_filename.jpg
   authors:
