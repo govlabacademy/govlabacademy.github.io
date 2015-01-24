@@ -1,5 +1,6 @@
 - title: Citizen's Open Agenda
   slug: citizens-open-agenda
+  location: Mexico
   problem_statement: "Mexico's war on drugs has led Monterrey, my hometown, to the City's worst social crisis. Additionally, it has the lowest citizen participation rate of the country, largely due to a lack of space where people could have meaningful partipacion and engagement. Efforts regarding the awareness and imagination of a bigger spectrum of users are now necessary to continuously grow communities of data users, and encourage data 'ownership'."
   why_compelling: "Technology can improve engagement and efficient use of the new data available with a constantly bigger crowd that wants to be heard and do something to rebuild Monterrey\u2019s social fabric. Under the understanding that citizen\u2019s participation in public policy through well managed technological tools has the ability not only to include more people wisely but also to improve government accountability, this proposal focuses on developing different tools that can enhance citizen\u2019s engagement in the following on-going projects that emerged as a response to the violence and untrusting climate the City has been immersed for the last years."
   summary: "The general objective of this proposal is to develop tools that, taking advantage of the crowdsourced and government data already available, will catalyze, inspire and create more opportunities of citizen engagement with the specific goal of improving government accountability."
@@ -12,47 +13,25 @@
   - url: 
   - demo: 
   files:
-    - label: "Label"
-      filename: "filename.pdf"
+  - label: "Label"
+    filename: "filename.pdf"
   images:
   - image_filename.jpg
   authors:
   - first_name: Dinorah
     last_name: Cantu-Pedraza
-    location: Mexico
-    links:
-    - linkedin: www.linkedin.com/pub/dinorah-cantu/35/568/56a/
-    - facebook: https://www.facebook.com/dinorah.cantu
-    - github: 'github: dino-at-thegovlab'
-    - twitter: '@dinorah_cantu'
-    - url:
-    skills:
-    - research
-    - "process & impact evaluations"
-    - human rights litigation
-    - projects creation and implementation
-    - strategic planning
-    - build expert systems
-    interests:
-    - crowdscourcing
-    - open (radically inclusive) governance models
-    - human rights
-    - "expert systems & content/knowledge management"
-    - user-centered design
-    - "space & physics"
-    - "robotics & artificial intelligence"
-    - "big data & open data embeddability to improve our daily life"
-    - "food & cooking"
+    url: 
 
 - title: ""
   slug: ""
+  location: ""
   problem_statement: ""
   why_compelling: ""
   summary: ""
-  tags: ""
-  - "tag_name"
+  tags:
+  - "tag"
   status: ""
-  links: ""
+  links:
   - trunonex: ""
   - url: ""
   - demo: ""
@@ -60,18 +39,8 @@
   - label: "Label"
     filename: "filename.pdf"
   images:
-  - image_filename.jpg
+  - "image_filename.jpg"
   authors:
-  - first_name: ""
-    last_name: ""
-    location: ""
-    links:
-    - linkedin: "" 
-    - facebook: ""
-    - github: ""
-    - twitter: ""
-    - url: ""
-    skills:
-    - "skill"
-    interests:
-    - "interest"
+  - first_name: "Dinorah"
+    last_name: "Cantu-Pedraza"
+    url: ""
