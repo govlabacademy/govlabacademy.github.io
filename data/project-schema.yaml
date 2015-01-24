@@ -57,8 +57,8 @@
   - url: ""
   - demo: ""
   files:
-    - label: "Label"
-      filename: "filename.pdf"
+  - label: "Label"
+    filename: "filename.pdf"
   images:
   - image_filename.jpg
   authors:
