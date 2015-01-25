@@ -23,7 +23,6 @@
       <!-- Template to generate faculty members -->
     {% macro showPerson(person, class="default-class") -%}
       <article class="{{class}} b-card m-people m-govlab-{{person.is_govlab}} b-pop-controls-container" data-filter="{{person.tags}}">
-        <a href="faculty-members.html#{{person.name.slug}}">
         <div class="b-wrapper">
           <header class="b-card-header">
             <div class="e-person-pic" style="background-image: url(static/img/people/{{person.img_url}})" title="{{person.name.first}} {{person.name.last}}"></div>
@@ -31,6 +30,7 @@
           </header>
           <aside class="b-pop-controls">
             <span class="e-pop-button m-pin"><i class="fa fa-thumb-tack"></i></span>
+            <a class="e-pop-button m-goto" href="faculty-members.html#{{person.name.slug}}"><i class="fa fa-link"></i></a>
             {% if person.link.url %}<a class="e-pop-button m-link" href="{{person.link.url}}"><i class="fa fa-link"></i></a>{% endif %}
             {% if person.link.twitter %}<a class="e-pop-button m-twitter" href="{{person.link.twitter}}"><i class="fa fa-twitter"></i></a>{% endif %}
             {% if person.link.linkedin %}<a class="e-pop-button m-linkedin" href="{{person.link.linkedin}}"><i class="fa fa-linkedin"></i></a>{% endif %}
@@ -42,7 +42,6 @@
             <p>{{person.description}}</p>
           </section>
         </div>
-        </a>
       </article>
     {%- endmacro %}
 

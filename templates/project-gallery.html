@@ -4,7 +4,6 @@
 	<div class="b-page-title">
     <div class="row">
   		<span class="e-filters-trigger e-button">Filters</span>
-      <a href="/project-page.html" class="e-button">Project Page</a>
   		<h2>Project Gallery</h2>	
   	</div>
 	</div>
@@ -16,7 +15,7 @@
 		</h4>
     <ul>
 		{% for card in projects %}
-			{% for tag in card.tag %}
+			{% for tag in card.tags %}
 				{% if tag %}
 				<li class="e-filter" data-filter="{{tag}}">{{tag}}</li>
 				{% endif %}
@@ -31,14 +30,14 @@
       <div class="b-card-wrapper">
         {% for card in projects %}
           {% if card.summary %}
-          <article class="b-card m-project m-clinics b-pop-controls-container" data-filter="{{card.tag}}">
+          <article class="b-card m-project m-clinic b-pop-controls-container" data-filter="{% for tag in card.tags %}{{tag}}{% endfor %}">
             <div class="b-wrapper">
               <h3 title="{{card.title}}">{{card.title}}</h3>
               <div class="b-pop-controls">
-                <span class="e-pop-button" href="{{card.bio_url}}"><i class="fa fa-thumb-tack"></i></span>
-                <a class="e-pop-button e-pop-button-link" href="{{card.bio_url}}"><i class="fa fa-link"></i></a>
+                <span class="e-pop-button m-pin"><i class="fa fa-thumb-tack"></i></span>
+                <a class="e-pop-button m-goto" href="project-page.html#{{card.slug}}"><i class="fa fa-link"></i></a>
               </div>
-              <h4>{{card.name}}</h4>
+              <h4>{{card.authors.first_name}} {{card.authors.last_name}}</h4>
               <p>{{card.summary}}</p>
             </div>
           </article>

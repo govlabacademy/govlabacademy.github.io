@@ -24,8 +24,8 @@
 
 		.b-pop-controls {
 			.e-pop-button { display: none; }
-			.e-pop-button:first-of-type,
-			.e-pop-button:nth-of-type(2) { display: block; }
+			.e-pop-button.m-pin,
+			.e-pop-button.m-goto { display: block; }
 		}
 
 		.e-card-content {
@@ -41,7 +41,6 @@
 				margin-bottom: .5rem;
 			}
 		}
-
 	}
 }
 
@@ -90,20 +89,16 @@
 	margin: 5px; 
 
 	.b-wrapper {
-		padding: 15px 10px;
+		padding: 15px;
 		display: flex;
 		flex-flow: column;
 
-		&:before {
-			background-color: $scheme-comp_3;
-		}
-
+		
 	}
 
 	h3 {
 		font-size: 1.3rem;
 		word-wrap: break-word;
-
 	}
 
 	h4 {
@@ -118,9 +113,11 @@
 		overflow-y: hidden;
 		flex: 1;
 	}
-	
+
 	.e-card-content { max-height: 255px; }
 }
+
+
 
 // Resetting some values of the basic card
 .b-card.m-mini-card .b-wrapper {

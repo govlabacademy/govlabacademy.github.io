@@ -11,9 +11,9 @@
   - government accountability
   status: 'ongoing'
   links:
-  - trunonex: http://www.truonex.com/projects/12839/
-  - url: 
-  - demo: "https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=snv7xi1lnr0"
+    truonex: http://www.truonex.com/projects/12839/
+    url: 
+    demo: "https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=snv7xi1lnr0"
   files:
   - label: "Short Description"
     filename: "SD-citizensopenagenda.pdf"
@@ -21,8 +21,7 @@
     filename: "LD-citizensopenagenda.pdf"
   - label: "Slide-Deck"
     filename: "slides-citizenopenagenda.pdf"
-  images:
-  - logo-citizensopenagenda.png
+  logo: logo-citizensopenagenda.png
   authors:
   - first_name: Dinorah
     last_name: Cantu-Pedraza
@@ -40,9 +39,9 @@
   - congress
   status: 'ongoing'
   links:
-  - trunonex: http://www.truonex.com/projects/12820
-  - url: http://contributionexplorer.congressionalforecast.org/
-  - demo: http://vimeo.com/81623891
+    truonex: http://www.truonex.com/projects/12820
+    url: http://contributionexplorer.congressionalforecast.org/
+    demo: http://vimeo.com/81623891
   files:
   - label: "Short Description"
     filename: "SD-congressional-forecast.pdf"
@@ -50,8 +49,7 @@
     filename: "LD-congressional-forecast.pdf"
   - label: "Slide Deck"
     filename: "slides-congressional-forecast.pdf"
-  images:
-  - logo-congressional-forecast.png
+  logo: logo-congressional-forecast.png
   authors:
   - first_name: Michael A.
     last_name: Milazzo
@@ -71,9 +69,9 @@
   - design
   status: 'ongoing'
   links:
-  - trunonex: http://www.truonex.com/projects/12831/
-  - url: 
-  - demo:
+    truonex: http://www.truonex.com/projects/12831/
+    url: 
+    demo:
   files:
   - label: "Short Description"
     filename: "SD-datafordemocracy.pdf"
@@ -81,8 +79,7 @@
     filename: "LD-datafordemocracy.pdf"
   - label: "Slide Deck"
     filename: "slide-datafordemocracy.pdf"
-  images:
-  - logo-datafordemocracy.png
+  logo: logo-datafordemocracy.png
   authors:
   - first_name: Kareem
     last_name: Collie
@@ -100,9 +97,9 @@
   - education
   status: 'ongoing'
   links:
-  - trunonex: http://www.truonex.com/projects/12827/
-  - url: http://artinyourspace.tumblr.com/
-  - demo: "https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=1WxPXBI_k38"
+    truonex: http://www.truonex.com/projects/12827/
+    url: http://artinyourspace.tumblr.com/
+    demo: "https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=1WxPXBI_k38"
   files:
   - label: "Short Description"
     filename: "SD-artinyourspace.pdf"
@@ -110,8 +107,7 @@
     filename: "LD-artinyourspace.pdf"
   - label: "Slide Deck"
     filename: "slides-artinyourspace"
-  images:
-  - logo-artinyourspace.png
+  logo: logo-artinyourspace.png
   authors:
   - first_name: Benjamin
     last_name: Cramer

@@ -1,48 +1,78 @@
 {% extends "layout/base.html" %}
 {% block content %}
 <div id="project-page" class="b-content-page">
-	<div class="row">
-		<header class="column large-12 b-project-header">
-			
-			<h2>{{projects[0].title}} </h2>
-			{% if projects[0].status %}
-				<span class="b-project-status">{{projects[0].status}}</span>
-			{% endif %}
-			<h3>{{projects[0].name}}</h3>
-			<h4>{{projects[0].location}}</h4>			
-			<p>
-				<a class="e-pop-button" target-"_blank" href="{{projects[0].linkedin}}"><i class="fa fa-linkedin"></i></a>
-				<a class="e-pop-button" target-"_blank" href="{{projects[0].twitter}}"><i class="fa fa-twitter"></i></a>
-				<a class="e-pop-button" target-"_blank" href="{{projects[0].github}}"><i class="fa fa-github"></i></a>
-				<a class="e-pop-button" target-"_blank" href="{{projects[0].facebook}}"><i class="fa fa-facebook"></i></a>
-			</p>
-		</header>
-	</div>
-	<div class="row">
-		<div class="large-6 column">
-			<h3>Problem Statement</h3>
-			<p>{{projects[0].problem_statement}}</p>
-		</div>
-		<div class="large-6 column">
-			<h3>Project Summary</h3>
-			<p>{{projects[0].summary}}</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="large-6 column">
-			<h3>Problem Statement</h3>
-			<p>{{projects[0].problem_statement}}</p>
-		</div>
-		<div class="large-6 column">
-			<h3>Project Summary</h3>
-			<p>{{projects[0].why_compelling}}</p>
-		</div>
+	<div class="b-page-title">
+    <div class="row">
+    	<div class="column large-12">
+	  		<h2>Projects</h2>	
+  		</div>
+  	</div>
 	</div>
 	<div class="row">
 		<div class="column large-12">
-			<h2>Resources</h2>
+			{% for project in projects %}
+			<article id="{{project.slug}}" class="b-project-detail m-clinic b-pop-controls-container">
+				
+				<header>
+					<h2>{{project.title}}</h2>
+					<h5>{{project.location}} | {% if project.status %}<span class="e-project-status">{{project.status}}</span>{% endif %}</h5>
+				</header>
+
+				<aside class="e-project-detail-aside">
+					{% if project.logo %}
+					<section class="e-project-logo">
+						<img src="static/projects/{{project.slug}}/{{project.logo}}" alt="{{project.title}}">
+					</section>
+					{% endif %}
+
+					<section>
+						<h3>Authors</h3>
+						{% for author in project.authors %}
+							<p><a href="{{author.url}}">{{author.first_name}} {{author.last_name}}</a></p>
+						{% endfor %}
+					</section>
+					
+					<section>
+						<h3>Resources</h3>
+						<ul>
+						{% for file in project.files %}
+							<li><a href="static/projects/{{project.slug}}/{{file.filename}}" target="_blank">{{file.label}}</a></li>
+						{% endfor %}
+						</ul>
+					</section>
+
+				</aside>
+				
+				<div class="e-project-detail-main">
+					{% if project.summary %}
+					<section>
+						<h3>Project Summary</h3>
+						<p>{{project.summary}}</p>
+					</section>
+					{% endif %}
+					{% if project.problem_statement %}
+					<section>
+						<h3>Problem Statement</h3>
+						<p>{{project.problem_statement}}</p>
+					</section>
+					{% endif %}
+					{% if project.why_compelling %}
+					<section>
+						<h3>Why is it Compelling</h3>
+						<p>{{project.why_compelling}}</p>
+					</section>
+					{% endif %}
+				</div>
+
+				<div class="b-pop-controls">
+	        {% if project.links.url %}<a class="e-pop-button m-link" href="{{project.links.url}}"><i class="fa fa-link"></i></a>{% endif %}
+	        {% if project.links.demo %}<a class="e-pop-button m-link" href="{{project.links.demo}}"><i class="fa fa-link"></i></a>{% endif %}
+	        {% if project.links.truonex %}<a class="e-pop-button m-link" href="{{project.links.truonex}}"><i class="fa fa-link"></i></a>{% endif %}
+	      </div>
+			</article>
+			{% endfor %}
 		</div>
 	</div>
-
+</div>
 
 {% endblock %}
