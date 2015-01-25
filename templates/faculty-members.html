@@ -11,7 +11,7 @@
 <div class="row">
 	<div class="column large-12">
 		{% for person in people %}
-		<div id="{{person.name.slug}}" class="b-person-wrapper">
+		<div id="{{person.name.slug}}" class="b-link-fix">
 			<article class="b-person m-govlab-{{person.is_govlab}} b-pop-controls-container">
 				<header>
 					<div class="e-person-pic" style="background-image: url(static/img/people/{{person.img_url}})" title="{{person.name.first}} {{person.name.last}}"></div>

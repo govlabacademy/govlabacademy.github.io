@@ -7,6 +7,7 @@
 	border: 1px solid $gray_20;
 	padding: 30px;
 
+
 	&:before {
 		content:"";
 		position: absolute;
@@ -16,15 +17,9 @@
 		height: 4px;
 		z-index: 1;
 	}
-	
-	header {
-		margin-left: calc(30% - 5px);
-		margin-bottom: 30px;
-	}
 
 	h2 {
 		text-align: left;
-		margin-top: 20px;
 		margin-bottom: 0;
 	}
 
@@ -32,6 +27,70 @@
 		text-transform: uppercase;
 		color: $gray_60;
 		letter-spacing: 1px;
+		font-size: 1rem;
+		margin-bottom: 20px;
+	}
+
+	.e-project-logo {
+		text-align: center;
+		margin-bottom: 20px;
+
+		img { width: 60%; }
+	}
+
+	ul {
+		margin: 0;
+	}
+
+	section {
+		border-bottom: 1px solid $gray_20;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+
+
+
+}
+
+/* Mobile Only ----------- */
+
+@media only screen and (max-width : $desktop_width) {
+	.b-project-detail {
+		padding-bottom: 10px;
+
+		h2, h5 {
+			text-align: center;
+		}
+		.e-project-detail-aside {
+			text-align: center;
+		}
+
+		.b-pop-controls {
+			text-align: center;
+
+			.e-pop-button {
+				margin: 0 5px;
+			}	
+		}
+	}
+
+}
+
+// Desktop Only
+@media only screen and (min-width : $desktop_width) {
+
+.b-project-detail {
+	
+	header {
+		margin-left: calc(30% - 5px);
+		margin-bottom: 30px;
+	}
+
+	h2 {
+		margin-top: 20px;
+	}
+
+	h5 {
 		margin-left: 5px;
 	}
 
@@ -56,16 +115,10 @@
 		width: calc(70% - 5px);
 	}
 
-	section {
-		border-bottom: 1px solid $gray_20;
-		padding-bottom: 20px;
-		margin-bottom: 20px;
-
-		&:last-of-type {
-			border-bottom: 0;
-			padding-bottom: 0;
-			margin-bottom: 0;
-		}
+	section:last-of-type {
+		border-bottom: 0;
+		padding-bottom: 0;
+		margin-bottom: 0;
 	}
 
 	.e-project-status {
@@ -80,8 +133,8 @@
 
 }
 
-// Desktop Only
-@media only screen and (min-width : $desktop_width) {
+
+
 .b-project-detail {
 	.b-pop-controls {
 	left: -15px;

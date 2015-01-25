@@ -48,25 +48,21 @@
 
 // Mobile Only
 @media only screen and (max-width : $desktop_width) {
-.b-pop-controls {
-	text-align: center;
-	position: relative;
-	z-index: 2;
-	margin-top: -30px;
+.b-person {
+	.b-pop-controls {
+		text-align: center;
+		position: relative;
+		z-index: 2;
+		margin-top: -30px;
 
-	.e-pop-button {
-		margin: 5px;
-
-		&.m-pin {
-			display: none;
+		.e-pop-button { margin: 5px; }
+		.e-pop-button.m-pin {	display: none;}
 		}
 	}
-}
 }
 
 // Desktop Only
 @media only screen and (min-width : $desktop_width) {
-	.b-person-wrapper { padding-top: 80px; } // Maybe I can fix this changig the body padding top.
 
 	.b-person {
 		header {

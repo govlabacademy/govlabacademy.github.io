@@ -83,6 +83,8 @@
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : $desktop_width) {
+.b-link-fix { padding-top: 80px; } // Maybe I can fix this changig the body padding top.
+
 .b-content-page {
 	padding: 0 0 40px 0;
 
