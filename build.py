@@ -16,7 +16,7 @@ PEOPLE    = yaml.load(open('data/people.yaml'))
 WORKSHOPS = yaml.load(open('data/workshops.yaml'))
 CLINICS   = yaml.load(open('data/clinics.yaml'))
 COACHING  = yaml.load(open('data/coaching.yaml'))
-PROJECTS  = yaml.load(open('data/gallery-of-projects.yaml'))
+PROJECTS  = yaml.load(open('data/project-schema.yaml'))
 
 for person in PEOPLE:
 	person['fullName'] = "%s %s" % (person['name']['first'], person['name']['last'])
