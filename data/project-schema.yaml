@@ -13,38 +13,105 @@
   - url: 
   - demo: https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=snv7xi1lnr0 
   files:
-  - label: "short-description"
+  - label: "Short Description"
     filename: "SD-citizensopenagenda.pdf"
-  - label: "long-description"
+  - label: "Long Description"
     filename: "LD-citizensopenagenda.pdf"
-  - label: "slide-deck"
+  - label: "Slide-Deck"
     filename: "slides-citizenopenagenda.pdf"
   images:
-  - image_filename.jpg
+  - logo-citizensopenagenda.png
   authors:
   - first_name: Dinorah
     last_name: Cantu-Pedraza
     url: http://www.civic-discourse.org/users/dino/activity
 
-- title: ""
-  slug: ""
-  location: ""
-  problem_statement: ""
-  why_compelling: ""
-  summary: ""
+- title: CongressionalForecast.org
+  slug: congressional-forecast-org
+  location: United States
+  problem_statement: "The problem we are addressing is that the American public is not properly informed about the corrupting power that money has over politics in this country. Instead of representing the concerns of the people, politicians have become channels through which corporations and lobbyists distort the law for the sake of increasing profits. But this is not necessarily the fault of individual politicians. This is an incredibly complex issue and we believe that it can be solved by interpreting open government data and building a clear and engaging narrative."
+  why_compelling: "Will have data available with a constantly bigger crowd that wants to be heard and do more."
+  summary: "CongressionalForecast.org is a website that will use the corrupt practices of Congress against it, by using data on funding and donations to predict future votes, allowing voters to make more informed decisions and hold politicians accountable."
   tags:
-  - "tag"
-  status: ""
+  - corruption
+  - open government
+  - congress
+  status: 'ongoing'
   links:
-  - trunonex: ""
-  - url: ""
-  - demo: ""
+  - trunonex: http://www.truonex.com/projects/12820
+  - url: http://contributionexplorer.congressionalforecast.org/
+  - demo: http://vimeo.com/81623891
   files:
-  - label: "Label"
-    filename: "filename.pdf"
+  - label: "Short Description"
+    filename: "SD-congressional-forecast.pdf"
+  - label: "Long Description"
+    filename: "LD-congressional-forecast.pdf"
+  - label: "Slide Deck"
+    filename: "slides-congressional-forecast.pdf"
   images:
-  - "image_filename.jpg"
+  - logo-congressional-forecast.png
   authors:
-  - first_name: "Dinorah"
-    last_name: "Cantu-Pedraza"
-    url: ""
+  - first_name: Michael A.
+    last_name: Milazzo
+    url: 
+  - first_name: Brian G.
+    last_name: Clifton
+    url: 
+
+- title: Data for Democracy
+  slug: data-for-democracy
+  location: United States
+  problem_statement: "During the past two decades, changes in the way the public engages news media have presented major challenges to the industry, particularly in the area of investigative research and explanatory reporting."
+  why_compelling: 
+  summary: "LAB D is a research and design lab whose mission is to support the free flow of news and information to the public through journalism. It is the fusion of four components that work together to increase, support and sustain the flow of information through the practice of journalism, to educate and inform the public, thereby strengthening their engagement in the democratic process."
+  tags:
+  - media
+  - design
+  status: 'ongoing'
+  links:
+  - trunonex: http://www.truonex.com/projects/12831/
+  - url: 
+  - demo:
+  files:
+  - label: "Short Description"
+    filename: "SD-datafordemocracy.pdf"
+  - label: "Long Description"
+    filename: "LD-datafordemocracy.pdf"
+  - label: "Slide Deck"
+    filename: "slide-datafordemocracy.pdf"
+  images:
+  - logo-datafordemocracy.png
+  authors:
+  - first_name: Kareem
+    last_name: Collie
+    url: http://clearunbiased.tumblr.com
+
+- title: Art in Your Space
+  slug: art-in-your-space
+  location: United States
+  problem_statement: "Arts and science education in the United States is at a crossroads."
+  why_compelling: 
+  summary: "Art in Your Space prepares students at risk of dropping out of high school for 21st Century careers by collaborating with technology and design professionals to create custom interactive art installations for workspaces."
+  tags:
+  - STEM
+  - art
+  - education
+  status: 'ongoing'
+  links:
+  - trunonex: http://www.truonex.com/projects/12827/
+  - url: http://artinyourspace.tumblr.com/
+  - demo: https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=1WxPXBI_k38
+  files:
+  - label: "Short Description"
+    filename: "SD-artinyourspace.pdf"
+  - label: "Long Description"
+    filename: "LD-artinyourspace.pdf"
+  - label: "Slide Deck"
+    filename: "slides-artinyourspace"
+  images:
+  - logo-artinyourspace.png
+  authors:
+  - first_name: Benjamin
+    last_name: Cramer
+    url: 
+
