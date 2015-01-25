@@ -16,19 +16,6 @@
 		max-width: 80%;
 	}
 
-	#mit-logo {
-		max-width: 60%;
-	}
-
-	.b-main-nav {
-		margin-top: 20px;
-
-		a {
-			color: $white !important;
-			font-weight: 100;
-		}
-	}
-
 	.e-creative-commons {
 		font-size: .8rem;
 		line-height: 1rem;
@@ -43,6 +30,14 @@
 			margin-right: 20px;
 		}
 	}
+}
+
+/* Mobile Only ----------- */
+
+@media only screen and (max-width : $desktop_width) {
+
+.b-footer {	text-align: center; }
+
 }
 
 /* Desktops and laptops ----------- */

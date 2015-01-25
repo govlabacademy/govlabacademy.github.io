@@ -1,6 +1,4 @@
-#courses-page .b-courses-overview .b-course-summary {
-		height: 735px; // Better if not hard-coded
-}
+
 
 #courses-page .b-course-info li strong {
 	left: -90px;
@@ -31,7 +29,12 @@
 	}
 }
 
-
+/* Mobile Only ----------- */
+@media only screen and (max-width : $desktop_width) {
+	#courses-page .b-courses-overview .b-course-summary {
+			height: 880px; // Better if not hard-coded
+	}
+}
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : $desktop_width) {

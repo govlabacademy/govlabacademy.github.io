@@ -1,5 +1,22 @@
+
+
+
+/* Mobile Only ----------- */
+@media only screen and (max-width : $desktop_width) {
+
+.b-filters { display: none; }
+.e-filters-trigger { display: none !important; }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : $desktop_width) {
 .b-filters.b-filters {
 	margin: 0;
+}
+
+.e-filters-trigger { 
+	font-size: 1rem; 
+	float: right;
 }
 
 .b-filters {
@@ -50,23 +67,6 @@
 	}
 }
 
-.b-card-wrapper {
-	list-style: none;
-
-	&:before {
-		display: none;
-	}
-}
-
-.e-filter-trigger {
-	float: right;
-	font-size: 1rem;
-}
-
-.e-filters-trigger { float: left; }
-
-/* Desktops and laptops ----------- */
-@media only screen and (min-width : $desktop_width) {
 
 .b-filters {
 	width: 300px;
@@ -102,5 +102,8 @@
 	.m-show-all {
 		margin: 3px 0 0 0;
 	}
+}
+
+.e-filters-trigger { 
 }
 }

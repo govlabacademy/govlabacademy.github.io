@@ -1,4 +1,21 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width : $desktop_width) {
+#people .b-pop-controls {
+		position: absolute;
+		top: 20px;
+		left: -5px;
 
+		.e-pop-button {
+			display: none;
+		}
+
+		.m-goto {
+			display: inline-block;
+		}
+
+		
+	}
+}
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : $desktop_width) {

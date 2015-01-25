@@ -1,6 +1,11 @@
 .b-card-isotopes .b-card { display: block; }
 .b-card { display: inline-block; }
 
+.b-card-wrapper {
+	list-style: none;
+
+	&:before { display: none; }
+}
 
 // Cards General Styles
 .b-card {
@@ -31,7 +36,8 @@
 		.e-card-content {
 			margin-top: 10px;
 			overflow-y: hidden;
-			padding: 0 15px 15px;
+			padding: 0 15px 0;
+			margin-bottom: 15px;
 
 			h4 { font-size: 1rem; }
 
@@ -53,6 +59,7 @@
 }
 
 .b-card.m-people {
+	
 	.b-card-header {
 		position: relative;
 		z-index: 0;
@@ -82,7 +89,9 @@
 		@include card-gradient;
 	}
 
-	.e-card-content { max-height: 255px; }
+	.e-card-content { 
+		max-height: 235px; 
+	}
 }
 
 .b-card.m-project {
@@ -92,8 +101,6 @@
 		padding: 15px;
 		display: flex;
 		flex-flow: column;
-
-		
 	}
 
 	h3 {
@@ -181,7 +188,6 @@
 
 
 /* Mobile Only ----------- */
-
 @media only screen and (max-width : $desktop_width) {
 
 .b-card .b-pop-controls {
@@ -195,6 +201,17 @@
 		transform: scale(1.1, 1.1);
 	}
 }
+
+.b-card.m-people {
+	display: flex;
+	flex-flow: column;
+
+	.e-card-content {
+		flex: 1;
+	}
+}
+
+		
 
 .b-card.m-mini-card {
 	margin-bottom: 10px;

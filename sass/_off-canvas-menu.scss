@@ -2,29 +2,16 @@
 @media only screen and (max-device-width : $desktop_width) {
 
 .e-mainnav-trigger {
-	position: absolute;
-	left: 10px;
+	position: fixed;
+	right: 20px;
 	top: 5px;
 	color: $white;
 	z-index: 20;
-	@include transition;
-}
-
-body {
-	position: relative;
-	left: 0;
-	@include transition;
-}
-
-body.m-nav-active {
-	left: 300px;
-	@include transition;
-	height: 100%;
-	overflow: hidden;
+	@include transition-fast;
 }
 
 .b-top-navigation-wrapper {
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	z-index: 10;
 }
@@ -49,7 +36,7 @@ body.m-nav-active {
 	margin-left: 0;
 	height: 100%;
 	border-right: 1px solid $purple;
-	@include inner-shadow;
+	@include drop-shadow;
 	background-color: $white;
 
 	

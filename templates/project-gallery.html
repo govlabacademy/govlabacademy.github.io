@@ -1,17 +1,18 @@
 {% extends "layout/base.html" %}
 {% block content %}
-<div id="master-courses-page" class="b-content-page">
+<div id="gallery-page" class="b-content-page">
 	<div class="b-page-title">
     <div class="row">
-  		<span class="e-filters-trigger e-button">Filters</span>
-  		<h2>Project Gallery</h2>	
+      <div class="column large-12">
+    		<h2>Project Gallery</h2>	
+        <span class="e-filters-trigger e-button">Filters</span>
+      </div>
   	</div>
 	</div>
 
 	<section class="b-filters">
 		<h4>Filters
       <span class="e-filter m-show-all" data-filter="all">Show All</span>
-	    
 		</h4>
     <ul>
 		{% for card in projects %}
@@ -33,13 +34,16 @@
           <article class="b-card m-project m-clinic b-pop-controls-container" data-filter="{% for tag in card.tags %}{{tag}}{% endfor %}">
             <div class="b-wrapper">
               <h3 title="{{card.title}}">{{card.title}}</h3>
-              <div class="b-pop-controls">
-                <span class="e-pop-button m-pin"><i class="fa fa-thumb-tack"></i></span>
-                <a class="e-pop-button m-goto" href="project-page.html#{{card.slug}}"><i class="fa fa-link"></i></a>
-              </div>
               <h4>{{card.authors.first_name}} {{card.authors.last_name}}</h4>
               <p>{{card.summary}}</p>
+
+            <div class="b-pop-controls">
+              <span class="e-pop-button m-pin"><i class="fa fa-thumb-tack"></i></span>
+              <a class="e-pop-button m-goto" href="project-page.html#{{card.slug}}"><i class="fa fa-link"></i></a>
             </div>
+
+            </div>
+
           </article>
           {% endif %}
         {% endfor %}  

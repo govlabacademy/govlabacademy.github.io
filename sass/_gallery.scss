@@ -1,0 +1,23 @@
+
+/* Mobile Only ----------- */
+@media only screen and (max-width : $desktop_width) {
+#gallery-page {
+	h2 {
+		margin-bottom: 0;
+	}
+
+
+	.b-pop-controls {
+		text-align: center;
+	}
+
+	.e-pop-button {
+		display: inline-block;
+		margin: 5px;
+	}
+
+	.m-pin {
+		display: none;
+	}
+}
+}

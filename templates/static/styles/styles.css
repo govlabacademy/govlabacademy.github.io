@@ -528,26 +528,15 @@ a {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-device-width: 1024px) {
   .e-mainnav-trigger {
-    position: absolute;
-    left: 10px;
+    position: fixed;
+    right: 20px;
     top: 5px;
     color: white;
     z-index: 20;
-    transition: all 0.4s ease; }
-
-  body {
-    position: relative;
-    left: 0;
-    transition: all 0.4s ease; }
-
-  body.m-nav-active {
-    left: 300px;
-    transition: all 0.4s ease;
-    height: 100%;
-    overflow: hidden; }
+    transition: all 0.2s ease; }
 
   .b-top-navigation-wrapper {
-    position: absolute;
+    position: fixed;
     width: 100%;
     z-index: 10; }
 
@@ -569,7 +558,7 @@ a {
     margin-left: 0;
     height: 100%;
     border-right: 1px solid #472b74;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3) inset;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.6);
     background-color: white; }
     .b-main-nav h2 {
       margin: 0;
@@ -610,13 +599,6 @@ a {
     margin: 0 0 10px; }
   .b-footer img {
     max-width: 80%; }
-  .b-footer #mit-logo {
-    max-width: 60%; }
-  .b-footer .b-main-nav {
-    margin-top: 20px; }
-    .b-footer .b-main-nav a {
-      color: white !important;
-      font-weight: 100; }
   .b-footer .e-creative-commons {
     font-size: .8rem;
     line-height: 1rem;
@@ -629,6 +611,10 @@ a {
       float: left;
       margin-right: 20px; }
 
+/* Mobile Only ----------- */
+@media only screen and (max-width: 1024px) {
+  .b-footer {
+    text-align: center; } }
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
   .b-footer {
@@ -705,52 +691,51 @@ a {
     height: 14px;
     opacity: 0;
     z-index: 0; } }
-.b-filters.b-filters {
-  margin: 0; }
-
-.b-filters li {
-  padding-left: 0; }
-  .b-filters li:before {
-    display: none; }
-.b-filters h3 {
-  padding-left: 16px; }
-.b-filters .b-filter-group ul {
-  margin-left: 0; }
-.b-filters .b-filter-group h4 {
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #472b74;
-  text-align: right; }
-.b-filters .e-filter {
-  font-size: .9rem;
-  font-weight: 400;
-  padding: 2px 8px 2px;
-  margin-bottom: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  background-color: rgba(0, 0, 0, 0.03);
-  cursor: pointer; }
-  .b-filters .e-filter.m-show-all {
-    float: right; }
-  .b-filters .e-filter:hover {
-    border-color: #472b74;
-    background-color: rgba(71, 43, 116, 0.2);
-    color: #472b74; }
-
-.b-card-wrapper {
-  list-style: none; }
-  .b-card-wrapper:before {
+/* Mobile Only ----------- */
+@media only screen and (max-width: 1024px) {
+  .b-filters {
     display: none; }
 
-.e-filter-trigger {
-  float: right;
-  font-size: 1rem; }
-
-.e-filters-trigger {
-  float: left; }
-
+  .e-filters-trigger {
+    display: none !important; } }
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
+  .b-filters.b-filters {
+    margin: 0; }
+
+  .e-filters-trigger {
+    font-size: 1rem;
+    float: right; }
+
+  .b-filters li {
+    padding-left: 0; }
+    .b-filters li:before {
+      display: none; }
+  .b-filters h3 {
+    padding-left: 16px; }
+  .b-filters .b-filter-group ul {
+    margin-left: 0; }
+  .b-filters .b-filter-group h4 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #472b74;
+    text-align: right; }
+  .b-filters .e-filter {
+    font-size: .9rem;
+    font-weight: 400;
+    padding: 2px 8px 2px;
+    margin-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.03);
+    cursor: pointer; }
+    .b-filters .e-filter.m-show-all {
+      float: right; }
+    .b-filters .e-filter:hover {
+      border-color: #472b74;
+      background-color: rgba(71, 43, 116, 0.2);
+      color: #472b74; }
+
   .b-filters {
     width: 300px;
     padding: 60px 0 20px;
@@ -926,6 +911,10 @@ a {
 .b-course-list-item.m-workshop.m-crosslisted-True .e-partner:before {
   content: "This workshop is offered by "; }
 
+/* Mobile Only ----------- */
+@media only screen and (max-width: 1024px) {
+  .e-course-faculty .b-card.m-people {
+    padding-bottom: 0; } }
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
   .b-course-list-item:before {
@@ -977,6 +966,8 @@ a {
   .e-pop-button i.fa-cubes {
     vertical-align: 3px;
     text-indent: 1px; }
+  .e-pop-button i.fa-play {
+    text-indent: 3px; }
   .e-pop-button i.fa-linkedin,
   .e-pop-button i.fa-facebook,
   .e-pop-button i.fa-github,
@@ -1028,6 +1019,11 @@ a {
 .b-card {
   display: inline-block; }
 
+.b-card-wrapper {
+  list-style: none; }
+  .b-card-wrapper:before {
+    display: none; }
+
 .b-card {
   margin: 5px; }
   .b-card .b-wrapper {
@@ -1051,7 +1047,8 @@ a {
     .b-card .b-wrapper .e-card-content {
       margin-top: 10px;
       overflow-y: hidden;
-      padding: 0 15px 15px; }
+      padding: 0 15px 0;
+      margin-bottom: 15px; }
       .b-card .b-wrapper .e-card-content h4 {
         font-size: 1rem; }
       .b-card .b-wrapper .e-card-content p {
@@ -1104,7 +1101,7 @@ a {
   background: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
   /* Opera 11.10+ */ }
 .b-card.m-people .e-card-content {
-  max-height: 255px; }
+  max-height: 235px; }
 
 .b-card.m-project {
   margin: 5px; }
@@ -1192,6 +1189,12 @@ a {
     .b-card .b-pop-controls .e-pop-button:nth-of-type(2) {
       transform: scale(1.1, 1.1); }
 
+  .b-card.m-people {
+    display: flex;
+    flex-flow: column; }
+    .b-card.m-people .e-card-content {
+      flex: 1; }
+
   .b-card.m-mini-card {
     margin-bottom: 10px; } }
 /* Desktops and laptops ----------- */
@@ -1223,7 +1226,7 @@ a {
   padding-top: 0; }
   #homepage #intro {
     margin-bottom: 0;
-    padding-top: 40px;
+    padding-top: 80px;
     padding-bottom: 40px; }
     #homepage #intro #academy-icon {
       opacity: 0.1;
@@ -1270,76 +1273,55 @@ a {
     #homepage #explanation li:before {
       border-left-color: rgba(255, 255, 255, 0.5); }
   #homepage .b-partners {
-    overflow: hidden;
     padding: 20px 0;
-    text-align: center;
-    height: auto;
-    max-height: 60px;
-    transition: all 0.4s ease; }
+    text-align: center; }
     #homepage .b-partners .e-partner-logo {
-      display: inline-block;
+      display: block;
       max-width: 220px;
-      margin: 20px; }
+      margin: 40px auto; }
       #homepage .b-partners .e-partner-logo:hover {
         background-color: transparent !important; }
-    #homepage .b-partners.m-active {
-      max-height: 600px !important;
-      transition: all 0.4s ease; }
-    #homepage .b-partners .e-trigger {
-      position: relative; }
-      #homepage .b-partners .e-trigger:after {
-        content: "";
-        width: 0;
-        height: 0;
-        border-right: 8px solid rgba(0, 0, 0, 0.3);
-        border-top: 12px solid transparent;
-        border-bottom: 12px solid transparent;
-        position: absolute;
-        right: 20px;
-        top: 4px; }
     #homepage .b-partners #ogp {
       max-width: 100px; }
     #homepage .b-partners #stanford-design-school {
       max-width: 140px; }
     #homepage .b-partners #cusp {
       max-width: 180px; }
-  #homepage .b-partners.m-active .e-trigger::after {
-    border-top: 8px solid rgba(0, 0, 0, 0.3);
-    border-left: 12px solid transparent;
-    border-right: 12px solid transparent;
-    right: 15px;
-    top: 12px; }
 
 .b-signup {
   text-align: center;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.3) inset;
-  padding-top: 40px;
+  padding: 40px 0;
   background-color: #4f3081; }
   .b-signup label {
-    font-size: 2.8rem;
+    font-size: 2rem;
     color: #9981c0;
     font-weight: 300;
-    display: inline-block;
-    margin-right: 50px;
+    display: block;
     vertical-align: bottom;
     margin-bottom: 10px; }
   .b-signup input.email {
     padding: 10px 16px 8px;
     font-size: 1.5rem;
     font-weight: 200;
-    width: 400px;
-    vertical-align: bottom;
+    font-size: 1.2rem;
+    vertical-align: top;
+    width: 190px;
     border: 1px solid #281841;
     border-right: 0;
     border-radius: 3px 0 0 3px; }
   .b-signup .e-button {
     width: auto;
     border-radius: 0 3px 3px 0;
-    vertical-align: bottom;
-    padding: 8px 16px 8px;
+    margin: 0;
+    vertical-align: top;
+    padding: 9px 16px 9px;
     margin-left: -4px;
+    font-size: 1.2rem;
     border: 1px solid #281841;
-    background-color: #9981c0; }
+    background-color: #9981c0;
+    display: inline-block;
+    font-weight: 200; }
     .b-signup .e-button:hover {
       background-color: #6f5d8b; }
 
@@ -1399,8 +1381,8 @@ a {
     color: white; }
 .b-courses-overview .b-course-summary {
   padding: 10px 40px 40px;
-  height: 365px;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 350px; }
   .b-courses-overview .b-course-summary h3 {
     margin-top: 20px;
     color: white;
@@ -1472,10 +1454,9 @@ a {
   #homepage #explanation p,
   #homepage #explanation .b-list li {
     margin-bottom: 8px; }
-  #homepage #partners.b-partners {
-    max-height: none; }
-    #homepage #partners.b-partners .e-trigger::after {
-      display: none; }
+  #homepage .b-partners .e-partner-logo {
+    display: inline-block;
+    margin: 20px; }
 
   #canvas {
     display: block; }
@@ -1523,6 +1504,12 @@ a {
       .b-canvas .e-right p {
         padding-left: 15px; }
 
+  .b-signup label {
+    display: inline-block;
+    margin-right: 50px; }
+  .b-signup input.email {
+    width: 400px; }
+
   .b-courses-overview .e-course-navigation {
     display: none; }
   .b-courses-overview .swipe {
@@ -1542,10 +1529,10 @@ a {
     .b-courses-overview .b-course-summary:before, .b-courses-overview .b-course-summary:after {
       display: none; }
   .b-courses-overview #master-courses p {
-    letter-spacing: -0.1px; } }
-#courses-page .b-courses-overview .b-course-summary {
-  height: 735px; }
+    letter-spacing: -0.1px; }
 
+  #courses-page .b-courses-overview .b-course-summary {
+    height: 700px; } }
 #courses-page .b-course-info li strong {
   left: -90px; }
 
@@ -1566,6 +1553,10 @@ a {
     left: -85px;
     text-align: right; }
 
+/* Mobile Only ----------- */
+@media only screen and (max-width: 1024px) {
+  #courses-page .b-courses-overview .b-course-summary {
+    height: 880px; } }
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
   .b-course-info li {
@@ -1650,6 +1641,16 @@ a {
   .b-person .b-pop-controls {
     left: -15px;
     top: 30px; } }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width: 1024px) {
+  #people .b-pop-controls {
+    position: absolute;
+    top: 20px;
+    left: -5px; }
+    #people .b-pop-controls .e-pop-button {
+      display: none; }
+    #people .b-pop-controls .m-goto {
+      display: inline-block; } }
 /* Desktops and laptops ----------- */
 .b-faqs {
   background-color: rgba(0, 0, 0, 0.03);
@@ -1664,11 +1665,11 @@ a {
     width: 0;
     height: 0;
     position: absolute;
-    right: 0;
-    top: 12px;
-    border-right: 16px solid #c0ba21;
-    border-top: 16px solid transparent;
-    border-bottom: 16px solid transparent;
+    right: 20px;
+    top: 8px;
+    border-right: 12px solid #c0ba21;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
     transition: all 0.4s ease; }
   .b-faqs.m-active {
     max-height: 30000px;
@@ -1717,7 +1718,24 @@ a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding-bottom: 20px; }
   .b-faqs .e-answer li {
-    padding-left: 20px; } }
+    padding-left: 20px; }
+  .b-faqs .e-faq-trigger:after {
+    right: 0;
+    top: 12px;
+    border-right: 16px solid #c0ba21;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent; } }
+/* Mobile Only ----------- */
+@media only screen and (max-width: 1024px) {
+  #gallery-page h2 {
+    margin-bottom: 0; }
+  #gallery-page .b-pop-controls {
+    text-align: center; }
+  #gallery-page .e-pop-button {
+    display: inline-block;
+    margin: 5px; }
+  #gallery-page .m-pin {
+    display: none; } }
 .b-project-detail {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
   background-color: white;
