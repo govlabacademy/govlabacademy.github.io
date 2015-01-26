@@ -31,7 +31,7 @@
   slug: congressional-forecast-org
   location: United States
   problem_statement: "The problem we are addressing is that the American public is not properly informed about the corrupting power that money has over politics in this country. Instead of representing the concerns of the people, politicians have become channels through which corporations and lobbyists distort the law for the sake of increasing profits. But this is not necessarily the fault of individual politicians. This is an incredibly complex issue and we believe that it can be solved by interpreting open government data and building a clear and engaging narrative."
-  why_compelling: "Will have data available with a constantly bigger crowd that wants to be heard and do more."
+  why_compelling: "We’re creating CongressionalForecast.org to address this problem and transform our insights into a predictive system that will illustrate the strength or weakness of an individual politician in facing this corrupt system and their fidelity to the concerns of lobbyists and corporations. We need a dynamic platform that clearly shows legislation heading to the floor for a vote, the weakness of members of congress to the pressures of lobbyists in showing how likely they are to vote in support or oppose a bill, and a way to communicate the severity of this problem to the constituents. We are creating this in the hopes that they will be empowered to voice their concerns to their elected officials. We want to improve our corrupted political system and have others to share in our conviction."
   summary: "CongressionalForecast.org is a website that will use the corrupt practices of Congress against it, by using data on funding and donations to predict future votes, allowing voters to make more informed decisions and hold politicians accountable."
   tags:
   - corruption
@@ -62,7 +62,7 @@
   slug: data-for-democracy
   location: United States
   problem_statement: "During the past two decades, changes in the way the public engages news media have presented major challenges to the industry, particularly in the area of investigative research and explanatory reporting."
-  why_compelling: 
+  why_compelling: "There’s been growing concern over the state of our democracy. This concern exist within all sectors of the public’s social, international and security interest. Each day we hear concern over our national security and/or the state of our education system. We hear about the dire straights of our economy, our race relations and our strained healthcare structure. These are just a few of the conversations that make their way into our homes. Without the journalism industry we, the public, would be ignorant to the magnitude of the issues weighing on the country. Yet, in spite of its importance the institution of journalism has been s!tretched of late both finically and culturally." 
   summary: "LAB D is a research and design lab whose mission is to support the free flow of news and information to the public through journalism. It is the fusion of four components that work together to increase, support and sustain the flow of information through the practice of journalism, to educate and inform the public, thereby strengthening their engagement in the democratic process."
   tags:
   - media
@@ -88,8 +88,8 @@
 - title: Art in Your Space
   slug: art-in-your-space
   location: United States
-  problem_statement: "Arts and science education in the United States is at a crossroads."
-  why_compelling: 
+  problem_statement: "Arts and science education in the United States is at a crossroads. On the National Assessment of Educational Progress, less than one-third of U.S. eighth graders show proficiency in mathematics and science (STEM). And, the new funding required to fully fund the recommendations could reach up to approximately $1 billion per year (Report to the President, 2011)."
+  why_compelling: "Art In Your Space (AIYS) is a plan to create a program at the intersection of art, technology, and project based learning for students in high school who are at risk of dropping out. In the 12- week afterschool program students will work with aim businesses, artists, a grad student, and a teacher from their school to learn design, project management, and technology skills to create interactive art installations for workspaces."
   summary: "Art in Your Space prepares students at risk of dropping out of high school for 21st Century careers by collaborating with technology and design professionals to create custom interactive art installations for workspaces."
   tags:
   - STEM
@@ -113,3 +113,165 @@
     last_name: Cramer
     url: 
 
+- title: Open Data and Corporate Social Responsibility Metrics
+  slug: open-data-and-corporate-social-responsibility-metrics
+  location: United States
+  problem_statement: "Sustainability disclosure varies widely even though increasingly public companies are legally obligated to tell regulatory agencies and investors about the social, political and environmental risks they face. In addition, there is a rise in rating and reporting frameworks and multiple uncoordinated approaches to data gathering, which are limited in a number of reasons including that the studied companies are the primary source of the data used to evaluate them."
+  why_compelling: "The private sector is often seen as a driver of exclusionary processes rather than a partner in improving the health and welfare of socially excluded populations. However, private-sector initiatives and partnerships—collectively labeled corporate social responsibility (CSR) initiatives—may be able to positively impact social status, earning potential, and access to services and resources for socially-excluded populations. Today, the number of companies reporting on corporate responsibility has continued to rise and what once was considered an “optional but nice” activity now seems to have become virtually mandatory for most multinationals (KPMG, Internal Audit and CSR Reporting, 2013)."
+  summary: "This project presents the importance of corporate responsibility metrics and sustainability reporting, explains how open data is already having an impact in these and introduces alternative uses of data to further improve companies’ performance on society and nature."
+  tags:
+  - corporate social responsibility
+  - open data
+  status: 'stalled'
+  links:
+    truonex: http://www.truonex.com/projects/12837/
+    url: http://www.tumblr.com/blog/marissecrenier
+    demo: https://www.youtube.com/watch?x-yt-cl=84503534&x-yt-ts=1421914688&v=DpGtXZkRzvo
+  files:
+  - label: "Short Description"
+    filename: "SD-opendatacsr.pdf"
+  - label: "Long Description"
+    filename: "LD-opendatacsr.pdf"
+  - label: "Slide Deck"
+    filename: "slides-opendatacsr.pdf"
+  logo: logo-opendatacsr.png
+  authors:
+  - first_name: Marisse
+    last_name: del Olmo Crenier
+    url: https://www.linkedin.com/pub/marisse-del-olmo-crenier/1b/861/674
+
+- title: Illegal Gold Mining in the Amazon
+  slug: illegal-gold-mining-in-the-amazon
+  location: Brazil
+  problem_statement: "A gold rush, fueled by high gold prices, has become the biggest threat to the conservation of the Amazon forest in Peruvian region of Madre de Dios (MDD). Known for its incredible biodiversity, it is home to over 1000 species of birds, 200+ mammals, several thousands of plants. An estimated 300 000 hectares have been been hit so far by deforestation, with more than 6000 added every year. The water and air are being polluted with dangerous levels of mercury. 77.8% of inhabitants of Puerto Maldonado, capital of MDD, register higher levels as those permitted by the WHO.The high profitability of gold prices has led to an uncontrolled growth of illegal mining, that now represents 52% of MDD’s GDP, employing 50 000+. MDD has the lowest monetary poverty rate of the country, and illegal gold mining has now surpassed drug trafficking as the main illegal activity of Perú, the world’s top producer of cocaine. Additional problems are the continuous social conflicts, human trafficking and underaged prostitution."
+  why_compelling: "Opening data could be a good first step, but it is not enough. There is no central place on the web where a non­expert audience can have access to an organized set of visualizations and infographics about this topic using continuously updated data, that might help to easily understand the size and scope of the problem, the current trends (or trends over time), and also have an insight of the actual effectiveness of government measures and other institutions. This proposal focuses on developing different tools that can also enhance accountability."
+  summary: "A gold rush of illegal mining is devastating large areas of precious ecosystems in the Amazon, contaminating them with mercury. This problem needs comprehensive action by several government branches and NGOs combined. We propose 2 intertwined strategies: first, assess the possibility for an open data strategy to ease access to and organize various data sources. Second, create a one stop site to present the data in powerful and consistent visualizations and infographics."
+  tags:
+  - amazon forest
+  - sustainability
+  status: 'ongoing'
+  links:
+    truonex: http://www.truonex.com/projects/12829/
+    url: http://rderteano.tumblr.com/tagged/gov30
+    demo: http://vimeo.com/82134278
+  files:
+  - label: "Short Description"
+    filename: "SD-goldmining-amazon.pdf"
+  - label: "Long Description"
+    filename: "LD-goldmining-amazon.pdf"
+  - label: "Slide Deck"
+    filename: "slides-goldmining-amazon.pdf"
+  logo: logo-goldmining-amazon.png
+  authors:
+  - first_name: Rodrigo
+    last_name: Derteano
+    url: http://rodrigoderteano.com/
+ 
+
+- title: Tackling Bribery at the Local Government Level
+  slug: tackling-bribery-at-the-local-government-level
+  location: India
+  problem_statement: "Every day, ordinary people bear the cost of corruption. In India, as in many other countries, corruption affects people from birth until death. It is next to impossible to obtain documents such as birth certificates, driver’s licenses, ration cards without paying bribe. Unfiltered data is hard to obtain from traditional sources such as RTI act due to  inherent conflict of interest. Corruption and bribery are born out of systems failure. At the core of problem are monopoly and lack of accountability. Wherever these conditions exist, be it the public or private sector, corruption tends to happen."
+  why_compelling: "Internet offers new tools to improve accountability and bypass traditional methods for public sector accountability (the traditional  do not work due to inherent conflict of interest)." 
+  summary: "A design system based on persuasion that can reduce corruption and red tape in context on India and increase accountability. My project proposes to redesign of iPaidaBribe.com While ipaidabribe.com is a great start towards crowdsourcing hard to obtain data, it does not accomplish much in terms of reducing the problem of bribery. "
+  tags:
+  - social media
+  - bribery
+  status: 'stalled'
+  links:
+    truonex: 
+    url: http://taranagupta.com/#/redesign-ipaidabribecom/
+    demo:
+  files:
+  - label: "Short Description"
+    filename: ""
+  - label: "Long Description"
+    filename: ""
+  - label: "Slide Deck"
+    filename: "slide-bribery-localgovtlevel.pdf"
+  logo: logo-bribery-localgovtlevel.png
+  authors:
+  - first_name: Tarana
+    last_name: Gupta
+    url: http://taranagupta.com/
+  
+- title: Codebreaking: Translating the Law
+  slug: codebreaking-translating-the-law
+  location: United States
+  problem_statement: "The United States represents itself as a democracy where “no [one] is above the law and no [one] is below it”. Yet how can that be true when the actual content and meaning of the law remains a closed book for most citizens? Legal writing is infamous for being dense, archaic, and inscrutable. It takes a lawyer to compose statutes and then it takes another to decipher it. Yet it doesn’t have to be that way."
+  why_compelling: "Every resident of the United States is theoretically protected and covered by the various local, state, and federal statutes currently compiled into our code of law. But how many can actually claim they understand those laws? Given the dense and confusing legal language used by their authors, probably very few. Many people seek counsel from lawyers, but most advice costs money. Codebreakers is a project dedicated to crafting the tools and crowdsourcing networks needed to break down and translate the laws and common legal challenges into forms that anyone can understand." 
+  summary: "Codebreaking is about using technology to translate and break down the law into forms that can be understood by every citizen."
+  tags:
+  - media
+  - design
+  status: 'stalled'
+  links:
+    truonex: http://www.truonex.com/projects/12830/
+    url: 
+    demo: https://www.youtube.com/watch?x-yt-cl=84503534&x-yt-ts=1421914688&v=yOhn3WiuGsU
+  files:
+  - label: "Short Description"
+    filename: "SD-code-breakingthelaw.pdf"
+  - label: "Long Description"
+    filename: "LD-code-breakingthelaw.pdf"
+  - label: "Slide Deck"
+    filename: "slides-code-breakingthelaw.pdf"
+  logo: logo-code-breakingthelaw.png
+  authors:
+  - first_name: Douglas
+    last_name: Meredith
+    url: 
+
+- title: Rock the Vote
+  slug: rock-the-vote
+  location: United States
+  problem_statement: "According to the NYC Campaign Finance Board (NYCCFB), only 4% of eligible voters under the age of 30 voted in the 2009 general election for Mayor. CIRCLE (The Center for Information and Research on Civic Learning and Engagement) has suggested that over 50% of voters (under 30) self-reported that they did not vote in the 2010 midterm elections because they were “too busy/conflicting work” and/or “not interested/felt my vote would not count”."
+  why_compelling: "Local politics more directly affect the daily lives of individuals than politics at the State or National level.  For example, the Mayor’s Office administers city services like appropriating funds to schools, the City Council is responsible for approving the City’s budget and the Comptroller oversees all local government contracts.  Given those responsibilities, and others like overseeing police and fire departments and ensuring fair business practices, it is expected that individuals would want to participate in the voting process to elect these officials.  However, it has been proven time and time again that young people, in particular, still do not vote." 
+  summary: "Given the low turnout, reasons for not voting and importance of going to the polls, how do you create a compelling incentive to improve young voter engagement in local elections?  We are at a unique place in terms of available data and technology to address this problem through an incentive-based program unlike anything that has been done before.  Consider, participatory voting as a method to create a compelling incentive to improve young voter engagement in local elections."
+  - participatory government
+  - voting
+  status: 'stalled'
+  links:
+    truonex: http://www.truonex.com/projects/12826/
+    url: 
+    demo: 
+  files:
+  - label: "Short Description"
+    filename: "SD-rockthevote.pdf"
+  - label: "Long Description"
+    filename: "LD-rockthevote.pdf"
+  - label: "Slide Deck"
+    filename: "slides-rockthevote.pdf"
+  logo: logo-rockthevote.png
+  authors:
+  - first_name: Alexa
+    last_name: Neibart
+    url: 
+
+- title: Code for Fukushima
+  slug: code-for-fukushima
+  location: Japan
+  problem_statement: "Marketing Difficulties: Many Japanese farmers have been experiencing difficulties in marketing their products after Fukushima Daiichi Nuclear Disaster in 2011, and; Consumers: Need for risk communication on the standard limits and radionuclide tests."
+  why_compelling: "Although the marketing difficulties have been alleviated to some extent along with these efforts, some consumers still have hesitation in buying food produced in eastern Japan, especially Fukushima. According to the consumer survey conducted by the Consumer Affairs Agency (CAA) in February 2013, 50.9% of respondents answered that even when the food radiation is below the standard limit, they still want the level to be as low as possible. At the same time, less than 30% of respondents knew the key facts such as that the standard limits are set at the level where people can stay safe eating such food all their life. In addition, only 12% answered that they get information from governmental websites. Other respondents answered that they get information from TV/radio (47.6%) and newspaper/magazine (32.5%). 36.3% answered that they do not especially get any information on food radiation. These survey results suggest that the government needs further effective ways of risk communication." 
+  summary: "This project proposes a system to convey the food radiation data to consumers shopping at retail stores by using QR codes. The purpose of the project is to reduce the marketing difficulties caused by Fukushima Daiichi Nuclear Disaster."
+  tags:
+  - communication
+  - fukushima
+  - disaster
+  status: 'stalled'
+  links:
+    truonex: http://www.truonex.com/projects/12828
+    url: 
+    demo: https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=rWgBTg-RJQc
+  files:
+  - label: "Short Description"
+    filename: "SD-codeforfukushima.pdf"
+  - label: "Long Description"
+    filename: "LD-codeforfukushima.pdf"
+  - label: "Slide Deck"
+    filename: "slides-codeforfukushima.pdf"
+  logo: logo-codeforfukushima.png
+  authors:
+  - first_name: Keita
+    last_name: Nishimura
+    url:   
