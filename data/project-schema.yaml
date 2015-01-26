@@ -166,7 +166,7 @@
   - first_name: Rodrigo
     last_name: Derteano
     url: http://rodrigoderteano.com/
-
+ 
 - title: Tackling Bribery at the Local Government Level
   slug: tackling-bribery-at-the-local-government-level
   location: India
@@ -194,7 +194,7 @@
     last_name: Gupta
     url: http://taranagupta.com/
   
-- title: "Codebreaking: Translating the Law"
+- title: Codebreaking: Translating the Law
   slug: codebreaking-translating-the-law
   location: United States
   problem_statement: "The United States represents itself as a democracy where “no [one] is above the law and no [one] is below it”. Yet how can that be true when the actual content and meaning of the law remains a closed book for most citizens? Legal writing is infamous for being dense, archaic, and inscrutable. It takes a lawyer to compose statutes and then it takes another to decipher it. Yet it doesn’t have to be that way."
@@ -224,13 +224,9 @@
 - title: Rock the Vote
   slug: rock-the-vote
   location: United States
-  problem_statement: >
-   According to the NYC Campaign Finance Board (NYCCFB), only 4% of eligible voters under the age of 30 voted in the 2009 general election for Mayor. CIRCLE (The Center for Information and Research on Civic Learning and Engagement) has suggested that over 50% of voters (under 30) self-reported that they did not vote in the 2010 midterm elections because they were "too busy/conflicting work" and/or "not interested/felt my vote would not count".
-  why_compelling: >
-    Local politics more directly affect the daily lives of individuals than politics at the State or National level.  For example, the Mayor’s Office administers city services like appropriating funds to schools, the City Council is responsible for approving the City’s budget and the Comptroller oversees all local government contracts.  Given those responsibilities, and others like overseeing police and fire departments and ensuring fair business practices, it is expected that individuals would want to participate in the voting process to elect these officials.  However, it has been proven time and time again that young people, in particular, still do not vote. 
-  summary: >
-   Given the low turnout, reasons for not voting and importance of going to the polls, how do you create a compelling incentive to improve young voter engagement in local elections?  We are at a unique place in terms of available data and technology to address this problem through an incentive-based program unlike anything that has been done before.  Consider, participatory voting as a method to create a compelling incentive to improve young voter engagement in local elections.
-  tags:
+  problem_statement: "According to the NYC Campaign Finance Board (NYCCFB), only 4% of eligible voters under the age of 30 voted in the 2009 general election for Mayor. CIRCLE (The Center for Information and Research on Civic Learning and Engagement) has suggested that over 50% of voters (under 30) self-reported that they did not vote in the 2010 midterm elections because they were “too busy/conflicting work” and/or “not interested/felt my vote would not count”."
+  why_compelling: "Local politics more directly affect the daily lives of individuals than politics at the State or National level.  For example, the Mayor’s Office administers city services like appropriating funds to schools, the City Council is responsible for approving the City’s budget and the Comptroller oversees all local government contracts.  Given those responsibilities, and others like overseeing police and fire departments and ensuring fair business practices, it is expected that individuals would want to participate in the voting process to elect these officials.  However, it has been proven time and time again that young people, in particular, still do not vote." 
+  summary: "Given the low turnout, reasons for not voting and importance of going to the polls, how do you create a compelling incentive to improve young voter engagement in local elections?  We are at a unique place in terms of available data and technology to address this problem through an incentive-based program unlike anything that has been done before.  Consider, participatory voting as a method to create a compelling incentive to improve young voter engagement in local elections."
   - participatory government
   - voting
   status: 'stalled'
@@ -277,4 +273,256 @@
   authors:
   - first_name: Keita
     last_name: Nishimura
+    url:   
+
+- title: The Open Aid initiative
+  slug: the-open-aid-initiative
+  location: Africa
+  problem_statement: "There's too little information on non-profit organizations working in Africa. Africa's dilapidated states attract foreign aid and a plethora of groups working on development projects."
+  why_compelling: "The lack of an information-sharing platform makes non-profits working in Africa inefficient, opaque, and lacking productive and sustained collaborations. We need to answer simple questions, including: How many non-profits are there in Africa? What percentage of non-profits work on water and sanitation issues compared to education? Presently, we do not have adequate information on these non-profits. The basis of this project is to develop an understanding of the root causes for the inadequacies, expose findings and most importantly create a platform where information on non-profits can easily be retrieved." 
+  summary: "The Open Aid Initiative (OAI) aims to gather a comprehensive database of non-profit organization working in Africa to improve aid transparency, foster collaboration and information sharing. Our goal is to collect and open up non-profit data to engage other stakeholders in evidence-based conversations on development."
+  tags:
+  - aid
+  - colloboration
+  - effectiveness
+  status: 'ongoing'
+  links:
+    truonex: http://www.truonex.com/projects/12828
+    url: 
+    demo: https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=Pa3Q7JpHz4o
+  files:
+  - label: "Short Description"
+    filename: "SD-openaid-initiative.pdf"
+  - label: "Long Description"
+    filename: "LD-openaid-initiative.pdf"
+  - label: "Slide Deck"
+    filename: "slides-openaid-initiative.pdf"
+  logo: logo-openaid-initiative.png
+  authors:
+  - first_name: Samson Abbey
+    last_name: Wemimo
+    url:   
+
+- title: Open Gov Kit: a toolbox for innovation in the public sector
+  slug: open-gov-kit
+  location: United States
+  problem_statement: "Today public institutions are able to use both technology and science to promote transparency, empower citizens, fight corruption, and strengthen governance. This is what open government has to offer. However, it is not always easy to understand what are the challenges, opportunities and threats of a new field."
+  why_compelling: "It is essential to diagnose which problems are feasible to be solved using innovation in order to improve people's lives. It is also important to know who are the leaders across academia, government, and industry working in new ways of collaborative problem-solving in public and private institutions. Which are the main tools that are being used for those actors involved in leading initiatives, and how those attempts look like." 
+  summary: "The Open Gov Kit is a toolbox that gathers in one place everything that stakeholders need to know about Open Government: the main axes, the most relevant actors in the field, the leading initiatives and the factors needed for enhancing innovation in public institutions."
+  tags:
+  - transparency
+  - accountability
+  - participation
+  - collaboration
+  status: 'stalled'
+  links:
+    truonex: http://www.truonex.com/projects/12765
+    url: 
+    demo: 
+  files:
+  - label: "Short Description"
+    filename: ""
+  - label: "Long Description"
+    filename: ""
+  - label: "Slide Deck"
+    filename: "slides-opengovkit.pdf"
+  logo: logo-opengovkit.png
+  authors:
+  - first_name: Paloma
+    last_name: Beytelman
+    url:   
+
+- title: Mynotebook.com
+  slug: mynotebook-com
+  location: United States
+  problem_statement: "Today's young people have grown up in a technology-saturated society, where there is increasingly little distinction between someone's private and public life. Consequently, young people have a higher likelihood to engaging in unsafe online practices, such as sharing sensitive information like passwords, engaging in cyberbullying, or posting inappropriate images online."
+  why_compelling: "Parents and teachers have both expressed exasperation about how to tackle this problem.  In the past, educational efforts have focused singularly on highlighting the consequences of these types of decisions.  They rely on ultimately unsuccessful scare tactics and punishments to try to change behaviors.  Many of these measures, such as bringing in outside speakers to talk with children and students about the dangers of cyberbullying, fail to meet students on students’ terms, making it easier for young people to dismiss the messages.  Parents are similarly unprepared or too afraid to have much-needed conversations about online safety and positive behaviors at home." 
+  summary: "Mynotebook.com is a safe social learning community that connects middle school students together for collaborative project work, equips them with much needed digital literacy skills, and helps them develop positive digital footprints."
+  tags:
+  - tech
+  - e-learning
+  status: 'stalled'
+  links:
+    truonex: http://www.truonex.com/projects/12747/
+    url: 
+    demo: 
+  files:
+  - label: "Short Description"
+    filename: ""
+  - label: "Long Description"
+    filename: "LD-mynotebook.pdf"
+  - label: "Slide Deck"
+    filename: "slides-mynotebook.pdf"
+  logo: logo-mynotebook.png
+  authors:
+  - first_name: Corey Alexandre
+    last_name: Blay
+    url:   
+
+- title: Cybersecurity Development Coalition
+  slug: cybersecurity-development-coalition
+  location: United States
+  problem_statement: "The risks to organizations associated with operating online have increased dramatically in recent years. The necessity for utilizing a variety of connected tools in the workplace has created an increasing number of opportunities for a continually growing field of attackers."
+  why_compelling: "The variety of threats has been documented by the increased focus of major media outlets and policymakers at all levels of government. Large businesses and organizations have begun to proactively secure their systems at unprecedented levels \u2013 a task that is both resource and time-intensive." 
+  summary: "Cybersecurity threats to all organizations continue to grow – but the development of defenses across small organizations has not. While smaller organizations may not have the same security needs as larger business enterprises, many elements can be shared across sectors. The Cybersecurity Development Coalition (CDC) is a model for improving information and network security in small and mid-sized organizations through mentorship and peer networks."
+  tags:
+  - cybersecurity
+  status: 'stalled'
+  links:
+    truonex: http://www.truonex.com/seanbrooks/cybersecurity-development-coalition
+    url: 
+    demo: 
+  files:
+  - label: "Short Description"
+    filename: ""
+  - label: "Long Description"
+    filename: "LD-cybersecurity-coalition.pdf"
+  - label: "Slide Deck"
+    filename: ""
+  logo: logo-cybersecurity-coalition.png
+  authors:
+  - first_name: Sean
+    last_name: Brooks
+    url:   
+
+- title: TOGETHER: Opening Public Services
+  slug: together-opening-public-services
+  location: United States
+  problem_statement: "Together addresses the sluggishness and tedium of research and development in public services by energizing citizens and local governments to target local issues in connection to a larger network of expertise, and to creatively solve those issues, while also addressing the nature of public services in general by connecting innovation through physical and online collaboration."
+  why_compelling: "Civic engagement is one of the foundations of democracy. Citizens collectively identify the needs of their community and actively work together to define what is the best solution." 
+  summary: "Together is a global civic infrastructure which comprises a non-centralized, heterogeneous, loosely-linked network of people, online and offline resources, institutions, deliberative and other collaborative systems."
+  tags:
+  - open government
+  - civic engagement
+  status: 'stalled'
+  links:
+    truonex: http://www.truonex.com/projects/12754
+    url: 
+    demo: 
+  files:
+  - label: "Short Description"
+    filename: ""
+  - label: "Long Description"
+    filename: ""
+  - label: "Slide Deck"
+    filename: ""
+  logo:
+  authors:
+  - first_name: Antony
+    last_name: Declerq
+    url:   
+
+- title: UGov: Improving information for small local government
+  slug: ugov
+  location: United States
+  problem_statement: "Lack of information from the government."
+  why_compelling: "Today, many citizens want to find ways to get involved with their government. After Occupy, the Tea Party, and the 2012 Presidential Election, there are more people who want their voice heard in government. But many people don’t know what is occurring in government besides what is covered in the news. They don’t know about what bills are being passed and moved through the legislature. They also don’t know what to do once they see a bill they don’t agree with or want changed." 
+  summary: "Allow ordinary citizens to become their own lobbyist."
+  tags:
+  - information
+  - open government
+  status: 'stalled'
+  links:
+    truonex: http://www.truonex.com/projects/12756/
+    url: 
+    demo: 
+  files:
+  - label: "Short Description"
+    filename: "SD-ugov.pdf"
+  - label: "Long Description"
+    filename: ""
+  - label: "Slide Deck"
+    filename: "slides-ugov.pdf"
+  logo: logo-ugov.png
+  authors:
+  - first_name: Brenden
+    last_name: Desmond
+    url:   
+
+- title: Homeless Helper
+  slug: homeless-helper
+  location: United States
+  problem_statement: "The Coalition for the Homeless reports that every night, more than 55,000 people in New York City experience homelessness.  Even more disturbing is the fact that 21,000 of those people are children.  Creating mechanisms to address the needs of homeless people is more pressing than ever as the number of people experiencing homelessness has risen by more than fifty percent over the last decade."
+  why_compelling: "Although it is important to invest resources and research into understanding the source of this escalation in homelessness and create policies to prevent people from experiencing homelessness, effective tools must also be designed to provide immediate assistance to those currently experiencing homelessness." 
+  summary: "The purpose of this mobile application is to create a vehicle by which neighbors can help their less fortunate neighbors. Homeless Helpers not only organizes a casual way for people to help other people, it also collects useful information to develop policies and informs local shelters of high-risk areas where their services could be put to use."
+  tags:
+  - homelessness
+  - new york
+  - community
+  status: 'stalled'
+  links:
+    truonex: http://www.truonex.com/projects/12746
+    url: 
+    demo: 
+  files:
+  - label: "Short Description"
+    filename: ""
+  - label: "Long Description"
+    filename: "LD-homeless-helper.pdf"
+  - label: "Slide Deck"
+    filename: ""
+  logo: 
+  authors:
+  - first_name: Annabelle
+    last_name: Eliashiv
+    url:   
+
+- title: Civic and Social Innovation Bootcamp
+  slug: civic-social-innovation-bootcamp
+  location: United States
+  problem_statement: "The US is suffering from anemic civic health. According to former Justice Supreme Court member Sandra Day O'Connor, half of states no longer require civics education for high school graduation which is a remarkable withdrawal from the very purpose we originally had for public school. What’s needed is a new approach and mindset to train the next generation of problem solvers in civics education and social innovation across US college campuses."
+  why_compelling: "America needs to train a pipeline of leaders, innovators and intrapreneurs who have the tools, mindset and networks to lead in a globally and locally minded, multi-sector, multi-lingual approach that promotes openness, transparency and collaboration." 
+  summary: "The Civic and Social Innovation Bootcamp will develop the skills, knowledge, values and networks for emerging leaders to make a difference."
+  tags:
+  - innovation
+  - lean
+  - civic engagement
+  status: 'stalled'
+  links:
+    truonex: http://www.truonex.com/projects/12764/
+    url: 
+    demo: 
+  files:
+  - label: "Short Description"
+    filename: ""
+  - label: "Long Description"
+    filename: ""
+  - label: "Slide Deck"
+    filename: ""
+  logo: 
+  authors:
+  - first_name: Cosmo
+    last_name: Fujiyama
+    url:   
+
+- title: Urban Expansion Forecaster
+  slug: urban-expansion-forecaster
+  location: United States
+  problem_statement: "Most cities in developing countries have expanded without plans. This lack of plans has produced cities whose expansion has undermined the quality of lives of city dwellers, particularly the one of those living in poverty."
+  why_compelling: "As cities grow unplanned, its growth follows irregular patterns that facilitates the creation of dysfunctional neighborhoods built on the fringe of the city." 
+  summary: "The project is about building a map generator of urban expansion maps to create awareness and to help city officials to prepare for urban expansion. The map generator would operate through a website that would allow city officials to predict the effect of demographic growth in the physical expansion of the city. Users will be able to see how a 1,2,3,4 percent increase in sustained bases will affect the layout of the city."
+  tags:
+  - demographic projections 
+  - urban planning 
+  - developing countries 
+  - cities 
+  - maps 
+  - urban growth 
+  - urban expansion
+  status: 'stalled'
+  links:
+    truonex: http://www.truonex.com/projects/12775/
+    url: 
+    demo: https://prezi.com/uhff1p-uvuuo/urban-expansion-forecaster/
+  files:
+  - label: "Short Description"
+    filename: ""
+  - label: "Long Description"
+    filename: ""
+  - label: "Slide Deck"
+    filename: ""
+  logo: logo-urbanexpansionforecaster.png
+  authors:
+  - first_name: Nicolás
+    last_name: Galarza
     url:   
