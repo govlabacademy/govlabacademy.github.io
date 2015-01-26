@@ -1,7 +1,7 @@
 ---
 # Courses
 - name: "Civic Tech for Local Legislatures and Legislators"
-  duration: every other week for 8 weeks
+  duration: 8 weeks
   date:
     start: "March 2, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "April 24, 2015"
@@ -31,7 +31,7 @@
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
 
 - name: "Open Source Technology Practices For Civic Engagement Projects"
-  duration: every other week for 8 weeks
+  duration: 8 weeks
   date:
     start: "April 6, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "May 29, 2015"
@@ -64,7 +64,7 @@
   format: 1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
 - name: "Freedom of Information and FOIA Project Coaching: Breaking Down the Walls and Opening Up Communications"
-  duration: every week for 4 weeks
+  duration: 4 weeks
   date:
     start: "March 2, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "March 27, 2015"
@@ -94,7 +94,7 @@
   format: 1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
 - name: "Humanitarian Innovation Project Collaborative"
-  duration: every other week for 8 weeks
+  duration: 8 weeks
   date:
     start: "April 6, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "May 29, 2015"
@@ -125,7 +125,7 @@
   format: 1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
 - name: "Lab Design: Bringing Agility and Empiricism to Public Problems"
-  duration: every other week for 8 weeks
+  duration: 8 weeks
   date:
     start: "April 6, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "May 29, 2015"
@@ -157,7 +157,7 @@
   format: 1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions
 
 - name: "Citizen Engagement Projects"
-  duration: every week for 4 weeks
+  duration: 4 weeks
   date:
     start: "March 2, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "March 27, 2015"
