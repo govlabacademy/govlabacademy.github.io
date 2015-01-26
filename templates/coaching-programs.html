@@ -66,7 +66,7 @@
   
   <section class="b-course-list row">
     <ul class="column large-12">
-      {% for course in coaching %}
+      {% for course in coaching|sort(attribute='date.start',reverse=True) %}
         {% if course.is_active %}
         <li class="b-course-list-item m-coaching">
           {% if course.date %}
