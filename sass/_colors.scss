@@ -107,6 +107,7 @@ $yellow_4_30: rgba(201,181,34,.3);
 .b-course-list-item.m-coaching {
 	&:before { background-color: $green; }
 	.e-course-date { color: $green; }
+	.e-course-application { color: $green; }
 	.e-course-controls .e-button:hover { background-color: $green; }
 	.e-partner { background-color: $green_2; }
 	.e-certifications img { background-color: $green; }

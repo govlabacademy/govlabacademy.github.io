@@ -13,6 +13,8 @@
   background-color: #2eb49a; }
 .b-course-list-item.m-coaching .e-course-date {
   color: #2eb49a; }
+.b-course-list-item.m-coaching .e-course-application {
+  color: #2eb49a; }
 .b-course-list-item.m-coaching .e-course-controls .e-button:hover {
   background-color: #2eb49a; }
 .b-course-list-item.m-coaching .e-partner {
@@ -266,6 +268,8 @@ a {
 .b-course-list-item.m-coaching:before {
   background-color: #2eb49a; }
 .b-course-list-item.m-coaching .e-course-date {
+  color: #2eb49a; }
+.b-course-list-item.m-coaching .e-course-application {
   color: #2eb49a; }
 .b-course-list-item.m-coaching .e-course-controls .e-button:hover {
   background-color: #2eb49a; }
@@ -868,22 +872,24 @@ a {
     height: 100%; }
   .b-course-list .b-course-list-item .e-course-description,
   .b-course-list .b-course-list-item .e-course-date,
+  .b-course-list .b-course-list-item .e-course-application,
   .b-course-list .b-course-list-item .e-course-name,
   .b-course-list .b-course-list-item .e-course-controls {
     margin-left: 30px; }
   .b-course-list .b-course-list-item .e-course-description {
     margin-right: 30px;
     margin-bottom: 20px; }
-  .b-course-list .b-course-list-item .e-course-date {
+  .b-course-list .b-course-list-item .e-course-date,
+  .b-course-list .b-course-list-item .e-course-application {
     font-size: 1.1rem;
     line-height: 1.1rem;
     text-transform: uppercase;
     font-weight: 600;
     display: block; }
-    .b-course-list .b-course-list-item .e-course-date span {
-      font-weight: 300;
-      color: rgba(0, 0, 0, 0.5);
-      text-transform: none; }
+    .b-course-list .b-course-list-item .e-course-date span,
+    .b-course-list .b-course-list-item .e-course-application span {
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.3); }
   .b-course-list .b-course-list-item .e-certifications {
     padding: 0 30px 10px 30px; }
     .b-course-list .b-course-list-item .e-certifications img {

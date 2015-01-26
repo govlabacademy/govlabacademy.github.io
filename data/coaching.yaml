@@ -1,7 +1,7 @@
 ---
 # Courses
 - name: "Civic Tech for Local Legislatures and Legislators"
-  duration: every other week for 8 weeks
+  duration: 8 weeks
   date:
     start: "March 2, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "April 24, 2015"
@@ -19,7 +19,7 @@
     - Benjamin Kallos
     - Arnaud Sahuguet
   actions:
-    - label: Apply Here
+    - label: More Info
       link: /civic-tech-for-local-legislatures-and-legislators-detail.html
   certificates:
     blended: false
@@ -31,7 +31,7 @@
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
 
 - name: "Open Source Technology Practices For Civic Engagement Projects"
-  duration: every other week for 8 weeks
+  duration: 8 weeks
   date:
     start: "April 6, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "May 29, 2015"
@@ -52,7 +52,7 @@
   faculty_members: # Add list with faculty member names
     - Brian Behlendorf
   actions:
-    - label: Apply Here
+    - label: More Info
       link: /open-source-technology-practices-for-civic-engagement-projects-detail.html
   certificates:
     blended: false
@@ -64,7 +64,7 @@
   format: 1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
 - name: "Freedom of Information and FOIA Project Coaching: Breaking Down the Walls and Opening Up Communications"
-  duration: every week for 4 weeks
+  duration: 4 weeks
   date:
     start: "March 2, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "March 27, 2015"
@@ -82,7 +82,7 @@
   faculty_members: # Add list with faculty member names
     - Miriam Nisbet
   actions:
-    - label: Apply Here
+    - label: More Info
       link: /freedom-of-information-and-foia-project-coaching-breaking-down-the-walls-and-opening-up-communications-detail.html
   certificates:
     blended: false
@@ -94,7 +94,7 @@
   format: 1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
 - name: "Humanitarian Innovation Project Collaborative"
-  duration: every other week for 8 weeks
+  duration: 8 weeks
   date:
     start: "April 6, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "May 29, 2015"
@@ -113,7 +113,7 @@
     - Brian Forde
     - Alexandra Clare
   actions:
-    - label: Apply Here
+    - label: More Info
       link: /humanitarian-innovation-project-collaborative-detail.html
   certificates:
     blended: false
@@ -125,7 +125,7 @@
   format: 1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
 - name: "Lab Design: Bringing Agility and Empiricism to Public Problems"
-  duration: every other week for 8 weeks
+  duration: 8 weeks
   date:
     start: "April 6, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "May 29, 2015"
@@ -145,7 +145,7 @@
     - Geoff Mulgan
     - Beth Simone Noveck
   actions:
-    - label: Apply Here
+    - label: More Info
       link: /lab-design-bringing-agility-and-empiricism-to-public-problems-detail.html
   certificates:
     blended: false
@@ -157,7 +157,7 @@
   format: 1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions
 
 - name: "Citizen Engagement Projects"
-  duration: every week for 4 weeks
+  duration: 4 weeks
   date:
     start: "March 2, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "March 27, 2015"
@@ -177,7 +177,7 @@
     - Tiago Peixoto
     - Beth Simone Noveck
   actions:
-    - label: Apply Here
+    - label: More Info
       link: /citizen-engagement-projects-detail.html
   certificates:
     blended: false
@@ -205,7 +205,7 @@
 #   faculty_members: # Add list with faculty member names
 #     - name
 #   actions:
-#     - label: Apply Here
+#     - label: More Info
 #       link: http://apply-here
 #   certificates:
 #     blended: false

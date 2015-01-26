@@ -27,6 +27,7 @@
 		
 		.e-course-description, 
 		.e-course-date,
+		.e-course-application,
 		.e-course-name,
 		.e-course-controls {
 			margin-left: 30px;			
@@ -37,7 +38,8 @@
 			margin-bottom: 20px;
 		}
 
-		.e-course-date {
+		.e-course-date,
+		.e-course-application {
 			font-size: 1.1rem;
 			line-height: 1.1rem;
 			text-transform: uppercase;
@@ -45,10 +47,13 @@
 			display: block;
 
 			span {
-				font-weight: 300;
-				color: $gray_50;
-				text-transform: none;
+				font-weight: 600;
+				color: $gray_30;
 			}
+		}
+
+		.e-course-application {
+
 		}
 
 		.e-certifications {

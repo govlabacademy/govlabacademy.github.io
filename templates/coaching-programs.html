@@ -71,9 +71,11 @@
         <li class="b-course-list-item m-coaching">
           {% if course.date %}
           <h4 class="e-course-date">{{course.date.start}}</h4>
+          </h4>
           {% endif %}
 
           <h3 class="e-course-name">{{course.name}}</h3>
+          
           
           <div class="e-certifications">
             {% if course.certificates.blended %}
@@ -100,6 +102,7 @@
           <div class="e-course-description">
             <p>{{course.description_short}}</p>
           </div>
+          <h4 class="e-course-application"><span>Application due: </span> {{course.date.application}}</h4>
 
           {% if course.faculty_members %}
             <div class="e-course-faculty">
@@ -120,7 +123,6 @@
               {% endfor %}
             </div>
           {% endif %}
-          
         </li>
         {% endif %}
 
@@ -306,7 +308,7 @@
 	<section id="contact-message" class="row">
     <div class="column large-12">
       <h4>Still hungry for more information?</h4>
-      <p>For more detailed information, questions, doubts, etc. Send us an email at <a href="mailto:info-academy@thegovlab.org">info-academy@thegovlab.org</a></p>
+      <p>Send us an email at <a href="mailto:info-academy@thegovlab.org">info-academy@thegovlab.org</a></p>
     </div>
   </section>
 	</div>
