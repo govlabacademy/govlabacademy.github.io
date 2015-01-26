@@ -126,7 +126,7 @@
   links:
     truonex: http://www.truonex.com/projects/12837/
     url: http://www.tumblr.com/blog/marissecrenier
-    demo: https://www.youtube.com/watch?x-yt-cl=84503534&x-yt-ts=1421914688&v=DpGtXZkRzvo
+    demo: "https://www.youtube.com/watch?x-yt-cl=84503534&x-yt-ts=1421914688&v=DpGtXZkRzvo"
   files:
   - label: "Short Description"
     filename: "SD-opendatacsr.pdf"
@@ -179,7 +179,7 @@
   status: 'stalled'
   links:
     truonex: 
-    url: http://taranagupta.com/#/redesign-ipaidabribecom/
+    url: "http://taranagupta.com/#/redesign-ipaidabribecom/"
     demo:
   files:
   - label: "Short Description"
@@ -194,7 +194,7 @@
     last_name: Gupta
     url: http://taranagupta.com/
   
-- title: Codebreaking: Translating the Law
+- title: "Codebreaking: Translating the Law"
   slug: codebreaking-translating-the-law
   location: United States
   problem_statement: "The United States represents itself as a democracy where “no [one] is above the law and no [one] is below it”. Yet how can that be true when the actual content and meaning of the law remains a closed book for most citizens? Legal writing is infamous for being dense, archaic, and inscrutable. It takes a lawyer to compose statutes and then it takes another to decipher it. Yet it doesn’t have to be that way."
@@ -207,7 +207,7 @@
   links:
     truonex: http://www.truonex.com/projects/12830/
     url: 
-    demo: https://www.youtube.com/watch?x-yt-cl=84503534&x-yt-ts=1421914688&v=yOhn3WiuGsU
+    demo: "https://www.youtube.com/watch?x-yt-cl=84503534&x-yt-ts=1421914688&v=yOhn3WiuGsU"
   files:
   - label: "Short Description"
     filename: "SD-code-breakingthelaw.pdf"
@@ -219,16 +219,17 @@
   authors:
   - first_name: Douglas
     last_name: Meredith
-    url: 
+    url: ""
 
-- title: Rock the Vote
+- title: 'Rock the Vote'
   slug: rock-the-vote
   location: United States
-  problem_statement: "According to the NYC Campaign Finance Board (NYCCFB), only 4% of eligible voters under the age of 30 voted in the 2009 general election for Mayor. CIRCLE (The Center for Information and Research on Civic Learning and Engagement) has suggested that over 50% of voters (under 30) self-reported that they did not vote in the 2010 midterm elections because they were “too busy/conflicting work” and/or “not interested/felt my vote would not count”."
+  problem_statement: 'According to the NYC Campaign Finance Board (NYCCFB), only 4% of eligible voters under the age of 30 voted in the 2009 general election for Mayor. CIRCLE (The Center for Information and Research on Civic Learning and Engagement) has suggested that over 50% of voters (under 30) self-reported that they did not vote in the 2010 midterm elections because they were “too busy/conflicting work” and/or “not interested/felt my vote would not count”.'
   why_compelling: "Local politics more directly affect the daily lives of individuals than politics at the State or National level.  For example, the Mayor’s Office administers city services like appropriating funds to schools, the City Council is responsible for approving the City’s budget and the Comptroller oversees all local government contracts.  Given those responsibilities, and others like overseeing police and fire departments and ensuring fair business practices, it is expected that individuals would want to participate in the voting process to elect these officials.  However, it has been proven time and time again that young people, in particular, still do not vote." 
   summary: "Given the low turnout, reasons for not voting and importance of going to the polls, how do you create a compelling incentive to improve young voter engagement in local elections?  We are at a unique place in terms of available data and technology to address this problem through an incentive-based program unlike anything that has been done before.  Consider, participatory voting as a method to create a compelling incentive to improve young voter engagement in local elections."
-  - participatory government
-  - voting
+  tags:
+  - "participatory government"
+  - "voting"
   status: 'stalled'
   links:
     truonex: http://www.truonex.com/projects/12826/
@@ -261,7 +262,7 @@
   links:
     truonex: http://www.truonex.com/projects/12828
     url: 
-    demo: https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=rWgBTg-RJQc
+    demo: "https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=rWgBTg-RJQc"
   files:
   - label: "Short Description"
     filename: "SD-codeforfukushima.pdf"
@@ -289,7 +290,7 @@
   links:
     truonex: http://www.truonex.com/projects/12828
     url: 
-    demo: https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=Pa3Q7JpHz4o
+    demo: "https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=Pa3Q7JpHz4o"
   files:
   - label: "Short Description"
     filename: "SD-openaid-initiative.pdf"
@@ -303,7 +304,7 @@
     last_name: Wemimo
     url:   
 
-- title: Open Gov Kit: a toolbox for innovation in the public sector
+- title: "Open Gov Kit: a toolbox for innovation in the public sector"
   slug: open-gov-kit
   location: United States
   problem_statement: "Today public institutions are able to use both technology and science to promote transparency, empower citizens, fight corruption, and strengthen governance. This is what open government has to offer. However, it is not always easy to understand what are the challenges, opportunities and threats of a new field."
@@ -385,7 +386,7 @@
     last_name: Brooks
     url:   
 
-- title: TOGETHER: Opening Public Services
+- title: "TOGETHER: Opening Public Services"
   slug: together-opening-public-services
   location: United States
   problem_statement: "Together addresses the sluggishness and tedium of research and development in public services by energizing citizens and local governments to target local issues in connection to a larger network of expertise, and to creatively solve those issues, while also addressing the nature of public services in general by connecting innovation through physical and online collaboration."
@@ -412,7 +413,7 @@
     last_name: Declerq
     url:   
 
-- title: UGov: Improving information for small local government
+- title: "UGov: Improving information for small local government"
   slug: ugov
   location: United States
   problem_statement: "Lack of information from the government."
