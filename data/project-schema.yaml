@@ -166,7 +166,6 @@
   - first_name: Rodrigo
     last_name: Derteano
     url: http://rodrigoderteano.com/
- 
 
 - title: Tackling Bribery at the Local Government Level
   slug: tackling-bribery-at-the-local-government-level
@@ -195,7 +194,7 @@
     last_name: Gupta
     url: http://taranagupta.com/
   
-- title: Codebreaking: Translating the Law
+- title: "Codebreaking: Translating the Law"
   slug: codebreaking-translating-the-law
   location: United States
   problem_statement: "The United States represents itself as a democracy where “no [one] is above the law and no [one] is below it”. Yet how can that be true when the actual content and meaning of the law remains a closed book for most citizens? Legal writing is infamous for being dense, archaic, and inscrutable. It takes a lawyer to compose statutes and then it takes another to decipher it. Yet it doesn’t have to be that way."
@@ -225,9 +224,13 @@
 - title: Rock the Vote
   slug: rock-the-vote
   location: United States
-  problem_statement: "According to the NYC Campaign Finance Board (NYCCFB), only 4% of eligible voters under the age of 30 voted in the 2009 general election for Mayor. CIRCLE (The Center for Information and Research on Civic Learning and Engagement) has suggested that over 50% of voters (under 30) self-reported that they did not vote in the 2010 midterm elections because they were “too busy/conflicting work” and/or “not interested/felt my vote would not count”."
-  why_compelling: "Local politics more directly affect the daily lives of individuals than politics at the State or National level.  For example, the Mayor’s Office administers city services like appropriating funds to schools, the City Council is responsible for approving the City’s budget and the Comptroller oversees all local government contracts.  Given those responsibilities, and others like overseeing police and fire departments and ensuring fair business practices, it is expected that individuals would want to participate in the voting process to elect these officials.  However, it has been proven time and time again that young people, in particular, still do not vote." 
-  summary: "Given the low turnout, reasons for not voting and importance of going to the polls, how do you create a compelling incentive to improve young voter engagement in local elections?  We are at a unique place in terms of available data and technology to address this problem through an incentive-based program unlike anything that has been done before.  Consider, participatory voting as a method to create a compelling incentive to improve young voter engagement in local elections."
+  problem_statement: >
+   According to the NYC Campaign Finance Board (NYCCFB), only 4% of eligible voters under the age of 30 voted in the 2009 general election for Mayor. CIRCLE (The Center for Information and Research on Civic Learning and Engagement) has suggested that over 50% of voters (under 30) self-reported that they did not vote in the 2010 midterm elections because they were "too busy/conflicting work" and/or "not interested/felt my vote would not count".
+  why_compelling: >
+    Local politics more directly affect the daily lives of individuals than politics at the State or National level.  For example, the Mayor’s Office administers city services like appropriating funds to schools, the City Council is responsible for approving the City’s budget and the Comptroller oversees all local government contracts.  Given those responsibilities, and others like overseeing police and fire departments and ensuring fair business practices, it is expected that individuals would want to participate in the voting process to elect these officials.  However, it has been proven time and time again that young people, in particular, still do not vote. 
+  summary: >
+   Given the low turnout, reasons for not voting and importance of going to the polls, how do you create a compelling incentive to improve young voter engagement in local elections?  We are at a unique place in terms of available data and technology to address this problem through an incentive-based program unlike anything that has been done before.  Consider, participatory voting as a method to create a compelling incentive to improve young voter engagement in local elections.
+  tags:
   - participatory government
   - voting
   status: 'stalled'
