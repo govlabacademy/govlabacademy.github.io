@@ -1,3 +1,12 @@
+.b-go-to,
+.b-go-to:hover {
+	background-color: transparent;
+}
+
+.b-card.m-project:hover {
+	@include drop-shadow;
+}
+
 
 /* Mobile Only ----------- */
 @media only screen and (max-width : $desktop_width) {
@@ -5,8 +14,6 @@
 	h2 {
 		margin-bottom: 0;
 	}
-
-
 	.b-pop-controls {
 		text-align: center;
 	}
@@ -20,4 +27,16 @@
 		display: none;
 	}
 }
+
+.b-project-header {
+	iframe {
+		width: 200px;
+		padding-bottom: 50%;
+		height: 0;
+	}
+}
+
+
+
+
 }

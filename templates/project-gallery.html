@@ -31,19 +31,15 @@
       <div class="b-card-wrapper">
         {% for card in projects %}
           {% if card.summary %}
-          <article class="b-card m-project m-clinic b-pop-controls-container" data-filter="{% for tag in card.tags %}{{tag}}{% endfor %}">
-            <div class="b-wrapper">
-              <h3 title="{{card.title}}">{{card.title}}</h3>
-              <h4>{{card.authors.first_name}} {{card.authors.last_name}}</h4>
-              <p>{{card.summary}}</p>
-
-            <div class="b-pop-controls">
-              <span class="e-pop-button m-pin"><i class="fa fa-thumb-tack"></i></span>
-              <a class="e-pop-button m-goto" href="project-page.html#{{card.slug}}"><i class="fa fa-link"></i></a>
-            </div>
-
-            </div>
-
+          
+          <article class="b-card m-project m-clinic" data-filter="{% for tag in card.tags %}{{tag}}{% endfor %}">
+              <div class="b-wrapper">
+                <a class="b-go-to" href="project-page.html#{{card.slug}}">
+                  <h3 title="{{card.title}}">{{card.title}}</h3>
+                </a>
+                <h4>{{card.authors.first_name}} {{card.authors.last_name}}</h4>
+                <p>{{card.summary}}</p>
+              </div>
           </article>
           {% endif %}
         {% endfor %}  

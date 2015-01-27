@@ -13,7 +13,8 @@
   links:
     truonex: http://www.truonex.com/projects/12839/
     url: 
-    demo: "https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=snv7xi1lnr0"
+    demo:
+    youtube: "snv7xi1lnr0"
   files:
   - label: "Short Description"
     filename: "SD-citizensopenagenda.pdf"
@@ -40,8 +41,9 @@
   status: 'ongoing'
   links:
     truonex: http://www.truonex.com/projects/12820
-    url: http://contributionexplorer.congressionalforecast.org/
-    demo: http://vimeo.com/81623891
+    url: 
+    demo: http://contributionexplorer.congressionalforecast.org/
+    vimeo: 81623891
   files:
   - label: "Short Description"
     filename: "SD-congressional-forecast.pdf"
@@ -99,7 +101,8 @@
   links:
     truonex: http://www.truonex.com/projects/12827/
     url: http://artinyourspace.tumblr.com/
-    demo: "https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=1WxPXBI_k38"
+    demo: 
+    youtube: "https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=1WxPXBI_k38"
   files:
   - label: "Short Description"
     filename: "SD-artinyourspace.pdf"
@@ -153,7 +156,8 @@
   links:
     truonex: http://www.truonex.com/projects/12829/
     url: http://rderteano.tumblr.com/tagged/gov30
-    demo: http://vimeo.com/82134278
+    demo: 
+    vimeo: http://vimeo.com/82134278
   files:
   - label: "Short Description"
     filename: "SD-goldmining-amazon.pdf"
@@ -179,8 +183,8 @@
   status: 'stalled'
   links:
     truonex: 
-    url: "http://taranagupta.com/#/redesign-ipaidabribecom/"
-    demo:
+    url: 
+    demo: "http://taranagupta.com/#/redesign-ipaidabribecom/"
   files:
   - label: "Short Description"
     filename: ""
@@ -207,7 +211,8 @@
   links:
     truonex: http://www.truonex.com/projects/12830/
     url: 
-    demo: "https://www.youtube.com/watch?x-yt-cl=84503534&x-yt-ts=1421914688&v=yOhn3WiuGsU"
+    demo: 
+    youtube: "https://www.youtube.com/watch?x-yt-cl=84503534&x-yt-ts=1421914688&v=yOhn3WiuGsU"
   files:
   - label: "Short Description"
     filename: "SD-code-breakingthelaw.pdf"
@@ -262,7 +267,8 @@
   links:
     truonex: http://www.truonex.com/projects/12828
     url: 
-    demo: "https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=rWgBTg-RJQc"
+    demo: 
+    youtube: "https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=rWgBTg-RJQc"
   files:
   - label: "Short Description"
     filename: "SD-codeforfukushima.pdf"
@@ -290,7 +296,8 @@
   links:
     truonex: http://www.truonex.com/projects/12828
     url: 
-    demo: "https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=Pa3Q7JpHz4o"
+    demo: 
+    youtube: "https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=Pa3Q7JpHz4o"
   files:
   - label: "Short Description"
     filename: "SD-openaid-initiative.pdf"
@@ -514,7 +521,8 @@
   links:
     truonex: http://www.truonex.com/projects/12775/
     url: 
-    demo: https://prezi.com/uhff1p-uvuuo/urban-expansion-forecaster/
+    demo:
+    prezi: https://prezi.com/uhff1p-uvuuo/urban-expansion-forecaster/
   files:
   - label: "Short Description"
     filename: ""

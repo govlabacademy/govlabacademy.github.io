@@ -1731,6 +1731,13 @@ a {
     border-right: 16px solid #c0ba21;
     border-top: 16px solid transparent;
     border-bottom: 16px solid transparent; } }
+.b-go-to,
+.b-go-to:hover {
+  background-color: transparent; }
+
+.b-card.m-project:hover {
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.6); }
+
 /* Mobile Only ----------- */
 @media only screen and (max-width: 1024px) {
   #gallery-page h2 {
@@ -1741,7 +1748,12 @@ a {
     display: inline-block;
     margin: 5px; }
   #gallery-page .m-pin {
-    display: none; } }
+    display: none; }
+
+  .b-project-header iframe {
+    width: 200px;
+    padding-bottom: 50%;
+    height: 0; } }
 .b-project-detail {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
   background-color: white;
@@ -1767,6 +1779,10 @@ a {
     letter-spacing: 1px;
     font-size: 1rem;
     margin-bottom: 20px; }
+  .b-project-detail .b-project-header iframe {
+    width: 100%;
+    height: 0;
+    padding-bottom: 60%; }
   .b-project-detail .e-project-logo {
     text-align: center;
     margin-bottom: 20px; }
