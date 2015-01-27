@@ -208,7 +208,7 @@ li {
   .b-list li:before {
     width: 0;
     height: 0;
-    border-left: 6px solid #c0ba21;
+    border-left: 6px solid rgba(0, 0, 0, 0.6);
     border-top: 6px solid transparent;
     border-bottom: 6px solid transparent;
     content: "";
@@ -219,10 +219,10 @@ p {
   margin-bottom: 0.5rem; }
 
 a {
-  color: #74712b; }
+  color: rgba(0, 0, 0, 0.8); }
   a:hover {
-    background-color: #c0ba21;
-    color: #74712b; }
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.8); }
   a:visited {
     color: rgba(0, 0, 0, 0.5); }
 
@@ -790,7 +790,7 @@ a {
   box-shadow: 2px 0 7px rgba(0, 0, 0, 0.7);
   padding-top: 70px;
   padding-bottom: 40px;
-  background-color: #c0ba21;
+  background-color: rgba(0, 0, 0, 0.6);
   margin-bottom: 60px; }
   .b-page-title h2 {
     font-size: 3rem;
@@ -948,7 +948,7 @@ a {
   position: relative; }
 
 .e-pop-button {
-  background-color: #6a34c0;
+  background-color: rgba(0, 0, 0, 0.2);
   width: 50px;
   height: 50px;
   padding: 14px 0;
@@ -980,7 +980,7 @@ a {
   .e-pop-button i.fa-twitter {
     vertical-align: 3px; }
   .e-pop-button:hover {
-    background-color: #825bc0; }
+    background-color: rgba(0, 0, 0, 0.4); }
 
 @media only screen and (min-width: 1024px) {
   .b-pop-controls {
@@ -1068,9 +1068,9 @@ a {
   background-color: #472b74; }
 
 .b-card.m-govlab-False h4 {
-  color: #74712b; }
+  color: rgba(0, 0, 0, 0.8); }
 .b-card.m-govlab-False .b-wrapper:before {
-  background-color: #74712b; }
+  background-color: rgba(0, 0, 0, 0.8); }
 
 .b-card.m-people .b-card-header {
   position: relative;
@@ -1122,7 +1122,7 @@ a {
     font-size: 1rem;
     font-weight: 400;
     text-transform: uppercase;
-    color: #c0ba21; }
+    color: rgba(0, 0, 0, 0.6); }
   .b-card.m-project p {
     font-size: 1rem;
     overflow-y: hidden;
@@ -1179,8 +1179,8 @@ a {
   background-color: #472b74; }
 
 .b-card.m-mini-card.m-govlab-False .e-person-pic {
-  border-color: #c0ba21;
-  background-color: #c0ba21; }
+  border-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6); }
 
 /* Mobile Only ----------- */
 @media only screen and (max-width: 1024px) {
@@ -1232,7 +1232,7 @@ a {
   padding-top: 0; }
   #homepage #intro {
     margin-bottom: 0;
-    padding-top: 80px;
+    padding-top: 60px;
     padding-bottom: 40px; }
     #homepage #intro #academy-icon {
       opacity: 0.1;
@@ -1241,6 +1241,13 @@ a {
       border: 6px solid #000;
       border-radius: 50%;
       position: absolute; }
+    #homepage #intro .e-site-title {
+      text-align: center;
+      font-weight: 100;
+      margin-top: 80px;
+      margin-bottom: 60px;
+      color: rgba(0, 0, 0, 0.6);
+      font-size: 6.3rem; }
     #homepage #intro .b-quote .e-text {
       color: rgba(0, 0, 0, 0.6);
       font-weight: 100;
@@ -1267,15 +1274,21 @@ a {
   #homepage #explanation {
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.3) inset;
     padding-top: 40px;
-    background-color: #c0ba21; }
+    background-color: rgba(0, 0, 0, 0.4); }
+    #homepage #explanation .govlab-logo {
+      text-align: center;
+      margin: 0 0 20px; }
+      #homepage #explanation .govlab-logo img {
+        width: 200px; }
+    #homepage #explanation h3 {
+      font-weight: 600;
+      font-size: 1.3rem;
+      color: white;
+      letter-spacing: 1px;
+      margin: 16px 0; }
     #homepage #explanation p, #homepage #explanation li {
       color: white;
       font-weight: 100; }
-    #homepage #explanation a {
-      color: rgba(0, 0, 0, 0.5);
-      font-weight: 300; }
-      #homepage #explanation a:hover {
-        background-color: rgba(0, 0, 0, 0.2); }
     #homepage #explanation li:before {
       border-left-color: rgba(255, 255, 255, 0.5); }
   #homepage .b-partners {
@@ -1427,6 +1440,8 @@ a {
       text-transform: uppercase;
       padding: 3px;
       border-radius: 3px; }
+  .b-courses-overview .b-course-summary.m-disabled {
+    opacity: .3; }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
@@ -1454,9 +1469,6 @@ a {
     #homepage #intro .b-quote .e-author-title {
       font-size: 1rem;
       line-height: 1.1rem; }
-  #homepage #explanation h3 {
-    font-size: 1.3rem;
-    color: rgba(0, 0, 0, 0.8); }
   #homepage #explanation p,
   #homepage #explanation .b-list li {
     margin-bottom: 8px; }
@@ -1613,10 +1625,10 @@ a {
   background-color: #472b74; }
 
 .b-person.m-govlab-False h4 {
-  color: #74712b; }
+  color: rgba(0, 0, 0, 0.8); }
 
 .b-person.m-govlab-False:before {
-  background-color: #c0ba21; }
+  background-color: rgba(0, 0, 0, 0.6); }
 
 @media only screen and (max-width: 1024px) {
   .b-person .b-pop-controls {
@@ -1673,7 +1685,7 @@ a {
     position: absolute;
     right: 20px;
     top: 8px;
-    border-right: 12px solid #c0ba21;
+    border-right: 12px solid rgba(0, 0, 0, 0.6);
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent;
     transition: all 0.4s ease; }
@@ -1695,7 +1707,7 @@ a {
       .b-faqs .b-faq-item .e-answer li:before {
         width: 0;
         height: 0;
-        border-left: 6px solid #c0ba21;
+        border-left: 6px solid rgba(0, 0, 0, 0.6);
         border-top: 6px solid transparent;
         border-bottom: 6px solid transparent;
         content: "";
@@ -1705,7 +1717,7 @@ a {
       border-collapse: collapse;
       width: 100%; }
       .b-faqs .b-faq-item .e-answer table thead th {
-        background-color: #c0ba21;
+        background-color: rgba(0, 0, 0, 0.6);
         text-align: left;
         color: white;
         padding: 5px 10px;
@@ -1728,7 +1740,7 @@ a {
   .b-faqs .e-faq-trigger:after {
     right: 0;
     top: 12px;
-    border-right: 16px solid #c0ba21;
+    border-right: 16px solid rgba(0, 0, 0, 0.6);
     border-top: 16px solid transparent;
     border-bottom: 16px solid transparent; } }
 .b-go-to,

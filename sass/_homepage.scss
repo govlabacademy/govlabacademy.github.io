@@ -3,7 +3,7 @@
 
 	#intro {
 		margin-bottom: 0;
-		padding-top: 80px;
+		padding-top: 60px;
 		padding-bottom: 40px;
 
 		#academy-icon {
@@ -13,6 +13,16 @@
 			border: 6px solid #000;
 			border-radius: 50%;
 			position: absolute;
+			// transform: scale(.9,.9);
+		}
+
+		.e-site-title {
+			text-align: center;
+			font-weight: 100;
+			margin-top: 80px;
+			margin-bottom: 60px;
+			color: $gray_60;
+			font-size: 6.3rem;
 		}
 
 		.b-quote {
@@ -51,22 +61,30 @@
 	#explanation {
 		@include inner-shadow;
 		padding-top: 40px;
-		background-color: $scheme-comp_3;
+		background-color: $scheme-comp_2;
+		
+		.govlab-logo {
+			text-align: center;
+			margin: 0 0 20px;
+			img {
+				width: 200px;
+			}	
+		}
 
-
+		h3 {
+			font-weight: 600;
+			font-size: 1.3rem;
+			color: $white;
+			letter-spacing: 1px;
+			margin: 16px 0;
+		}
+		
 		p, li {
 			color: $white;
 			font-weight: 100;
 		}
 
-		a {
-			color: $gray_50;
-			font-weight: 300;
-
-			&:hover {
-				background-color: $gray_20;
-			}
-		}
+	
 
 		li:before {
 			border-left-color: $white_50;
@@ -282,6 +300,10 @@
 			border-radius: 3px;
 			}
 		}
+
+		&.m-disabled {
+			opacity: .3;
+		}
 	}
 }
 
@@ -333,12 +355,6 @@
 		}
 
 		#explanation {
-
-			h3 {
-				font-size: 1.3rem;
-				color: $gray_80;
-			}
-
 			p,
 			.b-list li {
 				margin-bottom: 8px;
