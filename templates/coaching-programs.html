@@ -6,31 +6,10 @@
     <div class="row">
       <div class="column large-12">
         <h2>Coaching Programs</h2>
-        <p>These are hands-on learning and mentoring programs designed to help civic innovators inside and outside of government design and implement solutions to public interest problems using civic technology.</p>
+        <p>Geared to the purpose-driven participant inside and outside of government  (both individuals and teams) passionate about a public problem and already undertaking a project, these programs are designed to help participants develop a project from idea to implementation.</p>
       </div>
     </div>
   </div>
-	<section class="b-course-description row">
-    <div class="column large-12">
-      <p>Geared to the purpose-driven participant inside and outside of government  (both individuals and teams) passionate about a public problem and already undertaking a project, these programs are designed to help participants develop a project from idea to implementation.</p>
-      <p>Participants who apply and are accepted are given a deadline before the program begins by which to submit a project description. Over the next 2 weeks, we talk to them about their project and diagnose where they are stuck and develop a customized reading list for them.</p>
-		</div>
-  </section>
-  <div class="row">
-    <section class="b-course-mechanics">
-      <div class="large-12 column">
-        <h2>Mechanics</h2>
-      </div>
-      <ul class="b-list column large-6">
-        <li>4 weeks (every week) or 8 week (every other week) </li>
-        <li>1 peer-to-peer session every week</li>
-        <li>1 private "office hour" every other week</li>
-      </ul>
-      <ul class="b-list column large-6">
-        <li>1 faculty-led session every week or every other week for 2 hours. One hour is with a guest expert and one hour is an all-group session</li>        
-      </ul>
-    </section>
-	</div>
   <div class="row">
     <section class="b-course-mechanics column large-6">
       <h2>Programs offer</h2>
@@ -70,12 +49,10 @@
         {% if course.is_active %}
         <li class="b-course-list-item m-coaching">
           {% if course.date %}
-          <h4 class="e-course-date">{{course.date.start}}</h4>
-          </h4>
+          <h4 class="e-course-date"><span>Starts: </span>{{course.date.start}}</h4>
           {% endif %}
 
           <h3 class="e-course-name">{{course.name}}</h3>
-          
           
           <div class="e-certifications">
             {% if course.certificates.blended %}

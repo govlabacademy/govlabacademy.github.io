@@ -188,7 +188,7 @@
   is_active: true
   format: 1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
   
-  - name: "Citizen Science on the Web"
+- name: "Citizen Science on the Web"
   duration: 8 weeks
   date:
     start: "February 16, 2015" # Date can be in two formats ie. "January 2015" or "By Request"

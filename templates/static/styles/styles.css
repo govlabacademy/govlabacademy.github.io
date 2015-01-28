@@ -1274,18 +1274,7 @@ a {
   #homepage #explanation {
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.3) inset;
     padding-top: 40px;
-    background-color: rgba(0, 0, 0, 0.4); }
-    #homepage #explanation .govlab-logo {
-      text-align: center;
-      margin: 0 0 20px; }
-      #homepage #explanation .govlab-logo img {
-        width: 200px; }
-    #homepage #explanation h3 {
-      font-weight: 600;
-      font-size: 1.3rem;
-      color: white;
-      letter-spacing: 1px;
-      margin: 16px 0; }
+    background-color: rgba(71, 43, 116, 0.5); }
     #homepage #explanation p, #homepage #explanation li {
       color: white;
       font-weight: 100; }
@@ -1312,6 +1301,12 @@ a {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.3) inset;
   padding: 40px 0;
   background-color: #4f3081; }
+  .b-signup h3 {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 0; }
+  .b-signup .e-tagline {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 40px; }
   .b-signup label {
     font-size: 2rem;
     color: #9981c0;
@@ -1550,7 +1545,15 @@ a {
     letter-spacing: -0.1px; }
 
   #courses-page .b-courses-overview .b-course-summary {
-    height: 700px; } }
+    height: 700px; }
+
+  #demos-for-democracy {
+    background-image: url("../img/demos-democracy-banner.jpg");
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3) inset; }
+    #demos-for-democracy div {
+      height: 300px; } }
 #courses-page .b-course-info li strong {
   left: -90px; }
 
@@ -1659,6 +1662,23 @@ a {
   .b-person .b-pop-controls {
     left: -15px;
     top: 30px; } }
+#about-govlab .row {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px; }
+#about-govlab .govlab-logo {
+  text-align: center;
+  margin-top: 80px; }
+  #about-govlab .govlab-logo img {
+    width: 300px; }
+#about-govlab h3 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  margin: 16px 0; }
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-device-width: 1024px) {
   #people .b-pop-controls {
