@@ -948,7 +948,7 @@ a {
   position: relative; }
 
 .e-pop-button {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #472b74;
   width: 50px;
   height: 50px;
   padding: 14px 0;
@@ -1112,7 +1112,7 @@ a {
 .b-card.m-project .b-wrapper {
   position: relative;
   background-color: white;
-  width: 232px;
+  width: 100%;
   height: 280px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
   .b-card.m-project .b-wrapper:before {
@@ -1217,6 +1217,12 @@ a {
     .b-card.m-people .e-card-content {
       flex: 1; }
 
+  .b-card.m-project .b-wrapper {
+    width: 340px;
+    height: 280px; }
+  .b-card.m-project .e-card-content {
+    bottom: 10px; }
+
   .b-card.m-mini-card {
     margin-bottom: 10px; } }
 /* Desktops and laptops ----------- */
@@ -1238,12 +1244,11 @@ a {
   .b-card.m-people .e-card-content {
     height: 190px; }
 
-  .b-card .b-pop-controls {
-    left: -15px;
-    top: 30px; }
-
   .b-card.m-mini-card {
-    float: right; } }
+    float: right; }
+
+  .b-card.m-project .b-wrapper {
+    width: 232px; } }
 #homepage {
   padding-top: 0; }
   #homepage #intro {
@@ -1567,7 +1572,8 @@ a {
     background-image: url("../img/demos-democracy-banner.jpg");
     background-size: cover;
     background-position: center center;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3) inset; }
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3) inset;
+    margin-bottom: -40px; }
     #demos-for-democracy div {
       height: 300px; } }
 #courses-page .b-course-info li strong {

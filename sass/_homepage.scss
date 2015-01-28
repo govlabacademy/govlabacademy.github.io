@@ -490,6 +490,7 @@
 		background-size: cover;
 		background-position: center center;
 		@include inner-shadow;
+		margin-bottom: -40px;
 
 		div {
 			height: 300px;
