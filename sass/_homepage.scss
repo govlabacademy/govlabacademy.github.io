@@ -61,23 +61,7 @@
 	#explanation {
 		@include inner-shadow;
 		padding-top: 40px;
-		background-color: $scheme-comp_2;
-		
-		.govlab-logo {
-			text-align: center;
-			margin: 0 0 20px;
-			img {
-				width: 200px;
-			}	
-		}
-
-		h3 {
-			font-weight: 600;
-			font-size: 1.3rem;
-			color: $white;
-			letter-spacing: 1px;
-			margin: 16px 0;
-		}
+		background-color: $purple_50;
 		
 		p, li {
 			color: $white;
@@ -118,7 +102,16 @@
 	@include inner-shadow;
 	padding: 40px 0;
 	background-color: $govlab-purple_6;
+	
+	h3 {
+		color: $white_50;
+		margin-bottom: 0;
+	}
 
+	.e-tagline { 
+		color: $white_70;
+		margin-bottom: 40px;
+	}
 
 	label {
 		font-size: 2rem;
@@ -491,5 +484,16 @@
 		
 	}
 	#courses-page .b-courses-overview .b-course-summary { height: 700px; }
+
+	#demos-for-democracy {
+		background-image: url("../img/demos-democracy-banner.jpg");
+		background-size: cover;
+		background-position: center center;
+		@include inner-shadow;
+
+		div {
+			height: 300px;
+		}
+	}
 	
 } // MediaQuery

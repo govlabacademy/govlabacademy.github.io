@@ -15,7 +15,7 @@
     url: 
     demo:
     youtube: "snv7xi1lnr0"
-    image: "image-file-name.jpg"
+    image: "pic-citizensopenagenda.JPG"
   files:
   - label: "Short Description"
     filename: "SD-citizensopenagenda.pdf"
@@ -45,6 +45,7 @@
     url: 
     demo: http://contributionexplorer.congressionalforecast.org/
     vimeo: 81623891
+    image: "logo-congressional-forecast.png"
   files:
   - label: "Short Description"
     filename: "SD-congressional-forecast.pdf"
@@ -75,6 +76,7 @@
     truonex: http://www.truonex.com/projects/12831/
     url: 
     demo:
+    image: "logo-datafordemocracy.png"
   files:
   - label: "Short Description"
     filename: "SD-datafordemocracy.pdf"
@@ -104,6 +106,7 @@
     url: http://artinyourspace.tumblr.com/
     demo: 
     youtube: "https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=1WxPXBI_k38"
+    image: "pic-artinyourspace.jpg"
   files:
   - label: "Short Description"
     filename: "SD-artinyourspace.pdf"
@@ -131,6 +134,7 @@
     truonex: http://www.truonex.com/projects/12837/
     url: http://www.tumblr.com/blog/marissecrenier
     demo: "https://www.youtube.com/watch?x-yt-cl=84503534&x-yt-ts=1421914688&v=DpGtXZkRzvo"
+    image: pic-opendatacsr.jpg
   files:
   - label: "Short Description"
     filename: "SD-opendatacsr.pdf"
@@ -159,6 +163,7 @@
     url: http://rderteano.tumblr.com/tagged/gov30
     demo: 
     vimeo: http://vimeo.com/82134278
+    image: "pic-goldmining-amazon.jpg"
   files:
   - label: "Short Description"
     filename: "SD-goldmining-amazon.pdf"
@@ -186,6 +191,7 @@
     truonex: 
     url: 
     demo: "http://taranagupta.com/#/redesign-ipaidabribecom/"
+    image: "logo-bribery-localgovtlevel.png"
   files:
   - label: "Short Description"
     filename: ""
@@ -214,6 +220,7 @@
     url: 
     demo: 
     youtube: "https://www.youtube.com/watch?x-yt-cl=84503534&x-yt-ts=1421914688&v=yOhn3WiuGsU"
+    image: "pic-code-breakingthelaw.jpg"
   files:
   - label: "Short Description"
     filename: "SD-code-breakingthelaw.pdf"
@@ -241,6 +248,7 @@
     truonex: http://www.truonex.com/projects/12826/
     url: 
     demo: 
+    image: "logo-rockthevote.png"
   files:
   - label: "Short Description"
     filename: "SD-rockthevote.pdf"
@@ -270,6 +278,7 @@
     url: 
     demo: 
     youtube: "https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=rWgBTg-RJQc"
+    image: "pic-codeforfukushima.jpg"
   files:
   - label: "Short Description"
     filename: "SD-codeforfukushima.pdf"
@@ -299,6 +308,7 @@
     url: 
     demo: 
     youtube: "https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=Pa3Q7JpHz4o"
+    image: "pic-openaid-initiative.jpg"
   files:
   - label: "Short Description"
     filename: "SD-openaid-initiative.pdf"
@@ -328,6 +338,7 @@
     truonex: http://www.truonex.com/projects/12765
     url: 
     demo: 
+    image: "logo-opengovkit.png"
   files:
   - label: "Short Description"
     filename: ""
@@ -355,6 +366,7 @@
     truonex: http://www.truonex.com/projects/12747/
     url: 
     demo: 
+    image: "logo-mynotebook.png"
   files:
   - label: "Short Description"
     filename: ""
@@ -381,6 +393,7 @@
     truonex: http://www.truonex.com/seanbrooks/cybersecurity-development-coalition
     url: 
     demo: 
+    image: "pic-cybersecurity.png"
   files:
   - label: "Short Description"
     filename: ""
@@ -408,6 +421,7 @@
     truonex: http://www.truonex.com/projects/12754
     url: 
     demo: 
+    image: "pic-together.jpg"
   files:
   - label: "Short Description"
     filename: ""
@@ -435,6 +449,7 @@
     truonex: http://www.truonex.com/projects/12756/
     url: 
     demo: 
+    image: "logo-ugov.png"
   files:
   - label: "Short Description"
     filename: "SD-ugov.pdf"
@@ -463,6 +478,7 @@
     truonex: http://www.truonex.com/projects/12746
     url: 
     demo: 
+    image: "pic-homeless-helper 2.jpg"
   files:
   - label: "Short Description"
     filename: ""
@@ -491,6 +507,7 @@
     truonex: http://www.truonex.com/projects/12764/
     url: 
     demo: 
+    image: "pic-innovation bootcamp.jpg"
   files:
   - label: "Short Description"
     filename: ""
@@ -524,6 +541,7 @@
     url: 
     demo:
     prezi: https://prezi.com/uhff1p-uvuuo/urban-expansion-forecaster/
+    image: "logo-urbanexpansionforecaster.png"
   files:
   - label: "Short Description"
     filename: ""

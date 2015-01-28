@@ -12,7 +12,7 @@
       - Do you work in a local legislature or with local lawmakers?
       - Do you have a project designed to aid the lawmaking process – whether bills or rules - at the municipal level?
       - "Are you thinking about how to make law-making more transparent, participatory and accountable both online and off?"
-  description_short: "Led by New York City Council member Ben Kallos, this program is designed for those working on cvic-tech-enabled innovations in lawmaking and legislative processes at the local level."
+  description_short: "Led by New York City Council member Ben Kallos, this program is designed for those working on civic-tech-enabled innovations in lawmaking and legislative processes at the local level."
   description_long: "This group is designed for those focusing on innovation in local lawmaking. Led by New York City Council Member Ben Kallos and supported by the GovLab Academy team, sign up if you want to collaborate to advance projects designed for use by legislators or in connection with legislatures at the local level. These might include projects for constituent engagement, crowdsourced lawmaking, enhanced drafting and archiving of local laws and rules, and other tech-enabled strategies for enhancing legitimacy and effectiveness in municipal legislatures and among local regulators. By bringing together those working on lawmaking at the local level we hope both to help each team advance its own project and, potentially, to discover opportunities for collaborating in the creation of turn-key solutions for the Legislature and legislators. Applicants need not work for government but should have a concrete project in mind, if not already underway."
   prerequisites:
   faculty_members: # Add list with faculty member names
@@ -187,7 +187,66 @@
     for_certificate: true
   is_active: true
   format: 1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
+  
+- name: "Citizen Science on the Web"
+  duration: 8 weeks
+  date:
+    start: "February 16, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "April 10, 2015"
+    application: " February 6, 2015"
+  passion:
+    title: Passionate about citizen science?
+    bullets:
+      - "Are you interested in tackling a scientific or environmental problem by engaging a wider public in tasks such as data gathering, measurement or other activities to aid in the execution of a science project?"
+      - "Do you need to know how to target specific kinds of participants with the right know how?"
+      - "Do you view citizens as scientists in their own right and want to support more people “doing science,” whether for educational or public policy purposes, in their own communities?"
+      - "Is your citizen science project underway but needs to scale and attract more participants? Create more effective metrics?"
+  description_short: " "
+  description_long: "The notion that ordinary citizens with a strong interest in science – call them amateurs, enthusiasts, aficionados or even cheerleaders – can participate actively in cutting-edge science via the Web is no longer controversial. Galaxy Zoo (cataloguing galaxy images) and Foldit(folding proteins) are poster children for the citizen cyberscience movement. Perhaps even more intriguing are a number of smaller, less well-known projects like PrimeGrid (searching for new prime numbers) and Herbaria@home (digitizing archived historical plant clippings), where an amateur created a project, which is producing data professional scientists want to get their hands on. The right participant in this program knows civic problem they are trying to solve through the application of citizen science and has a citizen science project already in mind, if not already underway. Through peer to peer coaching and mentoring, the objective of this program is to help and encourage participants to develop more effective, scalable, and impactful citizen science projects. A particular preference for projects involving data collection and analysis, using the Web and mobile technologies."
+  prerequisites:
+  faculty_members: # Add list with faculty member names
+    - Francois Grey
+  actions:
+    - label: More Info
+      link: /
+  certificates:
+    blended: false
+    online: true
+    in_person: false
+    for_credit: false
+    for_certificate: true
+  is_active: true
+  format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions. Optional: one student per team may participate in person in a data dive in Geneva during the week of 14-21 March (spring break at NYU), together with students from CUSP."
 
+- name: "Tech Procurement Projects: Making the Supply Chain Work"
+  duration: 4 weeks
+  date:
+    start: "March 16, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "April 10, 2015"
+    application: "February 20, 2015"
+  passion:
+    title: Passionate about fixing the public procurement process?
+    bullets:
+      - "Are you working to simplify the policy or regulations relating to procurement?"
+      - "Do you have a project aimed at making procurement more transparent? Efficient? Accountable?"
+      - "Are you eager to develop strategies for procuring more innovative and effective solutions from more diverse bidders?"
+  description_short: " "
+  description_long: "The way government purchases, especially information technology, is profoundly broken. Government should not be spending as much to make a website as it invests in scientific research to map the human brain. When the open government community talks about “Fixing Procurement” what we’re really talking about is making it so that the contracts don’t keep getting awarded to the same giant IT enterprise integrators over and over again. This group is designed for those focusing on all stages and types of contracting reform, bureaucracy and regulatory navigation at all levels of government, including projects to: simplify the RFP process; attract more minority and women-owned businesses; enable more open review and decision-making processes; encourage the procurement of innovative not only cheap solutions; decrease corruption and improve accountability, publish open contracting data or make sense of it. If you are engaged in an effort to bring greater sanity to the procurement process -- especially technology procurement -- come join us! The ideal candidate is someone who knows the problem they are trying to solve and who has a project in mind."
+  prerequisites:
+  faculty_members: # Add list with faculty member names
+    - Clay Johnson
+  actions:
+    - label: More Info
+      link: /
+  certificates:
+    blended: false
+    online: true
+    in_person: false
+    for_credit: false
+    for_certificate: true
+  is_active: true
+  format: 1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
+  
 # - name: ""
 #   partner: 
 #   duration: 

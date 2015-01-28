@@ -1,4 +1,33 @@
+#about-govlab {
+	
+.row {
+	border-top: 1px solid $gray_20;
+	border-bottom: 1px solid $gray_20;
+	margin-top: 40px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.govlab-logo {
+	text-align: center;
+	margin-top: 80px;
+
+	img {
+		width: 300px;
+	}	
+}
+
+h3 {
+	font-weight: 600;
+	font-size: 1.3rem;
+	letter-spacing: 1px;
+	margin: 16px 0;
+}
+}
+
 /* Smartphones (portrait and landscape) ----------- */
+
+
+
 @media only screen and (max-device-width : $desktop_width) {
 #people .b-pop-controls {
 		position: absolute;
