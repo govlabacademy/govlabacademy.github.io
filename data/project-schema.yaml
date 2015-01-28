@@ -14,7 +14,7 @@
     truonex: http://www.truonex.com/projects/12839/
     url: 
     demo:
-    youtube: "snv7xi1lnr0"
+    youtube: "https://www.youtube.com/watch?x-yt-ts=1421914688&x-yt-cl=84503534&v=snv7xi1lnr0"
     image: "pic-citizensopenagenda.JPG"
   files:
   - label: "Short Description"
@@ -44,7 +44,7 @@
     truonex: http://www.truonex.com/projects/12820
     url: 
     demo: http://contributionexplorer.congressionalforecast.org/
-    vimeo: 81623891
+    vimeo: http://vimeo.com/81623891
     image: "logo-congressional-forecast.png"
   files:
   - label: "Short Description"
