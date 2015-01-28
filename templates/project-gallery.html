@@ -33,13 +33,19 @@
           {% if card.summary %}
           
           <article class="b-card m-project m-clinic" data-filter="{% for tag in card.tags %}{{tag}}{% endfor %}">
+            <a class="b-go-to" href="project-page.html#{{card.slug}}">
               <div class="b-wrapper">
-                <a class="b-go-to" href="project-page.html#{{card.slug}}">
+                {% if card.links.image %}      
+                <header class="b-card-header">
+                  <div class="e-project-pic" style="background-image: url(static/projects/{{card.slug}}/{{card.links.image}})" title=""></div>
+                </header>
+                {% endif %}
+                <div class="e-card-content">
                   <h3 title="{{card.title}}">{{card.title}}</h3>
-                </a>
-                <h4>{{card.authors.first_name}} {{card.authors.last_name}}</h4>
-                <p>{{card.summary}}</p>
+                  <p>By: {% for author in card.authors %}<span>{{author.first_name}} {{author.last_name}}, </span>{% endfor %} </p>
+                </div>
               </div>
+            </a>
           </article>
           {% endif %}
         {% endfor %}  
@@ -54,3 +60,19 @@
   </section>
 </div>
 {% endblock %}
+
+
+<!-- <article class="{{class}} b-card m-people m-govlab-{{person.is_govlab}} b-pop-controls-container" data-filter="{{person.tags}}">
+  <a href="faculty-members.html#{{person.name.slug}}">
+    <div class="b-wrapper">
+      <header class="b-card-header">
+        <div class="e-person-pic" style="background-image: url(static/img/faculty/{{person.img_url}})" title="{{person.name.first}} {{person.name.last}}"></div>
+        <h3 data-category="{{person.name.last}}" title="{{person.name.first}} {{person.name.last}}">{{person.name.first}} {{person.name.last}}</h3>
+      </header>
+      <section class="e-card-content"> 
+        <h4>{{person.job}}</h4>
+        <p>{{person.description}}</p>
+      </section>
+    </div>
+  </a>
+</article> -->

@@ -1,0 +1,50 @@
+.b-card.m-project {
+	margin: 5px; 
+
+	.b-wrapper {
+		display: flex;
+		flex-flow: column;
+	}
+
+	h3 {
+		font-size: 1.3rem;
+		word-wrap: break-word;
+	}
+	
+	.b-card-header {
+		width: 232px;
+		height: 160px;
+		margin-bottom: 15px;
+		overflow: hidden;
+	}
+
+	.e-project-pic {
+		min-width: 100%;
+		margin: 0;
+		padding-bottom: 80%;
+		overflow: hidden;
+		position: relative;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+	}
+
+	.e-card-content {
+		padding: 15px;
+	}
+
+	h4 {
+		font-size: 1rem;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: $scheme-comp_3;
+	}
+
+	p {
+		font-size: 1rem;
+		overflow-y: hidden;
+		flex: 1;
+	}
+
+	.e-card-content { max-height: 255px; }
+}

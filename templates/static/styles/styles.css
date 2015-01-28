@@ -1109,26 +1109,42 @@ a {
 .b-card.m-people .e-card-content {
   max-height: 235px; }
 
-.b-card.m-project {
-  margin: 5px; }
-  .b-card.m-project .b-wrapper {
-    padding: 15px;
-    display: flex;
-    flex-flow: column; }
-  .b-card.m-project h3 {
-    font-size: 1.3rem;
-    word-wrap: break-word; }
-  .b-card.m-project h4 {
-    font-size: 1rem;
-    font-weight: 400;
-    text-transform: uppercase;
+.b-card.m-project .b-wrapper {
+  position: relative;
+  background-color: white;
+  width: 232px;
+  height: 280px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
+  .b-card.m-project .b-wrapper:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    z-index: 1; }
+.b-card.m-project .b-card-header {
+  width: 100%;
+  height: 200px;
+  overflow: hidden; }
+  .b-card.m-project .b-card-header .e-project-pic {
+    min-width: 100%;
+    margin: 0;
+    height: 0;
+    padding-bottom: 100%;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; }
+.b-card.m-project .e-card-content {
+  position: absolute;
+  margin-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  bottom: 0; }
+  .b-card.m-project .e-card-content h3 {
+    font-size: 16px;
     color: rgba(0, 0, 0, 0.6); }
-  .b-card.m-project p {
-    font-size: 1rem;
-    overflow-y: hidden;
-    flex: 1; }
-  .b-card.m-project .e-card-content {
-    max-height: 255px; }
 
 .b-card.m-mini-card .b-wrapper {
   background-color: transparent;
