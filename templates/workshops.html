@@ -64,8 +64,6 @@
           <p>{{course.description_short}}</p>
         </div>
         
-        
-
         {% if course.faculty_members %}
           <div class="e-course-faculty">
             {% for name in course.faculty_members %}              
@@ -89,7 +87,7 @@
         {% if course.partner %}
           <h5 class="e-partner">{{course.partner}}</h5>
 		    {% endif %}
-        
+          
       </li>
       {% endif %}
 			{% endfor %}			
@@ -131,13 +129,11 @@
           {% if course.certificates.for_credit %}
           <img src="static/img/icons/icons-credit.png" title="For Credit Course" class="e-course-icons m-credit">
           {% endif %}
-
         </div>
+
         <div class="e-course-description">
           <p>{{course.description_short}}</p>
         </div>
-        
-        
 
         {% if course.faculty_members %}
           <div class="e-course-faculty">
@@ -162,7 +158,6 @@
         {% if course.partner %}
           <h5 class="e-partner">{{course.partner}}</h5>
         {% endif %}
-        
       </li>
       {% endif %}
       {% endfor %}      

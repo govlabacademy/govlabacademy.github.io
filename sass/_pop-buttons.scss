@@ -45,6 +45,20 @@
 	&:hover { background-color: $scheme-comp_2; }
 }
 
+.b-share-button {
+	@extend .e-pop-button;
+	position: absolute;
+	top: 15px;
+	left: -23px;
+	background-color: $gray_10_matte;
+	i { color: $purple; }
+
+	&:hover {
+		background-color: $purple;
+		i { color: $white; }
+
+	}
+}
 
 @media only screen and (min-width : $desktop_width) {
 
