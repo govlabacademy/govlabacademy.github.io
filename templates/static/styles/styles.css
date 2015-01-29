@@ -614,6 +614,15 @@ a {
     .b-footer .e-creative-commons img {
       float: left;
       margin-right: 20px; }
+    .b-footer .e-creative-commons a {
+      color: white; }
+      .b-footer .e-creative-commons a:hover {
+        background-color: transparent;
+        color: white;
+        text-decoration: underline; }
+      .b-footer .e-creative-commons a:visited {
+        color: #727272;
+        text-decoration: none; }
 
 /* Mobile Only ----------- */
 @media only screen and (max-width: 1024px) {
@@ -804,6 +813,8 @@ a {
     font-size: 1.6rem; }
   .b-page-title *:last-child {
     margin-bottom: 0; }
+  .b-page-title .b-social-media-container .e-pop-button {
+    margin: 0 5px; }
 
 #overlay {
   position: fixed;
@@ -1093,7 +1104,6 @@ a {
   margin: 0;
   padding: 20px 15px 0;
   width: 100%;
-  height: 50px;
   background-color: rgba(0, 0, 0, 0.3);
   /* fallback */
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(rgba(0, 0, 0, 0.4)));
@@ -1254,26 +1264,9 @@ a {
   #homepage #intro {
     margin-bottom: 0;
     padding-top: 60px;
-    padding-bottom: 80px;
-    height: 500px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/landing-image4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center; }
-    #homepage #intro .e-site-title {
-      text-align: center;
-      font-weight: 100;
-      margin-top: 80px;
-      margin-bottom: 60px;
-      color: white;
-      font-size: 3rem; }
-    #homepage #intro .e-site-tagline {
-      font-size: 1.1rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: white;
-      text-align: center;
-      font-weight: 300; }
+    padding-bottom: 40px; }
+    #homepage #intro h2 {
+      padding: 10px 0; }
   #homepage #explanation {
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.3) inset;
     padding-top: 40px;
@@ -1283,6 +1276,14 @@ a {
       font-weight: 100; }
     #homepage #explanation li:before {
       border-left-color: rgba(255, 255, 255, 0.5); }
+  #homepage .b-social-media-container .e-pop-button {
+    transform: scale(1.3); }
+
+.b-social-media-container {
+  text-align: center;
+  padding: 0 0 40px; }
+  .b-social-media-container .e-pop-button {
+    margin: 0 30px; }
 
 .b-partners {
   padding: 20px 0;
@@ -1304,7 +1305,8 @@ a {
   text-align: center;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.3) inset;
   padding: 40px 0;
-  background-color: #4f3081; }
+  margin-top: -20px;
+  background-color: rgba(0, 0, 0, 0.8); }
   .b-signup h3 {
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 0; }
@@ -1343,16 +1345,17 @@ a {
     .b-signup .e-button:hover {
       background-color: #6f5d8b; }
 
-#canvas {
-  display: none; }
-  #canvas h2 {
-    margin-bottom: 0; }
-  #canvas h3 {
-    font-size: 1.1rem;
-    opacity: 1;
-    text-align: center;
-    font-weight: 600;
-    color: #472b74; }
+.b-signup.m-digest {
+  background-color: #472b74; }
+
+#canvas h2 {
+  margin-bottom: 0; }
+#canvas h3 {
+  font-size: 1.1rem;
+  opacity: 1;
+  text-align: center;
+  font-weight: 600;
+  color: #472b74; }
 
 .b-canvas .e-canvas-title {
   text-align: center; }
@@ -1440,24 +1443,27 @@ a {
     padding-bottom: 40px; }
   #homepage #intro {
     padding-top: 120px;
-    padding-bottom: 120px;
-    height: 700px; }
+    padding-bottom: 60px; }
     #homepage #intro .e-site-title {
       font-size: 5rem;
       letter-spacing: 2px;
-      color: white;
       text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
       font-weight: 600;
       margin: 0;
       margin-top: 16%;
-      text-transform: uppercase; }
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      padding-bottom: 0;
+      line-height: 1; }
     #homepage #intro .e-site-tagline {
-      font-size: 1.1rem;
+      font-size: 1.05rem;
       letter-spacing: 2px;
       text-transform: uppercase;
-      color: white;
       text-align: center;
-      font-weight: 300; }
+      font-weight: 300;
+      margin: 0 30px;
+      padding: 5px 0 3px;
+      line-height: 1; }
 
   .b-partners .e-partner-logo {
     display: inline-block;

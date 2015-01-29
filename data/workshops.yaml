@@ -15,6 +15,7 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  is_crosslisted: false
 
 - name: "Urban Analytics for Change"
   partner: CUSP
@@ -37,6 +38,7 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  is_crosslisted: false
 
 - name: "User Segmentation and Analysis"
   partner: 
@@ -53,6 +55,7 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  is_crosslisted: false
 
 - name: "Project Planning"
   partner: 
@@ -69,6 +72,7 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  is_crosslisted: false
 
 - name: "Rapid-cycle Research"
   partner: 
@@ -85,6 +89,7 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  is_crosslisted: false
 
 - name: "Designing Mock-ups and Prototypes"
   partner: 
@@ -101,6 +106,7 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  is_crosslisted: false
 
 - name: "Defining Metrics of Success"
   partner: 
@@ -117,6 +123,7 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  is_crosslisted: false
 
 - name: "Open Data in a Day"
   partner: ODI - Open Data Institute
@@ -137,6 +144,7 @@
     for_credit: false
     for_certificate: false
   is_active: true
+  is_crosslisted: true
 
 - name: "Open Data in Practice"
   partner: ODI - Open Data Institute
@@ -157,6 +165,7 @@
     for_credit: false
     for_certificate: false
   is_active: true
+  is_crosslisted: true
 
 - name: "Finding Stories in Open Data"
   partner: ODI - Open Data Institute
@@ -177,6 +186,7 @@
     for_credit: false
     for_certificate: false
   is_active: true
+  is_crosslisted: true
 
 - name: "Open Data, Law and Licensing "
   partner: ODI - Open Data Institute
@@ -197,6 +207,7 @@
     for_credit: false
     for_certificate: false
   is_active: true
+  is_crosslisted: true
 
 - name: "Defining Problems"
   partner: IOG - Institute on Governance
@@ -215,7 +226,7 @@
     for_credit: false
     for_certificate: false
   is_active: true
-  is_crosslisted: true
+  is_crosslisted: false
 
 
 
