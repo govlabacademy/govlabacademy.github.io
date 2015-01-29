@@ -1683,15 +1683,9 @@ a {
   .b-person .b-pop-controls {
     left: -15px;
     top: 30px; } }
-#about-govlab .row {
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  margin-top: 40px;
-  padding-bottom: 40px;
-  padding-top: 40px; }
 #about-govlab .govlab-logo {
   text-align: center;
-  margin-top: 80px; }
+  margin-top: 40px; }
   #about-govlab .govlab-logo img {
     width: 300px; }
 #about-govlab h3 {
@@ -1699,6 +1693,13 @@ a {
   font-size: 1.3rem;
   letter-spacing: 1px;
   margin: 16px 0; }
+
+#about-govlab .row,
+#badges .row,
+#team-cards .row {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 80px;
+  padding-bottom: 40px; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-device-width: 1024px) {

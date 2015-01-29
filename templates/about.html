@@ -22,11 +22,13 @@
 
   <section id="about-govlab">
     <div class="row">
+      <div class="large-12 column">
+        <h2>The GovLab</h2>
+      </div>
       <div class="large-6 column">
         <div class="govlab-logo"><img src="static/img/govlab-logo.png" alt=""></div>
       </div>
       <div class="large-6 column">
-        <h3>About The GovLab</h3>
         <p>The GovLab is an action-research center with a mission to improve people’s lives by changing the way we govern. We aim to accomplish this by leveraging advances in technology to enable more open, collaborative, effective, and legitimate ways to make better decisions and solve public problems.</p>
       </div>
     </div>
@@ -47,26 +49,23 @@
       </div>
     </div>
   </section>
-
-  <section id="people">
-    <section id="team-cards" class="b-team-dashboard">
-      <h2>People</h2>
-      <div class="row">
-        <h3 class="column large-12">Faculty Mambers</h3>
-        <div class="b-card-isotopes column large-12">
-          <div class="b-card-wrapper">
-            {% for person in people %}              
-              {% if people|selectattr("fullName", "equalto", person.fullName)|first|isEmpty %}
-                {{name|debug}}
-                {{("!!!! ERROR !!!!!: person cannot be found: " + person.fullName) |debug}}
-              {% else %}
-                {{ showPerson(people|selectattr("fullName", "equalto", person.fullName)|first, "arnaud-class") }}
-              {% endif %}
-            {% endfor %}
-          </div>
+  
+  <section id="team-cards" class="b-team-dashboard">
+    <div class="row">
+      <h2 class="column large-12">Faculty Mambers</h2>
+      <div class="b-card-isotopes column large-12">
+        <div class="b-card-wrapper">
+          {% for person in people %}              
+            {% if people|selectattr("fullName", "equalto", person.fullName)|first|isEmpty %}
+              {{name|debug}}
+              {{("!!!! ERROR !!!!!: person cannot be found: " + person.fullName) |debug}}
+            {% else %}
+              {{ showPerson(people|selectattr("fullName", "equalto", person.fullName)|first, "arnaud-class") }}
+            {% endif %}
+          {% endfor %}
         </div>
       </div>
-    </section>
+    </div>
   </section>
 </div> 
 
