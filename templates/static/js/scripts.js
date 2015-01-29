@@ -28,6 +28,13 @@ $(document).ready(function() {
 
   });
 
+  // RSS from Digest
+  $('#digest-container').rssfeed('http://thegovlab.org/govlab-digest/feed/', 
+  	{ 
+  		limit: 5,
+  		linktarget: '_blank'
+  	});
+
 var $container = $('.b-card-isotopes');
 // init
 $container.isotope({

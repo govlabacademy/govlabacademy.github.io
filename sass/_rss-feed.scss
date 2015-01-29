@@ -1,0 +1,24 @@
+.rssHeader { display: none; }
+
+.rssRow {
+  border: 1px solid $gray_30;
+  padding:  20px;
+  background-color: $white;
+  @include drop-shadow-light;
+  position: relative;
+	margin-bottom: 10px;
+  border-left: 6px solid $purple;
+
+  > div { display: none; }
+  > p { font-size: 1.2rem; }
+
+  a {
+  	color: $purple;
+
+  	&:hover {
+  		color: $purple;
+  		background-color: transparent;
+  		text-decoration: underline;
+  	}	
+  }
+}

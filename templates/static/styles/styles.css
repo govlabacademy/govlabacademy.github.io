@@ -1431,6 +1431,9 @@ a {
       padding: 3px;
       border-radius: 3px; }
 
+#digest {
+  padding-top: 40px; }
+
 #demos-for-democracy {
   background-image: url("../img/demos-democracy-banner.jpg");
   background-size: cover;
@@ -1952,6 +1955,28 @@ a {
   margin-top: 30px; }
 
 /* Desktops and laptops ----------- */
+.rssHeader {
+  display: none; }
+
+.rssRow {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  position: relative;
+  margin-bottom: 10px;
+  border-left: 6px solid #472b74; }
+  .rssRow > div {
+    display: none; }
+  .rssRow > p {
+    font-size: 1.2rem; }
+  .rssRow a {
+    color: #472b74; }
+    .rssRow a:hover {
+      color: #472b74;
+      background-color: transparent;
+      text-decoration: underline; }
+
 @media only screen and (min-width: 1024px) {
   h2 {
     font-size: 3rem;
