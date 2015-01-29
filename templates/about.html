@@ -22,37 +22,52 @@
 
   <section id="about-govlab">
     <div class="row">
+      <div class="large-12 column">
+        <h2>The GovLab</h2>
+      </div>
       <div class="large-6 column">
         <div class="govlab-logo"><img src="static/img/govlab-logo.png" alt=""></div>
       </div>
       <div class="large-6 column">
-        <h3>About The GovLab</h3>
         <p>The GovLab is an action-research center with a mission to improve people’s lives by changing the way we govern. We aim to accomplish this by leveraging advances in technology to enable more open, collaborative, effective, and legitimate ways to make better decisions and solve public problems.</p>
       </div>
     </div>
   </section>
 
-</div> 
-  <section id="people">
-    <section id="team-cards" class="b-team-dashboard">
-      <h2>People</h2>
-      <div class="row">
-        <h3 class="column large-12">Faculty Mambers</h3>
-        <div class="b-card-isotopes column large-12">
-          <div class="b-card-wrapper">
-            {% for person in people %}              
-              {% if people|selectattr("fullName", "equalto", person.fullName)|first|isEmpty %}
-                {{name|debug}}
-                {{("!!!! ERROR !!!!!: person cannot be found: " + person.fullName) |debug}}
-              {% else %}
-                {{ showPerson(people|selectattr("fullName", "equalto", person.fullName)|first, "arnaud-class") }}
-              {% endif %}
-            {% endfor %}
-          </div>
+  <section id="badges">
+    <div class="row">
+      <div class="column large-12">
+        <h2>Certificates and Badges</h2>
+      </div>
+      <div class="column large-7">
+        <p>Non-credit online participants who complete the program receive an authenticated Certificate and Badge. Badges are open, portable and "stackable" with other badges. </p>
+        <p>Badges can be displayed as a credential by incorporating into a resume or website. GovLab Academy will maintain a registry of all badge recipients. For successful participants the program could serve as a gateway to opportunities to compete for a range of Fellowship and funding opportunities, including from the Knight Foundation, the D-Prize, GovLab and more.</p>
+        <p><a href="http://www.macfound.org/programs/digital-badges/" target="_blank">More about digital badges and micro-credentials.</a></p>
+      </div>
+      <div class="column large-5">
+        <img src="./static/img/standard-badge.png" alt="The GovLab Academy Badge System">
+      </div>
+    </div>
+  </section>
+  
+  <section id="team-cards" class="b-team-dashboard">
+    <div class="row">
+      <h2 class="column large-12">Faculty Mambers</h2>
+      <div class="b-card-isotopes column large-12">
+        <div class="b-card-wrapper">
+          {% for person in people %}              
+            {% if people|selectattr("fullName", "equalto", person.fullName)|first|isEmpty %}
+              {{name|debug}}
+              {{("!!!! ERROR !!!!!: person cannot be found: " + person.fullName) |debug}}
+            {% else %}
+              {{ showPerson(people|selectattr("fullName", "equalto", person.fullName)|first, "arnaud-class") }}
+            {% endif %}
+          {% endfor %}
         </div>
       </div>
-    </section>
+    </div>
   </section>
+</div> 
 
   <!-- <section class="detail-test">
     <article class="{{class}} b-card m-people m-govlab-{{people[6].is_govlab}} b-pop-controls-container" data-filter="{{people[6].tags}}">

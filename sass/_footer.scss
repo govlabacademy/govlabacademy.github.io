@@ -29,6 +29,19 @@
 			float: left;
 			margin-right: 20px;
 		}
+
+		a {
+			color: $white;
+			&:hover {
+				background-color: transparent;
+				color: $white;
+				text-decoration: underline;
+			}
+			&:visited {
+				color: $gray_50_matte;
+				text-decoration: none;
+			}
+		}
 	}
 }
 

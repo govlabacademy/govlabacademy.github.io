@@ -6,102 +6,67 @@
 		padding-top: 60px;
 		padding-bottom: 40px;
 
-		#academy-icon {
-			opacity: 0.1;
-			width: 200px;
-			left: calc(50% - 100px);
-			border: 6px solid #000;
-			border-radius: 50%;
-			position: absolute;
-			// transform: scale(.9,.9);
-		}
-
-		.e-site-title {
-			text-align: center;
-			font-weight: 100;
-			margin-top: 80px;
-			margin-bottom: 60px;
-			color: $gray_60;
-			font-size: 6.3rem;
-		}
-
-		.b-quote {
-
-			.e-text {
-				color: $gray_60;
-				font-weight: 100;
-				font-size: 2.5rem;
-				line-height: 1.3;
-				position: relative;
-				font-style: italic;
-			}
-			
-			.e-author {
-				text-align: right;
-				text-transform: uppercase;
-				color: $gray_60;
-				margin: 0;
-				font-size: 0.9rem;
-				line-height: .9rem;
-				font-weight: 400;
-			}
-			
-			.e-author-title {
-				text-align: right;
-				color: $gray_60;
-				margin: 0;
-				font-style: italic;
-				font-weight: 300;
-				font-size: 0.8rem;
-				line-height: 1rem;
-			}
+		h2 {
+			padding: 10px 0;
 		}
 	} // Closing #Intro
 
 	#explanation {
 		@include inner-shadow;
 		padding-top: 40px;
-		background-color: $purple_50;
+		background-color: $purple;
 		
 		p, li {
 			color: $white;
 			font-weight: 100;
 		}
 
-	
-
 		li:before {
 			border-left-color: $white_50;
 		}
 	}
 
-	.b-partners {
-		padding: 20px 0;
-		text-align: center;
-
-		.e-partner-logo {
-			display: block;
-
-			max-width: 220px;
-			// float: left;
-			margin: 40px auto;
-
-			&:hover {
-				background-color: transparent !important;
-			}
-		}
-
-		#ogp { max-width: 100px; }
-		#stanford-design-school { max-width: 140px; }
-		#cusp { max-width: 180px; }
+	.b-social-media-container .e-pop-button {
+		transform: scale(1.3);
 	}
+}
+
+.b-social-media-container { 
+	text-align: center;
+	padding: 0 0 40px;
+
+	.e-pop-button {
+		margin: 0 30px;
+	}
+}
+
+.b-partners {
+	padding: 20px 0;
+	text-align: center;
+
+	.e-partner-logo {
+		display: block;
+
+		max-width: 220px;
+		// float: left;
+		margin: 40px auto;
+
+		&:hover {
+			background-color: transparent !important;
+		}
+	}
+
+	#ogp { max-width: 100px; }
+	#stanford-design-school { max-width: 140px; }
+	#cusp { max-width: 180px; }
 }
 
 .b-signup {
 	text-align: center;
 	@include inner-shadow;
 	padding: 40px 0;
-	background-color: $govlab-purple_6;
+	margin-top: -20px;
+	background-color: $gray_80;
 	
 	h3 {
 		color: $white_50;
@@ -152,11 +117,12 @@
 		}
 	}
 }
+.b-signup.m-digest {
+	background-color: $purple;
+}
 
 
 #canvas {
-	display: none;
-
 	h2 {
 		margin-bottom: 0;
 	}
@@ -171,9 +137,7 @@
 }
 
 .b-canvas {
-	.e-canvas-title {
-		text-align: center;
-	}
+	.e-canvas-title { text-align: center; }
 	.e-left,
 	.e-right {
 		p {
@@ -187,12 +151,8 @@
 	}
 }
 
-#canvas-title-icon {
-	opacity: .4;
-
-	.lines {
-		display: none;
-	}
+#canvas-title-icon { opacity: .4;
+	.lines { display: none; }
 }
 
 .b-courses-overview {
@@ -202,48 +162,11 @@
 		margin-top: 40px;
 	}
 
-	.e-course-navigation {
-		text-align: center;
-		width: 100%;
-		overflow: hidden;
-		
-		> div {
-			width: 140%;
-			@include transition;
-
-		}
-
-		span {
-			display: inline-block;
-			width: 25%;
-			text-align: center;
-			font-size: .9rem;
-			color: $gray_50;
-			background-color: $gray_10;
-			margin: 0;
-		}
-
-		span:hover {
-			color: $white;
-			background-color: $gray_50;
-		}
-
-		span.m-active {
-			background-color: $gray_80;
-			color: $white;
-		}
-
-		span:hover,
-		span.m-active:hover {
-			// background-color: $orange;
-			color: $white;
-		}
-	}
-	
 	.b-course-summary {
 		padding: 10px 40px 40px;
+		margin-bottom: 20px;
 		background-color: $gray_50;
-		height: 350px;
+		// height: 350px;
 
 		h3 {
 			margin-top: 20px;
@@ -276,96 +199,104 @@
 
 		.e-more-info {
 			margin-top: 20px;
-			position: absolute;
-			bottom: 20px;
-			width: 80%;
 			left: 10%;
 
 			a {
-			display: block;
-			background-color: $gray_15;
-			color: $white_50;
-			font-weight: 600;
-			text-align: center;
-			letter-spacing: 1px;
-			text-transform: uppercase;
-			padding: 3px;
-			border-radius: 3px;
+				display: block;
+				background-color: $gray_15;
+				color: $white_50;
+				font-weight: 600;
+				text-align: center;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+				padding: 3px;
+				border-radius: 3px;
 			}
-		}
-
-		&.m-disabled {
-			opacity: .3;
 		}
 	}
 }
+
+#digest {
+	padding-top: 40px;
+}
+
+
+#demos-for-democracy {
+	background-image: url("../img/demos-democracy-banner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	@include inner-shadow;
+	margin-bottom: -20px;
+
+	div { height: 150px; }
+}
+
+/* Phones Only ----------- */
+@media only screen and (max-width : $desktop_width) {
+.b-signup {
+	input.email {
+		border-radius: 3px;
+		border: 1px solid $gray_80;
+	}
+
+	.e-button {
+	display: block;
+	margin: 10px auto;
+	}
+}
+
+.e-more-info { width: 100%; }
+}
+
+
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : $desktop_width) {
 	
 	#homepage {
-		> section {		
-			padding-bottom: 40px;
-		}
+
+		> section {	padding-bottom: 40px; }
 
 		#intro {
 			padding-top: 120px;
-			padding-bottom: 120px;
-			background-size: 25%;
+			padding-bottom: 60px;
+			// height: 700px;
 
-			#academy-icon {
-				width: 320px;
-				left: calc(50% - 160px);
+
+			.e-site-title { 
+				font-size: 5rem;
+				letter-spacing: 2px;
+				text-shadow: 0 0 18px $gray_80;
+				font-weight: 600;
+				margin: 0;
+				margin-top: 16%;
+				margin-bottom: 20px;
+				text-transform: uppercase;
+				padding-bottom: 0;
+				line-height: 1;
 			}
 
-			.b-quote {
-
-				.e-text {
-					font-size: 4rem;
-					line-height: 1.3;
-
-					&:before {
-						left: -30px;
-					  top: -30px;
-					}
-
-					&:after {
-						right: -30px;
-					  bottom: -120px;
-					}
-				}
-
-				.e-author {
-					font-size: 1.2rem;
-					line-height: 1.4rem;
-				}
-				
-				.e-author-title {
-					font-size: 1rem;
-					line-height: 1.1rem;
-				}
+			.e-site-tagline {
+				font-size: 1.05rem;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				text-align: center;
+				font-weight: 300;
+				margin: 0 30px;
+				padding: 5px 0 3px;
+				line-height: 1;
 			}
-		}
-
-		#explanation {
-			p,
-			.b-list li {
-				margin-bottom: 8px;
-			}
-		}
-
-		
-
-		.b-partners {
-			.e-partner-logo { 
-				display: inline-block;
-				margin: 20px;
-			}
-
-			
 		}
 	}
-	
+
+	.b-partners {
+		.e-partner-logo { 
+			display: inline-block;
+			margin: 20px;
+		}
+	}
+
 	#canvas {
 		display: block;
 
@@ -385,22 +316,15 @@
 	.b-canvas {
 		position: relative;
 
-		h3 {
-			text-align: center;
-
-		}
+		h3 { text-align: center; }
 		
 		.e-canvas-title {
-
-			
 			#canvas-title-icon {
 				height: 97%;
 				position: absolute;
 				left: calc(50% - 177px);
 				top: 4px;
-				.canvas-icon {
-					opacity: .4;
-				}
+				.canvas-icon { opacity: .4; }
 
 				.lines {
 					fill: none;
@@ -414,17 +338,10 @@
 			
 		}
 		.e-left,
-		.e-right {
-			width: 35%;
-			
-		}
-		p {
-			position: relative;
-		}
+		.e-right { width: 35%; }
+		p { position: relative; }
 
-		.e-left {
-			float: left;
-
+		.e-left { float: left;
 			p {
 				text-align: right;
 				border-right: 4px solid $purple;
@@ -433,11 +350,8 @@
 			}
 		}
 
-		.e-right {
-			float: right;
-			p {
-				padding-left: 15px;						
-			}
+		.e-right { float: right;
+			p { padding-left: 15px; }
 		}
 	}
 	
@@ -448,42 +362,40 @@
 		}
 
 		input.email {width: 400px;}
-
 	}
 
-
 	.b-courses-overview {
-		.e-course-navigation { display: none;}
-		.swipe {
-		  visibility: visible;
-		  position: relative;
-		}
-		.swipe-wrap {
-			width: 100% !important;
-		}
 		.b-course-summary {
-			float: left;
-			width: 48.3% !important;
 			height: 335px;
-			margin-right: 1.3%;
-			margin-bottom: 1.3%;
+			margin-bottom: 30px;
 			@include drop-shadow_light;
+			h3 { font-size: 1.6rem; }
+		}
 
+		.e-more-info {
+			margin-top: 20px;
+			position: absolute;
+			bottom: 50px;
+			width: 80%;
+			left: 10%;
 
-			h3 {
-				font-size: 1.6rem;
-			}
-
-			&:before, 
-			&:after {
-				display: none;
+			a {
+			display: block;
+			background-color: $gray_15;
+			color: $white_50;
+			font-weight: 600;
+			text-align: center;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			padding: 3px;
+			border-radius: 3px;
 			}
 		}
 
 		#master-courses p {letter-spacing: -0.1px;}
 		
 	}
-	#courses-page .b-courses-overview .b-course-summary { height: 700px; }
+	#courses-page .b-courses-overview .b-course-summary { height: 800px; }
 
 	#demos-for-democracy {
 		background-image: url("../img/demos-democracy-banner.jpg");
@@ -492,9 +404,8 @@
 		@include inner-shadow;
 		margin-bottom: -40px;
 
-		div {
-			height: 300px;
-		}
+		div { height: 300px; }
 	}
+	
 	
 } // MediaQuery
