@@ -4,6 +4,7 @@ import json
 import yaml
 import sys
 from slugify import slugify
+from dateutil.parser import parse
 
 # We define constants for the deployment.
 cwd = os.getcwd()
@@ -21,6 +22,10 @@ PROJECTS  = yaml.load(open('data/project-schema.yaml'))
 for person in PEOPLE:
 	person['fullName'] = "%s %s" % (person['name']['first'], person['name']['last'])
 PEOPLE = sorted(PEOPLE, key=lambda x:x['name']['last'])
+
+for item in COACHING:
+	item['start_date'] = str(parse(item['date']['start']))
+
 
 print PEOPLE[0]
 
