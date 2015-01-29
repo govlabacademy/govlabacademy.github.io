@@ -1460,7 +1460,7 @@ a {
   #homepage > section {
     padding-bottom: 40px; }
   #homepage #intro {
-    padding-top: 120px;
+    padding-top: 100px;
     padding-bottom: 60px; }
     #homepage #intro .e-site-title {
       font-size: 5rem;
@@ -1575,6 +1575,12 @@ a {
     margin-bottom: -40px; }
     #demos-for-democracy div {
       height: 300px; } }
+.b-course-info .e-button {
+  margin-left: 90px; }
+
+.e-faq-trigger {
+  cursor: pointer; }
+
 #courses-page .b-course-info li strong {
   left: -90px; }
 

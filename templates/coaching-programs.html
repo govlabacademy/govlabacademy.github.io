@@ -30,16 +30,16 @@
         <li><strong>WHEN</strong>Every week (for 4 weeks) or every other week (for 8 weeks)</li>
         <li><strong>WHERE</strong>Online</li>
       </ul>
+      <a href="#faqs" class="e-button">FAQs</a>
     </section>
   </div>
   <section class="b-course-graph row">
     <div class="column large-12">
-      <h2>Coaching program Lifecycle</h2>
+      <h2>Coaching Program Timeline</h2>
     </div>
     <div class="column large-12">
-      <img src="./static/img/coaching-diagram.png" alt="Coaching program Lifecycle">
+      <img src="./static/img/coaching-diagram2.png" alt="Coaching program Lifecycle">
     </div>
-
   </section>
   
   <section class="b-course-list row">
@@ -48,7 +48,7 @@
         {% if course.is_active %}
         <li class="b-course-list-item m-coaching">
           {% if course.date %}
-          <h4 class="e-course-date"><span>Starts: </span>{{course.date.start}}</h4>
+          <h4 class="e-course-date"><span>Starts the week of: </span>{{course.date.start}}</h4>
           {% endif %}
 
           <h3 class="e-course-name">{{course.name}}</h3>
@@ -107,7 +107,7 @@
   </section>
 	
 
-	<section class="b-faqs">
+	<section id="faqs" class="b-faqs m-active">
     <div class="row">
       <div class="column large-12">
         <h2 class="e-faq-trigger">FAQs</h2>
