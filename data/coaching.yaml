@@ -3,7 +3,8 @@
 - name: "Civic Tech for Local Legislatures and Legislators"
   duration: 8 weeks
   date:
-    start: "March 2 - 6" # Date can be in two formats ie. "January 2015" or "By Request"
+    start: "March 2, 2015"
+    week_start: "March 2 - 6" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "April 24, 2015"
     application: "February 13, 2015"
   passion:
@@ -33,7 +34,8 @@
 - name: "Open Source Technology Practices For Civic Engagement Projects"
   duration: 8 weeks
   date:
-    start: "April 6 - 10" # Date can be in two formats ie. "January 2015" or "By Request"
+    start: "April 6, 2015"
+    week_start: "April 6 - 10" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "May 29, 2015"
     application: "March 13, 2015"
   passion:
@@ -66,7 +68,8 @@
 - name: "Freedom of Information and FOIA Project Coaching: Breaking Down the Walls and Opening Up Communications"
   duration: 4 weeks
   date:
-    start: "March 2 - 6" # Date can be in two formats ie. "January 2015" or "By Request"
+    start: "March 2, 2015"
+    week_start: "March 2 - 6" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "March 27, 2015"
     application: "February 13, 2015"
   passion:
@@ -96,7 +99,8 @@
 - name: "Humanitarian Innovation Project Collaborative"
   duration: 8 weeks
   date:
-    start: "April 6 - 10" # Date can be in two formats ie. "January 2015" or "By Request"
+    start: "April 6, 2015"
+    week_start: "April 6 - 10" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "May 29, 2015"
     application: "March 13, 2015"
   passion:
@@ -127,7 +131,8 @@
 - name: "Lab Design: Bringing Agility and Empiricism to Public Problems"
   duration: 8 weeks
   date:
-    start: "April 6 - 10" # Date can be in two formats ie. "January 2015" or "By Request"
+    start: "April 6, 2015"
+    week_start: "April 6 - 10" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "May 29, 2015"
     application: "March 13, 2015"
   passion:
@@ -160,7 +165,8 @@
 - name: "Citizen Engagement Projects"
   duration: 4 weeks
   date:
-    start: "March 2 - 6" # Date can be in two formats ie. "January 2015" or "By Request"
+    start: "March 2, 2015"
+    week_start: "March 2 - 6" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "March 27, 2015"
     application: "February 13, 2015"
   passion:
@@ -192,7 +198,8 @@
 - name: "Citizen Science on the Web"
   duration: 8 weeks
   date:
-    start: "February 16 - 20" # Date can be in two formats ie. "January 2015" or "By Request"
+    start: "Feb 16, 2015"
+    week_start: "February 16 - 20" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "April 10, 2015"
     application: " February 6, 2015"
   passion:
@@ -222,7 +229,8 @@
 - name: "Tech Procurement Projects: Making the Supply Chain Work"
   duration: 4 weeks
   date:
-    start: "March 16 - 20" # Date can be in two formats ie. "January 2015" or "By Request"
+    start: "March 16, 2015"
+    week_start: "March 16 - 20" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "April 10, 2015"
     application: "February 20, 2015"
   passion:
@@ -252,7 +260,8 @@
 #   partner: 
 #   duration: 
 #   date:
-#     start: "" # Date can be in two formats ie. "January 2015" or "By Request"
+#     start: ""      # Date in single format.
+#     week_start: "" # Date can be in two formats ie. "January 2015" or "By Request"
 #     end: ""
 #     application: ""
 #   passion:

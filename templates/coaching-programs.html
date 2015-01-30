@@ -48,7 +48,7 @@
         {% if course.is_active %}
         <li class="b-course-list-item m-coaching">
           {% if course.date %}
-          <h4 class="e-course-date"><span>Starts the week of: </span>{{course.date.start}}</h4>
+          <h4 class="e-course-date"><span>Starts the week of: </span>{{course.date.week_start}}</h4>
           {% endif %}
 
           <h3 class="e-course-name">{{course.name}}</h3>
