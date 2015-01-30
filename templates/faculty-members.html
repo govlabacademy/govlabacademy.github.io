@@ -18,7 +18,7 @@
 
 					<aside class="b-pop-controls">
 		        <span class="e-pop-button m-pin"><i class="fa fa-thumb-tack"></i></span>
-		        {% if person.link.url %}<a class="e-pop-button m-link" href="{{person.link.url}}"><i class="fa fa-link"></i></a>{% endif %}
+		        {% if person.link.url %}<a class="e-pop-button m-link" href="{{person.link.url}}"><i class="fa fa-external-link-square"></i></a>{% endif %}
 		        {% if person.link.twitter %}<a class="e-pop-button m-twitter" href="{{person.link.twitter}}"><i class="fa fa-twitter"></i></a>{% endif %}
 		        {% if person.link.linkedin %}<a class="e-pop-button m-linkedin" href="{{person.link.linkedin}}"><i class="fa fa-linkedin"></i></a>{% endif %}
 		        {% if person.link.github %}<a class="e-pop-button m-github" href="{{person.link.github}}"><i class="fa fa-github"></i></a>{% endif %}
@@ -30,6 +30,10 @@
 	        <h3 title="{{person.name.first}} {{person.name.last}}">{{person.name.first}} {{person.name.last}}</h3>
 	        <h4>{{person.job}}</h4>
 	        <p>{{person.description}}</p>
+	        <h3>Courses</h3>
+					<ul>
+	        	<li></li>
+	        </ul>	        
 	      </section>
 			</article>
 		</div>

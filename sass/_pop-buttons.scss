@@ -42,7 +42,7 @@
 	i.fa-github,
 	i.fa-twitter { vertical-align: 3px; }
 
-	&:hover { background-color: $scheme-comp_2; }
+	&:hover { background-color: $scheme-comp_3; }
 }
 
 .b-share-button {
@@ -89,7 +89,7 @@
 		width: 50px;
 		height: 50px;
 		transform: scale(1, 1);
-		@include transition_fast;
+		@include transition_pop;
 
 		&:nth-child(2) { transition-delay: 0.1s; }
 		&:nth-child(3) { transition-delay: 0.2s; }
@@ -97,12 +97,12 @@
 		&:nth-child(5) { transition-delay: 0.4s; }
 		&:nth-child(6) { transition-delay: 0.5s; }
 		&:nth-child(7) { transition-delay: 0.6s; }
-
-		&:hover {
-			@include drop-shadow-button-hover;
-			transition-delay: 0;
-		}
 	}
+}
+
+.e-pop-button:hover {
+	@include drop-shadow-button-hover;
+	transition-delay: 0 !important;
 }
 
 } //Media Query

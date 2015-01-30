@@ -992,7 +992,7 @@ a {
   .b-share-button i.fa-twitter {
     vertical-align: 3px; }
   .e-pop-button:hover, .b-share-button:hover {
-    background-color: rgba(0, 0, 0, 0.4); }
+    background-color: #00c8b4; }
 
 .b-share-button {
   position: absolute;
@@ -1027,7 +1027,7 @@ a {
       width: 50px;
       height: 50px;
       transform: scale(1, 1);
-      transition: all 0.2s ease; }
+      transition: transform 0.2s ease; }
       .b-pop-controls-container:hover .b-pop-controls .e-pop-button:nth-child(2), .b-pop-controls-container:hover .b-pop-controls .b-share-button:nth-child(2) {
         transition-delay: 0.1s; }
       .b-pop-controls-container:hover .b-pop-controls .e-pop-button:nth-child(3), .b-pop-controls-container:hover .b-pop-controls .b-share-button:nth-child(3) {
@@ -1040,9 +1040,10 @@ a {
         transition-delay: 0.5s; }
       .b-pop-controls-container:hover .b-pop-controls .e-pop-button:nth-child(7), .b-pop-controls-container:hover .b-pop-controls .b-share-button:nth-child(7) {
         transition-delay: 0.6s; }
-      .b-pop-controls-container:hover .b-pop-controls .e-pop-button:hover, .b-pop-controls-container:hover .b-pop-controls .b-share-button:hover {
-        box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
-        transition-delay: 0; } }
+
+  .e-pop-button:hover, .b-share-button:hover {
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+    transition-delay: 0 !important; } }
 .b-card-isotopes .b-card {
   display: block; }
 
