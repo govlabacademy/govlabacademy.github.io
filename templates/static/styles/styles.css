@@ -1974,10 +1974,15 @@ a {
   position: relative;
   margin-bottom: 10px;
   border-left: 6px solid #472b74; }
+  .rssRow h4 {
+    font-size: 1.3rem;
+    margin-bottom: 0; }
   .rssRow > div {
-    display: none; }
+    font-size: 1rem;
+    margin-bottom: 10px; }
   .rssRow > p {
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    clear: both; }
   .rssRow a {
     color: #472b74; }
     .rssRow a:hover {
