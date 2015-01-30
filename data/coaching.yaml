@@ -144,6 +144,7 @@
     - Christian Bason
     - Geoff Mulgan
     - Beth Simone Noveck
+    - Joeri van den Steenhoven
   actions:
     - label: More Info
       link: lab-design-bringing-agility-and-empiricism-to-public-problems-detail.html
@@ -208,7 +209,7 @@
     - Francois Grey
   actions:
     - label: More Info
-      link: /
+      link: citizen-science-on-the-web-detail.html
   certificates:
     blended: false
     online: true
@@ -237,7 +238,7 @@
     - Clay Johnson
   actions:
     - label: More Info
-      link: /
+      link: tech-procurement-projects-making-the-supply-chain-work-detail.html
   certificates:
     blended: false
     online: true
