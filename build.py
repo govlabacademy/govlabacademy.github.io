@@ -26,6 +26,10 @@ PEOPLE = sorted(PEOPLE, key=lambda x:x['name']['last'])
 for item in COACHING:
 	item['start_date'] = str(parse(item['date']['start']))
 
+TAGS = set()
+for item in PROJECTS:
+	for tag in item['tags']:
+		TAGS.add(tag)
 
 print PEOPLE[0]
 
@@ -35,6 +39,7 @@ def loadAcademyData():
 					 'clinics': CLINICS,
 					 'projects': PROJECTS,
 					 'coaching': COACHING,
+					 'projectTags': sorted(list(TAGS)),
 					 'resources': None }
 
 # We define some filters we want to use in the templates.

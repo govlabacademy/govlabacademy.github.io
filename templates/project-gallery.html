@@ -15,12 +15,8 @@
       <span class="e-filter m-show-all" data-filter="all">Show All</span>
 		</h4>
     <ul>
-		{% for card in projects %}
-			{% for tag in card.tags %}
-				{% if tag %}
+      {% for tag in projectTags %}
 				<li class="e-filter" data-filter="{{tag}}">{{tag}}</li>
-				{% endif %}
-			{% endfor %}
 		{% endfor %}
 		</ul>
 	</section>
@@ -61,7 +57,7 @@
 </div>
 {% endblock %}
 
-
+{#
 <!-- <article class="{{class}} b-card m-people m-govlab-{{person.is_govlab}} b-pop-controls-container" data-filter="{{person.tags}}">
   <a href="faculty-members.html#{{person.name.slug}}">
     <div class="b-wrapper">
@@ -76,3 +72,4 @@
     </div>
   </a>
 </article> -->
+#}
