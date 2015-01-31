@@ -255,6 +255,39 @@
     for_certificate: true
   is_active: true
   format: 1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
+
+- name: "Crowds, Crowds, Crowds"
+  duration: every week for 4 weeks
+  date:
+    start: "March 23, 2015"
+    week_start: "March 23, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "April 6, 2015"
+    application: "February 27, 2015" 
+  passion:
+    title: Passionate about the uses of Crowdsourcing in the Public Sector? Are you...
+    bullets:
+      - Trying to solve a public public and want to assess the appropriateness of crowdsourcing?
+      - Using crowdsourcing and engagement to enhance policy-making or service delivery ?
+      - Seeking to integrate crowdsourcing into organizational and institutional operations on an ongoing basis? 
+      - Implementing a citizen engagement project through crowdsourcing and need support to assess impact or scale it?
+  description_short: "Understanding what kinds of problems a crowd really can handle better and how to manage the process requires careful design. However, after a decade of study, we have identified when crowds tend to outperform internal organizations (or not)."
+  description_long: > 
+    "More and more organizations are turning to crowds for help in solving their most vexing innovation and research questions. But managers remain understandably cautious. It seems risky and even unnatural to push problems out to vast groups of strangers distributed around the world, particularly for organizations and institutions built on a history of internal innovation. Understanding what kinds of problems a crowd really can handle better and how to manage the process requires careful design. However, after a decade of study, we have identified when crowds tend to outperform internal organizations (or not). 
+    This program is designed to help those wishing to integrate crowdsourcing into ongoing projects. Whether policymaking or service delivery in nature, we start from the assumption that, engaging citizens is generally both more effective and more legitimate as a way of working. Together we will explore how to better harness crowdsourcing and distributed innovation networks by offering guidance on choosing the best form of crowdsourcing for a given situation. Applicants should have a clear view of the problem they are trying to solve and either an ongoing or an about-to-start crowdsourcing project. Although everyone is invited to apply, there will be an admissions preference for those working at the city-level."
+  prerequisites:
+  faculty_members: # Add list with faculty member names
+    - Karim Lakhani
+  actions:
+    - label: More Info
+      link: crowds-crowds-crowds-detail.html
+  certificates:
+    blended: false
+    online: true
+    in_person: false
+    for_credit: false
+    for_certificate: true
+  is_active: true
+  format: "1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
   
 # - name: ""
 #   partner: 

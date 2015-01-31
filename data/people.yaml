@@ -317,3 +317,22 @@
     github:
     email: jvandensteenhoven@marsdd.com
   tags: design-labs  
+
+- name:
+    last: Lakhani
+    first: Karim
+    slug: karim-lakhani
+  job: Lumry Family Associate Professor of Business Administration at the Harvard Business School
+  is_govlab: false
+  description: >
+    Karim R. Lakhani is the Lumry Family Associate Professor of Business Administration at the Harvard Business School and the Principal Investigator of the Harvard-NASA Tournament Lab at the Institute for Quantitative Social Science. He specializes in the management of technological innovation in firms and communities. His research is on distributed innovation systems and the movement of innovative activity to the edges of organizations and into communities. He has extensively studied the emergence of open source software communities and their unique innovation and product development strategies. He has also investigated how critical knowledge from outside of the organization can be accessed through innovation contests. Currently Professor Lakhani is investigating incentives and behavior in contests and the mechanisms behind scientific team formation through field experiments on the TopCoder platform and the Harvard Medical School.
+    Professor Lakhani’s research on distributed innovation has been published in Harvard Business Review, Innovations, Management Science, Nature Biotechnology, Organization Science, Research Policy and the Sloan Management Review. He is the co-editor of Perspectives on Free and Open Source Software (MIT Press), a book on community-based innovation. He has also published teaching cases on leading organizations practicing distributed innovation including: Data.gov, InnoCentive, Google, Myelin Repair Foundation, SAP, Threadless, TopCoder and Wikipedia. His research has been featured in publications like BusinessWeek, The Boston Globe, The Economist, Fast Company, Inc., The New York Times, The New York Academy of Sciences Magazine, Science, The Wall Street Journal, The Washington Post, and Wired.
+    Professor Lakhani was awarded his Ph.D. in management from the Massachusetts Institute of Technology. He also holds an MS degree in Technology and Policy from MIT, and a Bachelor's degree in Electrical Engineering and Management from McMaster University in Canada. He was a recipient of the Aga Khan Foundation International Scholarship and a four year doctoral fellowship from Canada's Social Science and Humanities Research Council. Prior to coming to HBS he served as a Lecturer in the Technology, Innovation and Entrepreneurship group at MIT’s Sloan School of Management.  Professor Lakhani has also worked in sales, marketing and new product development roles at GE Healthcare and was a consultant with The Boston Consulting Group.  He was also the inaugural recipient of the TUM-Peter Pribilla Innovation Leadership Award.
+  img_url: karim-lakhani.jpg
+  link:
+    url: http://en.wikipedia.org/wiki/Karim_R._Lakhani
+    twitter: https://twitter.com/klakhani
+    linkedin: https://www.linkedin.com/pub/karim-lakhani/0/40/938
+    github:
+    email: 
+  tags: 
