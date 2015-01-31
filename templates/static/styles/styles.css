@@ -829,6 +829,17 @@ a {
   #overlay.m-active {
     display: block; }
 
+.share-button {
+  float: right;
+  margin: 10px; }
+  .share-button label {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    border-radius: 3px !important;
+    color: white !important; }
+
+.social.top.center.networks-5.active {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5); }
+
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
   .b-link-fix {
@@ -1283,6 +1294,10 @@ a {
     padding-bottom: 40px; }
     #homepage #intro h2 {
       padding: 10px 0; }
+    #homepage #intro .b-share .share-button {
+      float: none;
+      width: 92px;
+      margin: 10px auto; }
   #homepage #explanation {
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.3) inset;
     padding-top: 40px;
@@ -1919,6 +1934,8 @@ a {
 .b-detail-page .e-certifications {
   margin-top: 20px;
   text-align: right; }
+  .b-detail-page .e-certifications li {
+    margin: 10px 0; }
   .b-detail-page .e-certifications span {
     font-size: 1rem;
     font-weight: 400; }
