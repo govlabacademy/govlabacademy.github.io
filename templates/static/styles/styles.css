@@ -429,6 +429,8 @@ a {
     color: white; }
     .b-logo a:hover {
       background-color: transparent; }
+  .b-logo .e-home {
+    vertical-align: -3px; }
   .b-logo img {
     width: 110px;
     margin-right: 10px; }
