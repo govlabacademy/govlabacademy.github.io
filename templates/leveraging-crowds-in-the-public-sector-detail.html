@@ -90,22 +90,30 @@
 		</div>
 	</div>
 	<div class="row">
-    {% if coaching_class.prerequisites %}
-		<div class="column large-6">
-			<h3>Prerequisites</h3>
-      
-        {% for item in coaching_class.prerequisites %}
-					<p>{{item}}</p>
-        {% endfor %}
-      <p>No prerequisites</p>
-		</div>
-    {% endif %}
-
     <div class="column large-6">
       <h3>Course Format</h3>
       <p>{{coaching_class.format}}</p>
-      <h4 class="b-format">Course Duration: {{coaching_class.duration}}</h4>
+      <div class="b-format">
+      {% if coaching_class.when %}
+      <h4>Online sessions will be held on <strong>{{coaching_class.when}}</strong></h4>
+      {% if coaching_class.when_plus %}<p><em>{{coaching_class.when_plus}}</em></p>{% endif %}
+      {% endif %}
+      <h4>Course Duration: {{coaching_class.duration}}</h4>
+      </div>
     </div>
+
+		<div class="column large-6">
+      {% if coaching_class.prerequisites %}
+			<h3>Prerequisites</h3>
+        {% for item in coaching_class.prerequisites %}
+					<p>{{item}}</p>
+        {% endfor %}
+        <a href="#faqs" class="e-button">FAQs</a>
+      {% else %}
+        <h3>For more information</h3>
+        <a href="#faqs" class="e-button">FAQs</a>
+      {% endif %}
+		</div>
 	</div>
   <div class="row">
     <div class="column large-12">

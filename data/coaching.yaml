@@ -29,6 +29,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  when:    # Example: wednesdays at 1pm
+  when_plus: 
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
 
 - name: "Open Source Technology Practices For Civic Engagement Projects"
@@ -63,6 +65,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  when: 
+  when_plus: 
   format: 1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
 - name: "Freedom of Information and FOIA Project Coaching: Breaking Down the Walls and Opening Up Communications"
@@ -94,6 +98,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  when: 
+  when_plus: 
   format: 1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
 - name: "Humanitarian Innovation Project Collaborative"
@@ -126,6 +132,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  when: 
+  when_plus: 
   format: 1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
 - name: "Lab Design: Bringing Agility and Empiricism to Public Problems"
@@ -160,6 +168,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  when: 
+  when_plus: 
   format: 1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions
 
 - name: "Citizen Engagement Projects"
@@ -193,6 +203,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  when: 
+  when_plus: 
   format: 1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
   
 - name: "Citizen Science on the Web"
@@ -224,6 +236,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  when: 
+  when_plus: 
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions. Optional: one student per team may participate in person in a data dive in Geneva during the week of 14-21 March (spring break at NYU), together with students from CUSP."
 
 - name: "Tech Procurement Projects: Making the Supply Chain Work"
@@ -254,6 +268,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  when: 
+  when_plus: 
   format: 1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
 - name: "Leveraging Crowds in the Public Sector"
@@ -286,7 +302,43 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  when: 
+  when_plus: 
   format: "1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
+  
+- name: "Open Data Data-Driven Decisions for All"
+  duration: 8 weeks
+  date:
+    start: "April 7, 2015"
+    week_start: "April 7, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "May 26, 2015"
+    application: "March 20, 2015" 
+  passion:
+    title: Passionate about open data data-driven decisions?
+    bullets:
+      - Are you part of an SME or local NGO that wants to leverage the growing availability of freely available government data to make mission-critical decisions?
+      - Do you have a strong interest in being more strategic in fulfilling your mission but are missing the skills to  identifying data sets, finding patterns, and making predictions?
+  description_short: "Open data refers to the growing practice of making government data freely available, easily machine processable and without any restrictions on reuse. This course is designed for individuals and small organizations (including SMEs) eager to develop open data data-driven decisions."
+  description_long: "Open data refers to the growing practice of making government data freely available, easily machine processable and without any restrictions on reuse.  As such, open data can be a democratizing force for smaller organizations that traditionally have less access to mission-critical information. Leveraging open data can enable organizations to make more well-informed decisions. This course is designed for individuals and small organizations (including SMEs) eager to develop open data data-driven decisions. In particular, the course will seek to: develop an understanding of what open data is, how it is produced, where it can be accessed, and who is using it currently; learn from others through understanding how existing organizations are using open data to create solutions, and to optimize their operations, through in-depth case studies and analyses; provide strategies for small organization to define the problem they seek to solve, take stock of open data resources available to them, and experiment with open data through trial-and-error; understand the challenges and best practices of open data use; and, develop tools and strategies to measure the success of open data use, and to assess its impact on your organization."
+  prerequisites:
+    - "Participants are expected to have a basic understanding of strategy development and to hold a decision making position with a small enterprise or organization."
+    - "Though it is not a requirement, participants who come prepared with a problem they want to solve or a process they want to optimize will receive the most benefit from taking this course."
+  faculty_members: # Add list with faculty member names
+    - Arnaud Sahuguet
+    - Stefaan Verhulst
+  actions:
+    - label: More Info
+      link: open-data-data-driven-decisions-for-all-detail.html
+  certificates:
+    blended: false
+    online: true
+    in_person: false
+    for_credit: false
+    for_certificate: true
+  is_active: true
+  when: 
+  when_plus: 
+  format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
   
 # - name: ""
 #   partner: 

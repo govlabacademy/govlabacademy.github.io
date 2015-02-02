@@ -35,6 +35,14 @@
 		border-bottom: 1px solid $gray_10;
 		padding-bottom: 10px;
 
+		a {
+			color: $scheme-comp_3;
+		}
+
+		a:hover {
+			color: $white;
+		}
+
 		.e-question {
 			font-weight: 600;
 		}
