@@ -29,9 +29,7 @@
     for_credit: false
     for_certificate: true
   is_active: true
-  when: 
-  when_plus: 
-  when: 
+  when:    # Example: wednesdays at 1pm
   when_plus: 
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
 
