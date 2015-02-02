@@ -104,7 +104,13 @@
     <div class="column large-6">
       <h3>Course Format</h3>
       <p>{{coaching_class.format}}</p>
-      <h4 class="b-format">Course Duration: {{coaching_class.duration}}</h4>
+      <div class="b-format">
+      {% if coaching_class.when %}
+      <h4>Class Schedules: {{coaching_class.when}}</h4>
+      {% if coaching_class.when_plus %}<p><em>{{coaching_class.when_plus}}</em></p>{% endif %}
+      {% endif %}
+      <h4>Course Duration: {{coaching_class.duration}}</h4>
+      </div>
     </div>
 	</div>
   <div class="row">

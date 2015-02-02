@@ -2,7 +2,7 @@
 # Courses
 - name: "Transforming SMEs Through Open Data Innovation"
   partner: 
-  date: By Request # Date can be in two formats ie. "January 2015" or "By Request"
+  date: TBD # Date can be in two formats ie. "January 2015" or "By Request"
   duration: 
   description_short: "Designed to help the leaders of small and medium sized enterprises (SMEs) use open and shared data to solve business problems, design new product and service offerings, and drive innovation within their business models. The Clinic will take SME entrepreneurs through every step of the process of finding, accessing, cleaning, structuring, and deploying open data."
   description_long: "long description"
@@ -14,22 +14,6 @@
   certificates:
     blended: true
     online: false
-    in_person: false
-    for_credit: false
-    for_certificate: true
-  is_active: true
-
-- name: "Introductory Sets of 3-5 Lectures on important topics in governance innovation"
-  partner: 
-  date: By Request # Date can be in two formats ie. "January 2015" or "By Request"
-  duration: 
-  description_short: "For 2015, lecture series topics will likely include open data, expert networks, open contracting, procurement, and crowdsourcing"
-  description_long: "long description"
-  faculty_members: # Add list with faculty member names
-  actions: 
-  certificates:
-    blended: false
-    online: true
     in_person: false
     for_credit: false
     for_certificate: true
@@ -60,38 +44,6 @@
   date: Summer 2015 # Date can be in two formats ie. "January 2015" or "By Request"
   duration: 
   description_short: "Addressing the challenges involved in creating a robust capability within government to imagine, design, and implement a flow of significant innovations over time"
-  description_long: "long description"
-  faculty_members: # Add list with faculty member names
-  actions:
-  certificates:
-    blended: true
-    online: false
-    in_person: false
-    for_credit: true
-    for_certificate: false
-  is_active: true
-
-- name: "[Karim’s course at HBS]"
-  partner: HBS
-  date: By Request # Date can be in two formats ie. "January 2015" or "By Request"
-  duration: 
-  description_short: ""
-  description_long: "long description"
-  faculty_members: # Add list with faculty member names
-  actions:
-  certificates:
-    blended: true
-    online: false
-    in_person: false
-    for_credit: true
-    for_certificate: false
-  is_active: true
-
-- name: "[Erik Johnson’s course at ASU]"
-  partner: ASU
-  date: By Request # Date can be in two formats ie. "January 2015" or "By Request"
-  duration: 
-  description_short: ""
   description_long: "long description"
   faculty_members: # Add list with faculty member names
   actions:

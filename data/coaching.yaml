@@ -29,6 +29,10 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  when: 
+  when_plus: 
+  when: 
+  when_plus: 
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
 
 - name: "Open Source Technology Practices For Civic Engagement Projects"
@@ -63,6 +67,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  when: 
+  when_plus: 
   format: 1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
 - name: "Freedom of Information and FOIA Project Coaching: Breaking Down the Walls and Opening Up Communications"
@@ -94,6 +100,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  when: 
+  when_plus: 
   format: 1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
 - name: "Humanitarian Innovation Project Collaborative"
@@ -126,6 +134,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  when: 
+  when_plus: 
   format: 1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
 - name: "Lab Design: Bringing Agility and Empiricism to Public Problems"
@@ -160,6 +170,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  when: 
+  when_plus: 
   format: 1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions
 
 - name: "Citizen Engagement Projects"
@@ -193,6 +205,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  when: 
+  when_plus: 
   format: 1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
   
 - name: "Citizen Science on the Web"
@@ -224,6 +238,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  when: 
+  when_plus: 
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions. Optional: one student per team may participate in person in a data dive in Geneva during the week of 14-21 March (spring break at NYU), together with students from CUSP."
 
 - name: "Tech Procurement Projects: Making the Supply Chain Work"
@@ -254,6 +270,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  when: 
+  when_plus: 
   format: 1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
 - name: "Leveraging Crowds in the Public Sector"
@@ -286,9 +304,11 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  when: 
+  when_plus: 
   format: "1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
   
-  - name: "Open Data Data-Driven Decisions for All"
+- name: "Open Data Data-Driven Decisions for All"
   duration: 8 weeks
   date:
     start: "April 7, 2015"
@@ -310,7 +330,7 @@
     - Stefaan Verhulst
   actions:
     - label: More Info
-      link: open-data-data-driven-decisions-for-all.html
+      link: open-data-data-driven-decisions-for-all-detail.html
   certificates:
     blended: false
     online: true
@@ -318,6 +338,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  when: 
+  when_plus: 
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
   
 # - name: ""
