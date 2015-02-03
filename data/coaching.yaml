@@ -29,7 +29,7 @@
     for_credit: false
     for_certificate: true
   is_active: true
-  when: "Every other Monday from 5 - 7pm EST"
+  when: "every other Monday from 5 - 7pm EST"
   when_plus: "If the day or time present a challenge for the admitted applicants, we are open to offering the program on Sundays"
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
 
@@ -98,8 +98,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
-  when: "Every Wednesday from 10am - 12pm EST"
-  when_plus: "If requiered, online sessions could also occur Tuesday's afternoons or Thursday's before 11am EST or after 3pm EST"
+  when: "every Wednesday from 10am - 12pm EST"
+  when_plus: "If requiered, online sessions could also occur Tuesday afternoons or Thursdays before 11am EST or after 3pm EST"
   format: 1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
 - name: "Humanitarian Innovation Project Collaborative"
@@ -202,7 +202,7 @@
     for_credit: false
     for_certificate: true
   is_active: true
-  when: "Every Friday from 11am - 1pm EST"
+  when: "every Friday from 11am - 1pm EST"
   when_plus: 
   format: 1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
   
@@ -335,7 +335,7 @@
     for_credit: false
     for_certificate: true
   is_active: true
-  when: "Every other Tuesday from 4 - 6pm EST"
+  when: "every other Tuesday from 4 - 6pm EST"
   when_plus: 
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
   
