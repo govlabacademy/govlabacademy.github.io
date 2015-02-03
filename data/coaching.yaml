@@ -29,8 +29,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
-  when: Every other Monday from 5 - 7pm EST
-  when_plus: If the time presents a challenge for the admitted applicants we are open to offering the course every other Sunday
+  when: "Every other Monday from 5 - 7pm EST"
+  when_plus: "If the day or time present a challenge for the admitted applicants, we are open to offering the program on Sundays"
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
 
 - name: "Open Source Technology Practices For Civic Engagement Projects"
@@ -335,7 +335,7 @@
     for_credit: false
     for_certificate: true
   is_active: true
-  when: "every other Tuesday from 4 - 6pm EST"
+  when: "Every other Tuesday from 4 - 6pm EST"
   when_plus: 
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
   
