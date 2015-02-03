@@ -1,5 +1,3 @@
-
-
 .b-person {
 	@include drop-shadow-light;
 	background-color: $white;
@@ -63,6 +61,11 @@
 
 // Desktop Only
 @media only screen and (min-width : $desktop_width) {
+
+	#faculty-members-page h4 a { 
+		color: $white_70; 
+		font-weight: 200;
+	}
 
 	.b-person {
 		header {
