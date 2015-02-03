@@ -64,7 +64,7 @@
 				}
 			}
 
-			table {
+			.b-faq-table {
 				border-collapse: collapse;
 				width: 100%;
 				thead {
@@ -86,6 +86,16 @@
 					td {
 						padding: 5px 10px;
 					}
+				}
+
+				.e-name-col {
+
+				}
+				.e-application-col {
+					min-width: 180px;
+				}
+				.e-start-col {
+					min-width: 200px;
 				}
 			}
 		}

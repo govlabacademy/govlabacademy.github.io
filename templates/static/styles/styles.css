@@ -1785,10 +1785,10 @@ a {
         content: "";
         float: left;
         margin: 6px 0 0 -20px; }
-    .b-faqs .b-faq-item .e-answer table {
+    .b-faqs .b-faq-item .e-answer .b-faq-table {
       border-collapse: collapse;
       width: 100%; }
-      .b-faqs .b-faq-item .e-answer table thead th {
+      .b-faqs .b-faq-item .e-answer .b-faq-table thead th {
         background-color: #00c8b4;
         text-align: left;
         color: white;
@@ -1796,10 +1796,14 @@ a {
         letter-spacing: .5px;
         text-transform: uppercase;
         font-weight: 400; }
-      .b-faqs .b-faq-item .e-answer table tr {
+      .b-faqs .b-faq-item .e-answer .b-faq-table tr {
         border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
-        .b-faqs .b-faq-item .e-answer table tr td {
+        .b-faqs .b-faq-item .e-answer .b-faq-table tr td {
           padding: 5px 10px; }
+      .b-faqs .b-faq-item .e-answer .b-faq-table .e-application-col {
+        min-width: 180px; }
+      .b-faqs .b-faq-item .e-answer .b-faq-table .e-start-col {
+        min-width: 200px; }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
