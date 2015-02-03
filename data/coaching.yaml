@@ -359,7 +359,7 @@
     - Amen Ra Mashariki
   actions:
     - label: More Info
-      link: data-analytics-for-change.html
+      link: data-analytics-for-change-detail.html
   certificates:
     blended: false
     online: true
