@@ -324,5 +324,40 @@
     twitter: https://twitter.com/klakhani
     linkedin: https://www.linkedin.com/pub/karim-lakhani/0/40/938
     github:
-    email: 
+    email: k@hbs.edu
+  tags: 
+
+- name:
+    last: Hayman
+    first: Gavin 
+    slug: gavin-hayman
+  job: Executive Director of Global Witness
+  is_govlab: false
+  description: >
+    Gavin is currently the Executive Director of Global Witness and, before that, he was the organisation's Director of Campaigns since 2006. He oversees all of Global Witness groundbreaking and award-winning investigative, campaigning and advocacy work uncovering secret deals, corruption and conflict around the world. He helped create the international Publish What You Pay campaign and helped negotiate the intergovernmental Extractive Industries Transparency Initiative that brings together oil and mining companies, home- and host-governments and civil society to improve disclosure and oversight of over $1 trillion dollars of oil and mining money.
+    He is an expert on illicit financial flows, and helped lead global efforts to end the abuse of anonymous shell companies for money laundering and financial crime, including working with the British government's recent presidency of the G8 and the Open Government Partnership. He has a Doctorate from the University of Reading and has worked with Chatham House in London and the United National Environmental Programme in the past on analysing and investigating global environmental crime.
+  img_url: .jpg
+  link:
+    url:
+    twitter: https://twitter.com/gavinhayman_gw
+    linkedin:
+    github:
+    email: haymangavin@gmail.com
+  tags: 
+
+- name:
+    last: Mashariki
+    first: Amen Ra
+    slug: amen-ra-mashariki
+  job: Chief Analytics Officer of New York City
+  is_govlab: false
+  description: >
+    Amen Ra, former White House Fellow and currently Chief Analytics Officer for the New York City Mayor's Office of Data Analytics, is a computer scientist at the Johns Hopkins University Applied Physics Laboratory (JHU APL). As a senior bioinformatics researcher at JHU APL he develops and utilizes smart algorithms that explore biological data in search of complex associations and relationships in order to provide insight into common biological diagnostics and clinical trends. Prior to academia, Amen has spent 7 years in the technical industry as a senior software engineer for Motorola. He has authored 5 patent disclosures, and received the prestigious Chicago Museum of Science ‘Top Technology Innovators’ award. Over the last 8 years Amen has spent his summers teaching advanced computer science courses for 7th – 10th graders at the Johns Hopkins University Center For Talented Youth program. Amen earned his doctorate degree from Morgan State University, his Master’s degree in computer science from Howard University, and also his bachelor’s degree in computer science from Lincoln University.
+  img_url: .jpg
+  link:
+    url:
+    twitter: https://twitter.com/amashariki
+    linkedin: https://www.linkedin.com/pub/amen-ra-mashariki/5/288/145
+    github:
+    email: AMashariki@cityhall.nyc.gov
   tags: 
