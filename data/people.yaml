@@ -50,23 +50,6 @@
   tags: legal-innovation
 
 - name:
-    last: Bason
-    first: Christian
-    slug: christian-bason
-  job: CEO at Danish Design Centre
-  is_govlab: false
-  description: "Christian Bason has been head of MindLab since 2007. MindLab is a cross-governmental innovation unit run by a range of national ministries and a city government, based in Copenhagen, Denmark. Prior to joining MindLab, he held various leading positions at Ramboll, an international consultancy, including as Head of the public organization and management practice and as Head of employment and human resource policy evaluation. Bason is passionate about transforming the public sector’s ability to better meet the needs of citizens and society. He has presented to and advised a wide range of governments around the world on innovation in the public sector, and is a member of a number of advisory bodies in Denmark and internationally. Most recently, he was Chair of the European Commission’s High-Level Expert Group on Public Sector Innovation. He is a regular columnist and blogger and the author of five books on leadership, design, innovation and change in the public sector. Christian Basons most recent books include Design for Policy and, Leading Public Sector Innovation: Co-creating for a Better Society. Recent research publications include “Discovering co-production by design”, “Engaging Citizens in Policy Innovation: Benefiting public policy from the design inputs of citizens and stakeholders as ‘experts’ and “Powering Collaborative Innovation: Can Innovation Labs Help?”."
-  img_url: christian-bason.png
-  bio_url: 
-  link:
-    url: http://ddc.dk/en/2014/09/christian-bason-is-the-new-ceo-at-danish-design-centre/
-    twitter: https://twitter.com/christianbason
-    linkedin: https://twitter.com/christianbason
-    github:
-    email: chb@ddc.dk
-  tags: design-labs
-
-- name:
     last: Mulgan
     first: Geoff
     slug: geoff-mulgan
