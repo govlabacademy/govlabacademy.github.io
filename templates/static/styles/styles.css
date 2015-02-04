@@ -154,34 +154,34 @@ body {
 body, h1, h2, h3, h4, h5, input {
   font-family: proxima-nova, sans-serif; }
 
-.swipe {
-  overflow: hidden;
-  visibility: hidden;
-  position: relative; }
-  .swipe .swipe-wrap {
-    overflow: hidden;
-    position: relative; }
-    .swipe .swipe-wrap > div {
-      float: left;
-      width: 100%;
-      position: relative; }
-      .swipe .swipe-wrap > div::after, .swipe .swipe-wrap > div::before {
-        content: "";
-        position: absolute;
-        width: 0;
-        height: 0;
-        border-top: 18px solid transparent;
-        border-bottom: 18px solid transparent;
-        top: 45%; }
-      .swipe .swipe-wrap > div::before {
-        border-right: 12px solid rgba(0, 0, 0, 0.2);
-        left: 10px; }
-      .swipe .swipe-wrap > div::after {
-        border-left: 12px solid rgba(0, 0, 0, 0.2);
-        right: 10px; }
-      .swipe .swipe-wrap > div:first-child::before, .swipe .swipe-wrap > div:last-child::after {
-        display: none; }
+.e-button {
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-weight: 400;
+  padding: 4px 14px;
+  margin: 5px 30px 5px 0;
+  display: block;
+  cursor: pointer;
+  text-align: center; }
+  .e-button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
+  .e-button.m-large {
+    padding: 12px 30px 10px;
+    font-size: 1.6rem;
+    border-radius: 3px; }
 
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1024px) {
+  .e-button {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    display: inline-block;
+    margin: 0 5px 0 0; }
+    .e-button:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); } }
 h1 {
   font-size: 72px;
   font-weight: 100;
@@ -225,34 +225,6 @@ p {
     p a:visited {
       color: rgba(0, 0, 0, 0.5); }
 
-.e-button {
-  border-radius: 2px;
-  background-color: rgba(0, 0, 0, 0.3);
-  color: white;
-  font-weight: 400;
-  padding: 4px 14px;
-  margin: 5px 30px 5px 0;
-  display: block;
-  cursor: pointer;
-  text-align: center; }
-  .e-button:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
-  .e-button.m-large {
-    padding: 12px 30px 10px;
-    font-size: 1.6rem;
-    border-radius: 3px; }
-
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 1024px) {
-  .e-button {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: white;
-    display: inline-block;
-    margin: 0 5px 0 0; }
-    .e-button:hover {
-      background-color: rgba(0, 0, 0, 0.5);
-      box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); } }
 .m-project-coaching {
   background-color: #0d342d;
   border-top-color: #2eb49a;

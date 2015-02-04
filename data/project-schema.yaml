@@ -478,7 +478,7 @@
     truonex: http://www.truonex.com/projects/12746
     url: 
     demo: 
-    image: "pic-homeless-helper 2.jpg"
+    image: "pic-homeless-helper.jpg"
   files:
   - label: "Short Description"
     filename: ""
@@ -507,7 +507,7 @@
     truonex: http://www.truonex.com/projects/12764/
     url: 
     demo: 
-    image: "pic-innovation bootcamp.jpg"
+    image: "pic-innovation-bootcamp.jpg"
   files:
   - label: "Short Description"
     filename: ""
