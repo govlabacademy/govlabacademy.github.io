@@ -274,7 +274,7 @@
 - name: "Leveraging Crowds in the Public Sector"
   duration: 4 weeks
   date:
-    start: "March 23, 2015"
+    start: "March 23 - 27"
     week_start: "March 23 - 27, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "April 6, 2015"
     application: "February 27, 2015" 
@@ -308,7 +308,7 @@
 - name: "Open Data Data-Driven Decisions for All"
   duration: 8 weeks
   date:
-    start: "April 7, 2015"
+    start: "April 6 - 10"
     week_start: "April 6 - 10, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "May 26, 2015"
     application: "March 20, 2015" 
@@ -396,7 +396,7 @@
     - Gavin Hayman
   actions:
     - label: More Info
-      link: http://apply-here
+      link: open-contracting-projects.html
   certificates:
     blended: false
     online: true
