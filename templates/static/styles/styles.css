@@ -217,14 +217,13 @@ li {
 
 p {
   margin-bottom: 0.5rem; }
-
-a {
-  color: #281841; }
-  a:hover {
-    background-color: #00c8b4;
+  p a {
     color: #281841; }
-  a:visited {
-    color: rgba(0, 0, 0, 0.5); }
+    p a:hover {
+      background-color: #00c8b4;
+      color: #281841; }
+    p a:visited {
+      color: rgba(0, 0, 0, 0.5); }
 
 .e-button {
   border-radius: 2px;
@@ -1738,7 +1737,7 @@ a {
 
 .b-team-dashboard h2 {
   margin-bottom: 10px; }
-.b-team-dashboard h4 {
+.b-team-dashboard .b-twitter-list-link {
   text-align: center;
   margin-bottom: 30px; }
 
