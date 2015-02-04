@@ -62,17 +62,6 @@
 // Desktop Only
 @media only screen and (min-width : $desktop_width) {
 
-	#faculty-members-page h4 a { 
-		color: $white_70; 
-		font-weight: 200;
-		background-color: $white_30;
-	}
-
-	#faculty-members-page h4 a:hover {
-		background-color: $white_70;
-		color: $purple;
-	}
-
 	.b-person {
 		header {
 			width: 300px;

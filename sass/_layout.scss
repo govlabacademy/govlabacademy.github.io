@@ -58,6 +58,16 @@
 	*:last-child {
 		margin-bottom: 0;
 	}
+
+	.e-button {
+		background-color: $white_15;
+		color: $white_50;
+	}
+
+	.e-button:hover {
+		background-color: $white_70;
+		color: $purple;
+	}
 }
 
 #overlay {

@@ -1,18 +1,13 @@
 .e-button {
 	border-radius: 2px;
-	background-color: $gray_30;
-	color: $white;
+	background-color: $gray_10;
+	color: $purple;
 	font-weight: 400;
 	padding: 4px 14px;
 	margin: 5px 30px 5px 0;
 	display: block;
 	cursor: pointer;
 	text-align: center;
-
-	&:hover {
-		background-color: $gray_50;
-		@include drop-shadow-light;
-	}
 
 	&.m-large {
 		padding: 12px 30px 10px;
@@ -25,14 +20,13 @@
 @media only screen and (min-width : $desktop_width) {
 
 .e-button {
-	background-color: $gray_30;
-	color: $white;
 	display: inline-block;
 	margin: 0 5px 0 0;
 
 	&:hover {
-		background-color: $gray_50;
+		background-color: $purple;
 		@include drop-shadow-light;
+		color: $white_70;
 	}
 }
 
