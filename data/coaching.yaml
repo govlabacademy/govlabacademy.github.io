@@ -29,7 +29,7 @@
     for_credit: false
     for_certificate: true
   is_active: true
-  when: "Every other Monday from 5 - 7pm EST"
+  when: "every other Monday from 5 - 7pm EST"
   when_plus: "If the day or time present a challenge for the admitted applicants, we are open to offering the program on Sundays"
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
 
@@ -98,8 +98,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
-  when: "Every Wednesday from 10am - 12pm EST"
-  when_plus: "If requiered, online sessions could also occur Tuesday's afternoons or Thursday's before 11am EST or after 3pm EST"
+  when: "every Wednesday from 10am - 12pm EST"
+  when_plus: "If requiered, online sessions could also occur Tuesday afternoons or Thursdays before 11am EST or after 3pm EST"
   format: 1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
 - name: "Humanitarian Innovation Project Collaborative"
@@ -202,7 +202,7 @@
     for_credit: false
     for_certificate: true
   is_active: true
-  when: "Every Friday from 11am - 1pm EST"
+  when: "every Friday from 11am - 1pm EST"
   when_plus: 
   format: 1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
   
@@ -212,7 +212,7 @@
     start: "Feb 16, 2015"
     week_start: "February 16 - 20" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "April 10, 2015"
-    application: " February 6, 2015"
+    application: " February 13, 2015"
   passion:
     title: Passionate about citizen science?
     bullets:
@@ -308,8 +308,8 @@
 - name: "Open Data Data-Driven Decisions for All"
   duration: 8 weeks
   date:
-    start: "April 6, 2015"
-    week_start: "April 7, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    start: "April 7, 2015"
+    week_start: "April 6, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "May 26, 2015"
     application: "March 20, 2015" 
   passion:
@@ -335,37 +335,102 @@
     for_credit: false
     for_certificate: true
   is_active: true
-  when: "Every other Tuesday from 4 - 6pm EST"
+  when: "every other Tuesday from 4 - 6pm EST"
   when_plus: 
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
   
+- name: "Data Analytics for Change"
+  duration: 4 weeks
+  date:
+    start: "December 31, 2015"
+    week_start: "TBD" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "TBD"
+    application: "TBD" 
+  passion:
+    title: Passionate about applying big data for social good? Are you...
+    bullets:
+      - Seeking to find ways to solve problems differently by leveraging the vast amount of data we are generating today?
+      - Eager to acquire the skills required to frame and commission effective data-driven projects that lead to tangible, real-world outcomes?
+      - Working in or thinking about starting an analytics unit within your organization?
+  description_short: ""
+  description_long: "Today’s society generates data at an astounding rate. Growing almost as quickly are expectations about how such data could be used and how much value it could create. Yet there are challenges to deriving useful and actionable insights from big data and translating those into new policies, effective services and better ways to improve the lives of people in our communities. This program will focus on how to design, implement, and evaluate analytics projects so that they consistently deliver measurable, scalable results. We will talk about how to identify tested frameworks for data diagnostics, acquisition, and sampling; discuss strategies for framing complex problems so they can be legitimately addressed by analytics work; and work out practical guidelines for working responsibly with data-driven insight to the end of advancing your projects. There is a special focus on the practical aspects of creating actionable insight in urban environments and empowering you to contribute to making cities more efficient, livable, equitable, and resilient. This program is designed for leaders, executives, and entrepreneurs who want to be on the cutting edge of the big data revolution. It will benefit professionals from the public and private sectors involved in all city-related industries."
+  prerequisites:
+  faculty_members: # Add list with faculty member names
+    - Amen Ra Mashariki
+  actions:
+    - label: More Info
+      link: data-analytics-for-change.html
+  certificates:
+    blended: false
+    online: true
+    in_person: false
+    for_credit: false
+    for_certificate: true
+  is_active: true
+  when: "TBD"
+  when_plus: 
+  format: "1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."  
+  
+- name: "Open Contracting"
+  is_active: false
+  partner: 
+  duration: 
+  date:
+    start: "December 31, 2015"      # Date in single format.
+    week_start: "TBD" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "TBD"
+    application: "TBD"
+  passion:
+    title: 
+    bullets:
+      - ""
+  description_short: ""
+  prerequisites:
+    - ""
+  faculty_members: # Add list with faculty member names
+    - name
+  actions:
+    - label: More Info
+      link: http://apply-here
+  certificates:
+    blended: false
+    online: true
+    in_person: false
+    for_credit: false
+    for_certificate: true
+  when: "TBD"
+  when_plus: 
+  format: 
+
 # - name: ""
-#   partner: 
-#   duration: 
+#   is_active: false
+#   partner: ""
+#   duration: ""
 #   date:
-#     start: ""      # Date in single format.
-#     week_start: "" # Date can be in two formats ie. "January 2015" or "By Request"
-#     end: ""
-#     application: ""
+#     start: "December 31, 2015"      # Date in single format.
+#     week_start: "TBD"               # Date can be in two formats ie. "January 2015" or "By Request"
+#     end: "TBD"
+#     application: "TBD"
 #   passion:
-#     title: 
-#     bullets:
+#     title: ""
+#     bullets: ""
 #       - ""
 #   description_short: ""
 #   prerequisites:
 #     - ""
-#   faculty_members: # Add list with faculty member names
+#   faculty_members:                  # Add list with faculty member names
 #     - name
 #   actions:
-#     - label: More Info
-#       link: http://apply-here
+#     - label: "More Info"
+#       link: "http://apply-here"
 #   certificates:
 #     blended: false
 #     online: true
 #     in_person: false
 #     for_credit: false
 #     for_certificate: true
-#   is_active: true
+#   when: "TBD"
+#   when_plus: 
 #   format: 
 
 

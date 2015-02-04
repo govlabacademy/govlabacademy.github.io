@@ -171,74 +171,20 @@
         <div class="b-faq-item">
           <p class="e-question">When is the Application Due?</p>
           <div class="e-answer">
-            <table>
+            <table class="b-faq-table">
               <thead>
-                <th>Projects Focus</th>
-                <th>Application due</th>
-                <th>Starts the week of</th>
+                <th class="e-name-col">Projects Focus</th>
+                <th class="e-application-col">Application due</th>
+                <th class="e-start-col">Starts the week of</th>
               </thead>
               <tbody>
+                {% for course in coaching|sort(attribute='start_date',reverse=False) %}
                 <tr>
-                  <td>Citizen Science on the Web</td>
-                  <td>Feb 6, 2015</td>
-                  <td>Feb 16, 2015</td>
+                  <td class="e-name-col">{{course.name}}</td>
+                  <td class="e-application-col">{{course.date.application}}</td>
+                  <td class="e-start-col">{{course.date.week_start}}</td>
                 </tr>
-                <tr>
-                  <td>Citizen Engagement Projects</td>
-                  <td>Feb 13, 2015</td>
-                  <td>March 2, 2015</td>
-                </tr>
-                <tr>
-                  <td>Freedom of Information and FOIA Project Coaching: <br>
-                      Breaking Down the Walls and Opening Up Communications</td>
-                  <td>Feb 13, 2015</td>
-                  <td>March 2, 2015</td>
-                </tr>
-                <tr>
-                  <td>Civic Tech for Local Legislatures and Legislators</td>
-                  <td>Feb 13, 2015</td>
-                  <td>March 2, 2015</td>
-                </tr>
-                <tr>
-                  <td>Tech Procurement Projects: Making the Supply Chain Work</td>
-                  <td>Feb 20, 2015</td>
-                  <td>March 16, 2015</td>
-                </tr>
-                <tr>
-                  <td>Leveraging Crowds in the Public Sector</td>
-                  <td>February 27, 2015</td>
-                  <td>March 23, 2015</td>
-                </tr>
-                <tr>
-                  <td>Humanitarian Innovation Project Coaching</td>
-                  <td>March 13, 2015</td>
-                  <td>April 6, 2015</td>
-                </tr>
-                <tr>
-                  <td>Open Source Technology Practices For Civic Engagement</td>
-                  <td>March 13, 2015</td>
-                  <td>April 6, 2015</td>
-                </tr>
-                <tr>
-                  <td>Lab Design: Bringing Agility and Empiricism to Public Problems</td>
-                  <td>March 13, 2015</td>
-                  <td>April 6, 2015</td>
-                </tr>
-                <tr>
-                  <td>Open Data Data-Driven Decisions for All</td>
-                  <td>March 20, 2015</td>
-                  <td>April 6, 2015</td>
-                </tr>
-                <tr>
-                  <td>Legal Innovation</td>
-                  <td>TBA</td>
-                  <td>TBA</td>
-                </tr>
-                <tr>
-                  <td>Open Contracting</td>
-                  <td>TBA</td>
-                  <td>TBA</td>
-                </tr>
+                {% endfor %}
               </tbody>
             </table>  
           </div>

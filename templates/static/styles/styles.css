@@ -1691,6 +1691,10 @@ a {
     .b-person .b-pop-controls .e-pop-button.m-pin, .b-person .b-pop-controls .m-pin.b-share-button {
       display: none; } }
 @media only screen and (min-width: 1024px) {
+  #faculty-members-page h4 a {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 200; }
+
   .b-person header {
     width: 300px;
     position: relative;
@@ -1726,6 +1730,12 @@ a {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   padding-top: 80px;
   padding-bottom: 40px; }
+
+.b-team-dashboard h2 {
+  margin-bottom: 10px; }
+.b-team-dashboard h4 {
+  text-align: center;
+  margin-bottom: 30px; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-device-width: 1024px) {
@@ -1785,10 +1795,10 @@ a {
         content: "";
         float: left;
         margin: 6px 0 0 -20px; }
-    .b-faqs .b-faq-item .e-answer table {
+    .b-faqs .b-faq-item .e-answer .b-faq-table {
       border-collapse: collapse;
       width: 100%; }
-      .b-faqs .b-faq-item .e-answer table thead th {
+      .b-faqs .b-faq-item .e-answer .b-faq-table thead th {
         background-color: #00c8b4;
         text-align: left;
         color: white;
@@ -1796,10 +1806,14 @@ a {
         letter-spacing: .5px;
         text-transform: uppercase;
         font-weight: 400; }
-      .b-faqs .b-faq-item .e-answer table tr {
+      .b-faqs .b-faq-item .e-answer .b-faq-table tr {
         border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
-        .b-faqs .b-faq-item .e-answer table tr td {
+        .b-faqs .b-faq-item .e-answer .b-faq-table tr td {
           padding: 5px 10px; }
+      .b-faqs .b-faq-item .e-answer .b-faq-table .e-application-col {
+        min-width: 180px; }
+      .b-faqs .b-faq-item .e-answer .b-faq-table .e-start-col {
+        min-width: 200px; }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
