@@ -217,14 +217,13 @@ li {
 
 p {
   margin-bottom: 0.5rem; }
-
-a {
-  color: #281841; }
-  a:hover {
-    background-color: #00c8b4;
+  p a {
     color: #281841; }
-  a:visited {
-    color: rgba(0, 0, 0, 0.5); }
+    p a:hover {
+      background-color: #00c8b4;
+      color: #281841; }
+    p a:visited {
+      color: rgba(0, 0, 0, 0.5); }
 
 .e-button {
   border-radius: 2px;
@@ -1693,7 +1692,12 @@ a {
 @media only screen and (min-width: 1024px) {
   #faculty-members-page h4 a {
     color: rgba(255, 255, 255, 0.7);
-    font-weight: 200; }
+    font-weight: 200;
+    background-color: rgba(255, 255, 255, 0.3); }
+
+  #faculty-members-page h4 a:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #472b74; }
 
   .b-person header {
     width: 300px;
@@ -1733,7 +1737,7 @@ a {
 
 .b-team-dashboard h2 {
   margin-bottom: 10px; }
-.b-team-dashboard h4 {
+.b-team-dashboard .b-twitter-list-link {
   text-align: center;
   margin-bottom: 30px; }
 
@@ -1815,6 +1819,40 @@ a {
       .b-faqs .b-faq-item .e-answer .b-faq-table .e-start-col {
         min-width: 200px; }
 
+/* Mobile Only ----------- */
+@media only screen and (max-width: 1024px) {
+  .b-faq-table thead,
+  .b-faq-table tbody,
+  .b-faq-table tr,
+  .b-faq-table td {
+    display: block; }
+  .b-faq-table td {
+    padding: 0; }
+  .b-faq-table thead {
+    display: none; }
+  .b-faq-table tr {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 0;
+    margin: 5px 0;
+    background-color: white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
+  .b-faq-table .e-name-col {
+    color: white;
+    background-color: #472b74;
+    line-height: 1.2;
+    font-weight: 100;
+    letter-spacing: .4px; }
+  .b-faq-table .e-application-col,
+  .b-faq-table .e-start-col {
+    min-width: 0;
+    font-weight: bold; }
+    .b-faq-table .e-application-col:before,
+    .b-faq-table .e-start-col:before {
+      font-weight: 300; }
+  .b-faq-table .e-application-col:before {
+    content: "Application due "; }
+  .b-faq-table .e-start-col:before {
+    content: "Starts the week of "; } }
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
   .b-faqs .b-faq-item {

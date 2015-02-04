@@ -43,18 +43,18 @@ li {
 
 p {
 	margin-bottom: 0.5rem;
-}
 
-a {
-	color: $scheme-comp_4;
-
-	&:hover {
-		background-color: $scheme-comp_3;
+	a {
 		color: $scheme-comp_4;
-	}
 
-	&:visited {
-		color: $gray_50;
+		&:hover {
+			background-color: $scheme-comp_3;
+			color: $scheme-comp_4;
+		}
+
+		&:visited {
+			color: $gray_50;
+		}
 	}
 }
 

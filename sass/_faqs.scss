@@ -100,7 +100,62 @@
 			}
 		}
 	}
-}	
+}
+
+
+/* Mobile Only ----------- */
+@media only screen and (max-width : $desktop_width) {
+.b-faq-table {
+	thead,
+	tbody,
+	tr,
+	td {
+		display: block;
+	}
+
+	td {
+		padding: 0;
+	}
+
+	thead { display: none; }
+	
+	tr {
+		border: 1px solid $gray_20;
+		border-bottom: 0;
+		margin: 5px 0;
+		background-color: $white;
+		@include drop-shadow-light;
+	}
+
+	.e-name-col {
+		color: $white;
+		background-color: $purple;
+		line-height: 1.2;
+		font-weight: 100;
+		letter-spacing: .4px;
+	}
+
+	.e-application-col,
+	.e-start-col {
+		min-width: 0;
+		font-weight: bold;
+
+		&:before {
+			font-weight: 300;
+		}
+	}
+
+	.e-application-col:before { content: "Application due "; }
+	.e-start-col:before { content: "Starts the week of "; }
+
+
+}
+
+
+
+}
+
+
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : $desktop_width) {
 .b-faqs {

@@ -6,7 +6,7 @@
     start: "March 2, 2015"
     week_start: "March 2 - 6" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "April 24, 2015"
-    application: "February 13, 2015"
+    application: "February 25, 2015"
   passion:
     title: Passionate about Local Democracy?
     bullets:
@@ -72,10 +72,10 @@
 - name: "Freedom of Information and FOIA Project Coaching: Breaking Down the Walls and Opening Up Communications"
   duration: 4 weeks
   date:
-    start: "March 2, 2015"
+    start: "March 4, 2015"
     week_start: "March 2 - 6" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "March 27, 2015"
-    application: "February 13, 2015"
+    application: "February 25, 2015"
   passion:
     title: Passionate about freedom of information? Are you…
     bullets:
@@ -108,7 +108,7 @@
     start: "April 6, 2015"
     week_start: "April 6 - 10" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "May 29, 2015"
-    application: "March 13, 2015"
+    application: "March 25, 2015"
   passion:
     title: Passionate about Humanitarian Innovation? Are you…
     bullets:
@@ -174,10 +174,10 @@
 - name: "Citizen Engagement Projects"
   duration: 4 weeks
   date:
-    start: "March 2, 2015"
+    start: "March 6, 2015"
     week_start: "March 2 - 6" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "March 27, 2015"
-    application: "February 13, 2015"
+    application: "February 25, 2015"
   passion:
     title: Passionate about Citizen Engagement? Are you…
     bullets:
@@ -209,10 +209,10 @@
 - name: "Citizen Science on the Web"
   duration: 8 weeks
   date:
-    start: "Feb 16, 2015"
-    week_start: "February 16 - 20" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "April 10, 2015"
-    application: " February 13, 2015"
+    start: "March 2, 2015"
+    week_start: "March 2 - 6" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "April 24, 2015"
+    application: " February 24, 2015"
   passion:
     title: Passionate about citizen science?
     bullets:
@@ -245,7 +245,7 @@
     start: "March 16, 2015"
     week_start: "March 16 - 20" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "April 10, 2015"
-    application: "February 20, 2015"
+    application: "February 27, 2015"
   passion:
     title: Passionate about fixing the public procurement process?
     bullets:
@@ -275,7 +275,7 @@
   duration: 4 weeks
   date:
     start: "March 23, 2015"
-    week_start: "March 23, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    week_start: "March 23 - 27, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "April 6, 2015"
     application: "February 27, 2015" 
   passion:
@@ -309,7 +309,7 @@
   duration: 8 weeks
   date:
     start: "April 7, 2015"
-    week_start: "April 6, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    week_start: "April 6 - 10, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "May 26, 2015"
     application: "March 20, 2015" 
   passion:
@@ -352,14 +352,14 @@
       - Seeking to find ways to solve problems differently by leveraging the vast amount of data we are generating today?
       - Eager to acquire the skills required to frame and commission effective data-driven projects that lead to tangible, real-world outcomes?
       - Working in or thinking about starting an analytics unit within your organization?
-  description_short: ""
+  description_short: "Today’s society generates data at an astounding rate. Yet there are challenges to deriving useful and actionable insights from big data. This program will focus on how to design, implement, and evaluate analytics projects so that they consistently deliver measurable, scalable results."
   description_long: "Today’s society generates data at an astounding rate. Growing almost as quickly are expectations about how such data could be used and how much value it could create. Yet there are challenges to deriving useful and actionable insights from big data and translating those into new policies, effective services and better ways to improve the lives of people in our communities. This program will focus on how to design, implement, and evaluate analytics projects so that they consistently deliver measurable, scalable results. We will talk about how to identify tested frameworks for data diagnostics, acquisition, and sampling; discuss strategies for framing complex problems so they can be legitimately addressed by analytics work; and work out practical guidelines for working responsibly with data-driven insight to the end of advancing your projects. There is a special focus on the practical aspects of creating actionable insight in urban environments and empowering you to contribute to making cities more efficient, livable, equitable, and resilient. This program is designed for leaders, executives, and entrepreneurs who want to be on the cutting edge of the big data revolution. It will benefit professionals from the public and private sectors involved in all city-related industries."
   prerequisites:
   faculty_members: # Add list with faculty member names
     - Amen Ra Mashariki
   actions:
     - label: More Info
-      link: data-analytics-for-change.html
+      link: data-analytics-for-change-detail.html
   certificates:
     blended: false
     online: true
@@ -371,24 +371,29 @@
   when_plus: 
   format: "1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."  
   
-- name: "Open Contracting"
+- name: "Open Contracting Projects"
   is_active: false
   partner: 
-  duration: 
+  duration: 8 weeks
   date:
     start: "December 31, 2015"      # Date in single format.
     week_start: "TBD" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "TBD"
     application: "TBD"
   passion:
-    title: 
+    title: "Passionate about fully realizing the promise of open contracting? Are you..."
     bullets:
-      - ""
-  description_short: ""
+      - "Working to increase the number of contracts that are publicly disclosed?"
+      - "Interested in improving the quality of publicly available information on contracting?"
+      - "Part of a project aimed enhanced accessibility to contracting data or increasing its strategic use?"
+      - "Eager to develop strategies, increase opportunities and mechanisms for participation throughout all phases of contracting?"
+      - "Exploring more timely and effective follow-up actions based on citizen monitoring feedback?"
+  description_short: "This group is designed for those with projects focusing on fully realize the promise of open contracting on all stages and contract types, from more basic contracts for the procurement of goods, to complex contracts, joint venture agreements, licenses and production sharing agreements."
+  description_long: "Contracts are fundamental to how governments generate and spend. Contracts are at the nexus of revenue generation, budget planning, resource management and delivery of public goods. Contracts are at the core of how countries operate. Governments around the world spend an estimated US $9.5 trillion every single year through contracts. Yet, contracting information is often unavailable for public scrutiny. Adding to the problems stemming from lack of transparency, the resources spent through these contracts are often poorly managed or misappropriated. When companies, governments and citizens continue to get hit by ineffective and unfair contracting practices, theft and waste, everyone is paying the price. Ultimately, contracting that is not open undermines development for all. Open contracting refers to norms and practices for increased disclosure and participation in public contracting including tendering, performance and completion and it encompasses all public contracting, including contracts funded by combinations of public, private and donor sources. This group is designed for those with projects focusing on fully realize the promise of open contracting on all stages and contract types, from more basic contracts for the procurement of goods, to complex contracts, joint venture agreements, licenses and production sharing agreements."
   prerequisites:
     - ""
   faculty_members: # Add list with faculty member names
-    - name
+    - Gavin Hayman
   actions:
     - label: More Info
       link: http://apply-here
@@ -398,6 +403,7 @@
     in_person: false
     for_credit: false
     for_certificate: true
+  is_active: true
   when: "TBD"
   when_plus: 
   format: 
