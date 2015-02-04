@@ -211,7 +211,7 @@
   date:
     start: "March 2, 2015"
     week_start: "March 2 - 6" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "April 24, 2015"
+    end: "April 25, 2015"
     application: " February 24, 2015"
   passion:
     title: Passionate about citizen science?
