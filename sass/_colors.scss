@@ -108,7 +108,11 @@ $yellow_4_30: rgba(201,181,34,.3);
 	&:before { background-color: $green; }
 	.e-course-date { color: $green; }
 	.e-course-application { color: $green; }
-	.e-course-controls .e-button:hover { background-color: $green; }
+	.e-course-controls .e-button { color: $green; }
+	.e-course-controls .e-button:hover { 
+		background-color: $green;
+		color: $white;
+	}
 	.e-partner { background-color: $green_2; }
 	.e-certifications img { background-color: $green; }
 	.e-partner { color: $green; }
@@ -138,7 +142,11 @@ $yellow_4_30: rgba(201,181,34,.3);
 .b-course-list-item.m-workshop {
 	&:before { background-color: $blue; }
 	.e-course-date { color: $blue; }
-	.e-course-controls .e-button:hover { background-color: $blue; }
+	.e-course-controls .e-button { color: $blue; }
+	.e-course-controls .e-button:hover {
+		color: $white;
+		background-color: $blue;
+	}
 	.e-partner { background-color: $blue_4_30; }
 	.e-certifications img { background-color: $blue; }
 	.e-partner { color: $blue; }
@@ -185,7 +193,11 @@ $yellow_4_30: rgba(201,181,34,.3);
 .b-course-list-item.m-master {
 	&:before { background-color: $red; }
 	.e-course-date { color: $red; }
-	.e-course-controls .e-button:hover { background-color: $red; }
+	.e-course-controls .e-button { color: $red; }
+	.e-course-controls .e-button:hover {
+		color: $white;
+		background-color: $red;
+	}
 	.e-partner { background-color: $red_2; }
 	.e-certifications img { background-color: $red; }
 	.e-partner { color: $red; }
@@ -219,7 +231,11 @@ $yellow_4_30: rgba(201,181,34,.3);
 .b-course-list-item.m-clinic {
 	&:before { background-color: $yellow; }
 	.e-course-date { color: $yellow; }
-	.e-course-controls .e-button:hover { background-color: $yellow; }
+	.e-course-controls .e-button { color: $yellow_2; }
+	.e-course-controls .e-button:hover { 
+		color: $white; 
+		background-color: $yellow; 
+	}
 	.e-partner { background-color: $yellow_4_30; }
 	.e-certifications img { background-color: $yellow; }
 	.e-partner { color: $yellow_1; }
