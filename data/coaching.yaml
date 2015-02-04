@@ -174,10 +174,10 @@
 - name: "Citizen Engagement Projects"
   duration: 4 weeks
   date:
-    start: "March 6, 2015"
-    week_start: "March 2 - 6" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "March 27, 2015"
-    application: "February 25, 2015"
+    start: "April 6 - 10"
+    week_start: "April 6 - 10" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "April 30"
+    application: "March 25, 2015"
   passion:
     title: Passionate about Citizen Engagement? Are you…
     bullets:
