@@ -396,7 +396,7 @@
     - Gavin Hayman
   actions:
     - label: More Info
-      link: open-contracting-projects.html
+      link: open-contracting-projects-detail.html
   certificates:
     blended: false
     online: true
