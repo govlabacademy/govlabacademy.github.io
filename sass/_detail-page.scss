@@ -13,6 +13,16 @@
 		text-transform: uppercase;
 		margin-bottom: 60px;
 		box-shadow: 2px 0 7px rgba(0,0,0,0.7) inset;
+
+		.e-button {
+			color: $white_70;
+
+			&:hover {
+				background-color: $white_30;
+				color: $white;
+			}
+		}
+		
 	}
 
 	.e-certifications {

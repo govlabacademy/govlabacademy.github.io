@@ -1963,6 +1963,11 @@ p,
   text-transform: uppercase;
   margin-bottom: 60px;
   box-shadow: 2px 0 7px rgba(0, 0, 0, 0.7) inset; }
+  .b-detail-page .b-apply .e-button {
+    color: rgba(255, 255, 255, 0.7); }
+    .b-detail-page .b-apply .e-button:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+      color: white; }
 .b-detail-page .e-certifications {
   margin-top: 20px;
   text-align: right; }
