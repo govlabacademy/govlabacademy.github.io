@@ -205,7 +205,7 @@
   when: "every Friday from 11am - 1pm EST"
   when_plus: 
   format: 1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
-  
+
 - name: "Citizen Science on the Web"
   duration: 8 weeks
   date:
@@ -274,7 +274,7 @@
 - name: "Leveraging Crowds in the Public Sector"
   duration: 4 weeks
   date:
-    start: "March 23 - 27"
+    start: "March 23, 2015"
     week_start: "March 23 - 27, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "April 6, 2015"
     application: "February 27, 2015" 
@@ -308,7 +308,7 @@
 - name: "Open Data Data-Driven Decisions for All"
   duration: 8 weeks
   date:
-    start: "April 6 - 10"
+    start: "April 6, 2015"
     week_start: "April 6 - 10, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "May 26, 2015"
     application: "March 20, 2015" 
