@@ -72,14 +72,6 @@
 		.e-project-detail-aside {
 			text-align: center;
 		}
-
-		.b-pop-controls {
-			text-align: center;
-
-			.e-pop-button {
-				margin: 0 5px;
-			}	
-		}
 	}
 
 }
@@ -137,16 +129,6 @@
 		border-radius: 2px;
 		color: $white;
 		font-size: .8rem;
-	}
-
-}
-
-
-
-.b-project-detail {
-	.b-pop-controls {
-	left: -15px;
-	top: 30px;
 	}
 }
 }

@@ -102,6 +102,10 @@
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : $desktop_width) {
 
+#contact-message {
+	padding-top: 30px;
+}
+
 .b-course-list-item {
 	&:before {
 		margin-top: -8px;

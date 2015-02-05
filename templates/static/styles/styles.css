@@ -223,14 +223,18 @@ li {
     float: left;
     margin: 6px 0 0 -20px; }
 
-p {
+p,
+.e-project-files {
   margin-bottom: 0.5rem; }
-  p a {
+  p a,
+  .e-project-files a {
     color: #281841; }
-    p a:hover {
+    p a:hover,
+    .e-project-files a:hover {
       background-color: #00c8b4;
       color: #281841; }
-    p a:visited {
+    p a:visited,
+    .e-project-files a:visited {
       color: rgba(0, 0, 0, 0.5); }
 
 .m-project-coaching {
@@ -782,14 +786,15 @@ p {
     margin-top: 0; }
   .b-content-page > h2 + h3 {
     margin-top: -30px; }
-  .b-content-page > section {
+  .b-content-page .b-content-section {
     margin-bottom: 20px; }
-    .b-content-page > section:last-child {
+    .b-content-page .b-content-section:last-child {
       border-bottom: 0;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      padding-bottom: 0; }
 
 .b-page-title {
-  box-shadow: 2px 0 7px rgba(0, 0, 0, 0.7);
+  box-shadow: 2px 0 7px rgba(0, 0, 0, 0.6);
   padding-top: 70px;
   padding-bottom: 40px;
   background-color: #281841;
@@ -846,7 +851,7 @@ p {
 
   .b-content-page {
     padding: 0 0 40px 0; }
-    .b-content-page > .row {
+    .b-content-page .b-content-section {
       padding-bottom: 30px;
       border-bottom: 1px solid rgba(0, 0, 0, 0.2);
       margin-bottom: 40px; }
@@ -940,6 +945,9 @@ p {
     padding-bottom: 0; } }
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
+  #contact-message {
+    padding-top: 30px; }
+
   .b-course-list-item:before {
     margin-top: -8px; }
   .b-course-list-item .e-course-name {
@@ -1723,15 +1731,6 @@ p {
   margin-bottom: 30px; }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (max-device-width: 1024px) {
-  #people .b-pop-controls {
-    position: absolute;
-    top: 20px;
-    left: -5px; }
-    #people .b-pop-controls .e-pop-button, #people .b-pop-controls .b-share-button {
-      display: none; }
-    #people .b-pop-controls .m-goto {
-      display: inline-block; } }
 /* Desktops and laptops ----------- */
 .b-faqs {
   background-color: rgba(0, 0, 0, 0.03);
@@ -1919,11 +1918,7 @@ p {
     .b-project-detail h2, .b-project-detail h5 {
       text-align: center; }
     .b-project-detail .e-project-detail-aside {
-      text-align: center; }
-    .b-project-detail .b-pop-controls {
-      text-align: center; }
-      .b-project-detail .b-pop-controls .e-pop-button, .b-project-detail .b-pop-controls .b-share-button {
-        margin: 0 5px; } }
+      text-align: center; } }
 @media only screen and (min-width: 1024px) {
   .b-project-detail header {
     margin-left: calc(30% - 5px);
@@ -1956,11 +1951,7 @@ p {
     top: -2px;
     border-radius: 2px;
     color: white;
-    font-size: .8rem; }
-
-  .b-project-detail .b-pop-controls {
-    left: -15px;
-    top: 30px; } }
+    font-size: .8rem; } }
 .b-detail-page .b-page-title {
   margin-bottom: 0; }
   .b-detail-page .b-page-title h2 {

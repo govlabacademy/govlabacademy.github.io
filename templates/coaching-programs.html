@@ -10,7 +10,7 @@
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row b-content-section">
     <section class="b-course-mechanics column large-6">
       <h2>Programs offer</h2>
       <ul class="b-list">
@@ -34,7 +34,7 @@
       <a href="#faqs" class="e-button">FAQs</a>
     </section>
   </div>
-  <section class="b-course-graph row">
+  <section class="b-course-graph row b-content-section">
     <div class="column large-12">
       <h2>Coaching Program Timeline</h2>
     </div>
@@ -43,7 +43,7 @@
     </div>
   </section>
   
-  <section class="b-course-list row">
+  <section class="b-course-list row b-content-section">
     <ul class="column large-12">
       {% for course in coaching|sort(attribute='start_date',reverse=False) %}
         {% if course.is_active %}
@@ -108,8 +108,8 @@
   </section>
 	
 
-	<section id="faqs" class="b-faqs m-active">
-    <div class="row">
+	<section id="faqs" class="b-faqs m-active ">
+    <div class="row b-content-section">
       <div class="column large-12">
         <h2 class="e-faq-trigger">FAQs</h2>
         <div class="b-faq-item">
@@ -232,7 +232,7 @@
     </div>     
   </section>  
 
-	<section id="contact-message" class="row">
+	<section id="contact-message" class="row b-content-section">
     <div class="column large-12">
       <h4>Still hungry for more information?</h4>
       <p>Send us an email at <a href="mailto:info-academy@thegovlab.org">info-academy@thegovlab.org</a></p>

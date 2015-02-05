@@ -1,5 +1,4 @@
 .b-main-content {
-	// padding-top: 60px;
 }
 
 .b-content-page {
@@ -23,18 +22,19 @@
 		margin-top: -30px;		
 	}
 	
-	> section {
+	.b-content-section {
 		margin-bottom: 20px;
 
 		&:last-child {
 			border-bottom: 0;
 			margin-bottom: 0;
+			padding-bottom: 0;
 		}
 	}
 }
 
 .b-page-title {
-	box-shadow: 2px 0 7px rgba(0,0,0,0.7);
+	box-shadow: 2px 0 7px $gray_60;
 	padding-top: 70px;
 	padding-bottom: 40px;
 	background-color: $scheme-comp-4;
@@ -112,7 +112,7 @@
 .b-content-page {
 	padding: 0 0 40px 0;
 
-	> .row {
+	.b-content-section {
 		padding-bottom: 30px;
 		border-bottom: 1px solid $gray_20;
 		margin-bottom: 40px;
