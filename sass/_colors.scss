@@ -114,7 +114,7 @@ $yellow_4_30: rgba(201,181,34,.3);
 		color: $white;
 	}
 	.e-partner { background-color: $green_2; }
-	.e-certifications img { background-color: $green; }
+	.e-certifications a:hover img { background-color: $green; }
 	.e-partner { color: $green; }
 }
 .b-detail-page.m-coaching {
@@ -148,7 +148,7 @@ $yellow_4_30: rgba(201,181,34,.3);
 		background-color: $blue;
 	}
 	.e-partner { background-color: $blue_4_30; }
-	.e-certifications img { background-color: $blue; }
+	.e-certifications a:hover img { background-color: $blue; }
 	.e-partner { color: $blue; }
 }
 
@@ -162,6 +162,7 @@ $yellow_4_30: rgba(201,181,34,.3);
 		span { color: $blue_2; }
 		img { background-color: $blue_4; }
 	}
+	.e-certifications a:hover img { background-color: $blue_4; }
 }
 
 .b-course-list-item.m-workshop.m-crosslisted-True {
@@ -199,7 +200,7 @@ $yellow_4_30: rgba(201,181,34,.3);
 		background-color: $red;
 	}
 	.e-partner { background-color: $red_2; }
-	.e-certifications img { background-color: $red; }
+	.e-certifications a:hover img { background-color: $red; }
 	.e-partner { color: $red; }
 }
 
@@ -237,7 +238,7 @@ $yellow_4_30: rgba(201,181,34,.3);
 		background-color: $yellow; 
 	}
 	.e-partner { background-color: $yellow_4_30; }
-	.e-certifications img { background-color: $yellow; }
+	.e-certifications a:hover img { background-color: $yellow; }
 	.e-partner { color: $yellow_1; }
 }
 

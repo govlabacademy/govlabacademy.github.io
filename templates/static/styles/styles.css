@@ -22,7 +22,7 @@
   color: white; }
 .b-course-list-item.m-coaching .e-partner {
   background-color: #0d342d; }
-.b-course-list-item.m-coaching .e-certifications img {
+.b-course-list-item.m-coaching .e-certifications a:hover img {
   background-color: #2eb49a; }
 .b-course-list-item.m-coaching .e-partner {
   color: #2eb49a; }
@@ -54,7 +54,7 @@
   background-color: #7385ff; }
 .b-course-list-item.m-workshop .e-partner {
   background-color: rgba(103, 120, 229, 0.3); }
-.b-course-list-item.m-workshop .e-certifications img {
+.b-course-list-item.m-workshop .e-certifications a:hover img {
   background-color: #7385ff; }
 .b-course-list-item.m-workshop .e-partner {
   color: #7385ff; }
@@ -70,6 +70,8 @@
 .b-detail-page.m-workshops .e-certifications span {
   color: #39427f; }
 .b-detail-page.m-workshops .e-certifications img {
+  background-color: #6778e5; }
+.b-detail-page.m-workshops .e-certifications a:hover img {
   background-color: #6778e5; }
 
 .b-course-list-item.m-workshop.m-crosslisted-True:before {
@@ -104,7 +106,7 @@
   background-color: #ab204a; }
 .b-course-list-item.m-master .e-partner {
   background-color: #f72e6b; }
-.b-course-list-item.m-master .e-certifications img {
+.b-course-list-item.m-master .e-certifications a:hover img {
   background-color: #ab204a; }
 .b-course-list-item.m-master .e-partner {
   color: #ab204a; }
@@ -140,7 +142,7 @@
   background-color: #e3cc26; }
 .b-course-list-item.m-clinic .e-partner {
   background-color: rgba(201, 181, 34, 0.3); }
-.b-course-list-item.m-clinic .e-certifications img {
+.b-course-list-item.m-clinic .e-certifications a:hover img {
   background-color: #e3cc26; }
 .b-course-list-item.m-clinic .e-partner {
   color: #a3931b; }
@@ -261,7 +263,7 @@ p,
   color: white; }
 .b-course-list-item.m-coaching .e-partner {
   background-color: #0d342d; }
-.b-course-list-item.m-coaching .e-certifications img {
+.b-course-list-item.m-coaching .e-certifications a:hover img {
   background-color: #2eb49a; }
 .b-course-list-item.m-coaching .e-partner {
   color: #2eb49a; }
@@ -293,7 +295,7 @@ p,
   background-color: #7385ff; }
 .b-course-list-item.m-workshop .e-partner {
   background-color: rgba(103, 120, 229, 0.3); }
-.b-course-list-item.m-workshop .e-certifications img {
+.b-course-list-item.m-workshop .e-certifications a:hover img {
   background-color: #7385ff; }
 .b-course-list-item.m-workshop .e-partner {
   color: #7385ff; }
@@ -309,6 +311,8 @@ p,
 .b-detail-page.m-workshops .e-certifications span {
   color: #39427f; }
 .b-detail-page.m-workshops .e-certifications img {
+  background-color: #6778e5; }
+.b-detail-page.m-workshops .e-certifications a:hover img {
   background-color: #6778e5; }
 
 .b-course-list-item.m-workshop.m-crosslisted-True:before {
@@ -343,7 +347,7 @@ p,
   background-color: #ab204a; }
 .b-course-list-item.m-master .e-partner {
   background-color: #f72e6b; }
-.b-course-list-item.m-master .e-certifications img {
+.b-course-list-item.m-master .e-certifications a:hover img {
   background-color: #ab204a; }
 .b-course-list-item.m-master .e-partner {
   color: #ab204a; }
@@ -379,7 +383,7 @@ p,
   background-color: #e3cc26; }
 .b-course-list-item.m-clinic .e-partner {
   background-color: rgba(201, 181, 34, 0.3); }
-.b-course-list-item.m-clinic .e-certifications img {
+.b-course-list-item.m-clinic .e-certifications a:hover img {
   background-color: #e3cc26; }
 .b-course-list-item.m-clinic .e-partner {
   color: #a3931b; }
