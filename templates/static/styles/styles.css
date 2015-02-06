@@ -424,8 +424,9 @@ p,
     color: white; }
     .b-logo a:hover {
       background-color: transparent; }
-  .b-logo .e-home {
-    vertical-align: -3px; }
+  .b-logo .e-home span {
+    display: inline-block;
+    margin-top: 4px; }
   .b-logo img {
     width: 110px;
     margin-right: 10px; }

@@ -36,7 +36,10 @@
 	}
 
 	.e-home {
-		vertical-align: -3px;
+		span {
+			display: inline-block;
+			margin-top: 4px;
+		}
 	}
 
 	img {
