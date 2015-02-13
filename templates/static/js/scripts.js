@@ -89,6 +89,9 @@ $('#overlay').click(function() {
   	});
 
 
+
+
+
 // Multiple SwipeJS Galleries
 // var swipes = []
 // $('.swipe').each(function(i, obj) {

@@ -225,6 +225,9 @@ li {
     float: left;
     margin: 6px 0 0 -20px; }
 
+.m-centered-text {
+  text-align: center; }
+
 p,
 .e-project-files {
   margin-bottom: 0.5rem; }
@@ -1296,6 +1299,95 @@ p,
 
   .b-card.m-project .b-wrapper {
     width: 232px; } }
+.b-form input,
+.b-form button,
+.b-form textarea {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 3px 0;
+  font-size: 1.2rem;
+  font-weight: 300 !important;
+  font-family: proxima-nova, sans-serif !important; }
+.b-form input,
+.b-form textarea {
+  padding: 3px 12px 2px;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.8); }
+.b-form select, .b-form option {
+  padding: 8px 12px 6px;
+  width: 50%;
+  font-size: 1.2rem; }
+.b-form textarea {
+  outline: none !important;
+  resize: none !important;
+  overflow: auto !important; }
+
+.fr_form a {
+  color: #472b74; }
+.fr_form a:hover {
+  background-color: #472b74;
+  color: white; }
+.fr_form .fr_response_field {
+  max-width: none; }
+.fr_form .fr_section_name {
+  font-size: 2rem !important;
+  margin-top: 40px;
+  text-align: center;
+  font-weight: 100 !important; }
+.fr_form .fr_section_name + p {
+  text-align: center !important; }
+.fr_form .fr_page {
+  padding: 30px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
+.fr_form .fr_input_grid {
+  width: calc(100% + 10px); }
+.fr_form .fr_response_field_paragraph textarea.size_medium,
+.fr_form .fr_response_field_paragraph textarea {
+  width: 100%;
+  height: 300px; }
+.fr_form .fr_response_field_text input.size_medium {
+  width: 100%; }
+.fr_form .fr_response_field label[for="c7"],
+.fr_form .fr_response_field .fr_min_max,
+.fr_form .fr_response_field .fr_description {
+  font-size: .9rem;
+  color: rgba(0, 0, 0, 0.6);
+  font-style: italic; }
+.fr_form .fr_bottom_bar {
+  background-color: transparent;
+  padding: 20px 0; }
+  .fr_form .fr_bottom_bar button {
+    background-color: #472b74;
+    padding: 10px 20px; }
+
+.fr_after_submit_page p {
+  font-size: 2rem;
+  text-align: center;
+  min-height: 300px;
+  padding: 60px; }
+
+.b-application-form.m-coaching .fr_page {
+  position: relative; }
+  .b-application-form.m-coaching .fr_page:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 6px;
+    left: 0;
+    right: 0;
+    background-color: #2eb49a; }
+
+@media only screen and (min-width: 1024px) {
+  .fr_form .fr_section_name {
+    font-size: 4rem !important; }
+
+  .fr_after_submit_page p {
+    font-size: 3rem; } }
 #homepage {
   padding-top: 0; }
   #homepage #intro {

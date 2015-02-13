@@ -1,11 +1,5 @@
 {% extends "layout/base.html" %}
 
-{% block head %}
-<link href="//d3q1ytufopwvkq.cloudfront.net/0.2.8/formrenderer.css" rel="stylesheet" />
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<script src="//d3q1ytufopwvkq.cloudfront.net/0.2.8/formrenderer.js"></script>
-{% endblock %}
-
 {% block content %}
 {% set coaching_class = coaching[10] %}
 <div id="" class="b-content-page b-detail-page m-coaching">
@@ -76,7 +70,7 @@
   <section class="b-apply">
     <div class="row ">
       <div class="column large-12">
-        <a href="https://screendoor.dobt.co/the-govlab/coaching-programs-application-form" target="_blank" class="e-button m-large">Apply</a>
+        <a href="./application.html" target="_blank" class="e-button m-large">Apply</a>
       </div>
     </div>
   </section>
@@ -137,25 +131,6 @@
       {% endfor %}
     </div>
   </div>
-
-  <section id="application-form" class="row b-content-section">
-    <div class="column large-12">
-      <form data-formrenderer></form>
-    </div>
-  </section>
-  
-<script>
-$( document ).ready(function() {
-  new FormRenderer({
-    "project_id": 714,
-    "afterSubmit": {
-      "method": "page",
-      "html": "<p>Thanks for submitting our form!</p>"
-    }
-  });
-});
-</script>
-
 
   <section id="contact-message" class="row b-content-section">
     <div class="column large-12">
