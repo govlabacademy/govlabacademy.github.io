@@ -162,6 +162,16 @@
 .b-project-detail.m-clinic:before {
   background-color: #e3cc26; }
 
+.b-course-list-item.m-clinic.m-crosslisted-True:before {
+  background-color: #635911; }
+.b-course-list-item.m-clinic.m-crosslisted-True .e-course-date {
+  color: #635911; }
+.b-course-list-item.m-clinic.m-crosslisted-True .e-course-controls .e-button:hover {
+  background-color: #635911; }
+.b-course-list-item.m-clinic.m-crosslisted-True .e-partner {
+  background-color: rgba(99, 89, 17, 0.3);
+  color: #635911; }
+
 body {
   background-color: rgba(0, 0, 0, 0.03); }
 
@@ -405,6 +415,16 @@ p,
 
 .b-project-detail.m-clinic:before {
   background-color: #e3cc26; }
+
+.b-course-list-item.m-clinic.m-crosslisted-True:before {
+  background-color: #635911; }
+.b-course-list-item.m-clinic.m-crosslisted-True .e-course-date {
+  color: #635911; }
+.b-course-list-item.m-clinic.m-crosslisted-True .e-course-controls .e-button:hover {
+  background-color: #635911; }
+.b-course-list-item.m-clinic.m-crosslisted-True .e-partner {
+  background-color: rgba(99, 89, 17, 0.3);
+  color: #635911; }
 
 .b-top-navigation-wrapper {
   position: fixed;
@@ -946,6 +966,9 @@ p,
 
 .b-course-list-item.m-workshop.m-crosslisted-True .e-partner:before {
   content: "This workshop is offered by "; }
+
+.b-course-list-item.m-clinic.m-crosslisted-True .e-partner:before {
+  content: "This course is offered by "; }
 
 /* Mobile Only ----------- */
 @media only screen and (max-width: 1024px) {

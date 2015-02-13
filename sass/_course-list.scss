@@ -92,6 +92,10 @@
 .b-course-list-item.m-workshop.m-crosslisted-True {
 	.e-partner:before { content: "This workshop is offered by " }
 }
+
+.b-course-list-item.m-clinic.m-crosslisted-True {
+	.e-partner:before { content: "This course is offered by " }
+}
 /* Mobile Only ----------- */
 @media only screen and (max-width : $desktop_width) {
 .e-course-faculty {

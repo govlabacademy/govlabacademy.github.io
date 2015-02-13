@@ -18,6 +18,7 @@
     for_credit: false
     for_certificate: true
   is_active: true
+  is_crosslisted: false
 
 - name: "Solving Public Problems with Technology"
   partner: 
@@ -38,6 +39,7 @@
     for_credit: true
     for_certificate: true
   is_active: true
+  is_crosslisted: false
 
 - name: "Sustainable Governance Innovation"
   partner: the School of Professional Services at NYU
@@ -54,3 +56,24 @@
     for_credit: true
     for_certificate: false
   is_active: true
+  is_crosslisted: false
+
+- name: "Decision Analysis and Risk Management"
+  partner: the University of Eastern Finland
+  date: March - May 2015 # Date can be in two formats ie. "January 2015" or "By Request"
+  duration: 
+  description_short: >
+    The aim of the course is to expose participants to the fundamentals of decision analysis, the connections between assessments and societal decision making, and the role of decision making in a pragmatic context of improving outcomes. Participants will learn to apply the scientific method and falsification in the context of an assessment, and know how to build an open assessment based on the requirements of societal decision making. The focus is on how to convincingly exclude poor decision options rather than trying to find a theoretically optimal solution (e.g. with highest expected utility).
+  description_long: ""
+  faculty_members: # Add list with faculty member names
+  actions:
+    - label: Course Website
+      link: http://en.opasnet.org/w/Darm
+  certificates:
+    blended: false
+    online: false
+    in_person: false
+    for_credit: false
+    for_certificate: false
+  is_active: true
+  is_crosslisted: true
