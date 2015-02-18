@@ -1,0 +1,2454 @@
+[
+  {
+    "description": "by Bhaskar Chakravorti", 
+    "tags": [], 
+    "url": "http://www.amazon.com/The-Slow-Pace-Fast-Change/dp/157851780X", 
+    "title": "The Slow Pace of Fast Change: Bringing Innovations to Market in a Connected World", 
+    "content_type": "document", 
+    "nice-tags": [],
+    "week": "2"
+  },
+  {
+    "description": "Terry Winograd, Professor Emeritus of Computer Science, Stanford University. Professor Winograd's focus is on human-computer interaction design and the design of technologies for development.", 
+    "tags": [], 
+    "url": "http://files.thegovlab.org/academy/fall2014/presentations/noveck-class.ppt", 
+    "title": "Design thinking for public problems", 
+    "content_type": "document", 
+    "nice-tags": [],
+    "week": "1"
+  },
+  {
+    "description": "Functional PHP doc", 
+    "tags": [], 
+    "url": "http://not-really.com/funcs.pdf", 
+    "title": "Functional PHP", 
+    "content_type": "document", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "This paper outlines the forces driving the widespread use of crowdfund investing, namely social media, the existence of funding systems that marginalize people outside of major urban centers and the ability of people to function remotely from their work spaces.", 
+    "tags": [], 
+    "url": "http://www.egsllp.com/CCACrowdfundInvestingWhitePaper.PDF", 
+    "title": "Best, Jason, Neiss, Sherwood, and Jones, Davis. \u201cHow Crowdfund Investing Helps Solve Three Pressing Socioeconomic Challenges.\u201d Crowdfunding PR, Social Media & Marketing Campaigns. Accessed October 21, 2013. ", 
+    "content_type": "document", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "This report from the Economist Intelligence Unit focuses on the positive impact of big data adoption in the private sector, but its insights can also be applied to the use of big data in governance.", 
+    "tags": [
+      "Big Data"
+    ], 
+    "url": "http://bit.ly/QwqAOE", 
+    "title": "Big Data and the Democratisation of Decisions. The Economist Intelligence Unit, October 2012.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "big-data"
+    ]
+  }, 
+  {
+    "description": "This report examines the potential for channeling the \"flood of data created every day by the interactions of billions of people using computers, GPS devices, cell phones, and medical devices\" into \"actionable information that can be used to identify needs, provide services, and predict and prevent crises for the benefit of low-income populations.\"\n", 
+    "tags": [
+      "Big Data"
+    ], 
+    "url": "http://bit.ly/1d4OZCf", 
+    "title": "\u201cBig Data, Big Impact: New Possibilities for International Development.\u201d Big Data, Big Impact: New Possibilities for International Development | World Economic Forum. Accessed October 17, 2013. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "big-data"
+    ]
+  }, 
+  {
+    "description": "This report captures insights from the 2009 Roundtable exploring uses of Big Data within a number of important consumer behavior and policy implication contexts.\n", 
+    "tags": [
+      "Big Data"
+    ], 
+    "url": "http://bit.ly/oO40G0", 
+    "title": "Bollier, David. The Promise and Peril of Big Data. The Aspen Institute, Communications and Society Program, 2010.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "big-data"
+    ]
+  }, 
+  {
+    "description": "This report presents key big data imperatives that government agencies must address, the challenges and the opportunities posed by the growing volume of data and the value Big Data can provide. The discussion touches on the value of big data to businesses and organizational mission, presents case study examples of big data applications, technical underpinnings and public policy applications.", 
+    "tags": [
+      "Big Data"
+    ], 
+    "url": "http://bit.ly/PVMXu8", 
+    "title": "\u201cDemystifying Big Data: A Practical Guide to Transforming the Business of Government.\u201d TechAmerica Foundation\u2019s Federal Big Data Commission, 2013. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "big-data"
+    ]
+  }, 
+  {
+    "description": null, 
+    "tags": [], 
+    "url": null, 
+    "title": "Community Monitoring Toolkit ", 
+    "content_type": "document", 
+    "nice-tags": []
+  }, 
+  {
+    "description": null, 
+    "tags": [], 
+    "url": null, 
+    "title": "Gov 30 - Class 8", 
+    "content_type": "document", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "This report discusses strategies for better leveraging data analysis to aid decision-making. The authors argue that, \"Organizations that are successful at launching or expanding analytics program...systematically examine their processes and activities to ensure that everything they do clearly connects to what they set out to achieve, and they use that examination to pinpoint weaknesses or areas for improvement.", 
+    "tags": [
+      "Big Data"
+    ], 
+    "url": "http://bit.ly/1a8JV0j ", 
+    "title": "\u201cFrom Data to Decisions II: Building an Analytics Culture.\u201d The Partnership for Public Service and the IBM Center for The Business of Government, October 17, 2012. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "big-data"
+    ]
+  }, 
+  {
+    "description": "This report argues that big data \"will become a key basis of competition, underpinning new waves of productivity growth, innovation, and consumer surplus, and that \"leaders in every sector will have to grapple with the implications of big data.\" \u00a0\n", 
+    "tags": [
+      "Big Data"
+    ], 
+    "url": "http://bit.ly/181RiBO ", 
+    "title": "Manyika, James, Michael Chui, Brad Brown, Jacques Bughin, Richard Dobbs, Charles Roxburgh, and Angela Hung Byers. Big Data: The Next Frontier for Innovation, Competition, and Productivity | McKinsey & Company. McKinsey & Company, May 2011. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "big-data"
+    ]
+  }, 
+  {
+    "description": "This paper examines concepts that underlie Big City Data using data from multiple cities as examples. It begins by explaining the concepts of Open, Unified, Linked, and Grounded data, which are central to the Semantic Web. Fox then explore Big Data as an extension of Data Analytics, and provide case examples of good data analytics in cities.\n", 
+    "tags": [
+      "Open Data"
+    ], 
+    "url": "http://bit.ly/1bFr7oL ", 
+    "title": "Fox, Mark S. Fox \u201cCity Data: Big, Open and Linked.\u201dWorking Paper, Enterprise Integration Laboratory (2013). ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "open-data"
+    ]
+  }, 
+  {
+    "description": "This \u201ccross-disciplinary survey of the open data landscape\u201d features stories from practitioners in the open data space \u2014 including Michael Flowers, Brett Goldstein, Emer Colmeman and many others \u2014 discussing what they\u2019ve accomplished with open civic data. The book \u201cseeks to move beyond the rhetoric of transparency for transparency\u2019s sake and towards action and problem solving.\u201d", 
+    "tags": [
+      "Open Data"
+    ], 
+    "url": "http://bit.ly/15OAxgF", 
+    "title": "Goldstein, Brett, and Lauren Dyson. Beyond Transparency: Open Data and the Future of Civic Innovation. 1 edition. Code for America Press, 2013.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "open-data"
+    ]
+  }, 
+  {
+    "description": "This paper examines the impact of open government data by exploring the latest research in the field, with an eye toward enabling \u00a0an environment for open data, as well as identifying the benefits of open government data and its political, social, and economic impacts.\n", 
+    "tags": [
+      "Open Data"
+    ], 
+    "url": "http://bit.ly/GU0Nx4", 
+    "title": "Granickas, Karolis. \u201cUnderstanding the Impact of Releasing and Re-using Open Government Data.\u201d European Public Sector Information Platform, ePSIplatform Topic Report No. 2013/08, (2013).", 
+    "content_type": "document", 
+    "nice-tags": [
+      "open-data"
+    ]
+  }, 
+  {
+    "description": "This paper uses the Chicago open data project to explore the \u201cempowering potential of an open data phenomenon at the local level as a platform useful for promotion of civic engagement projects and provide a framework for future research and hypothesis testing.\u201d\n", 
+    "tags": [
+      "Open Data"
+    ], 
+    "url": "http://bit.ly/1ewIZnk", 
+    "title": "Kassen, Maxat. \u201cA promising phenomenon of open data: A case study of the Chicago open data project.\u201dGovernment Information Quarterly (2013). ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "open-data"
+    ]
+  }, 
+  {
+    "description": "This paper examines the assumptions regarding open datasets, technological infrastructure and access, using healthcare systems as a case study.\n", 
+    "tags": [
+      "Open Data"
+    ], 
+    "url": "http://bit.ly/1i231WS", 
+    "title": "Keen, Justin, Radu Calinescu, Richard Paige, John Rooksby. \u201cBig data + politics = open data: The case of health care data in England.\u201d Policy and Internet 5 (2), (2013): 228\u2013243.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "open-data"
+    ]
+  }, 
+  {
+    "description": " In this paper, the authors argue that a more systematic ontology for data visualization to ensure the successful communication of meaning. \"Visualization begins when someone has data that they wish to explore and interpret; the data are encoded as input to a visualization system, which may in its turn interact with other systems to produce a representation. This is communicated back to the user(s), who have to assess this against their goals and knowledge, possibly leading to further cycles of activity. Each phase of this process involves communication between two parties. For this to succeed, those parties must share a common language with an agreed meaning.", 
+    "tags": [
+      "Data Visualization"
+    ], 
+    "url": "http://bit.ly/1aeU6yA", 
+    "title": "Duke, D.J., K.W. Brodlie, D.A. Duce, and I. Herman. \u201cDo You See What I Mean? [Data Visualization].\u201d IEEE Computer Graphics and Applications 25, no. 3 (2005): 6\u20139", 
+    "content_type": "document", 
+    "nice-tags": [
+      "data-visualization"
+    ]
+  }, 
+  {
+    "description": " In this paper, Friendly explores the \"deep roots\" of modern data visualization. \"These roots reach into the histories of the earliest map making and visual depiction, and later into thematic cartography, statistics and statistical graphics, medicine and other fields. Along the way, developments in technologies (printing, reproduction), mathematical theory and practice, and empirical observation and recording enabled the wider use of graphics and new advances in form and content.", 
+    "tags": [
+      "Data Visualization"
+    ], 
+    "url": " http://bit.ly/17fM1e9", 
+    "title": "Friendly, Michael. \u201cA Brief History of Data Visualization.\u201d In Handbook of Data Visualization, 15\u201356. Springer Handbooks Comp.Statistics. Springer Berlin Heidelberg, 2008.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "data-visualization"
+    ]
+  }, 
+  {
+    "description": "Graves, Alvaro, and James Hendler. \u201cVisualization Tools for Open Government Data.\u201d In Proceedings of the 14th Annual International Conference on Digital Government Research, 136\u2013145. Dg.o  \u201913. New York, NY, USA: ACM, 2013. ", 
+    "tags": [
+      "Data Visualization"
+    ], 
+    "url": "http://bit.ly/1eNSoXQ", 
+    "title": "Graves, Alvaro, and James Hendler. \u201cVisualization Tools for Open Government Data.\u201d In Proceedings of the 14th Annual International Conference on Digital Government Research, 136\u2013145. Dg.o  \u201913. New York, NY, USA: ACM, 2013", 
+    "content_type": "document", 
+    "nice-tags": [
+      "data-visualization"
+    ]
+  }, 
+  {
+    "description": "Hidalgo, C\u00e9sar A. \u201cGraphical Statistical Methods for the Representation of the Human  In this paper for the United Nations Human Development Programme, Hidalgo argues that \"graphical statistical methods could be used to help communicate complex data and concepts through universal cognitive channels that are heretofore underused in the development literature.\" \n", 
+    "tags": [
+      "Data Visualization"
+    ], 
+    "url": "http://bit.ly/166TKur", 
+    "title": "Development Index and Its Components.\u201d United Nations Development Programme Human Development Reports, September 2010.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "data-visualization"
+    ]
+  }, 
+  {
+    "description": ".This report seeks \"to help public sector managers understand one of the more important areas of data analysis today -- data visualization. Data visualizations are more sophisticated, fuller graphic designs than the traditional spreadsheet charts, usually with more than two variables and, typically, incorporating interactive features.", 
+    "tags": [
+      "Data Visualization"
+    ], 
+    "url": " http://bit.ly/1aame9K", 
+    "title": "Stowers, Genie. \u201cThe Use of Data Visualization in Government.\u201d IBM Center for The Business of Government, Using Technology Series, 2013", 
+    "content_type": "document", 
+    "nice-tags": [
+      "data-visualization"
+    ]
+  }, 
+  {
+    "description": "    This paper examines the components and strategies involved in the creation of smart cities featuring \u201ccohesive and open telecommunication and software architecture.\u201d  ", 
+    "tags": [
+      "Urban Analytics"
+    ], 
+    "url": "http://bit.ly/17MqPZW", 
+    "title": "Budde, Paul. \u201cSmart Cities of Tomorrow.\u201d In Cities for Smart Environmental and Energy Futures, edited by Stamatina Th. Rassia and Panos M. Pardalos, 9\u201320. Energy Systems. Springer Berlin Heidelberg, 2014.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "urban-analytics"
+    ]
+  }, 
+  {
+    "description": "This paper explores a \"case of commons governance grounded in research in modern astronomy. The case, Galaxy Zoo, is a leading example of at least three different contemporary phenomena. ", 
+    "tags": [
+      "CrowdSourcing Tasks and Peer"
+    ], 
+    "url": "http://bit.ly/1ih9Xzm ", 
+    "title": "Madison, Michael J. \u201cCommons at the Intersection of Peer Production, Citizen Science, and Big Data: Galaxy Zoo.\u201d In Convening Cultural Commons, 2013. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-tasks-and-peer"
+    ]
+  }, 
+  {
+    "description": "In this book, Benkler \"describes how patterns of information, knowledge, and cultural production are changing -- and shows that the way information and knowledge are made available can either limit or enlarge the ways people can create and express themselves.\" ", 
+    "tags": [
+      "CrowdSourcing Tasks and Peer"
+    ], 
+    "url": "http://bit.ly/1aaU7Yb", 
+    "title": "Benkler, Yochai. The Wealth of Networks: How Social Production Transforms Markets and Freedom. Yale University Press, 2006. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-tasks-and-peer"
+    ]
+  }, 
+  {
+    "description": "In this report, Brabham categorizes government crowdsourcing cases into a \"four-part, problem-based typology, encouraging government leaders and public administrators to consider these open problem-solving techniques as a way to engage the public and tackle difficult policy and administrative tasks more effectively and efficiently using online communities.", 
+    "tags": [
+      "CrowdSourcing Tasks and Peer"
+    ], 
+    "url": "http://bit.ly/17gzBTA", 
+    "title": "Brabham, Daren C. Using Crowdsourcing in Government. Collaborating Across Boundaries Series. IBM Center for The Business of Government, 2013. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-tasks-and-peer"
+    ]
+  }, 
+  {
+    "description": "In this paper, the authors explore the concept of crowd science, which they define based on two important features: \"participation in a project is open to a wide base of potential contributors, and intermediate inputs such as data or problem solving algorithms are made openly available.\" ", 
+    "tags": [
+      "CrowdSourcing Tasks and Peer"
+    ], 
+    "url": "http://bit.ly/HihFyj", 
+    "title": "Franzoni, Chiara, and Henry Sauermann. \u201cCrowd Science: The Organization of Scientific Research in Open Collaborative Projects.\u201d ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-tasks-and-peer"
+    ]
+  }, 
+  {
+    "description": "In this paper, the authors examine \"[m]icro-task markets, such as Amazon's Mechanical Turk, [which] offer a potential paradigm for engaging a large number of users for low time and monetary costs. [They] investigate the utility of a micro-task market for collecting user measurements, and discuss design considerations for developing remote micro user evaluation tasks.\"", 
+    "tags": [
+      "CrowdSourcing Tasks and Peers"
+    ], 
+    "url": "http://bit.ly/1a3Op48", 
+    "title": "Kittur, Aniket, Ed H. Chi, and Bongwon Suh. \u201cCrowdsourcing User Studies with Mechanical Turk.\u201d In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 453\u2013456. CHI  \u201908. New York, NY, USA: ACM, 2008. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "tasks-and-peers"
+    ]
+  }, 
+  {
+    "description": " This paper explores how the \u201cInternet of Things (IoT) and Internet of Services (IoS), can become building blocks to progress towards a unified urban-scale ICT platform transforming a Smart City into an open innovation platform.\u201d ", 
+    "tags": [
+      "Urban Analytics"
+    ], 
+    "url": " http://bit.ly/HhNbMX ", 
+    "title": "Hern\u00e1ndez-Mu\u00f1oz, Jos\u00e9 M., Jes\u00fas Bernat Vercher, Luis Mu\u00f1oz, Jos\u00e9 A. Galache, Mirko Presser, Luis A. Hern\u00e1ndez G\u00f3mez, and Jan Pettersson. \u201cSmart Cities at the Forefront of the Future Internet.\u201d In The Future Internet, edited by John Domingue, Alex Galis, Anastasius Gavras, Theodore Zahariadis, Dave Lambert, Frances Cleary, Petros Daras, et al., 447\u2013462. Lecture Notes in Computer Science 6656. Springer Berlin Heidelberg, 2011", 
+    "content_type": "document", 
+    "nice-tags": [
+      "urban-analytics"
+    ]
+  }, 
+  {
+    "description": "This paper focuses on \u201chow cities are being instrumented with digital devices and infrastructure that produce \u2018big data\u2019 which enable real-time analysis of city life, new modes of technocratic urban governance, and a re-imagining of cities.\u201d  ", 
+    "tags": [
+      "Urban Analytics"
+    ], 
+    "url": "http://bit.ly/1aamZj2", 
+    "title": "Kitchin, Rob. The Real-Time City? Big Data and Smart Urbanism. SSRN Scholarly Paper. Rochester, NY: Social Science Research Network, July 3, 2013. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "urban-analytics"
+    ]
+  }, 
+  {
+    "description": " This paper \u201cexplores \u2018smart cities\u2019 as environments of open and user-driven innovation for experimenting and validating Future Internet-enabled services.\u201d ", 
+    "tags": [
+      "Urban Analytics"
+    ], 
+    "url": "http://bit.ly/16ytKoT", 
+    "title": "Schaffers, Hans, Nicos Komninos, Marc Pallot, Brigitte Trousse, Michael Nilsson, and Alvaro Oliveira. \u201cSmart Cities and the Future Internet: Towards Cooperation Frameworks for Open Innovation.\u201d In The Future Internet, edited by John Domingue, Alex Galis, Anastasius Gavras, Theodore Zahariadis, Dave Lambert, Frances Cleary, Petros Daras, et al., 431\u2013446. Lecture Notes in Computer Science 6656. Springer Berlin Heidelberg, 2011.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "urban-analytics"
+    ]
+  }, 
+  {
+    "description": " In this book, Townsend illustrates how \u201ccities worldwide are deploying technology to address both the timeless challenges of government and the mounting problems posed by human settlements of previously unimaginable size and complexity.\u201d\n", 
+    "tags": [
+      "Urban Analytics"
+    ], 
+    "url": "http://books.wwnorton.com/books/Smart-Cities/", 
+    "title": "Townsend, Anthony. Smart Cities: Big Data, Civic Hackers, and the Quest for a New Utopia. W. W. Norton & Company, 2013  ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "urban-analytics"
+    ]
+  }, 
+  {
+    "description": " The report details the progress made through the United Kingdom's consumer empowerment strategy, Better Choices: Better Deals. The plan seeks to mitigate knowledge imbalances through information disclosure programs and targeted nudges.  \n", 
+    "tags": [
+      "Smart"
+    ], 
+    "url": "http://bit.ly/17MqnL3", 
+    "title": "Better Choices: Better Deals Report on Progress in the Consumer Empowerment Strategy. Progress Report. Consumer Empowerment Strategy. United Kingdom: Department for Business Innovation & Skills, December 2012.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "smart"
+    ]
+  }, 
+  {
+    "description": ". This book discusses the application of computing to healthcare delivery, public health and community based clinical research.", 
+    "tags": [
+      "Smart Disclosure"
+    ], 
+    "url": "  http://bit.ly/HhMFys", 
+    "title": "Braunstein, Mark L.,. \u201cEmpowering the Patient.\u201d In Health Informatics in the Cloud, 67\u201379. Springer Briefs in Computer Science. Springer New York Heidelberg Dordrecht London, 2013", 
+    "content_type": "document", 
+    "nice-tags": [
+      "smart-disclosure"
+    ]
+  }, 
+  {
+    "description": " This paper from the Research Area of the Bank of Italy's Law and Economics Department \"surveys the literature on product use information and analyzes whether and to what extent Italian regulator is trying to ensure consumers\u2019 awareness as to their use pattern.\" Rather than focusing on the type of information governments can release to citizens, Brodi proposes that governments require private companies to provide valuable use pattern information to citizens to inform decision-making. \n", 
+    "tags": [
+      "Smart Disclosure"
+    ], 
+    "url": "http://bit.ly/17hssEK", 
+    "title": "Brodi, Elisa. \u201cProduct-Attribute Information\u201d and \u201cProduct-Use Information\u201d: Smart Disclosure and New Policy Implications for Consumers\u2019 Protection. SSRN Scholarly Paper. Rochester, NY: Social Science Research Network, September 4, 2012.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "smart-disclosure"
+    ]
+  }, 
+  {
+    "description": "National Science and Technology Council. Smart Disclosure and Consumer Decision Making: 3.  This inter-agency report is a comprehensive description of smart disclosure approaches being used across the Federal Government. The report not only highlights the importance of making data available to consumers but also to innovators to build better options for consumers.", 
+    "tags": [
+      "Smart Disclosure"
+    ], 
+    "url": " http://1.usa.gov/1aamyoT", 
+    "title": "Report of the Task Force on Smart Disclosure. Task Force on Smart Disclosure: Information and Efficiency in Consumer Markets. Washington, DC: United States Government: Executive Office of the President, May 30, 201", 
+    "content_type": "document", 
+    "nice-tags": [
+      "smart-disclosure"
+    ]
+  }, 
+  {
+    "description": " This report from the Markle Connecting for Health Work Group on Consumer Engagement -- the creator of the Blue Button system for downloading personal health records -- features a \"set of privacy and security practices to help people download their electronic health records.", 
+    "tags": [
+      "Smart Disclosure"
+    ], 
+    "url": " http://bit.ly/HhMJyc ", 
+    "title": "\u201cPolicies in Practice: The Download Capability.\u201d Markle Connecting for Health Work Group on Consumer Engagement, August 2010", 
+    "content_type": "document", 
+    "nice-tags": [
+      "smart-disclosure"
+    ]
+  }, 
+  {
+    "description": " In this paper, Cavoukian describes the Personal Data Ecosystem (PDE), an \"emerging landscape of companies and organizations that believe individuals should be in control of their personal data, and make available a growing number of tools and technologies to enable this control.\" She argues that, \"The right to privacy is highly compatible with the notion of PDE because it enables the individual to have a much greater degree of control -- \"Radical Control\" -- over their personal information than is currently possible today.\" ", 
+    "tags": [
+      "Personal Data"
+    ], 
+    "url": "http://bit.ly/18Q5KS2 ", 
+    "title": "Cavoukian, Ann. Personal Data Ecosystem (PDE) - A Privacy by Design Approach to an Individual\u2019s Pursuit of Radical Control. Privacy by Design, October 15, 2013", 
+    "content_type": "document", 
+    "nice-tags": [
+      "personal-data"
+    ]
+  }, 
+  {
+    "description": "This paper examines various factors involved in the governance of personal data online, and argues for a shift from \"current service-oriented applications where often the service provider is in control of the person's data\" to a person centric architecture where the user is at the center of personal data control. ", 
+    "tags": [
+      "Personal Data"
+    ], 
+    "url": "http://bit.ly/1alIGuT", 
+    "title": "Kirkham, T., S. Winfield, S. Ravet, and S. Kellomaki. 2011. \u201cA Personal Data Store for an Internet of Subjects.\u201d In 2011 International Conference on Information Society (i-Society), 92\u201397", 
+    "content_type": "document", 
+    "nice-tags": [
+      "personal-data"
+    ]
+  }, 
+  {
+    "description": "This article explores the implications of the \"astonishing ease\" with which scientists have demonstrated the ability to \"reidentify\" or \"deanonmize\" supposedly anonymous personal information.\n", 
+    "tags": [
+      "Personal Data"
+    ], 
+    "url": " http://bit.ly/18Q5Mta ", 
+    "title": "Ohm, Paul. Broken Promises of Privacy: Responding to the Surprising Failure of Anonymization. UCLA Law Review 57, 1701 (2010).", 
+    "content_type": "document", 
+    "nice-tags": [
+      "personal-data"
+    ]
+  }, 
+  {
+    "description": " In this article, Tene and Polonetsky argue that, The authors argue that, \"The principles of privacy and data protection must be balanced against additional societal values such as public health, national security and law enforcement, environmental protection, and economic efficiency. A coherent framework would be based on a risk matrix, taking into account the value of different uses of data against the potential risks to individual autonomy and privacy.  ", 
+    "tags": [
+      "Personal Data"
+    ], 
+    "url": " http://bit.ly/1aeSbtG", 
+    "title": "Polonetsky, Jules and Omer Tene. \u201cPrivacy in the Age of Big Data: A Time for Big Decisions.\u201d Stanford Law Review Online 64 (February 2, 2012): 63.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "personal-data"
+    ]
+  }, 
+  {
+    "description": " This article argues that the Codes of Fair Information Practice, which have served as a model for data privacy for decades, do not take into account a world of distributed data collection, nor the realities of data mining and easy, almost uncontrolled, dissemination. ", 
+    "tags": [
+      "Personal Data"
+    ], 
+    "url": " http://bit.ly/18gh8SN.", 
+    "title": "Shilton, Katie, Jeff Burke, Deborah Estrin, Ramesh Govindan, Mark Hansen, Jerry Kang, and Min Mun. 2009. \u201cDesigning the Personal Data Stream: Enabling Participatory Privacy in Mobile Personal Sensing\u201d. SSRN Scholarly Paper ID 1999839. Rochester, NY: Social Science Research Network.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "personal-data"
+    ]
+  }, 
+  {
+    "description": "This report is indicative of the \u201cimportant role in promoting respect for privacy as a fundamental value and a condition for the free flow of personal data across borders\u201d played by the OECD for decades. The guidelines \u2013 revised in 2013 for the first time since being drafted in 1980 \u2013 are seen as \u201c[t]he cornerstone of OECD work on privacy.\u201d ", 
+    "tags": [
+      "Personal Data"
+    ], 
+    "url": "http://bit.ly/166TxHy.", 
+    "title": "The 2013 OECD Privacy Guidelines. OECD, 2013.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "personal-data"
+    ]
+  }, 
+  {
+    "description": " This e-book \"provides an introduction to VIVO...a tool for representing information about research and researchers -- their scholarly works, research interests, and organizational relationships.\"  ", 
+    "tags": [
+      "Crowdsourcing Expertise"
+    ], 
+    "url": "http://bit.ly/17huggT", 
+    "title": "B\u00f6rner, Katy, Michael Conlon, Jon Corson-Rikert, and Ying Ding. \u201cVIVO: A Semantic Approach to Scholarly Networking and Discovery.\u201d Synthesis Lectures on the Semantic Web: Theory and Technology 2, no. 1 (October 17, 2012): 1\u2013178.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-expertise"
+    ]
+  }, 
+  {
+    "description": " This paper explores the challenge of selecting experts within the population of social networks by considering the following problem: \"given an expertise need (expressed for instance as a natural language query) and a set of social network members, who are the most knowledgeable people for addressing that need?\" ", 
+    "tags": [
+      "Crowdsourcing Expertise"
+    ], 
+    "url": "http://bit.ly/18QbtY5", 
+    "title": "Bozzon, Alessandro, Marco Brambilla, Stefano Ceri, Matteo Silvestri, and Giuliano Vesci. \u201cChoosing the Right Crowd: Expert Finding in Social Networks.\u201d In Proceedings of the 16th International Conference on Extending Database Technology, 637\u2013648. EDBT  \u201913. New York, NY, USA: ACM, 2013.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-expertise"
+    ]
+  }, 
+  {
+    "description": ". Unlike most of the related literature, this paper focuses on bringing attention to the expertise already being tapped by crowdsourcing efforts rather than determining ways to identify more dormant expertise to improve the results of crowdsourcing.", 
+    "tags": [
+      "Crowdsourcing Expertise"
+    ], 
+    "url": " http://bit.ly/1hdnGJV", 
+    "title": "rabham, Daren C. \u201cThe Myth of Amateur Crowds.\u201d Information, Communication & Society 15, no. 3 (2012): 394\u2013410.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-expertise"
+    ]
+  }, 
+  {
+    "description": " In this paper, a case is made for more structured and well-managed crowdsourcing efforts within government. Specifically, the paper \"explains how collaborative networking can be used to harness the distributed expertise of citizens, as distinguished from citizen consultation, which seeks to engage citizens -- each on an equal footing.", 
+    "tags": [
+      "Crowdsourcing Expertise"
+    ], 
+    "url": "http://bit.ly/HjVOpi", 
+    "title": "Dutton, William H. Networking Distributed Public Expertise: Strategies for Citizen Sourcing Advice to Government. One of a Series of Occasional Papers in Science and Technology Policy, Science and Technology Policy Institute, Institute for Defense Analyses, February 23, 2011", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-expertise"
+    ]
+  }, 
+  {
+    "description": "This law review article introduces the idea of crowdsourcing expertise to mitigate the challenge of patent processing. Noveck argues that, \"access to information is the crux of the patent quality problem. Patent examiners currently make decisions about the grant of a patent that will shape an industry for a twenty-year period on the basis of a limited subset of available information. Examiners may neither consult the public, talk to experts, nor, in many cases, even use the Internet.", 
+    "tags": [
+      "Crowdsourcing Expertise"
+    ], 
+    "url": "http://bit.ly/HegzTT", 
+    "title": "Noveck, Beth Simone. \u201cPeer to Patent\": Collective Intelligence, Open Review, and Patent Reform.\u201d Harvard Journal of Law & Technology 20, no. 1 (Fall 2006): 123\u2013162", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-expertise"
+    ]
+  }, 
+  {
+    "description": "In this paper, Ober argues that, \"A satisfactory model of decision-making in an epistemic democracy must respect democratic values, while advancing citizens' interests, by taking account of relevant knowledge about the world.\"  ", 
+    "tags": [
+      "Crowdsourcing Expertise"
+    ], 
+    "url": "http://bit.ly/1cgf857", 
+    "title": "Ober, Josiah. \u201cDemocracy\u2019s Wisdom: An Aristotelian Middle Way for Collective Judgment.\u201d American Political Science Review 107, no. 01 (2013)", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-expertise"
+    ]
+  }, 
+  {
+    "description": " In this article, Baraniuk discusses civic hackers,\"an army of volunteer coders who are challenging preconceptions about hacking and changing the way your government operates. In a time of plummeting budgets and efficiency drives, those in power have realised they needn't always rely on slow-moving, expensive outsourcing and development to improve public services. Instead, they can consider running a hackathon, at which tech-savvy members of the public come together to create apps and other digital tools that promise to enhance the provision of healthcare, schools or policing.\" ", 
+    "tags": [
+      "CrowdSourcing Data"
+    ], 
+    "url": "http://bit.ly/167ul3J", 
+    "title": "Baraniuk, Chris. \u201cPower Politechs.\u201d New Scientist 218, no. 2923 (June 29, 2013): 36\u201339. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-data"
+    ]
+  }, 
+  {
+    "description": " In this paper, researchers from Intel Labs offer \"guiding principles to support the efforts of local civic hackathon organizers and participants as they seek to design actionable challenges and build useful solutions that will positively benefit their communities.\" \n", 
+    "tags": [
+      "CrowdSourcing Data"
+    ], 
+    "url": "http://bit.ly/1gK07KP ", 
+    "title": "Barnett, Brandon, Muki Hansteen Izora, and Jose Sia. \u201cCivic Hackathon Challenges Design Principles: Making Data Relevant and Useful for Individuals and Communities.\u201d Hack for Change, n.d.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-data"
+    ]
+  }, 
+  {
+    "description": "This article examines the capability of Amazon's Mechanical Turk to act a source of data for researchers, in addition to its traditional role as a microtasking platform.  ", 
+    "tags": [
+      "CrowdSourcing Data"
+    ], 
+    "url": "http://bit.ly/H56lER ", 
+    "title": "Buhrmester, Michael, Tracy Kwang, and Samuel D. Gosling. 2011. \u201cAmazon\u2019s Mechanical Turk A New Source of Inexpensive, Yet High-Quality, Data?\u201d Perspectives on Psychological Science 6 (1) (January 1): 3\u20135. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-data"
+    ]
+  }, 
+  {
+    "description": "This article examines issues of data quality in the face of the new phenomenon of geographic information being generated by citizens, in order to examine whether this data can play a role in emergency management.", 
+    "tags": [
+      "CrowdSourcing Data"
+    ], 
+    "url": "http://bit.ly/17MBFPs", 
+    "title": "Goodchild, Michael F., and J. Alan Glennon. 2010. \u201cCrowdsourcing Geographic Information for Disaster Response: a Research Frontier.\u201d", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-data"
+    ]
+  }, 
+  {
+    "description": "  This article describes the way in which \"we are harnessing the power of web 2.0 technologies to create new approaches to collecting, mapping, and sharing geocoded data.\" ", 
+    "tags": [
+      "CrowdSourcing Data"
+    ], 
+    "url": "http://bit.ly/1c1eFQb ", 
+    "title": "Hudson-Smith, Andrew, Michael Batty, Andrew Crooks, and Richard Milton. 2009. \u201cMapping for the Masses Accessing Web 2.0 Through Crowdsourcing.\u201d Social Science Computer Review 27 (4) (November 1): 524\u2013538.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-data"
+    ]
+  }, 
+  {
+    "description": " This paper provides a comprehensive overview of participatory sensing \u2013 a \u201cnew paradigm for monitoring the urban landscape\u201d in which \"ordinary citizens can collect multi-modal data streams from the surrounding environment using their mobile devices and share the same using existing communications infrastructure.", 
+    "tags": [
+      "CrowdSourcing Data"
+    ], 
+    "url": "http://bit.ly/19Btvg5", 
+    "title": "Kanhere, Salil S. 2013. \u201cParticipatory Sensing: Crowdsourcing Data from Mobile Smartphones in Urban Spaces.\u201d In Distributed Computing and Internet Technology, edited by Chittaranjan Hota and Pradip K. Srimani, 19\u201326. Lecture Notes in Computer Science 7753. Springer Berlin Heidelberg.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-data"
+    ]
+  }, 
+  {
+    "description": "This paper explores the tumultuous history of Iceland\u2019s \u201cCrowdsourced Constitution.\u201d The since-abandoned document was built upon three principles: distribution of power, transparency and responsibility.", 
+    "tags": [
+      "Crowdsourcing Opinions and Ideas"
+    ], 
+    "url": " http://bit.ly/1aaTVYP ", 
+    "title": "Silvertown, Jonathan. \u201cA New Dawn for Citizen Science.\u201d Trends in Ecology & Evolution 24, no. 9 (September 2009): 467\u2013471", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-opsidea"
+    ]
+  }, 
+  {
+    "description": " In this paper -- an introduction to a special issue on the topic -- Gassmann, Enkel and Chesbrough discuss the evolving trends in open innovation. They define the concept, referencing previous work by Chesbrough et al., as \"...the purposive inflows and outflows of knowledge to accelerate internal innovation, and expand the markets for external use of innovation, respectively.\"\n", 
+    "tags": [
+      "Crowdsourcing Opinions and Ideas"
+    ], 
+    "url": "http://bit.ly/1bk4YeN ", 
+    "title": "Gassmann, Oliver, Ellen Enkel, and Henry Chesbrough. \u201cThe Future of Open Innovation.\u201d R&D Management 40, no. 3 (2010): 213\u2013221", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-opsidea"
+    ]
+  }, 
+  {
+    "description": "This OECD policy report features discussion on the concept of crowdsourcing as a new form or representation and public participation in OECD countries, with the understanding that it creates avenues for citizens to participate in public policy-making within the overall framework of representative democracy. ", 
+    "tags": [
+      "Crowdsourcing Opinions and Ideas"
+    ], 
+    "url": "http://bit.ly/1aIGquc. ", 
+    "title": "\u201cCitizens as Partners: Information, Consultation and Public Participation in Policy-making.\u201d  The IT Law Wiki. Accessed October 18, 2013", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-opsidea"
+    ]
+  }, 
+  {
+    "description": " In this dissertation, Gilman argues that participatory budgeting (PB) produces better outcomes than the status quo budget process in New York, while also transforming how those who participate understand themselves as citizens, constituents, Council members, civil society leaders and community stakeholders. \n", 
+    "tags": [
+      "Crowdsourcing Opinions and Ideas"
+    ], 
+    "url": "http://hvrd.me/HklqT0. ", 
+    "title": "Gilman, Hollie Russon. \u201cThe Participatory Turn: Participatory Budgeting Comes to America.\u201d Harvard University, 2012", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-opsidea"
+    ]
+  }, 
+  {
+    "description": "This research and evaluation report is the result of surveys, in-depth interviews and observations collected at key points during the 2011 participatory budgeting (PB) process in New York City, in which \"[o]ver 2,000 community members were the ones to propose capital project ideas in neighborhood assemblies and town hall meetings.\n", 
+    "tags": [
+      "Crowdsourcing Opinions and Ideas"
+    ], 
+    "url": "http://bit.ly/17MTGNE ", 
+    "title": "Kasdan, Alexa, and Cattell, Lindsay. \u201cNew Report on NYC Participatory Budgeting.\u201d Practical Visionaries. Accessed October 21, 2013", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowd-opsidea"
+    ]
+  }, 
+  {
+    "description": " In this paper, the authors take stock of Linked Data's challenges, potential and successes close to a decade after its introduction.", 
+    "tags": [], 
+    "url": "http://bit.ly/HedpPO", 
+    "title": "Bizer, Christian, Tom Heath, and Tim Berners-Lee. \u201cLinked Data - The Story So Far.\u201d International Journal on Semantic Web and Information Systems (IJSWIS) 5, no. 3 (2009): 1\u201322.", 
+    "content_type": "document", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "This paper presents a proposed data architecture for \"supporting participatory decision-making based on the integration and analysis of social and government data.\"", 
+    "tags": [
+      "Linked Data"
+    ], 
+    "url": "http://bit.ly/17hsj4a", 
+    "title": "Kalampokis, Evangelos, Michael Hausenblas, and Konstantinos Tarabanis. \u201cCombining Social and Government Open Data for Participatory Decision-Making.\u201d In Electronic Participation, edited by Efthimios Tambouris, Ann Macintosh, and Hans de Bruijn, 36\u201347. Lecture Notes in Computer Science 6847. Springer Berlin Heidelberg, 2011. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "linked-data"
+    ]
+  }, 
+  {
+    "description": "Following an EU directive calling for the release of public sector information by member states, this study examines the \"uniqueness\" of creating and publishing primary legal source documents on the web and highlights \"the most recent technological strategy used to structure, link and publish data online (the Semantic Web).\" ", 
+    "tags": [
+      "Linked Data"
+    ], 
+    "url": "http://bit.ly/17fMiOp ", 
+    "title": "Rady, Kaiser. Publishing the Public Sector Legal Information in the Era of the Semantic Web. SSRN Scholarly Paper. Rochester, NY: Social Science Research Network, 2012. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "linked-data"
+    ]
+  }, 
+  {
+    "description": "This report from the Australia and New Zealand School of Government (ANZSOG) explores the concept of government as a social machine.", 
+    "tags": [
+      "Linked Data"
+    ], 
+    "url": "http://bit.ly/HhMzqD", 
+    "title": "Vitale, Michael, Anni Rowland-Campbell, Valentina Cardo, and Peter Thompson. \u201cThe Implications of Government as a \u2018Social Machine\u2019 for Making and Implementing Market-based Policy.\u201d Intersticia, September 2013. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "linked-data"
+    ]
+  }, 
+  {
+    "description": "This paper examines the components and strategies involved in the creation of smart cities featuring \u201ccohesive and open telecommunication and software architecture.\u201d  ", 
+    "tags": [
+      "Urban Analytics"
+    ], 
+    "url": "http://bit.ly/17MqPZW", 
+    "title": "Budde, Paul. \u201cSmart Cities of Tomorrow.\u201d In Cities for Smart Environmental and Energy Futures, edited by Stamatina Th. Rassia and Panos M. Pardalos, 9\u201320. Energy Systems. Springer Berlin Heidelberg, 2014.  ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "urban-analytics"
+    ]
+  }, 
+  {
+    "description": "In The Future Internet, edited by John Domingue, Alex Galis, Anastasius Gavras, Theodore Zahariadis, Dave Lambert, Frances Cleary, Petros Daras, et al., 447\u2013462. Lecture Notes in Computer Science 6656. Springer Berlin Heidelberg, 2011. This paper explores how the \u201cInternet of Things (IoT) and Internet of Services (IoS), can become building blocks to progress towards a unified urban-scale ICT platform transforming a Smart City into an open innovation platform.\u201d  ", 
+    "tags": [
+      "Urban Analytics"
+    ], 
+    "url": "http://bit.ly/HhNbMX ", 
+    "title": "Hern\u00e1ndez-Mu\u00f1oz, Jos\u00e9 M., Jes\u00fas Bernat Vercher, Luis Mu\u00f1oz, Jos\u00e9 A. Galache, Mirko Presser, Luis A. Hern\u00e1ndez G\u00f3mez, and Jan Pettersson. \u201cSmart Cities at the Forefront of the Future Internet.\u201d ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "urban-analytics"
+    ]
+  }, 
+  {
+    "description": "In this book, Townsend illustrates how \u201ccities worldwide are deploying technology to address both the timeless challenges of government and the mounting problems posed by human settlements of previously unimaginable size and complexity.\u201d", 
+    "tags": [
+      "Urban Analytics"
+    ], 
+    "url": "http://www.anthonymobile.com", 
+    "title": "Townsend, Anthony. Smart Cities: Big Data, Civic Hackers, and the Quest for a New Utopia. W. W. Norton & Company, 2013. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "urban-analytics"
+    ]
+  }, 
+  {
+    "description": "This paper focuses on \u201chow cities are being instrumented with digital devices and infrastructure that produce \u2018big data\u2019 which enable real-time analysis of city life, new modes of technocratic urban governance, and a re-imagining of cities.\u201d  ", 
+    "tags": [
+      "Urban Analytics"
+    ], 
+    "url": "http://bit.ly/1aamZj2  ", 
+    "title": "Kitchin, Rob. The Real-Time City? Big Data and Smart Urbanism. SSRN Scholarly Paper. Rochester, NY: Social Science Research Network, July 3, 2013.  ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "urban-analytics"
+    ]
+  }, 
+  {
+    "description": " In The Future Internet, edited by John Domingue, Alex Galis, Anastasius Gavras, Theodore Zahariadis, Dave Lambert, Frances Cleary, Petros Daras, et al., 431\u2013446. Lecture Notes in Computer Science 6656. Springer Berlin Heidelberg, 2011. This paper \u201cexplores \u2018smart cities\u2019 as environments of open and user-driven innovation for experimenting and validating Future Internet-enabled services.\u201d", 
+    "tags": [
+      "Urban Analytics"
+    ], 
+    "url": "http://bit.ly/16ytKoT ", 
+    "title": "Schaffers, Hans, Nicos Komninos, Marc Pallot, Brigitte Trousse, Michael Nilsson, and Alvaro Oliveira. \u201cSmart Cities and the Future Internet: Towards Cooperation Frameworks for Open Innovation.\u201d ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "urban-analytics"
+    ]
+  }, 
+  {
+    "description": "The report details the progress made through the United Kingdom's consumer empowerment strategy, Better Choices: Better Deals. The plan seeks to mitigate knowledge imbalances through information disclosure programs and targeted nudges.  ", 
+    "tags": [
+      "Smart Disclosure"
+    ], 
+    "url": "http://bit.ly/17MqnL3", 
+    "title": "Better Choices: Better Deals Report on Progress in the Consumer Empowerment Strategy. Progress Report. Consumer Empowerment Strategy. United Kingdom: Department for Business Innovation & Skills, December 2012. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "smart-disclosure"
+    ]
+  }, 
+  {
+    "description": "Software Developer at P2PU", 
+    "tags": [], 
+    "url": "http://twitter.com/@ercchy", 
+    "title": "Erika Pogorelc", 
+    "content_type": "expert", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "This book discusses the application of computing to healthcare delivery, public health and community based clinical research. ", 
+    "tags": [
+      "Smart Disclosure"
+    ], 
+    "url": "http://bit.ly/HhMFys", 
+    "title": "Braunstein, Mark L.,. \u201cEmpowering the Patient.\u201d In Health Informatics in the Cloud, 67\u201379. Springer Briefs in Computer Science. Springer New York Heidelberg Dordrecht London, 2013. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "smart-disclosure"
+    ]
+  }, 
+  {
+    "description": "This paper from the Research Area of the Bank of Italy's Law and Economics Department \"surveys the literature on product use information and analyzes whether and to what extent Italian regulator is trying to ensure consumers\u2019 awareness as to their use pattern.\" Rather than focusing on the type of information governments can release to citizens, Brodi proposes that governments require private companies to provide valuable use pattern information to citizens to inform decision-making.", 
+    "tags": [
+      "Smart Disclosure"
+    ], 
+    "url": "http://bit.ly/17hssEK ", 
+    "title": "Brodi, Elisa. \u201cProduct-Attribute Information\u201d and \u201cProduct-Use Information\u201d: Smart Disclosure and New Policy Implications for Consumers\u2019 Protection. SSRN Scholarly Paper. Rochester, NY: Social Science Research Network, September 4, 2012.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "smart-disclosure"
+    ]
+  }, 
+  {
+    "description": "This inter-agency report is a comprehensive description of smart disclosure approaches being used across the Federal Government. The report not only highlights the importance of making data available to consumers but also to innovators to build better options for consumers. ", 
+    "tags": [
+      "Smart Disclosure"
+    ], 
+    "url": "http://1.usa.gov/1aamyoT ", 
+    "title": "National Science and Technology Council. Smart Disclosure and Consumer Decision Making: Report of the Task Force on Smart Disclosure. Task Force on Smart Disclosure: Information and Efficiency in Consumer Markets. Washington, DC: United States Government: Executive Office of the President, May 30, 2013.  ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "smart-disclosure"
+    ]
+  }, 
+  {
+    "description": "This report from the Markle Connecting for Health Work Group on Consumer Engagement -- the creator of the Blue Button system for downloading personal health records -- features a \"set of privacy and security practices to help people download their electronic health records.", 
+    "tags": [
+      "Smart Disclosure"
+    ], 
+    "url": "http://bit.ly/HhMJyc ", 
+    "title": "\u201cPolicies in Practice: The Download Capability.\u201d Markle Connecting for Health Work Group on Consumer Engagement, August 2010. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "smart-disclosure"
+    ]
+  }, 
+  {
+    "description": "In this book, Benkler \"describes how patterns of information, knowledge, and cultural production are changing -- and shows that the way information and knowledge are made available can either limit or enlarge the ways people can create and express themselves.\"", 
+    "tags": [
+      "Crowdsourcing Tasks and Peer Production"
+    ], 
+    "url": " http://bit.ly/1aaU7Yb", 
+    "title": "Benkler, Yochai. The Wealth of Networks: How Social Production Transforms Markets and Freedom. Yale University Press, 2006.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowdsourcing-tasks-and-peer-production"
+    ]
+  }, 
+  {
+    "description": "In this report, Brabham categorizes government crowdsourcing cases into a \"four-part, problem-based typology, encouraging government leaders and public administrators to consider these open problem-solving techniques as a way to engage the public and tackle difficult policy and administrative tasks more effectively and efficiently using online communities.\"", 
+    "tags": [
+      "Crowdsourcing Tasks and Peer Production"
+    ], 
+    "url": "http://bit.ly/17gzBTA", 
+    "title": "Brabham, Daren C. Using Crowdsourcing in Government. Collaborating Across Boundaries Series. IBM Center for The Business of Government, 2013. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowdsourcing-tasks-and-peer-production"
+    ]
+  }, 
+  {
+    "description": "In this paper, the authors examine \"[m]icro-task markets, such as Amazon's Mechanical Turk, [which] offer a potential paradigm for engaging a large number of users for low time and monetary costs. [They] investigate the utility of a micro-task market for collecting user measurements, and discuss design considerations for developing remote micro user evaluation tasks.\"", 
+    "tags": [
+      "Crowdsourcing Tasks and Peer Production"
+    ], 
+    "url": "http://bit.ly/1a3Op48", 
+    "title": "Kittur, Aniket, Ed H. Chi, and Bongwon Suh. \u201cCrowdsourcing User Studies with Mechanical Turk.\u201d In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 453\u2013456. CHI  \u201908. New York, NY, USA: ACM, 2008.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowdsourcing-tasks-and-peer-production"
+    ]
+  }, 
+  {
+    "description": " In this paper, the authors discuss paid crowd work, which \"offers remarkable opportunities for improving productivity, social mobility, and the global economy by engaging a geographically distributed workforce to complete complex tasks on demand and at scale.\"", 
+    "tags": [
+      "Crowdsourcing Tasks and Peer Production"
+    ], 
+    "url": " http://bit.ly/1c1GJD3 ", 
+    "title": "Kittur, Aniket, Jeffrey V. Nickerson, Michael S. Bernstein, Elizabeth M. Gerber, Aaron Shaw, John Zimmerman, Matthew Lease, and John J. Horton. \u201cThe Future of Crowd Work.\u201d", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowdsourcing-tasks-and-peer-production"
+    ]
+  }, 
+  {
+    "description": "This paper explores a \"case of commons governance grounded in research in modern astronomy. The case, Galaxy Zoo, is a leading example of at least three different contemporary phenomena. ", 
+    "tags": [
+      "Crowdsourcing Tasks and Peer Production"
+    ], 
+    "url": "http://bit.ly/1ih9Xzm ", 
+    "title": "Madison, Michael J. \u201cCommons at the Intersection of Peer Production, Citizen Science, and Big Data: Galaxy Zoo.\u201d In Convening Cultural Commons, 2013. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowdsourcing-tasks-and-peer-production"
+    ]
+  }, 
+  {
+    "description": "This article analyzes the impact of crowdfunding on journalism, where \"readers' donations accumulate into judgments about the issues that need to be covered.\"", 
+    "tags": [
+      "Crowdsourcing Funds"
+    ], 
+    "url": "http://bit.ly/1bk4wNI ", 
+    "title": "Aitamurto, Tanja. \u201cThe Impact of Crowdfunding on Journalism.\u201d Journalism Practice 5, no. 4 (2011): 429\u2013445.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowdsourcing-funds"
+    ]
+  }, 
+  {
+    "description": "\u2022\tBaeck and Collins consider public and social projects to be one of the areas where crowdfunding can have a significant impact. They argue that civic crowdfunding \"has the potential to disrupt how money for charitable causes is sourced and how public services and spaces are used and paid for.\"", 
+    "tags": [
+      "Crowdsourcing Funds"
+    ], 
+    "url": "http://bit.ly/Hkl3rx ", 
+    "title": "Baeck, Peter, and Liam Collins. Working the Crowd: A Short Guide to Crowdfunding and How It Can Work for You. Nesta, May 2013. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowdsourcing-funds"
+    ]
+  }, 
+  {
+    "description": "This paper outlines the forces driving the widespread use of crowdfund investing, namely social media, the existence of funding systems that marginalize people outside of major urban centers and the ability of people to function remotely from their work spaces.", 
+    "tags": [
+      "Crowdsourcing Funds"
+    ], 
+    "url": "http://bit.ly/1aaTGwQ ", 
+    "title": "Best, Jason, Neiss, Sherwood, and Jones, Davis. \u201cHow Crowdfund Investing Helps Solve Three Pressing Socioeconomic Challenges.\u201d Crowdfunding PR, Social Media & Marketing Campaigns. Accessed October 21, 2013. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowdsourcing-funds"
+    ]
+  }, 
+  {
+    "description": "This paper seeks to provide a \"concise overview of the state of crowdfunding in Europe, with the aim of establishing policy and a distinct framework for the European crowdfunding industry,\" which the authors believe \"will aid in the economic recovery of Europe.\"", 
+    "tags": [
+      "Crowdsourcing Funds"
+    ], 
+    "url": "http://bit.ly/1aaTFsE ", 
+    "title": "De Buysere, Kristof, Oliver Gajda, Ronald Kleverlaan, Dan Marom, and Matthias Klaes. A Framework for European Crowdfunding, 2012.", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowdsourcing-funds"
+    ]
+  }, 
+  {
+    "description": "In this paper, Hollow explores the rise of crowdfunding platforms (CFPs), particularly related to civil society. He notes that, \"[f]or civil society activists and others concerned with local welfare issues, the emergence of these new CFPs has been hugely significant: It has opened up a new source of funding when governments and businesses around the world are cutting back on their spending.\"", 
+    "tags": [
+      "Crowdsourcing Funds"
+    ], 
+    "url": "http://bit.ly/1cgzefL ", 
+    "title": "Hollow, Matthew. \u201cCrowdfunding and Civic Society in Europe: A Profitable Partnership?\u201d Open Citizenship 4, no. 1 (May 20, 2013).", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowdsourcing-funds"
+    ]
+  }, 
+  {
+    "description": "This paper \"offers a description of the underlying dynamics of success and failure among crowdfunded ventures,\" focusing on how personal networks and the project quality and viability have an impact on the success of crowdfunding efforts.", 
+    "tags": [
+      "Crowdsourcing Funds"
+    ], 
+    "url": "http://bit.ly/1aaTJIV ", 
+    "title": "Mollick, Ethan R. \u201cThe Dynamics of Crowdfunding: An Exploratory Study.\u201d Journal of Business Venturing (June 26, 2013). ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowdsourcing-funds"
+    ]
+  }, 
+  {
+    "description": "This paper discusses the Jumpstart Our Business Startups (JOBS) Act signed into law by President Obama in 2012, with a specific focus on the CROWDFUND Act, which enables entrepreneurs and small business owners to sell limited equity in their companies to a \"crowd\" of investors.", 
+    "tags": [
+      "Crowdsourcing Funds"
+    ], 
+    "url": "http://bit.ly/1ih9lts ", 
+    "title": "Stemler, Abbey R. \u201cThe JOBS Act and Crowdfunding: Harnessing the Power\u2014and Money\u2014of the Masses.\u201d Business Horizons 56, no. 3 (May 2013): 271\u2013275. ", 
+    "content_type": "document", 
+    "nice-tags": [
+      "crowdsourcing-funds"
+    ]
+  }, 
+  {
+    "description": null, 
+    "tags": [], 
+    "url": " http://www.thegovlabacademy.org/wp-content/uploads/2013/10/govlab-academy-readings-crowds-2013Oct.pdf", 
+    "title": "Complete Reading List - Solving Public Problems With Crowdsourcing", 
+    "content_type": "document", 
+    "nice-tags": []
+  }, 
+  {
+    "description": null, 
+    "tags": [], 
+    "url": "http://www.thegovlabacademy.org/wp-content/uploads/2013/10/govlab-academy-readings-data-2013Oct.pdf", 
+    "title": "Complete Reading List - Data and Its Uses For Governance", 
+    "content_type": "document", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "Learn more about IWA and their work on community-based monitoring, court trial monitoring, and extractive industries monitoring. ", 
+    "tags": [], 
+    "url": "http://www.iwaweb.org/", 
+    "title": "About Integrity Watch Afghanistan", 
+    "content_type": "document", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "Bald. Unreliable. Easily distracte New York City \u00b7 Shirky.com/weblog/", 
+    "tags": [
+      "Big Data"
+    ], 
+    "url": "http://twitter.com/@cshirky", 
+    "title": "Clay Shirky", 
+    "content_type": "expert", 
+    "nice-tags": [
+      "big-data"
+    ]
+  }, 
+  {
+    "description": "Father of two, Associate Professor at MIT Media Lab, Chief Media Scientist of Twitter, admirer of words.", 
+    "tags": [
+      "Big Data"
+    ], 
+    "url": "http://twitter.com/@dkroy", 
+    "title": "Deb Roy", 
+    "content_type": "expert", 
+    "nice-tags": [
+      "big-data"
+    ]
+  }, 
+  {
+    "description": "Software researcher developer with an interested in distributed and intimate data. Washington, DC", 
+    "tags": [
+      "Big Data"
+    ], 
+    "url": "http://twitter.com/@GregElin", 
+    "title": "Greg Elin", 
+    "content_type": "expert", 
+    "nice-tags": [
+      "big-data"
+    ]
+  }, 
+  {
+    "description": "Data Scientist in Residence at @accel. I \u2665 data and cheeseburgers and @bitly. NYC \u00b7 hilarymason.com", 
+    "tags": [
+      "Big Data"
+    ], 
+    "url": "http://twitter.com/hmason", 
+    "title": "Hilary Mason", 
+    "content_type": "expert", 
+    "nice-tags": [
+      "big-data"
+    ]
+  }, 
+  {
+    "description": "Founder @TheGovLab, Visiting Prof @NYUWagner @MediaLab and Law Prof @NYLawSchool. Founder White House @Opengov Initiative. Author, Wiki Government. New York, NY \u00b7 thegovlab.org", 
+    "tags": [
+      "Open Data"
+    ], 
+    "url": "http://twitter.com/bethnoveck", 
+    "title": "Beth Simone Noveck", 
+    "content_type": "expert", 
+    "nice-tags": [
+      "open-data"
+    ]
+  }, 
+  {
+    "description": "engineering, innovation, people&technology, manufacturing, complex problems, R&D, open startups, pragmatism, internet of things, games, sustainability of everything/&more Cambridge, UK, mostly ", 
+    "tags": [
+      "Open Data"
+    ], 
+    "url": "http://twitter.com/LaurieJ", 
+    "title": "Laura James", 
+    "content_type": "expert", 
+    "nice-tags": [
+      "open-data"
+    ]
+  }, 
+  {
+    "description": "Mec\u00e1nico de Gobierno. Director de @gcbaDATA y bicivolador. Sentido ar\u00e1cnido. #LABgcba Ciudad de Buenos Aires \u00b7 donrudi.tumblr.com", 
+    "tags": [
+      "Open Data"
+    ], 
+    "url": "http://twitter.com/donrudi", 
+    "title": "Rudi Borrmann", 
+    "content_type": "expert", 
+    "nice-tags": [
+      "open-data"
+    ]
+  }, 
+  {
+    "description": "Founder and Exec Dir of @DataKind || Lover of tech for beautiful purposes || Host of @NatGeo's The Numbers Game || Data nerd || Endlessly enthusiastic\nBrooklyn, NY \u00b7 jakeporway.tumblr.com", 
+    "tags": [
+      "Open Data"
+    ], 
+    "url": "http://twitter.com/jakeporway", 
+    "title": "Jake Porway", 
+    "content_type": "expert", 
+    "nice-tags": [
+      "open-data"
+    ]
+  }, 
+  {
+    "description": "Director of the World Wide Web Consortium (W3C) w3.org, the place to agree on web standards. Founded webfoundation.org - let the web serve humanity Boston \u00b7 http://www.w3.org/People/Berners-Lee/", 
+    "tags": [
+      "Open Data"
+    ], 
+    "url": "http://twitter.com/timberners_lee", 
+    "title": "Tim Berners-Lee", 
+    "content_type": "expert", 
+    "nice-tags": [
+      "open-data"
+    ]
+  }, 
+  {
+    "description": "AI Prof, Web Scientist, Semantic Web Technologist, Linked and Open Data Evangelist - users.ecs.soton.ac.uk/nrs/", 
+    "tags": [
+      "Open Data"
+    ], 
+    "url": "http://twitter.com/Nigel_Shadbolt", 
+    "title": "Nigel Shadbolt", 
+    "content_type": "expert", 
+    "nice-tags": [
+      "open-data"
+    ]
+  }, 
+  {
+    "description": "Founder of @OKFN, working on #OpenData, #OpenContent and #OpenKnowledge. rufuspollock.org", 
+    "tags": [
+      "Open Data"
+    ], 
+    "url": "http://twitter.com/rufuspollock", 
+    "title": "Rufus Pollock", 
+    "content_type": "expert", 
+    "nice-tags": [
+      "open-data"
+    ]
+  }, 
+  {
+    "description": null, 
+    "tags": [
+      "Big Data"
+    ], 
+    "url": null, 
+    "title": "Steve Koonin", 
+    "content_type": "expert", 
+    "nice-tags": [
+      "big-data"
+    ]
+  }, 
+  {
+    "description": null, 
+    "tags": [
+      "Big Data"
+    ], 
+    "url": null, 
+    "title": "Sandy Pentland", 
+    "content_type": "expert", 
+    "nice-tags": [
+      "big-data"
+    ]
+  }, 
+  {
+    "description": null, 
+    "tags": [
+      "Big Data"
+    ], 
+    "url": null, 
+    "title": "Jeanne Holm", 
+    "content_type": "expert", 
+    "nice-tags": [
+      "big-data"
+    ]
+  }, 
+  {
+    "description": "Technology Evangelist: OCLC -Founder: http://DataLiberate.com \nEvesham, UK \u00b7 dataliberate.com/richardwallis/\n", 
+    "tags": [
+      "Linked Data"
+    ], 
+    "url": "http://twitter.com/rjw", 
+    "title": "Richard Wallis", 
+    "content_type": "expert", 
+    "nice-tags": [
+      "linked-data"
+    ]
+  }, 
+  {
+    "description": "Jer Thorp is a software artist, writer, and educator living in Brooklyn. He is a co-founder of The Office for Creative Research & adjunct professor at ITP.\nBrooklyn, NY \u00b7 about.me/jerthorp", 
+    "tags": [], 
+    "url": "http://twitter.com/blprnt", 
+    "title": "Jer Thorp", 
+    "content_type": "expert", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "Author of SMART CITIES - get more info and order at http://www.smartcitiesbook.com \nNew York \u00b7 anthonymobile.com\n", 
+    "tags": [], 
+    "url": "http://twitter.com/anthonymobile", 
+    "title": "Anthony Townsend ", 
+    "content_type": "expert", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "U.S. Treasury Department Director of Smart Disclosure. Opinions=mine. Tweets about data, consumers, smart disclosure, retail financial services. @USTreasury", 
+    "tags": [], 
+    "url": "http://twitter.com/raseman", 
+    "title": "Sophie Raseman", 
+    "content_type": "expert", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "Professor of Behavioral Science and Economics, Booth School of Business, University of Chicago,\n co-author of Nudge (2008)\n", 
+    "tags": [], 
+    "url": "http://twitter.com/R_Thaler", 
+    "title": "Richard Thaler", 
+    "content_type": "expert", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "Co-Founder @datacoup | Co-organizer #PDNYC | Former Wall St | Personal data belongs in the hands of those who created it.\n ", 
+    "tags": [], 
+    "url": "http://twitter.com/Matthewphogan", 
+    "title": "Matt Hogan ", 
+    "content_type": "expert", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "Law professor at George Washington University Law School, expert in information privacy law, founder of TeachPrivacy, a privacy and security training company\n", 
+    "tags": [], 
+    "url": "http://twitter.com/@danielsolove", 
+    "title": "Daniel Solove ", 
+    "content_type": "expert", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "I am an independent researcher and consultant focused on privacy, security, and behavioral economics. DC \u00b7 ashkansoltani.org", 
+    "tags": [], 
+    "url": "http://twitter.com/ashk4n", 
+    "title": "Ashkan Soltani", 
+    "content_type": "expert", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "I'm a father, crowd-wisdom researcher, author and speaker.  I write in English and Hebrew. If you don't get it then it's in Hebrew :)Israel \u00b7 liorz.co.il/blog\n", 
+    "tags": [], 
+    "url": "http://twitter.com/liorz", 
+    "title": "Lior Soref", 
+    "content_type": "expert", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "Living in the People's Republic of Cambridge. Student and teacher at the West Point of Capitalism. Trying to grok the hive mind. Expert social janitor. Cambridge, MA \u00b7 about.me/karimlakhani", 
+    "tags": [], 
+    "url": "http://twitter.com/klakhani", 
+    "title": "Karim Lakhani", 
+    "content_type": "expert", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "urban designer / activist, interested in simple tools for collaborative, generative cities. director of urban environment @PublicLab, co-founder @TreeKIT\nNYC \u00b7 lizbarry.com\n", 
+    "tags": [], 
+    "url": "http://twitter.com/lizbarry", 
+    "title": "Liz Barry ", 
+    "content_type": "expert", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "I develop Next Generation Humanitarian Technologies @RockefellerFdn, @PopTech, @NatGeo Fellow, @TEDx Speaker @FletcherSchool PhD - @Stanford PreDoc", 
+    "tags": [], 
+    "url": "http://twitter.com/patrickmeier", 
+    "title": "Patrick Meier ", 
+    "content_type": "expert", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "CEO Poliwogg. Crowd Financing for health companies, community enterprises and high yield assets for income. The Best is Yet to Fund. (tm)", 
+    "tags": [], 
+    "url": "http://twitter.com/simonation", 
+    "title": "Gregory Simon", 
+    "content_type": "expert", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "Passionate about Christ, @KaraRaynor, entrepreneurship, and using tech to solve real problems. Co-founder of @Citizinvestor.\n", 
+    "tags": [], 
+    "url": "http://twitter.com/jordanraynor", 
+    "title": "Jordan Raynor ", 
+    "content_type": "expert", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "Bald. Unreliable. Easily distracted. New York City \u00b7 Shirky.com/weblog/", 
+    "tags": [], 
+    "url": "http://twitter.com/cshirky", 
+    "title": "Clay Shirky", 
+    "content_type": "expert", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "PhD Participatory Budgeting @Harvard @Harvard Ash, Former White House OpenGov + Innovation Advisor Zumba + Matcha pundit\nscholar.harvard.edu/hrgilman\n", 
+    "tags": [], 
+    "url": "http://twitter.com/hrgilman", 
+    "title": "Hollie Gilman ", 
+    "content_type": "expert", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "Citizen. Scientist. Citizen scientist. Coordinator of the Citizen Cyberscience Centre @CyberSciCentre\nBeijing - Geneva - New York \u00b7 billionbrainblog.com", 
+    "tags": [], 
+    "url": "http://twitter.com/francoisgrey", 
+    "title": "Francois Grey ", 
+    "content_type": "expert", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "Palo Alto, CA \u00b7 melanieswan.com", 
+    "tags": [], 
+    "url": "http://twitter.com/@MelanieSwan", 
+    "title": "Melanie Swan", 
+    "content_type": "expert", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "Watch this video by Alex 'Sandy' Pentland,\u00a0a pioneer in big data, computational social science, mobile and health systems, and technology for developing countries. He is one of the most-cited computer scientists in the world and was named by\u00a0Forbes\u00a0as one of the world's seven most powerful data scientists.", 
+    "tags": [
+      "Big Data"
+    ], 
+    "url": "http://vimeo.com/80821916", 
+    "title": "Sandy Pentland on Reinventing Society in the Wake of Big Data ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "big-data"
+    ]
+  }, 
+  {
+    "description": "Watch this engaging Google Talk on \"BIG DATA: A Revolution That Will Transform How We Live, Work, and Think\" with Viktor Mayer-Schonberger and Kenneth Cukier.", 
+    "tags": [
+      "Big Data"
+    ], 
+    "url": "http://youtu.be/bYS_4CWu3y8", 
+    "title": "Viktor Mayer-Schonberger and Kenneth Cukier on BIG DATA: A Revolution That Will Transform How We Live, Work, and Think", 
+    "content_type": "video", 
+    "nice-tags": [
+      "big-data"
+    ]
+  }, 
+  {
+    "description": "20 years ago, Sir Tim Berners-Lee invented the World Wide Web. In this video, he discusses building a web for open, linked data that could do for numbers what the Web did for words, pictures, video: unlock our data and reframe the way we use it together.", 
+    "tags": [
+      "Open Data"
+    ], 
+    "url": "http://youtu.be/OM6XIICm_qo", 
+    "title": "Sir Tim Berners-Lee on the Next Web of Open, Linked Data", 
+    "content_type": "video", 
+    "nice-tags": [
+      "open-data"
+    ]
+  }, 
+  {
+    "description": "In June 2009 together with Sir Tim Berners-Lee, Sir Nigel Shadbolt helped transform public access to Government information \u2013 work which resulted in the data.gov.uk site. In this video, he examines the lessons learnt and future challenges. ", 
+    "tags": [
+      "Open Data"
+    ], 
+    "url": "http://vimeo.com/26320724  ", 
+    "title": "Sir Nigel Shadbolt on Open Data: Promise and Perils", 
+    "content_type": "video", 
+    "nice-tags": [
+      "open-data"
+    ]
+  }, 
+  {
+    "description": "Listen to Dr. Steve Koonin, Director of the Center for Urban Science and Progress, discuss how usable, meaningful data - both data from government to its citizens, and data that the public and experts provide to government - are core to making open governance work.", 
+    "tags": [
+      "Data and Its Uses for Governance"
+    ], 
+    "url": "http://youtu.be/bb-F8MPEmGY", 
+    "title": "Introduction: Data and Its Uses for Governance  ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "data-and-its-uses-for-governance"
+    ]
+  }, 
+  {
+    "description": "Explore and understand different approaches for crowdsourcing and learn about the tools you can apply in your own work.", 
+    "tags": [
+      "Solving Public Problems with Crowdsourcing"
+    ], 
+    "url": "http://www.youtube.com/watch?v=APHsji2dJ_A", 
+    "title": "Introduction: Solving Public Problems with Crowdsourcing ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "solving-public-problems-with-crowdsourcing"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing enables leaders and citizens to work together to solve public problems in new and innovative ways.  In this topic, you will learn about new tools and platforms that enable citizens with differing levels of knowledge, expertise, experience and abilities to collaborate and solve problems together. In this video, Natalia Levina discusses how ideation can be useful to policymakers.", 
+    "tags": [
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/qk98qxEsy3E", 
+    "title": "Natalia Levina on Ideation, Pt. 2", 
+    "content_type": "video", 
+    "nice-tags": [
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing enables leaders and citizens to work together to solve public problems in new and innovative ways.  In this topic, you will learn about new tools and platforms that enable citizens with differing levels of knowledge, expertise, experience and abilities to collaborate and solve problems together. In this video, Natalia Levina discusses how to conduct an ideation experiment.", 
+    "tags": [
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/xbfzAclexVc", 
+    "title": "Natalia Levina on Ideation, Pt. 3 ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing enables leaders and citizens to work together to solve public problems in new and innovative ways.  In this topic, you will learn about new tools and platforms that enable citizens with differing levels of knowledge, expertise, experience and abilities to collaborate and solve problems together. In this video, Natalia Levina discusses open ideation platforms.", 
+    "tags": [
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/Vk3iaSYM3O4", 
+    "title": "Natalia Levina on Ideation, Pt. 4 ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing enables leaders and citizens to work together to solve public problems in new and innovative ways.  In this topic, you will learn about new tools and platforms that enable citizens with differing levels of knowledge, expertise, experience and abilities to collaborate and solve problems together. In this video, Natalia Levina discusses ideation.", 
+    "tags": [
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/RzDqGWTz8yw", 
+    "title": "Natalia Levina on Ideation, Pt. 1", 
+    "content_type": "video", 
+    "nice-tags": [
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Big Data refers to the wide-scale collection, aggregation, storage, analysis and use of data. In this video, Steve Koonin discusses data and its use for governance.", 
+    "tags": [
+      "Big Data", 
+      "Data and Its Uses for Governance", 
+      "Urban Analytics"
+    ], 
+    "url": "http://youtu.be/bb-F8MPEmGY", 
+    "title": "Steve Koonin on Data and Its Use for Governance", 
+    "content_type": "video", 
+    "nice-tags": [
+      "big-data", 
+      "data-and-its-uses-for-governance", 
+      "urban-analytics"
+    ]
+  }, 
+  {
+    "description": "Today, we are able to gather real-time information about traffic, pollution, noise, and environmental and safety conditions by culling data from a range of tools. In this video, Anthony Townsend describes how a small town can use Urban Analytics.", 
+    "tags": [
+      "Urban Analytics"
+    ], 
+    "url": "http://youtu.be/5exP2MmIx4g", 
+    "title": "Anthony Townsend on Urban Analytics, Pt. 3", 
+    "content_type": "video", 
+    "nice-tags": [
+      "urban-analytics"
+    ]
+  }, 
+  {
+    "description": "Today, we are able to gather real-time information about traffic, pollution, noise, and environmental and safety conditions by culling data from a range of tools. In this video, Anthony Townsend describes how \"smart cities\" are using urban analytics.", 
+    "tags": [
+      "Urban Analytics"
+    ], 
+    "url": "http://youtu.be/pbO-NAnvLIo", 
+    "title": "Anthony Townsend on Urban Analytics, Pt. 1", 
+    "content_type": "video", 
+    "nice-tags": [
+      "urban-analytics"
+    ]
+  }, 
+  {
+    "description": "Today, we are able to gather real-time information about traffic, pollution, noise, and environmental and safety conditions by culling data from a range of tools. In this video, Anthony Townsend discusses an example of a problem solved using urban analytics.", 
+    "tags": [
+      "Urban Analytics"
+    ], 
+    "url": "http://youtu.be/x9vpDBdiRkM", 
+    "title": "Anthony Townsend on Urban Analytics, Pt. 2", 
+    "content_type": "video", 
+    "nice-tags": [
+      "urban-analytics"
+    ]
+  }, 
+  {
+    "description": "Citizens are increasingly demanding that government consult with them and factor their options and recommendations in the policy making process.  In this video, Stefaan Verhulst discusses prize-backed challenges, which is one of numerous approaches to source expertise. ", 
+    "tags": [
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/sAKxbd-1CQg", 
+    "title": "Stefaan Verhulst on Prize-Backed Challenges, Pt. 1", 
+    "content_type": "video", 
+    "nice-tags": [
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Citizens are increasingly demanding that government consult with them and factor their options and recommendations in the policy making process.  In this video, Stefaan Verhulst describes examples of successful prize-backed challenges.", 
+    "tags": [
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/RSitaYDAM3Y", 
+    "title": "Stefaan Verhulst on Examples of Prize-Backed Challenges", 
+    "content_type": "video", 
+    "nice-tags": [
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Citizens are increasingly demanding that government consult with them and factor their options and recommendations in the policy making process.  In this video, Stefaan Verhulst discusses when prize-backed challenges are useful.", 
+    "tags": [
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/Rw7ia7sZi-U", 
+    "title": "Stefaan Verhulst on Prize-Backed Challenges, Pt. 2", 
+    "content_type": "video", 
+    "nice-tags": [
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Citizens are increasingly demanding that government consult with them and factor their options and recommendations in the policy making process. In this video, Steven Hodas discusses how to innovate within large institutions.", 
+    "tags": [
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/XmFUTx_hhJM", 
+    "title": "Steven Hodas on Innovating within Large Institutions", 
+    "content_type": "video", 
+    "nice-tags": [
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing data allows citizens to gather, clean, observe and analyze information. As institutions seek to improve decision-making through data and put public data to use to improve the lives of citizens, new tools and projects are allowing citizens to play a role in both the collection and utilization of data. In this video, Michael Carroll discusses how to create a good hackathon.", 
+    "tags": [
+      "Data"
+    ], 
+    "url": "http://youtu.be/RiJoxLVeMSE", 
+    "title": "Michael Carroll on Hackathons, Pt. 2", 
+    "content_type": "video", 
+    "nice-tags": [
+      "data"
+    ]
+  }, 
+  {
+    "description": "Evolving communication technologies enable citizens to increasingly have their voices heard in new forms. In this video, Steven Hodas discusses what others can take away from the Gap App Challenge.", 
+    "tags": [
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/eZY8hjhRH5I", 
+    "title": "Steven Hodas on the Gap App Challenge, Pt. 3", 
+    "content_type": "video", 
+    "nice-tags": [
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing data allows citizens to gather, clean, observe and analyze information. As institutions seek to improve decision-making through data and put public data to use to improve the lives of citizens, new tools and projects are allowing citizens to play a role in both the collection and utilization of data. In this video, Michael Carroll discusses how hackathons can be used to solve public problems.", 
+    "tags": [
+      "Data"
+    ], 
+    "url": "http://youtu.be/ZU5zKQ8GQ_w", 
+    "title": "Michael Carroll on Hackathons, Pt. 1", 
+    "content_type": "video", 
+    "nice-tags": [
+      "data"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing data allows citizens to gather, clean, observe and analyze information. As institutions seek to improve decision-making through data and put public data to use to improve the lives of citizens, new tools and projects are allowing citizens to play a role in both the collection and utilization of data. In this video, Michael Carroll explains a hackathon.", 
+    "tags": [
+      "Data"
+    ], 
+    "url": "http://youtu.be/c2yHEQNIOB0", 
+    "title": "Michael Carroll on Hackathons, Pt. 3", 
+    "content_type": "video", 
+    "nice-tags": [
+      "data"
+    ]
+  }, 
+  {
+    "description": "There is an increasing amount of information in the world. With big data, informatics and predictive analytics, we have an unprecedented opportunity to revolutionize policy-making. In this video, Juliana Freire discusses making data visualization useful to policymakers.", 
+    "tags": [
+      "Data Visualization"
+    ], 
+    "url": "http://youtu.be/2E0hMY_KYGQ", 
+    "title": "Juliana Freire on Data Visualization, Pt. 2", 
+    "content_type": "video", 
+    "nice-tags": [
+      "data-visualization"
+    ]
+  }, 
+  {
+    "description": "In this video, Hollie Gilman continues discussing the uses of participatory budgeting.", 
+    "tags": [
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/5o-vJFrlqxQ", 
+    "title": "Hollie Gilman on Participatory Budgeting, Pt. 2 ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Citizens are increasingly demanding that government consult with them and factor their options and recommendations in the policy making process. Evolving communication technologies enable citizens to increasingly have their voices heard in new forms. In this video, Hollie Gilman discusses participatory budgeting.", 
+    "tags": [
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/7xM2O5Wfnf0", 
+    "title": "Hollie Gilman on Participatory Budgeting, Pt. 1", 
+    "content_type": "video", 
+    "nice-tags": [
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "The word crowdfunding can be thought of as an umbrella term that describes multiple different funding relationships between individuals and organizations connected via the Internet. In this video, Brian Meece discusses crowdfunding in the public sector.", 
+    "tags": [
+      "Funds"
+    ], 
+    "url": "http://youtu.be/2Hppb7Sr78o", 
+    "title": "Brian Meece on Crowdfunding, Pt. 2", 
+    "content_type": "video", 
+    "nice-tags": [
+      "funds"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing enables leaders and citizens to work together to solve public problems in new and innovative ways. In this video, Anne-Laure Fayard discusses how ideation is useful to policymakers.", 
+    "tags": [
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/jb0ej3bKlMk", 
+    "title": "Anne-Laure Fayard on Ideation, Pt. 2", 
+    "content_type": "video", 
+    "nice-tags": [
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "The word crowdfunding can be thought of as an umbrella term that describes multiple different funding relationships between individuals and organizations connected via the Internet. In this video, Brian Meece discusses crowdfunding.", 
+    "tags": [
+      "Funds"
+    ], 
+    "url": "http://youtu.be/2VHL6_wmSPY", 
+    "title": "Brian Meece on Crowdfunding, Pt. 1", 
+    "content_type": "video", 
+    "nice-tags": [
+      "funds"
+    ]
+  }, 
+  {
+    "description": "Linked Data and the Semantic Web movement are seeking to make our growing body of digital knowledge and information more interconnected, searchable, machine-readable and useful. In this video, Joel Natividad discusses how policymakers and cities can make use of linked data.", 
+    "tags": [
+      "Data", 
+      "Linked"
+    ], 
+    "url": "http://youtu.be/Dr7eOiLRus4", 
+    "title": "Joel Natividad on Linked Data, Pt. 2", 
+    "content_type": "video", 
+    "nice-tags": [
+      "data", 
+      "linked"
+    ]
+  }, 
+  {
+    "description": "There is an increasing amount of information in the world. With big data, informatics and predictive analytics, we have an unprecedented opportunity to revolutionize policy-making. Yet big data by itself can be overwhelming. In this video, Juliana Freire discusses data visualization.", 
+    "tags": [
+      "Data Visualization"
+    ], 
+    "url": "http://youtu.be/pj6uLev6l-4", 
+    "title": "Juliana Freire on Data Visualization, Pt. 1", 
+    "content_type": "video", 
+    "nice-tags": [
+      "data-visualization"
+    ]
+  }, 
+  {
+    "description": "Linked Data and the Semantic Web movement are seeking to make our growing body of digital knowledge and information more interconnected, searchable, machine-readable and useful. In this video, Joel Natividad discusses the semantic web.", 
+    "tags": [
+      "Data", 
+      "Linked"
+    ], 
+    "url": "http://youtu.be/1ov5-bMo8YI", 
+    "title": "Joel Natividad on Linked Data, Pt. 1 ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "data", 
+      "linked"
+    ]
+  }, 
+  {
+    "description": "Citizens are increasingly demanding that government consult with them and factor their options and recommendations in the policy making process. In this video, Hollie Gilman discusses participatory budgeting in the US.", 
+    "tags": [
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/cTYPb9ECDmE", 
+    "title": "Hollie Gilman on Participatory Budgeting, Pt. 3", 
+    "content_type": "video", 
+    "nice-tags": [
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Citizens are increasingly demanding that government consult with them and factor their options and recommendations in the policy making process. In this video, Hollie Gilman discusses participatory budgeting around the world.", 
+    "tags": [
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/kOba3sYMo6Y", 
+    "title": "Hollie Gilman on Participatory Budgeting, Pt. 4 ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Open data refers to data that is publicly available for anyone to use and which is licensed in a way that allows for its re-use. In this video, Beth Noveck discusses the implementation of an open data program.", 
+    "tags": [
+      "Data", 
+      "Open"
+    ], 
+    "url": "http://youtu.be/-7zaMQlzQAM", 
+    "title": "Beth Noveck on Open Data", 
+    "content_type": "video", 
+    "nice-tags": [
+      "data", 
+      "open"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing enables leaders and citizens to work together to solve public problems in new and innovative ways. In this video, Beth Noveck discusses the different types of participation and crowdsourcing.", 
+    "tags": [
+      "Crowdsourding", 
+      "Expertise", 
+      "Introduction", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/APHsji2dJ_A", 
+    "title": "Beth Noveck on Crowdsourcing, Pt. 1", 
+    "content_type": "video", 
+    "nice-tags": [
+      "crowdsourding", 
+      "expertise", 
+      "introduction", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing enables leaders and citizens to work together to solve public problems in new and innovative ways. In this video, Beth Noveck discusses when and how crowdsourcing works.", 
+    "tags": [
+      "Crowdsourcing", 
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/zlCBJzo4WsQ", 
+    "title": "Beth Noveck on Crowdsourcing, Pt. 2", 
+    "content_type": "video", 
+    "nice-tags": [
+      "crowdsourcing", 
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing enables leaders and citizens to work together to solve public problems in new and innovative ways. In this video, Beth Noveck discusses the Do's and Don'ts for implementing citizen engagement online.", 
+    "tags": [
+      "Crowdsourcing", 
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/7n__cFn9I5M", 
+    "title": "Beth Noveck on Crowdsourcing, Pt. 3", 
+    "content_type": "video", 
+    "nice-tags": [
+      "crowdsourcing", 
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing enables leaders and citizens to work together to solve public problems in new and innovative ways. In this video, Anne-Laure Fayard discusses how to conduct an ideation experiment.", 
+    "tags": [
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/Psg3DQfklJg", 
+    "title": "Anne-Laure Fayard on Ideation, Pt. 3", 
+    "content_type": "video", 
+    "nice-tags": [
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing enables leaders and citizens to work together to solve public problems in new and innovative ways. In this video, Anne-Laure Fayard discusses Open IDEO.", 
+    "tags": [
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/ULJEpYWk26U", 
+    "title": "Anne-Laure Fayard on Open IDEO", 
+    "content_type": "video", 
+    "nice-tags": [
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing enables leaders and citizens to work together to solve public problems in new and innovative ways. In this video, Anne-Laure Fayard discusses generating solutions through ideation.", 
+    "tags": [
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/a89n0nisHHk", 
+    "title": "Anne-Laure Fayard on Ideation, Pt. 1", 
+    "content_type": "video", 
+    "nice-tags": [
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Open data refers to data that is publicly available for anyone to use and which is licensed in a way that allows for its re-use. In this video, Joel Gurin discusses the evolution of open data.", 
+    "tags": [
+      "Data", 
+      "Open"
+    ], 
+    "url": "http://vimeo.com/govlab/review/77816507/91ad6b54bf", 
+    "title": "Joel Gurin on the Evolution of Open Data", 
+    "content_type": "video", 
+    "nice-tags": [
+      "data", 
+      "open"
+    ]
+  }, 
+  {
+    "description": "Open data refers to data that is publicly available for anyone to use and which is licensed in a way that allows for its re-use. In this video, Joel Gurin discusses the problem open data solves.", 
+    "tags": [
+      "Data", 
+      "Open"
+    ], 
+    "url": "http://vimeo.com/govlab/review/77816506/016dee3702", 
+    "title": "Joel Gurin on the Problem Open Data Solves", 
+    "content_type": "video", 
+    "nice-tags": [
+      "data", 
+      "open"
+    ]
+  }, 
+  {
+    "description": "Open data refers to data that is publicly available for anyone to use and which is licensed in a way that allows for its re-use. In this video, Joel Gurin discusses examples of open data.", 
+    "tags": [
+      "Data", 
+      "Open"
+    ], 
+    "url": "http://vimeo.com/govlab/review/77816505/d317c725b5", 
+    "title": "Joel Gurin on Examples of Open Data", 
+    "content_type": "video", 
+    "nice-tags": [
+      "data", 
+      "open"
+    ]
+  }, 
+  {
+    "description": "Open data refers to data that is publicly available for anyone to use and which is licensed in a way that allows for its re-use. In this video, Joel Gurin describes open data.", 
+    "tags": [
+      "Data", 
+      "Open"
+    ], 
+    "url": "http://vimeo.com/govlab/review/77816504/418ed19197", 
+    "title": "Joel Gurin on What is Open Data", 
+    "content_type": "video", 
+    "nice-tags": [
+      "data", 
+      "open"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing enables leaders and citizens to work together to solve public problems in new and innovative ways. In this video, Clay Shirky discusses crowdsourcing opinions.", 
+    "tags": [
+      "Crowdsourcing", 
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://vimeo.com/77266028", 
+    "title": "Clay Shirky on Crowdsourcing Opinions, Pt. 1", 
+    "content_type": "video", 
+    "nice-tags": [
+      "crowdsourcing", 
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing enables leaders and citizens to work together to solve public problems in new and innovative ways. In this video, Clay Shirky continues discussing crowdsourcing opinions.", 
+    "tags": [
+      "Crowdsourcing", 
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": " http://vimeo.com/77266029", 
+    "title": "Clay Shirky on Crowdsourcing Opinions, Pt. 2", 
+    "content_type": "video", 
+    "nice-tags": [
+      "crowdsourcing", 
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing enables leaders and citizens to work together to solve public problems in new and innovative ways. In this video, Clay Shirky discusses tools for crowdsourcing opinions.", 
+    "tags": [
+      "Crowdsourcing", 
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://vimeo.com/77288543", 
+    "title": "Clay Shirky on Crowdsourcing Opinions, Pt. 3", 
+    "content_type": "video", 
+    "nice-tags": [
+      "crowdsourcing", 
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing enables leaders and citizens to work together to solve public problems in new and innovative ways. In this video, Clay Shirky discusses examples of crowdsourcing opinions.", 
+    "tags": [
+      "Crowdsourcing", 
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://vimeo.com/77266030", 
+    "title": "Clay Shirky on Crowdsourcing Opinions, Pt. 4", 
+    "content_type": "video", 
+    "nice-tags": [
+      "crowdsourcing", 
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Today, we are able to gather real-time information about traffic, pollution, noise, and environmental and safety conditions by culling data from a range of tools. In this video, Steve Koonin discusses the new science of urban analytics.", 
+    "tags": [
+      "Urban Analytics"
+    ], 
+    "url": "http://youtu.be/SnuMEtJ25Ag", 
+    "title": "Steve Koonin on Urban Analytics, Pt. 1 ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "urban-analytics"
+    ]
+  }, 
+  {
+    "description": "Today, we are able to gather real-time information about traffic, pollution, noise, and environmental and safety conditions by culling data from a range of tools. In this video, Steve Koonin continues to discuss the new science of urban analytics.", 
+    "tags": [
+      "Urban Analytics"
+    ], 
+    "url": "http://youtu.be/CZnA_jKTSWo", 
+    "title": "Steve Koonin on Urban Analytics, Pt. 2", 
+    "content_type": "video", 
+    "nice-tags": [
+      "urban-analytics"
+    ]
+  }, 
+  {
+    "description": "Today, we are able to gather real-time information about traffic, pollution, noise, and environmental and safety conditions by culling data from a range of tools. In this video, Steve Koonin discusses using urban analytics to solve problems.", 
+    "tags": [
+      "Urban Analytics"
+    ], 
+    "url": "http://youtu.be/S7RqW_kWmME", 
+    "title": "Steve Koonin on Urban Analytics, Pt. 3", 
+    "content_type": "video", 
+    "nice-tags": [
+      "urban-analytics"
+    ]
+  }, 
+  {
+    "description": "Evolving communication technologies enable citizens to increasingly have their voices heard in new forms. In this video, Steve Hodas discusses the impact of the Gap App Challenge.", 
+    "tags": [
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/RuJPy-udZtc", 
+    "title": "Steven Hodas on the Gap App Challenge, Pt. 2", 
+    "content_type": "video", 
+    "nice-tags": [
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Funded by the John S. and James L. Knight Foundation and housed at New York University, the GovLab Academy is a free, online community for those interested in teaching and learning how to work more collaboratively to solve public problems that improve people's lives.", 
+    "tags": [
+      "The GovLab"
+    ], 
+    "url": "http://youtu.be/M11HjakyGyw", 
+    "title": "Introduction: What is The GovLab Academy", 
+    "content_type": "video", 
+    "nice-tags": [
+      "the-govlab"
+    ]
+  }, 
+  {
+    "description": "Evolving communication technologies enable citizens to increasingly have their voices heard in new forms.  In this video, Steve Hodas discusses the Gap App Challenge in NYC to build innovative tools to improve New York City Public Schools.", 
+    "tags": [
+      "Expertise", 
+      "Opinions", 
+      "Tasks"
+    ], 
+    "url": "http://youtu.be/rr06Yv8a3l4", 
+    "title": "Steven Hodas on the Gap App Challenge, Pt. 1", 
+    "content_type": "video", 
+    "nice-tags": [
+      "expertise", 
+      "opinions", 
+      "tasks"
+    ]
+  }, 
+  {
+    "description": "Linked Data and the Semantic Web movement are seeking to make our growing body of digital knowledge and information more interconnected, searchable, machine-readable and useful. In this video, Sir Tim Berners-Lee, the founder of the World Wide Web Foundation, shows a few of the interesting results when the data gets linked up.", 
+    "tags": [], 
+    "url": "http://youtu.be/3YcZ3Zqk0a8", 
+    "title": "Sir Tim Berners-Lee on the Year Open Data Went Worldwide", 
+    "content_type": "video", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "This module aims to provide a general overview of the main topics related to using Linked Data.", 
+    "tags": [
+      "Linked Data"
+    ], 
+    "url": "http://vimeo.com/61612182", 
+    "title": "EUCLID project on 'What is linked data?' ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "linked-data"
+    ]
+  }, 
+  {
+    "description": "Listen to this TEDTalk by David McCandless as he turns complex data sets (like worldwide military spending, media buzz, Facebook status updates) into beautiful, simple diagrams that tease out unseen patterns and connections.", 
+    "tags": [], 
+    "url": "http://youtu.be/5Zg-C8AAIGg", 
+    "title": "David McCandless on the Beauty of Data Visualization", 
+    "content_type": "video", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "Here Professor Nigel Shadbolt and Sir Tim Berners-Lee talk about the OS OpenData project, what it means and why it matters.", 
+    "tags": [
+      "Open Data"
+    ], 
+    "url": "http://youtu.be/ED1jhFA5pP0", 
+    "title": "Sir Nigel Shadbolt and Sir Tim Berners-Lee on OS OpenData", 
+    "content_type": "video", 
+    "nice-tags": [
+      "open-data"
+    ]
+  }, 
+  {
+    "description": "Listen to MIT researcher Deb Roy describe how he wired up his house with videocameras to catch every moment (with exceptions) of his son's life, then parsed 90,000 hours of home video to watch \"gaaaa\" slowly turn into \"water.\"", 
+    "tags": [
+      "Data Visualization"
+    ], 
+    "url": "http://youtu.be/RE4ce4mexrU", 
+    "title": "Deb Roy on the Birth of a Word", 
+    "content_type": "video", 
+    "nice-tags": [
+      "data-visualization"
+    ]
+  }, 
+  {
+    "description": "What's a proven way to lower your energy costs? Would you believe: learning what your neighbor pays. In this video, Alex Laskey shows how a quirk of human behavior can make us all better, wiser energy users, with lower bills to prove it.", 
+    "tags": [
+      "Smart Disclosure"
+    ], 
+    "url": "http://youtu.be/4cJ08wOqloc", 
+    "title": "Alex Laskey on How Behavioral Science Can Lower Your Energy Bill  ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "smart-disclosure"
+    ]
+  }, 
+  {
+    "description": "Advances in technology have greatly increased the potential for policymakers to utilize the personal data of large populations for the public good. However, the proliferation of vast stores of useful data has also given rise to a variety of legislative, political, and ethical concerns surrounding the privacy and security of citizens\u2019 personal information, both in terms of collection and usage. \n\nGary Wolf gives a 5-min intro to an intriguing new pastime: using mobile apps and always-on gadgets to track and analyze your body, mood, diet, spending -- just about everything in daily life you can measure -- in gloriously geeky detail.\n", 
+    "tags": [
+      "Personal Data"
+    ], 
+    "url": "http://youtu.be/OrAo8oBBFIo", 
+    "title": "Gary Wolf on the Quantified Self ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "personal-data"
+    ]
+  }, 
+  {
+    "description": "Advances in technology have greatly increased the potential for policymakers to utilize the personal data of large populations for the public good. However, the proliferation of vast stores of useful data has also given rise to a variety of legislative, political, and ethical concerns surrounding the privacy and security of citizens\u2019 personal information, both in terms of collection and usage. In this topic, learn about the challenges regarding the governance and regulation of personal data in order to assuage individuals\u2019 concerns regarding the privacy, security, and use of their personal information.\n\nIn this episode, legendary photographer Rick Smolan turns his lens toward big data\u2014the idea that insightful, cohesive narratives exist within all the data and information generated by our everyday actions, purchases, and web searches. What does big data say about you? What is this information used for?", 
+    "tags": [
+      "Personal Data"
+    ], 
+    "url": "http://youtu.be/fc1zBNC9wNY", 
+    "title": "Rick Smolan on What Big Data Says About You ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "personal-data"
+    ]
+  }, 
+  {
+    "description": "David Sweet was looking to lose weight and wanted to use a system that kept him engaged for a long period of time. He devised a unique system to track his food \u2013 the Fist-Sized Volume. Watch this interesting talk, filmed at the New York QS Meetup, to learn how he did it and what he learned (stick around for the great Q&A).\n", 
+    "tags": [
+      "Personal Data"
+    ], 
+    "url": "http://vimeo.com/74775674", 
+    "title": "David Sweet on Long-Term Weight Control ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "personal-data"
+    ]
+  }, 
+  {
+    "description": "A conversation with the author of \"The Wisdom of Crowds'' and the business columnist for The New Yorker.\n", 
+    "tags": [
+      "Crowdsourcing Expertise"
+    ], 
+    "url": "http://youtu.be/afIRcqXN8ZA", 
+    "title": "James Surowiecki on Wisdom of Crowds", 
+    "content_type": "video", 
+    "nice-tags": [
+      "crowd-expertise"
+    ]
+  }, 
+  {
+    "description": "Clay Shirky looks at \"cognitive surplus\" -- the shared, online work we do with our spare brain cycles. While we're busy editing Wikipedia, posting to Ushahidi (and yes, making LOLcats), we're building a better, more cooperative world.", 
+    "tags": [
+      "Crowdsourcing Opinions"
+    ], 
+    "url": "http://youtu.be/qu7ZpWecIS8", 
+    "title": "Clay Shirky on Cognitive Surplus", 
+    "content_type": "video", 
+    "nice-tags": [
+      "crowdsourcing-opinions"
+    ]
+  }, 
+  {
+    "description": "The open-source world has learned to deal with a flood of new, oftentimes divergent, ideas using hosting services like GitHub -- so why can't governments? In this rousing talk Clay Shirky shows how democracies can take a lesson from the Internet, to be not just transparent but also to draw on the knowledge of all their citizens.\n", 
+    "tags": [
+      "Crowdsourcing Opinions and Ideas"
+    ], 
+    "url": "http://youtu.be/CEN4XNth61o", 
+    "title": "Clay Shirky on Open Source World ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "crowd-opsidea"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing data allows citizens to gather, clean, observe and analyze information. This episode of OpenGov Champions introduces Liz Barry from The Public Laboratory for Open Technology and Science. Their grassroots mapping efforts are empowering citizen scientists and activists to issue their own data sets to better engage with their local governments in environmental and other issues in their communities. \n", 
+    "tags": [
+      "CrowdSourcing Data"
+    ], 
+    "url": "http://youtu.be/TvO0mCdfT3U", 
+    "title": "Liz Barry on Public Labs", 
+    "content_type": "video", 
+    "nice-tags": [
+      "crowd-data"
+    ]
+  }, 
+  {
+    "description": "Journalist Paul Lewis talks about new media, citizen journalism. and how he has used social media to investigate two murders. He also talks about the new level of transparency and accountability new media offer in public life.", 
+    "tags": [
+      "CrowdSourcing Data"
+    ], 
+    "url": "http://youtu.be/9APO9_yNbcg", 
+    "title": "Paul Lewis on Citizen Journalism  ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "crowd-data"
+    ]
+  }, 
+  {
+    "description": "Joel Spolsky is the programmer's programmer. He started Fog Creek Software, Stack Exchange and has been a famous blogger for over 10 years. I sat down with him at his New York office to talk about the early days of blogging, how small teams are having a big impact in the world, a new product that Fog Creek just released, and a host of other topics.\n", 
+    "tags": [
+      "CrowdSourcing Data"
+    ], 
+    "url": "http://youtu.be/NF8ZVB-v3IM", 
+    "title": "Joel Spolsky on Stack Exchange ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "crowd-data"
+    ]
+  }, 
+  {
+    "description": "Crowdsourcing funds, or crowdfunding, is an emerging method for raising money that allows a wide pool of people to make small investments in small businesses and social ventures. In this video, Slava Rubin, cofounder of international crowdfunding platform Indiegogo, shares best practices for startup funding and answers questions about his own entrepreneurial journey, how to create an effective campaign, and more.", 
+    "tags": [
+      "Crowdsourcing Funds"
+    ], 
+    "url": "http://youtu.be/3YNLB85UIFA", 
+    "title": "Slava Rubin on How to Raise $1 Million in 30 Days or Less  ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "crowdsourcing-funds"
+    ]
+  }, 
+  {
+    "description": "Jeremy Bird helped launch 270 Strategies after serving most recently as the National Field Director for the 2012 re-election campaign of President Barack Obama, where he had primary responsibility for building a nationwide army of staff and volunteer organizers.", 
+    "tags": [
+      "Crowdsourcing Opinions and Ideas"
+    ], 
+    "url": "http://youtu.be/_YjMAposcp4", 
+    "title": "Jeremy Bird on the Future of People-Powered Campaigns in an Age of Big Data", 
+    "content_type": "video", 
+    "nice-tags": [
+      "crowd-opsidea"
+    ]
+  }, 
+  {
+    "description": null, 
+    "tags": [
+      "Crowdsourcing Opinions"
+    ], 
+    "url": "http://youtu.be/mNHkG7w2IA8", 
+    "title": "Ethan Zuckerman on Why Our Webs Are Rarely World Wide and What We Can Do About It", 
+    "content_type": "video", 
+    "nice-tags": [
+      "crowdsourcing-opinions"
+    ]
+  }, 
+  {
+    "description": "Learn how crowdsourcing tasks allows citizens to contribute their time, skills and knowledge on a per-task basis. Listen To Francois Grey speaking about Citizen Science 'Citizen Science to Open Science - The Road Ahead' Closing Keynote speech\n", 
+    "tags": [
+      "Crowdsourcing Tasks and Peer Production"
+    ], 
+    "url": "http://youtu.be/WckOn84CzHE", 
+    "title": "Francois Grey on Citizen Science to Open Science", 
+    "content_type": "video", 
+    "nice-tags": [
+      "crowdsourcing-tasks-and-peer-production"
+    ]
+  }, 
+  {
+    "description": "OSCON 2010: Melanie Swan, \"DIY Genomics: An Open Platform for Citizen Science\"\n", 
+    "tags": [
+      "Crowdsourcing Tasks and Peer Production"
+    ], 
+    "url": "http://youtu.be/kQh4kcX-gGU", 
+    "title": "Melanie Swan on DIY Genomics ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "crowdsourcing-tasks-and-peer-production"
+    ]
+  }, 
+  {
+    "description": "MIT professor Alex 'Sandy' Pentland discusses what it means to build a Sustainable Digital Ecology.", 
+    "tags": [
+      "Big Data"
+    ], 
+    "url": "http://youtu.be/O22acc48lKo", 
+    "title": "Alex 'Sandy' Pentland", 
+    "content_type": "video", 
+    "nice-tags": [
+      "big-data"
+    ]
+  }, 
+  {
+    "description": "Theo Vassilakis, Gustav Horn, and Charles Fan discuss the evolution, current opportunities and future trends in big data. Moderated by Hal Varian. Presented by Google and the Fung Institute at UC Berkeley\n", 
+    "tags": [], 
+    "url": "http://youtu.be/8gMp0YC0_kM", 
+    "title": "Google Tech Talk - Leaders in Big Data ", 
+    "content_type": "video", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "20 years ago, Tim Berners-Lee invented the World Wide Web. For his next project, he's building a web for open, linked data that could do for numbers what the Web did for words, pictures, video: unlock our data and reframe the way we use it together.", 
+    "tags": [
+      "Linked Data"
+    ], 
+    "url": "http://youtu.be/OM6XIICm_qo", 
+    "title": "Tim Berners-Lee: The Next Web of Open, Linked Data  ", 
+    "content_type": "video", 
+    "nice-tags": [
+      "linked-data"
+    ]
+  }, 
+  {
+    "description": "Sir Tim Berners-Lee, inventor of the World Wide Web and founder of the WWW Foundation, gave a talk for www.ted.com where he urged us to share raw data.", 
+    "tags": [], 
+    "url": "http://youtu.be/O_WnEH0f9z8", 
+    "title": "Sir Tim Berners-Lee: The Next Web of Open, Linked data  ", 
+    "content_type": "video", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "Sophie Rasemen, Director of Smart Disclosure of the U.S. Treasury Department, speaks at the Code for America Summit in 2012 about giving people access to information they need to make decisions. ", 
+    "tags": [], 
+    "url": "http://youtu.be/zKeIIlsUUF0", 
+    "title": "Sophie Rasemen: Smart Disclosure of Personal Data", 
+    "content_type": "video", 
+    "nice-tags": []
+  }, 
+  {
+    "description": null, 
+    "tags": [], 
+    "url": "http://www.youtube.com/embed/Db1jxxlAkGU", 
+    "title": "Gov 3.0 - Jan 29, 2014", 
+    "content_type": "video", 
+    "nice-tags": []
+  }, 
+  {
+    "description": null, 
+    "tags": [], 
+    "url": "http://www.youtube.com/watch?v=pHSj7n065r8&feature=share", 
+    "title": "Gov 3.0 - Feb 5, 2014 ", 
+    "content_type": "video", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "In this HowCast, you will learn how IWA started its community monitoring project which facilitated the local oversight of aid projects, and how they navigated the complex web of stakeholders to meet their goals. \n\nLorenzo Delesques is the Founder of Integrity Watch Afghanistan, a civil society organization in Afghanistan with a mission of \"increasing transparency, integrity and accountability in Afghanistan through the provision of policy-oriented research, development of training tools and facilitation of policy dialogue\".", 
+    "tags": [], 
+    "url": "http://www.youtube.com/watch?v=81ly0fb5UDU", 
+    "title": "How Cast: Lorenzo Delesques on Empowering Citizens to Monitor Development Projects in Afghanistan ", 
+    "content_type": "video", 
+    "nice-tags": []
+  }, 
+  {
+    "description": "Open Gov Stories captures the oral history of open government innovations around the world. Open Gov Stories records the faces and voices of innovators from government, civil society, the tech industry, the arts and academia talking about their work and how it impacts real people\u2019s lives.\n\nA Project of The Gov Lab, in partnership with the Open Government Partnership (OGP)", 
+    "tags": [], 
+    "url": "http://youtu.be/82JMmxuC1EQ", 
+    "title": "Open Gov Stories", 
+    "content_type": "video", 
+    "nice-tags": []
+  }
+]
