@@ -98,8 +98,8 @@
     for_credit: false
     for_certificate: true
   is_active: true
-  when: "every Wednesday from 10am - 12pm EST"
-  when_plus: "If requiered, online sessions could also occur Tuesday afternoons or Thursdays before 11am EST or after 3pm EST"
+  when: "every Wednesday from 10am - 12pm EST for the first week and EDT afterwards"
+  when_plus: "If required, online sessions could also occur Tuesday afternoons or Thursdays before 11am EST or after 3pm EST"
   format: 1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
 - name: "Humanitarian Innovation Project Collaborative"
