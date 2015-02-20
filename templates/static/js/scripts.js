@@ -28,6 +28,8 @@ $(document).ready(function() {
 
   });
 
+
+// ISOTOPES for Project Gallery
 var $container = $('.b-card-isotopes');
 // init
 $container.isotope({
@@ -58,6 +60,39 @@ $('.e-filter').click(function() {
 	}
 	
 });
+
+
+var $container = $('.b-library-isotopes');
+// init
+$container.isotope({
+  // options
+  itemSelector: '.b-library-item',
+  layoutMode: 'fitRows',
+  sortBy: 'category'
+});
+
+// ISOTOPES FILTERS
+
+// $('.e-filter').click(function() {
+// 	var key = $(this).attr('data-filter');
+// 	console.log(key);
+// 	var filter = '[data-filter*="' + key + '"]';
+// 	var rest = $('.e-filter');
+
+// 	if (key === 'all') {
+// 		$container.isotope({ filter: '*' });
+// 		rest.removeClass('m-active');
+// 		$(this).addClass('m-active');
+// 	} else {
+// 		$container.isotope({ filter: filter });	
+// 		rest.removeClass('m-active');
+// 		$(this).addClass('m-active');
+
+// 		console.log(rest);
+// 	}
+	
+// });
+
 
 $('.e-faq-trigger').click(function() {
 	$('.b-faqs').toggleClass('m-active');

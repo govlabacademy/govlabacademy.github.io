@@ -1,0 +1,57 @@
+{% extends "layout/base.html" %}
+{% block content %}
+<div id="gallery-page" class="b-content-page">
+	<div class="b-page-title">
+    <div class="row">
+      <div class="column large-12">
+    		<h2>Library</h2>
+        <p>Selected Readings</p>
+        <span class="e-filters-trigger e-button">Filters</span>
+      </div>
+  	</div>
+	</div>
+
+	<section class="b-filters">
+		<h4>Filters
+      <span class="e-filter m-show-all" data-filter="all">Show All</span>
+		</h4>
+    <ul>
+      {% for tag in projectTags %}
+				<li class="e-filter" data-filter="{{tag}}">{{tag}}</li>
+		{% endfor %}
+		</ul>
+	</section>
+
+	<div class="row">
+    <div class="b-library-isotopes column large-12">
+      {% for item in library %}
+        {% if item.url %}
+        <article class="b-library-item" data-filter="{% for tag in item.tags %}{{tag}}{% endfor %}">
+          <a class="b-go-to" href="{{item.url}}" target="_blank">
+            {% if item.content_type is equalto 'document' %}
+            <div class="e-item-type"><i class="fa fa-file-text"></i></div>
+            {% endif %}
+            {% if item.content_type is equalto 'expert' %}
+            <div class="e-item-type"><i class="fa fa-twitter"></i></div>
+            {% endif %}
+            {% if item.content_type is equalto 'video' %}
+            <div class="e-item-type"><i class="fa fa-video-camera"></i></div>
+            {% endif %}
+            
+            <h4>{{item.title}}</h4>
+            <p>{{item.description}}</p>
+          </a>
+        </article>
+        {% endif %}
+      {% endfor %}  
+      </div>
+    </div>
+  </div>
+	<section id="contact-message" class="row b-content-section">
+    <div class="column large-12">
+      <h4>Still hungry for more information?</h4>
+      <p>Send us an email at <a href="mailto:info-academy@thegovlab.org">info-academy@thegovlab.org</a></p>
+    </div>
+  </section>
+</div>
+{% endblock %}

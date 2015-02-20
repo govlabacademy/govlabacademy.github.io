@@ -2164,6 +2164,26 @@ p,
       background-color: transparent;
       text-decoration: underline; }
 
+.b-library-item {
+  padding: 20px 20px 20px 40px;
+  display: block;
+  width: calc(100% - 40px);
+  margin-bottom: 10px;
+  background-color: white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
+  .b-library-item .e-item-type {
+    position: absolute;
+    left: -20px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    text-align: center;
+    background-color: #472b74;
+    border-radius: 50%;
+    overflow: hidden; }
+    .b-library-item .e-item-type i {
+      color: rgba(255, 255, 255, 0.8); }
+
 @media only screen and (min-width: 1024px) {
   h2 {
     font-size: 3rem;
