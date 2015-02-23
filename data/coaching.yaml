@@ -245,7 +245,7 @@
     start: "March 16, 2015"
     week_start: "March 16 - 20" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "April 10, 2015"
-    application: "February 27, 2015"
+    application: "March 6, 2015"
   passion:
     title: Passionate about fixing the public procurement process?
     bullets:
@@ -277,7 +277,7 @@
     start: "March 23, 2015"
     week_start: "March 23 - 27, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "April 6, 2015"
-    application: "February 27, 2015" 
+    application: "March 13, 2015" 
   passion:
     title: Passionate about the uses of Crowdsourcing in the Public Sector? Are you...
     bullets:
