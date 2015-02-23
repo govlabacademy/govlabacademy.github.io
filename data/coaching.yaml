@@ -340,12 +340,12 @@
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
   
 - name: "Data Analytics for Change"
-  duration: 4 weeks
+  duration: 8 weeks
   date:
     start: "December 31, 2015"
-    week_start: "TBD" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "TBD"
-    application: "TBD" 
+    week_start: "April 6 - 10, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "May 25 - 29, 2015"
+    application: "March 20, 2015" 
   passion:
     title: Passionate about applying big data for social good? Are you...
     bullets:
@@ -377,9 +377,9 @@
   duration: 8 weeks
   date:
     start: "December 31, 2015"      # Date in single format.
-    week_start: "TBD" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "TBD"
-    application: "TBD"
+    week_start: "April 27 - May 1, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "June 15 - 19, 2015"
+    application: "April 10, 2015"
   passion:
     title: "Passionate about fully realizing the promise of open contracting? Are you..."
     bullets:
