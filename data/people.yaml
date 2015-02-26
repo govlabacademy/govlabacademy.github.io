@@ -93,21 +93,6 @@
   tags: citizen-engagement
 
 - name:
-    last: Savage
-    first: Timothy
-    slug: timothy-savage
-  job: Guest Scholar - NYU CUSP
-  is_govlab: false
-  description: "Timothy H. Savage is a visiting scholar at NYU CUSP. Dr. Savage has nearly 15 years of experience in consulting focused on complex quantitative analysis.  His experience ranges from large antitrust and commercial damage engagements to civil and criminal engagements in the financial services sector. Most recently, Dr. Savage has conducted detailed analyses of international benchmarks for interest rates. In the areas of energy and the environment, Dr. Savage has developed a sophisticated econometric model to forecast land use in California, as well as “rare-event” models to examine alleged violations of federal air quality standards. Dr. Savage’s published research uses complex econometric methods to examine hypotheses ranging from labor mobility to consumer demand. He has also developed survey instruments and conducted subsequent data analysis to examine consumers’ willingness to pay for improvements in air quality."
-  link:
-    url: http://cusp.nyu.edu/people/timothy-h-savage/
-    twitter:
-    linkedin:
-    github:
-    email: 
-  tags: 
-  
-- name:
     last: Nisbet
     first: Miriam
     slug: mirian-nisbet
