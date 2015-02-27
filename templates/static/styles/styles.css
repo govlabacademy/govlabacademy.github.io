@@ -2164,6 +2164,16 @@ p,
       background-color: transparent;
       text-decoration: underline; }
 
+#library-page .b-card .b-wrapper:before {
+  background-color: #472b74; }
+#library-page .b-card .b-wrapper .b-pop-controls {
+  left: -20px;
+  top: 15px; }
+  #library-page .b-card .b-wrapper .b-pop-controls .e-pop-button, #library-page .b-card .b-wrapper .b-pop-controls .b-share-button {
+    display: block; }
+#library-page .b-card .b-wrapper .e-card-content h3 a {
+  color: #472b74; }
+
 .b-library-item {
   padding: 20px 20px 20px 40px;
   display: block;

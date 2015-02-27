@@ -1,3 +1,26 @@
+#library-page {
+	.b-card .b-wrapper {
+			&:before {
+				background-color: $purple;
+			}
+
+			.b-pop-controls {
+				left: -20px;
+				top: 15px;
+
+				.e-pop-button {
+					display: block;
+				}
+			}
+
+		.e-card-content {
+			h3 a {
+				color: $purple;
+			}
+		}
+	}
+}
+
 .b-library-isotopes {
 }
 
