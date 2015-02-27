@@ -28,7 +28,9 @@
 		}
 
 		.b-pop-controls {
-			.e-pop-button { display: none; }
+				left: -20px;
+				top: 15px;
+			// .e-pop-button { display: none; }
 			.e-pop-button.m-pin,
 			.e-pop-button.m-goto { display: block; }
 		}
