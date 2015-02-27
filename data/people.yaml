@@ -93,21 +93,6 @@
   tags: citizen-engagement
 
 - name:
-    last: Savage
-    first: Timothy
-    slug: timothy-savage
-  job: Guest Scholar - NYU CUSP
-  is_govlab: false
-  description: "Timothy H. Savage is a visiting scholar at NYU CUSP. Dr. Savage has nearly 15 years of experience in consulting focused on complex quantitative analysis.  His experience ranges from large antitrust and commercial damage engagements to civil and criminal engagements in the financial services sector. Most recently, Dr. Savage has conducted detailed analyses of international benchmarks for interest rates. In the areas of energy and the environment, Dr. Savage has developed a sophisticated econometric model to forecast land use in California, as well as “rare-event” models to examine alleged violations of federal air quality standards. Dr. Savage’s published research uses complex econometric methods to examine hypotheses ranging from labor mobility to consumer demand. He has also developed survey instruments and conducted subsequent data analysis to examine consumers’ willingness to pay for improvements in air quality."
-  link:
-    url: http://cusp.nyu.edu/people/timothy-h-savage/
-    twitter:
-    linkedin:
-    github:
-    email: 
-  tags: 
-  
-- name:
     last: Nisbet
     first: Miriam
     slug: mirian-nisbet
@@ -263,9 +248,9 @@
     last: Johnson
     first: Clay
     slug: clay-johnson
-  job: CEO of the Department of Better Technology
+  job: Chairman of the Department of Better Technology
   is_govlab: false
-  description: "Clay Johnson is an American technologist, co-founder and the CEO of the Department of Better Technology and best known for his role in supporting political campaigns and government agencies with technology services. He was one of the founders of Blue State Digital, the firm that built and managed Barack Obama’s online campaign for the presidency in 2008. After leaving Blue State, Johnson was the director of Sunlight Labs at the Sunlight Foundation, where he built an army of 2000 developers and designers to build open source tools to give people greater access to government data. He was awarded the Google/O’Reilly Open Source Organizer of the year in 2009, was one of Federal Computing Week’s Fed 100 in 2010, and won the CampaignTech Innovator award in 2011. Johnson’s combination of experience as a developer, working in politics, entrepreneurism, and non-profit work gives him a unique perspective on media and culture. His life is dedicated to giving people greater access to the truth about what’s going on in their communities, their cities and their governments. He still claims that he learned all he needs to know from a two year tour as the late-shift waiter at Waffle House in Atlanta, GA."
+  description: "Clay Johnson is an American technologist, co-founder and Chairman of the Department of Better Technology and best known for his role in supporting political campaigns and government agencies with technology services. He was one of the founders of Blue State Digital, the firm that built and managed Barack Obama’s online campaign for the presidency in 2008. After leaving Blue State, Johnson was the director of Sunlight Labs at the Sunlight Foundation, where he built an army of 2000 developers and designers to build open source tools to give people greater access to government data. He was awarded the Google/O’Reilly Open Source Organizer of the year in 2009, was one of Federal Computing Week’s Fed 100 in 2010, and won the CampaignTech Innovator award in 2011. Johnson’s combination of experience as a developer, working in politics, entrepreneurism, and non-profit work gives him a unique perspective on media and culture. His life is dedicated to giving people greater access to the truth about what’s going on in their communities, their cities and their governments. He still claims that he learned all he needs to know from a two year tour as the late-shift waiter at Waffle House in Atlanta, GA."
   link:
     url: http://www.dobt.co/
     twitter: https://twitter.com/cjoh

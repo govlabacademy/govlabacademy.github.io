@@ -16,34 +16,37 @@
       <span class="e-filter m-show-all" data-filter="all">Show All</span>
 		</h4>
     <ul>
-      {% for tag in projectTags %}
+      {% for tag in libraryTags %}
 				<li class="e-filter" data-filter="{{tag}}">{{tag}}</li>
 		{% endfor %}
 		</ul>
 	</section>
 
 	<div class="row">
-    <div class="b-library-isotopes column large-12">
-      {% for item in library %}
-        {% if item.url %}
-        <article class="b-library-item" data-filter="{% for tag in item.tags %}{{tag}}{% endfor %}">
-          <a class="b-go-to" href="{{item.url}}" target="_blank">
-            {% if item.content_type is equalto 'document' %}
-            <div class="e-item-type"><i class="fa fa-file-text"></i></div>
-            {% endif %}
-            {% if item.content_type is equalto 'expert' %}
-            <div class="e-item-type"><i class="fa fa-twitter"></i></div>
-            {% endif %}
-            {% if item.content_type is equalto 'video' %}
-            <div class="e-item-type"><i class="fa fa-video-camera"></i></div>
-            {% endif %}
-            
-            <h4>{{item.title}}</h4>
-            <p>{{item.description}}</p>
-          </a>
-        </article>
-        {% endif %}
-      {% endfor %}  
+    <h3 class="column large-12">GovLab Academy Library</h3>
+    <div class="b-card-isotopes column large-12">
+      <div class="b-card-wrapper">
+        {% for card in library|sort(attribute='title') %}
+          {% if card.description %}
+          
+          <article class="b-card m-project m-clinic b-pop-controls-container" data-filter="{% for tag in card.slugTags %}{{tag}}{% endfor %}">
+              <div class="b-wrapper">
+                <header class="b-card-header">
+                  <aside class="b-pop-controls">
+                    {# <span class="e-pop-button m-pin"><i class="fa fa-thumb-tack"></i></span> #}
+                    <a class="e-pop-button m-link" href="{{card.url}}"><i class="fa fa-external-link"></i></a>
+                    <a class="e-pop-button m-linkedin" href="yrdy"><i class="fa fa-linkedin"></i></a>
+                  </aside>
+                </header>
+
+                <div class="e-card-content">
+                  <h3 title="{{card.title}}"><a href="{{card.url}}" target="__new__">{{card.title}}</a></h3>
+                  {# <p>By: {% for author in card.authors %}<span>{{author.first_name}} {{author.last_name}}, </span>{% endfor %} </p> #}
+                </div>
+              </div>
+          </article>
+          {% endif %}
+        {% endfor %}  
       </div>
     </div>
   </div>

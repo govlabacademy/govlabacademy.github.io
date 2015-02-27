@@ -18,7 +18,7 @@ WORKSHOPS = yaml.load(open('data/workshops.yaml'))
 CLINICS   = yaml.load(open('data/clinics.yaml'))
 COACHING  = yaml.load(open('data/coaching.yaml'))
 PROJECTS  = yaml.load(open('data/project-schema.yaml'))
-LIBRARY  = yaml.load(open('data/library.yaml'))
+LIBRARY   = yaml.load(open('data/library.yaml'))
 
 for person in PEOPLE:
 	person['fullName'] = "%s %s" % (person['name']['first'], person['name']['last'])
@@ -32,7 +32,10 @@ for item in PROJECTS:
 	for tag in item['tags']:
 		TAGS.add(tag)
 
-print PEOPLE[0]
+LIBRARY_TAGS = set()
+for item in LIBRARY:
+	for tag in item['slugTags']:
+		LIBRARY_TAGS.add(tag)
 
 def loadAcademyData():
 	return { 'people': PEOPLE,
@@ -41,6 +44,7 @@ def loadAcademyData():
 					 'projects': PROJECTS,
 					 'coaching': COACHING,
 					 'library': LIBRARY,
+					 'libraryTags': LIBRARY_TAGS,
 					 'projectTags': sorted(list(TAGS)),
 					 'resources': None }
 
