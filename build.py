@@ -37,6 +37,9 @@ for item in LIBRARY:
 	for tag in item['slugTags']:
 		LIBRARY_TAGS.add(tag)
 
+for item in LIBRARY_TAGS:
+	print item
+
 def loadAcademyData():
 	return { 'people': PEOPLE,
 					 'workshops': WORKSHOPS,
