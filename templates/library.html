@@ -1,10 +1,11 @@
 {% extends "layout/base.html" %}
 {% block content %}
-<div id="gallery-page" class="b-content-page">
+<div id="library-page" class="b-content-page">
 	<div class="b-page-title">
     <div class="row">
       <div class="column large-12">
-    		<h2>Library</h2>	
+    		<h2>Library</h2>
+        <p>Selected Readings</p>
         <span class="e-filters-trigger e-button">Filters</span>
       </div>
   	</div>
@@ -28,7 +29,7 @@
         {% for card in library|sort(attribute='title') %}
           {% if card.description %}
           
-          <article class="b-card m-project m-clinic b-pop-controls-container" data-filter="{% for tag in card.slugTags %}{{tag}}{% endfor %}">
+          <article class="b-card m-project b-pop-controls-container" data-filter="{% for tag in card.slugTags %}{{tag}}{% endfor %}">
               <div class="b-wrapper">
                 <header class="b-card-header">
                   <aside class="b-pop-controls">
