@@ -86,7 +86,7 @@
   description_long: "This coaching program is for those engaged in projects that touch on any aspect of freedom of information or FOIA implementation. These might include designing a FOIA portal, developing better practices for systematically requesting or supplying records and information, or developing a records management system. Also welcome are those teams and individuals undertaking projects that depend upon access to government records. Through peer-to-peer coaching, expert mentors and hands on advising, this program aims to catalyze more robust freedom of information projects. Through this program we'll work together to design your project to make optimal use of the FOIA and explore how it can be used to break down the wall protecting Government data to create a space for citizen engagement. Please note: If are looking for a basic introduction to FOIA or to learn how to file a FOIA request, please visit the Resources listed below."
   resources:
     - title: US government and civil society
-      items:
+      resource_item:
       - label: "Freedom of Information Act (FOIA), 5 U.S.C. § 552, as amended in 2007 and 2009"
         link: http://www.justice.gov/sites/default/files/oip/legacy/2014/07/23/amended-foia-redlined-2010.pdf
       - label: "Office of Government Information Services (OGIS), National Archives and Records Administration - includes Best Practices for Agencies and Requesters"
@@ -104,7 +104,7 @@
       - label: "Investigative Reporters and Editors (IRE)"
         link: https://www.ire.org/resource-center/foia/
     - title: International resources
-      items:
+      resource_item:
       - label: "Right2Info (includes model laws)"
         link: http://www.right2info.org
       - label: "Carter Center Global Access to Information Initiative"

@@ -116,9 +116,11 @@
       <h3>Resources</h3>
         {% for resource in coaching_class.resources %}
           <h4>{{resource.title}}</h4>
-          {% for item in resource.items %}
-            <p><a href="{{item.link}}">{{item.label}}</a></p>
+          <ul>
+          {% for item in resource.resource_item %}
+            <li><a href="{{item.link}}">{{item.label}}</a></li>
           {% endfor %}
+          </ul>
         {% endfor %}
         <a href="./coaching-programs.html#faqs" class="e-button">FAQs</a>
       {% else %}
