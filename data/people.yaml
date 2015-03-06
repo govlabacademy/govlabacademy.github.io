@@ -324,3 +324,19 @@
     github:
     email: AMashariki@cityhall.nyc.gov
   tags: 
+
+- name:
+    last: Barry
+    first: Liz
+    slug: liz-barry
+  job: Co-founder & Director of Community Development at the Public Lab
+  is_govlab: false
+  description: >
+    Liz is an activist and designer interested in collaborative urban environments. My early days in New York involved catalyzing public interactions on sidewalks and subway stations with a giant "Talk To Me" sign as well as working 25 floors above Wall Street (SOM) designing international new cities and campuses. I'm originally from North Carolina where I managed an urban agriculture youth enterprise called the Durham Inner-city Gardeners (DIG). Currently, when I'm not hoisting cameras up on balloons (with Public Laboratory) or hugging trees with tape measures (with TreeKIT), I teach geospatial tools for urban design at Columbia, Parsons, and Pratt. 
+  link:
+    url: http://www.lizbarry.com/
+    twitter: https://twitter.com/lizbarry
+    linkedin: https://www.linkedin.com/in/elizabethbarry
+    github: https://github.com/ebarry
+    email: liz@publiclab.org
+  tags: 
