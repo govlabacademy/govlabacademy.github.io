@@ -96,8 +96,8 @@
       <p>{{coaching_class.format}}</p>
       <div class="b-format">
       {% if coaching_class.when %}
-      <h4>Online sessions will be held <strong>{{coaching_class.when}}</strong></h4>
-      {% if coaching_class.when_plus %}<p><em>{{coaching_class.when_plus}}</em></p>{% endif %}
+        <h4>Online sessions will be held <strong>{{coaching_class.when}}</strong></h4>
+        {% if coaching_class.when_plus %}<p><em>{{coaching_class.when_plus}}</em></p>{% endif %}
       {% endif %}
       <h4>Course Duration: {{coaching_class.duration}}</h4>
       </div>
@@ -106,8 +106,19 @@
 		<div class="column large-6">
       {% if coaching_class.prerequisites %}
 			<h3>Prerequisites</h3>
-        {% for item in coaching_class.prerequisites %}
-					<p>{{item}}</p>
+      {% for item in coaching_class.prerequisites %}
+				<p>{{item}}</p>
+      {% endfor %}
+      <a href="./coaching-programs.html#faqs" class="e-button">FAQs</a>
+      {% endif %}
+
+      {% if coaching_class.resources %}
+      <h3>Resources</h3>
+        {% for resource in coaching_class.resources %}
+          <h4>{{resource.title}}</h4>
+          {% for item in resource.items %}
+            <p><a href="{{item.link}}">{{item.label}}</a></p>
+          {% endfor %}
         {% endfor %}
         <a href="./coaching-programs.html#faqs" class="e-button">FAQs</a>
       {% else %}

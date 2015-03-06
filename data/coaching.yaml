@@ -84,7 +84,35 @@
       - "Developing a process for improving communications with record requesters? And want to design an efficient and accountable process for talking with people about what the records are and how to frame requests?"
   description_short: "This is a coaching program designed for people who are familiar with Freedom of Information practices and who want to create a project such as a freedom of information portal or new programs for making government information more systematically available. If are looking for a basic introduction to FOIA or to learn how to file a FOIA request, please visit the Resources listed below."
   description_long: "This coaching program is for those engaged in projects that touch on any aspect of freedom of information or FOIA implementation. These might include designing a FOIA portal, developing better practices for systematically requesting or supplying records and information, or developing a records management system. Also welcome are those teams and individuals undertaking projects that depend upon access to government records. Through peer-to-peer coaching, expert mentors and hands on advising, this program aims to catalyze more robust freedom of information projects. Through this program we'll work together to design your project to make optimal use of the FOIA and explore how it can be used to break down the wall protecting Government data to create a space for citizen engagement. Please note: If are looking for a basic introduction to FOIA or to learn how to file a FOIA request, please visit the Resources listed below."
-  prerequisites:
+  resources:
+    - title: US government and civil society
+      items:
+      - label: "Freedom of Information Act (FOIA), 5 U.S.C. § 552, as amended in 2007 and 2009"
+        link: http://www.justice.gov/sites/default/files/oip/legacy/2014/07/23/amended-foia-redlined-2010.pdf
+      - label: "Office of Government Information Services (OGIS), National Archives and Records Administration - includes Best Practices for Agencies and Requesters"
+        link: http://ogis.archives.gov
+      - label: "The FOIA Ombudsman Blog"
+        link: http://blogs.archives.gov/foiablog/
+      - label: "The OGIS Library (varied FOIA resources)"
+        link: https://ogis.archives.gov/the-ogis-library.htm
+      - label: "FOIA.gov – U.S. Department of Justice Office of Information Policy (includes reports, FOIA offices for all federal agencies, and FOIA resources)"
+        link: http://foia.gov
+      - label: "National Security Archive FOIA Guide"
+        link: http://www2.gwu.edu/~nsarchiv/nsa/foia/guide.html
+      - label: "Reporters Committee for Freedom of the Press – Digital Journalists Legal Guide"
+        link: http://www.rcfp.org/browse-media-law-resources/digital-journalists-legal-guide
+      - label: "Investigative Reporters and Editors (IRE)"
+        link: https://www.ire.org/resource-center/foia/
+    - title: International resources
+      items:
+      - label: "Right2Info (includes model laws)"
+        link: http://www.right2info.org
+      - label: "Carter Center Global Access to Information Initiative"
+        link: http://www.cartercenter.org/peace/ati/index.html
+      - label: "The World Bank (webinar)"
+        link: https://einstitute.worldbank.org/ei/webinar/right-information-designing-laws-support-effective-implementation
+      - label: "UNESCO (United Nations Educational, Scientific and Cultural Organization)"
+        link: http://www.unesco.org/new/en/communication-and-information/freedom-of-expression/freedom-of-information/
   faculty_members: # Add list with faculty member names
     - Miriam Nisbet
   actions:
