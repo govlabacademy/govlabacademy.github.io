@@ -90,6 +90,7 @@
 			<p>{{coaching_class.description_long}}</p>
 		</div>
 	</div>
+  
   <div class="row b-content-section">
     <div class="column large-6">
       <h3>Course Format</h3>
@@ -110,25 +111,31 @@
 				<p>{{item}}</p>
       {% endfor %}
       <a href="./coaching-programs.html#faqs" class="e-button">FAQs</a>
-      {% endif %}
 
-      {% if coaching_class.resources %}
-      <h3>Resources</h3>
-        {% for resource in coaching_class.resources %}
-          <h4>{{resource.title}}</h4>
-          <ul>
-          {% for item in resource.resource_item %}
-            <li><a href="{{item.link}}">{{item.label}}</a></li>
-          {% endfor %}
-          </ul>
-        {% endfor %}
-        <a href="./coaching-programs.html#faqs" class="e-button">FAQs</a>
       {% else %}
         <h3>For more information</h3>
         <a href="./coaching-programs.html#faqs" class="e-button">FAQs</a>
       {% endif %}
 		</div>
 	</div>
+
+  {% if coaching_class.resources %}
+  <div class="row b-content-section">
+    <div class="column large-12">
+      <h2>Resources</h2>
+    </div>
+    {% for resource in coaching_class.resources %}
+    <div class="column large-6">
+      <h3>{{resource.title}}</h3>
+      <ul class="b-list">
+      {% for item in resource.resource_item %}
+        <li><a href="{{item.link}}">{{item.label}}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
 
   <div class="row b-content-section">
     <div class="column large-12">

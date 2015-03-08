@@ -239,17 +239,21 @@ li {
   text-align: center; }
 
 p,
-.e-project-files {
+.e-project-files,
+.b-list {
   margin-bottom: 0.5rem; }
   p a,
-  .e-project-files a {
+  .e-project-files a,
+  .b-list a {
     color: #281841; }
     p a:hover,
-    .e-project-files a:hover {
+    .e-project-files a:hover,
+    .b-list a:hover {
       background-color: #00c8b4;
       color: #281841; }
     p a:visited,
-    .e-project-files a:visited {
+    .e-project-files a:visited,
+    .b-list a:visited {
       color: rgba(0, 0, 0, 0.5); }
 
 .m-project-coaching {
