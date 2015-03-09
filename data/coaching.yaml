@@ -252,6 +252,7 @@
   prerequisites:
   faculty_members: # Add list with faculty member names
     - Francois Grey
+    - Liz Barry
   actions:
     - label: More Info
       link: citizen-science-on-the-web-detail.html
