@@ -77,3 +77,38 @@
     for_certificate: false
   is_active: true
   is_crosslisted: true
+
+- name: "Engaging citizens: a game-changer for development"
+  partner: The World Bank
+  date: 15 March - 12 April 2015 # Date can be in two formats ie. "January 2015" or "By Request"
+  duration: 
+  description_short: >
+   Governments are more effective when they work with citizens to solve problems 
+   and development challenges. For this reason, the World Bank, in partnership
+   with the London School of Economics, The Overseas Development Institute, 
+   Participedia, and CIVICUS, has developed a free 4-week course on Citizen 
+   Engagement, hosted by Coursera.
+   <br/>
+   The course provides a holistic overview of citizen engagement through 
+   interactive videos, resources, and activities and is taught by a number of the
+   foremost experts in the field, including John Gaventa (IDS, Coady Institute),
+   Rakesh Rajani (Ford Foundation), Danny Sriskandarajah (CIVICUS), Jonathan 
+   Fox (American University), and Beth Simone Noveck (The Governance Lab). 
+   It examines the role citizen engagement can play in improving policymaking 
+   and pubic service delivery, and investigates the impact of new technologies,
+   particularly in developing countries. Participants can contribute their own
+    insights and connect with others through online forums, dedicated social
+    media channels, and Google hangouts.
+  description_long:
+  faculty_members: # Add list with faculty member names
+  actions:
+    - label: Course Website
+      link: http://bit.ly/citizensengage
+  certificates:
+    blended: false
+    online: false
+    in_person: false
+    for_credit: false
+    for_certificate: false
+  is_active: true
+  is_crosslisted: true
