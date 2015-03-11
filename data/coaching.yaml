@@ -74,15 +74,15 @@
   date:
     start: "March 25, 2015"
     week_start: "March 23 - 27" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "March 27, 2015"
-    application: "March 15, 2015"
+    end: "April 15, 2015"
+    application: "March 18, 2015"
   passion:
     title: Passionate about freedom of information? Are you…
     bullets:
       - "Someone who wants to build a freedom of information/FOIA portal or have a project well-underway, but wants a team of peers to provide feedback?"
       - "Designing, building or improving a system of electronic records management?"
       - "Developing a process for improving communications with record requesters? And want to design an efficient and accountable process for talking with people about what the records are and how to frame requests?"
-  description_short: "This is a coaching program designed for people who are familiar with Freedom of Information practices and who want to create a project such as a freedom of information portal or new programs for making government information more systematically available. If are looking for a basic introduction to FOIA or to learn how to file a FOIA request, please visit the Resources listed below."
+  description_short: "This is a coaching program designed for people who are familiar with Freedom of Information practices and who want to create a project such as a freedom of information portal or new programs for making government information more systematically available. If you are looking for a basic introduction to FOIA or to learn how to file a FOIA request, please visit the Resources listed below."
   description_long: "This coaching program is for those engaged in projects that touch on any aspect of freedom of information or FOIA implementation. These might include designing a FOIA portal, developing better practices for systematically requesting or supplying records and information, or developing a records management system. Also welcome are those teams and individuals undertaking projects that depend upon access to government records. Through peer-to-peer coaching, expert mentors and hands on advising, this program aims to catalyze more robust freedom of information projects. Through this program we'll work together to design your project to make optimal use of the FOIA and explore how it can be used to break down the wall protecting Government data to create a space for citizen engagement. Please note: If are looking for a basic introduction to FOIA or to learn how to file a FOIA request, please visit the Resources listed below."
   resources:
     - title: US government and civil society
@@ -304,8 +304,8 @@
   date:
     start: "March 23, 2015"
     week_start: "March 23 - 27, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "April 6, 2015"
-    application: "March 13, 2015" 
+    end: "April 17, 2015"
+    application: "March 16, 2015" 
   passion:
     title: Passionate about the uses of Crowdsourcing in the Public Sector? Are you...
     bullets:
