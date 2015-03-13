@@ -8,8 +8,7 @@ pip install git+git://github.com/Ceasar/staticjinja#egg=staticjinja
 ## commands for building
 ```
 mkdir -p site
-staticjinja build --outpath ./site --static static
-staticjinja watch --outpath ./site --static static
+ptyhon build.pys
 (cd site; python -m SimpleHTTPServer &)
 ```
 
