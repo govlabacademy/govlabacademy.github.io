@@ -336,10 +336,10 @@
 - name: "Open Data Data-Driven Decisions for All"
   duration: 8 weeks
   date:
-    start: "April 6, 2015"
-    week_start: "April 6 - 10, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "May 26, 2015"
-    application: "March 20, 2015" 
+    start: "May 11, 2015"
+    week_start: "May 11 - 15, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "July 3, 2015"
+    application: "May 1, 2015" 
   passion:
     title: Passionate about open data data-driven decisions?
     bullets:
@@ -370,7 +370,7 @@
 - name: "Data Analytics for Change"
   duration: 8 weeks
   date:
-    start: "December 31, 2015"
+    start: "April 6, 2015"
     week_start: "April 6 - 10, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "May 25 - 29, 2015"
     application: "March 20, 2015" 
@@ -404,7 +404,7 @@
   partner: 
   duration: 8 weeks
   date:
-    start: "December 31, 2015"      # Date in single format.
+    start: "April 27, 2015"      # Date in single format.
     week_start: "April 27 - May 1, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "June 15 - 19, 2015"
     application: "April 10, 2015"
