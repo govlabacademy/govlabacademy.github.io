@@ -39,7 +39,7 @@
     start: "April 8, 2015"
     week_start: "April 6 - 10" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "May 29, 2015"
-    application: "March 13, 2015"
+    application: "March 27, 2015"
   passion:
     title: Passionate about Open Source? Are you…
     bullets:
@@ -75,7 +75,7 @@
     start: "March 25, 2015"
     week_start: "March 23 - 27" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "April 15, 2015"
-    application: "March 18, 2015"
+    application: "March 20, 2015"
   passion:
     title: Passionate about freedom of information? Are you…
     bullets:
@@ -305,7 +305,7 @@
     start: "March 23, 2015"
     week_start: "March 23 - 27, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "April 17, 2015"
-    application: "March 16, 2015" 
+    application: "March 20, 2015" 
   passion:
     title: Passionate about the uses of Crowdsourcing in the Public Sector? Are you...
     bullets:
@@ -373,7 +373,7 @@
     start: "April 6, 2015"
     week_start: "April 6 - 10, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "May 25 - 29, 2015"
-    application: "March 20, 2015" 
+    application: "March 25, 2015" 
   passion:
     title: Passionate about applying big data for social good? Are you...
     bullets:
