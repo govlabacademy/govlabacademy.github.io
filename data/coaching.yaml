@@ -39,7 +39,7 @@
     start: "April 8, 2015"
     week_start: "April 6 - 10" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "May 29, 2015"
-    application: "March 13, 2015"
+    application: "March 27, 2015"
   passion:
     title: Passionate about Open Source? Are you…
     bullets:
@@ -75,7 +75,7 @@
     start: "March 25, 2015"
     week_start: "March 23 - 27" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "April 15, 2015"
-    application: "March 18, 2015"
+    application: "March 20, 2015"
   passion:
     title: Passionate about freedom of information? Are you…
     bullets:
@@ -83,7 +83,7 @@
       - "Designing, building or improving a system of electronic records management?"
       - "Developing a process for improving communications with record requesters? And want to design an efficient and accountable process for talking with people about what the records are and how to frame requests?"
   description_short: "This is a coaching program designed for people who are familiar with Freedom of Information practices and who want to create a project such as a freedom of information portal or new programs for making government information more systematically available. If you are looking for a basic introduction to FOIA or to learn how to file a FOIA request, please visit the Resources listed below."
-  description_long: "This coaching program is for those engaged in projects that touch on any aspect of freedom of information or FOIA implementation. These might include designing a FOIA portal, developing better practices for systematically requesting or supplying records and information, or developing a records management system. Also welcome are those teams and individuals undertaking projects that depend upon access to government records. Through peer-to-peer coaching, expert mentors and hands on advising, this program aims to catalyze more robust freedom of information projects. Through this program we'll work together to design your project to make optimal use of the FOIA and explore how it can be used to break down the wall protecting Government data to create a space for citizen engagement. Please note: If are looking for a basic introduction to FOIA or to learn how to file a FOIA request, please visit the Resources listed below."
+  description_long: "This coaching program is for those engaged in projects that touch on any aspect of freedom of information or FOIA implementation. These might include designing a FOIA portal, developing better practices for systematically requesting or supplying records and information, or developing a records management system. Also welcome are those teams and individuals undertaking projects that depend upon access to government records. Through peer-to-peer coaching, expert mentors and hands on advising, this program aims to catalyze more robust freedom of information projects. Through this program we'll work together to design your project to make optimal use of the FOIA and explore how it can be used to break down the wall protecting Government data to create a space for citizen engagement. Please note: If you are looking for a basic introduction to FOIA or to learn how to file a FOIA request, please visit the Resources listed below."
   resources:
     - title: US government and civil society
       resource_item:
@@ -201,10 +201,10 @@
 - name: "Citizen Engagement Projects"
   duration: 4 weeks
   date:
-    start: "April 6, 2015"
-    week_start: "April 6 - 10" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "April 30"
-    application: "March 25, 2015"
+    start: "May 6, 2015"
+    week_start: "May 4 - 8" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "May 29"
+    application: "April 24, 2015"
   passion:
     title: Passionate about Citizen Engagement? Are you…
     bullets:
@@ -305,7 +305,7 @@
     start: "March 23, 2015"
     week_start: "March 23 - 27, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "April 17, 2015"
-    application: "March 16, 2015" 
+    application: "March 20, 2015" 
   passion:
     title: Passionate about the uses of Crowdsourcing in the Public Sector? Are you...
     bullets:
@@ -336,10 +336,10 @@
 - name: "Open Data Data-Driven Decisions for All"
   duration: 8 weeks
   date:
-    start: "April 6, 2015"
-    week_start: "April 6 - 10, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "May 26, 2015"
-    application: "March 20, 2015" 
+    start: "May 11, 2015"
+    week_start: "May 11 - 15, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "July 3, 2015"
+    application: "May 1, 2015" 
   passion:
     title: Passionate about open data data-driven decisions?
     bullets:
@@ -370,10 +370,10 @@
 - name: "Data Analytics for Change"
   duration: 8 weeks
   date:
-    start: "December 31, 2015"
+    start: "April 6, 2015"
     week_start: "April 6 - 10, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "May 25 - 29, 2015"
-    application: "March 20, 2015" 
+    application: "March 25, 2015" 
   passion:
     title: Passionate about applying big data for social good? Are you...
     bullets:
@@ -404,7 +404,7 @@
   partner: 
   duration: 8 weeks
   date:
-    start: "December 31, 2015"      # Date in single format.
+    start: "April 27, 2015"      # Date in single format.
     week_start: "April 27 - May 1, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "June 15 - 19, 2015"
     application: "April 10, 2015"
