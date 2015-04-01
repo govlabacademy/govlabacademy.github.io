@@ -370,10 +370,10 @@
 - name: "Data Analytics for Change"
   duration: 8 weeks
   date:
-    start: "April 6, 2015"
-    week_start: "April 6 - 10, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "May 25 - 29, 2015"
-    application: "March 25, 2015" 
+    start: "April 14, 2015"
+    week_start: "April 13 - 17, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "June 1 - 5, 2015"
+    application: "April 10, 2015" 
   passion:
     title: Passionate about applying big data for social good? Are you...
     bullets:
