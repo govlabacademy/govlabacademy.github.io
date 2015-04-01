@@ -4,6 +4,12 @@
 ```
 pip install git+git://github.com/Ceasar/staticjinja#egg=staticjinja
 ```
+## check that dev version is installed
+python -c "import jinja2; print jinja2.__version__"
+
+## if not installed
+git clone git://github.com/mitsuhiko/jinja2.git
+pip install -e ../../git-stuff/jinja2
 
 ## commands for building
 ```
