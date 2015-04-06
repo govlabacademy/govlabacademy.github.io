@@ -36,10 +36,10 @@
 - name: "Open Source Technology Practices For Civic Engagement Projects"
   duration: 8 weeks
   date:
-    start: "April 8, 2015"
-    week_start: "April 6 - 10" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "May 29, 2015"
-    application: "March 27, 2015"
+    start: "April 22, 2015"
+    week_start: "April 20 - 24" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "June 19 2015"
+    application: "April 14, 2015"
   passion:
     title: Passionate about Open Source? Are you…
     bullets:
@@ -65,7 +65,7 @@
     for_credit: false
     for_certificate: true
   is_active: true
-  when: Every other Wednesday, starting April 8, from 1 -3pm EST
+  when: Every other Wednesday, starting April 14, from 1 -3pm EST
   when_plus: 
   format: 1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
@@ -407,7 +407,7 @@
     start: "April 27, 2015"      # Date in single format.
     week_start: "April 27 - May 1, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "June 15 - 19, 2015"
-    application: "April 10, 2015"
+    application: "April 17, 2015"
   passion:
     title: "Passionate about fully realizing the promise of open contracting? Are you..."
     bullets:
