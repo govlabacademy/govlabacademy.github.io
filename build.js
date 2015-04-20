@@ -3,7 +3,10 @@
 var ghpages = require('gh-pages');
 var path = require('path');
 
-ghpages.publish(path.join(__dirname, 'site'), function(err) {
-  console.error(path.join(__dirname, 'site'));
+ghpages.publish(path.join(__dirname, 'site'), {
+  logger: function (msg) {
+    console.log(msg);
+  }
+}, function(err) {
   console.error('Uh-oh! ' + err);
 });
