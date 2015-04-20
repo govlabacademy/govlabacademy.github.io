@@ -8,5 +8,7 @@ ghpages.publish(path.join(__dirname, 'site'), {
     console.log(msg);
   }
 }, function(err) {
-  console.error('Uh-oh! ' + err);
+  if (err) {
+    console.error('Uh-oh! ' + err);
+  }
 });

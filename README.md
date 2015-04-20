@@ -1,23 +1,26 @@
 # academy
 
-## install the latest version of staticjinja
+## Installation
 
-    pip install requirements.txt
+You'll need recent versions of `node`, `npm`, and Python 2.
 
-## check that dev version is installed
+On a Mac:
 
-    python -c "import jinja2; print jinja2.__version__"
+    brew install node
 
-## if not installed
+You'll need Python (preferably in a virtualenv) and node requirements.
 
-    git clone git://github.com/mitsuhiko/jinja2.git
-    pip install -e ../../git-stuff/jinja2
+    npm install
+    virtualenv .env
+    source .env/bin/activate
+    pip install -r requirements.txt
 
 ## commands for building
 
-    mkdir -p site
-    python build.py
-    (cd site; python -m SimpleHTTPServer &)
+This will build and upload to the `gh-pages` branch, so you'll need push
+permissions.
+
+    make
 
 ## Basic Folder Structure
 
