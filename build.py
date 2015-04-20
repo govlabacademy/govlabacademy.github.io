@@ -97,4 +97,5 @@ site = staticjinja.make_site(
 	filters=filters,
 	contexts=[(r'.*.html', loadAcademyData),]
 	)
-site.render(use_reloader=True)
+site.render()
+#site.render(use_reloader=True)

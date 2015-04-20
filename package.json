@@ -14,6 +14,9 @@
     "url": "https://github.com/GovLab/academy/issues"
   },
   "dependencies": {
-    "gh-pages": "^0.2.0"
+    "gh-pages": "latest"
+  },
+  "devDependencies": {
+    "gh-pages": "~0.2.0"
   }
 }
