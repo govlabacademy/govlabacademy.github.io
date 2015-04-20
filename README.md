@@ -2,7 +2,7 @@
 
 ## install the latest version of staticjinja
 ```
-pip install git+git://github.com/Ceasar/staticjinja#egg=staticjinja
+pip install requirements.txt
 ```
 ## check that dev version is installed
 python -c "import jinja2; print jinja2.__version__"
@@ -14,7 +14,7 @@ pip install -e ../../git-stuff/jinja2
 ## commands for building
 ```
 mkdir -p site
-ptyhon build.pys
+python build.py
 (cd site; python -m SimpleHTTPServer &)
 ```
 

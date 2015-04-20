@@ -1,0 +1,19 @@
+{
+  "name": "govlab-academy",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GovLab/academy.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/GovLab/academy/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^0.2.0"
+  }
+}
