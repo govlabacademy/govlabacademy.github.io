@@ -340,3 +340,37 @@
     github: https://github.com/ebarry
     email: liz@publiclab.org
   tags: 
+
+  - name:
+    last: Barry
+    first: Liz
+    slug: liz-barry
+  job: Co-founder & Director of Community Development at the Public Lab
+  is_govlab: false
+  description: >
+    Liz is an activist and designer interested in collaborative urban environments. My early days in New York involved catalyzing public interactions on sidewalks and subway stations with a giant "Talk To Me" sign as well as working 25 floors above Wall Street (SOM) designing international new cities and campuses. I'm originally from North Carolina where I managed an urban agriculture youth enterprise called the Durham Inner-city Gardeners (DIG). Currently, when I'm not hoisting cameras up on balloons (with Public Laboratory) or hugging trees with tape measures (with TreeKIT), I teach geospatial tools for urban design at Columbia, Parsons, and Pratt. 
+  link:
+    url: http://www.lizbarry.com/
+    twitter: https://twitter.com/lizbarry
+    linkedin: https://www.linkedin.com/in/elizabethbarry
+    github: https://github.com/ebarry
+    email: liz@publiclab.org
+  tags: 
+
+  - name:
+    last: Kishor
+    first: Puneet
+    slug: puneet-kishor
+  job: Univ of Wisconsin and Former Manager of Science and Data Policy at Creative Commons
+  is_govlab: false
+  description: >
+    Since 1985 Puneet’s career has spanned rural appropriate technology design to international development, academia, research and science information policy.
+    He is currently an independent consultant with The World Bank and also has an appointment at the Department of GeoScience, University of Wisconsin, Madison, WI, USA where he is working on PaleoDeepDive, a machine reading and learning system, built upon a new kind of digital library resource.
+    Before that he was the Manager of Science and Data Policy at Creative Commons where he focused on open data, text and data mining, open science policy, and citizen-sourced information. He has also been a member of the CODATA Task Group on Data Citation Standards and Practices, and co-authored the chapter on Emerging Principles for Data Citation in the Task Group’s report titled “Out of Cite, Out of Mind.” Puneet’s current interest is in open sensor-based hardware, ethical issues around citizen-sourced information, licensing open hardware and certification of data quality, novel ways of citizen-engagement, and promoting hacker/maker spaces for learning-by-making, teaching-by-doing.
+  link:
+    url: http://punkish.org/
+    twitter: https://twitter.com/punkish
+    linkedin: 
+    github: https://github.com/punkish
+    email: punk.kish@gmail.com
+  tags: 
