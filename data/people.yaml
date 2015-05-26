@@ -1,6 +1,21 @@
 ---
 
 - name:
+    last: Berens
+    first: Jos
+    slug: jos-berens
+  job: Project Coordinator of the Data Governance Project
+  is_govlab: false
+  description: "Jos Berens is the Project Coordinator of the Data Governance Project (DGP), an international multidisciplinary collaboration between the Governance Lab, the World Economic Forum, and Leiden University. The collaboration focuses on building an expert network to solve questions regarding corporate data sharing for social good, particularly in a development context. Working with a number of international organisations, the DGP looks at concrete governance issues in the data for development space. Based on the solutions found, the DGP is developing a framework for corporate data sharing for social good. Jos holds an LL.B in Dutch Law and a BA in Philosophy of a Specific Discipline, both obtained at Groningen University. He is currently pursuing an LL.M in Dutch Criminal Law and an LL.M in Public International Law, the former in Groningen and the latter at Utrecht University. Jos specialises in privacy, data ethics and benefit/risk assessment regarding data collection and use."
+  link:
+    url: 
+    twitter: https://twitter.com/jos_berens
+    linkedin: https://www.linkedin.com/pub/jos-berens/70/a2b/223
+    github:
+    email: jos@thegovlab.org
+  tags:  
+
+- name:
     last: Behlendorf
     first: Brian
     slug: brian-behlendorf
@@ -358,3 +373,5 @@
     github: https://github.com/punkish
     email: punk.kish@gmail.com
   tags:
+
+
