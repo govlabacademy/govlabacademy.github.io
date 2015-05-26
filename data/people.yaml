@@ -16,6 +16,21 @@
   tags:  
 
 - name:
+    last: Baar
+    first: Thomas
+    slug: thomas-baar
+  job: Project Leader at the Peace Informatics Lab
+  is_govlab: false
+  description: "Thomas works on the development of innovative solutions in using data for peace and justice. In this, he focuses on leveraging the potential of new types of data and data analytics in improving policy within these domains. Within the Peace Informatics Lab, he is responsible for several projects focussed on developing new methodologies and tooling together with researchers, practitioners and data scientists. Before joining the Centre for Innovation, Thomas held a research position at Delft University of Technology focusing on the innovation, development and application of technologies for peacebuilding and conflict prevention. Thomas received his MA Conflict Studies and Human Rights at Utrecht University for which he has conducted extensive fieldwork in amongst other Kosovo and Egypt."
+  link:
+    url: 
+    twitter: https://twitter.com/BaarThomas
+    linkedin: https://www.linkedin.com/profile/view?id=166709269&trk=hp-identity-name
+    github: https://github.com/TJBaar
+    email: t.j.baar@cdh.leidenuniv.nl
+  tags:  
+
+- name:
     last: Behlendorf
     first: Brian
     slug: brian-behlendorf
