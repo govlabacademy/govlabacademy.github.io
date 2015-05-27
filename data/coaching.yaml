@@ -470,6 +470,43 @@
   when_plus: 
   format: 
 
+- name: "Data Collaboratives"
+  is_active: false
+  partner: 
+  duration: 8 weeks
+  date:
+    start: "September 9, 2015"      # Date in single format.
+    week_start: "September 7 - 11, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "October 26, 2015"
+    application: "August 21, 2015"
+  passion:
+    title: "Join us for the Data Collaboratives coaching programme!"
+    bullets:
+      - "Are you working in the private sector and curious to learn more about how your company’s data might be used to drive social change?"
+      - "Are you working for a company that is looking to broaden its corporate social responsibility efforts in innovative ways?"
+      - "Is your company considering sharing certain data assets but worried about the potential risks?"
+      - "Do you have a strong interest in being more strategic in fulfilling your mission but are missing the skills to  identifying data sets, finding patterns, and making predictions?"
+  description_short: "Coaching program designed for private sector companies interested in sharing data for public good, together we explore your datasets’ potential to promote social good; understand different governance models for sharing; and evaluate risks and strategies to mitigate them to achieve the highest social impact responsibly."
+  description_long: "Over the past years, corporate efforts in which private data is shared with research teams have shown the potential that private sector data holds to drive social change. This program is designed for those seeking for insights about corporate data sharing to private sector participants. Through it we will explore your datasets potential to promote social good; what risks might occur when their corporate datasets are shared, and how to mitigate those risks; and, the different models for sharing (shades of open, different data governance models, etc). The term ‘Data Collaborative’ was coined by the NYU GovLab, to describe a new kind of corporate data sharing effort, where data is not blind-sightedly opened to the public, but rather shared with specific parties in a controlled environment. Corporations engaging in a Data Collaborative keep a certain amount of control over the data they make available to, for example, research teams. This practice offers a safe way of providing the research community with oftentimes highly valuable data, whilst mitigating the risks involved. In particular, this course will cover the following subjects: a) develop an understanding of what corporate data sharing is and why corporations engage in it; b) learn what current corporate data sharing efforts look like (through i.a. the GovLab Data Collaboratives Directory), which types of corporate data sets are currently being shared, and who are using them; c) learn from others through understanding how research teams are using corporate data sets to create solutions, and to optimize their operations, through in-depth case studies and analyses; d) provide strategies for small organization to define a strategy for sharing some of their data assets, take stock of in-house data resources available to them, and experiment with data sharing in a safe space; and e) Understand the challenges and best practices of corporate data sharing."
+  prerequisites:
+    - ""
+  faculty_members:
+    - Stefaan Verhulst
+    - Thomas Baar
+    - Jos Berens # Add list with faculty member names
+  actions:
+    - label: More Info
+      link: data-collaboratives-detail.html
+  certificates:
+    blended: false
+    online: true
+    in_person: false
+    for_credit: false
+    for_certificate: true
+  is_active: true
+  when: "TBD"
+  when_plus: 
+  format: 
 
 # - name: ""
 #   is_active: false
