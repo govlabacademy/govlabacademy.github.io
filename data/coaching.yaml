@@ -333,20 +333,20 @@
   when_plus: 
   format: "1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
   
-- name: "Open Data Data-Driven Decisions for All"
-  duration: 8 weeks
+- name: "Open Data Projects"
+  duration: 4 weeks
   date:
-    start: "May 11, 2015"
-    week_start: "May 11 - 15, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "July 3, 2015"
-    application: "May 1, 2015" 
+    start: "June 9, 2015 2015"
+    week_start: "June 8 - 12, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "June 30, 2015"
+    application: "June 2, 2015, 2015" 
   passion:
     title: Passionate about open data data-driven decisions?
     bullets:
-      - Are you part of an SME or local NGO that wants to leverage the growing availability of freely available government data to make mission-critical decisions?
-      - Do you have a strong interest in being more strategic in fulfilling your mission but are missing the skills to  identifying data sets, finding patterns, and making predictions?
+      - "Do you want to leverage the growing availability of freely available government data to make mission-critical decisions?"
+      - "Do you have a strong interest in being more strategic in fulfilling your mission but are missing the skills to  identifying data sets, finding patterns, and making predictions?"
   description_short: "Open data refers to the growing practice of making government data freely available, easily machine processable and without any restrictions on reuse. This course is designed for individuals and small organizations (including SMEs) eager to develop open data data-driven decisions."
-  description_long: "Open data refers to the growing practice of making government data freely available, easily machine processable and without any restrictions on reuse.  As such, open data can be a democratizing force for smaller organizations that traditionally have less access to mission-critical information. Leveraging open data can enable organizations to make more well-informed decisions. This course is designed for individuals and small organizations (including SMEs) eager to develop open data data-driven decisions. In particular, the course will seek to: develop an understanding of what open data is, how it is produced, where it can be accessed, and who is using it currently; learn from others through understanding how existing organizations are using open data to create solutions, and to optimize their operations, through in-depth case studies and analyses; provide strategies for small organization to define the problem they seek to solve, take stock of open data resources available to them, and experiment with open data through trial-and-error; understand the challenges and best practices of open data use; and, develop tools and strategies to measure the success of open data use, and to assess its impact on your organization."
+  description_long: "Open data refers to the growing practice of making government data freely available, easily machine processable and without any restrictions on reuse.  As such, open data can be a democratizing force for organizations that traditionally have less access to mission-critical information such as Small and Medium Sized Enterprises (SMEs) or Non-Profit Organizations (NPOs). Leveraging open data can enable organizations to make more well-informed decisions. This course is designed for individuals and organizations (including SMEs) eager to develop open data-driven decisions. In particular, the course will seek to: a) develop an understanding of what open data is, how it is produced, where it can be accessed, and who is using it currently. decisions; b) learn from others through understanding how existing organizations are using open data to create solutions, and to optimize their operations, through in-depth case studies and analyses; c) provide strategies for small organization to define the problem they seek to solve, take stock of open data resources available to them, and experiment with open data through trial-and-error; d) understand the challenges and best practices of open data use; and, e) develop tools and strategies to measure the success of open data use, and to assess its impact on your organization."
   prerequisites:
     - "Participants are expected to have a basic understanding of strategy development and to hold a decision making position with a small enterprise or organization."
     - "Though it is not a requirement, participants who come prepared with a problem they want to solve or a process they want to optimize will receive the most benefit from taking this course."
@@ -435,6 +435,40 @@
   when: "TBD"
   when_plus: 
   format: 
+
+- name: "OAS Fellowship Program"
+  is_active: false
+  partner: 
+  duration: 8 weeks
+  date:
+    start: "March 27, 2015"      # Date in single format.
+    week_start: "March 23 - 27, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "September 30, 2015"
+    application: "September 1, 2015"
+  passion:
+    title: "Coaching program for the fellows of the Organization of American States’ Open Government"
+    bullets:
+      - "This is a custom-designed coaching program provides support, during a period of six months, to the inaugural group of Organization of American States’ Open Government Fellows as they develop their open government projects."
+      - "These projects will be presented at the Open Government Partnership Global Summit in Mexico in October 2015."
+  description_short: "Coaching program designed for the 24 Fellows selected for the first OAS Fellowship on Open Government in the Americas."
+  description_long: "The GovLab is running a coaching program for the 24 Fellows selected for the first OAS Fellowship on Open Government in the Americas.  In addition to direct coaching support, the program provides the fellows, organized into six project teams, a space for peer-to-peer learning, feedback, and cross-team sharing. The 24 Fellows come from 16 countries in the Americas. Their teams work on open government projects in different areas: public infrastructure, public safety, investigative journalism, open justice, disability, arts and culture, and innovation labs. Coaching sessions cover such topics as problem definition, user analysis, effective use of mentors, solution prototyping, measuring impact, and communicating effectively."
+  prerequisites:
+    - ""
+  faculty_members: # Add list with faculty member names
+  actions:
+    - label: More Info
+      link: oas-fellowship-program.html
+  certificates:
+    blended: false
+    online: true
+    in_person: false
+    for_credit: false
+    for_certificate: true
+  is_active: true
+  when: "TBD"
+  when_plus: 
+  format: 
+
 
 # - name: ""
 #   is_active: false
