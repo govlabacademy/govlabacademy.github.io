@@ -444,7 +444,7 @@
     start: "March 27, 2015"      # Date in single format.
     week_start: "March 23 - 27, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "September 30, 2015"
-    application: "September 1, 2015"
+    application: "February 1, 2015"
   passion:
     title: "Coaching program for the fellows of the Organization of American States’ Open Government"
     bullets:
