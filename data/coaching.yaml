@@ -454,7 +454,8 @@
   description_long: "The GovLab is running a coaching program for the 24 Fellows selected for the first OAS Fellowship on Open Government in the Americas.  In addition to direct coaching support, the program provides the fellows, organized into six project teams, a space for peer-to-peer learning, feedback, and cross-team sharing. The 24 Fellows come from 16 countries in the Americas. Their teams work on open government projects in different areas: public infrastructure, public safety, investigative journalism, open justice, disability, arts and culture, and innovation labs. Coaching sessions cover such topics as problem definition, user analysis, effective use of mentors, solution prototyping, measuring impact, and communicating effectively."
   prerequisites:
     - ""
-  faculty_members: # Add list with faculty member names
+  faculty_members:
+    - Beth Simone Noveck # Add list with faculty member names
   actions:
     - label: More Info
       link: oas-fellowship-program.html
