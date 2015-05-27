@@ -458,7 +458,7 @@
     - Beth Simone Noveck # Add list with faculty member names
   actions:
     - label: More Info
-      link: oas-fellowship-program.html
+      link: oas-fellowship-program-detail.html
   certificates:
     blended: false
     online: true
