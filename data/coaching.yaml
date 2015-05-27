@@ -509,6 +509,43 @@
   when_plus: 
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
 
+- name: "Sensing Our Environment towards Improving Our Lives"
+  is_active: false
+  partner: 
+  duration: 8 weeks
+  date:
+    start: "June 29, 2015"      # Date in single format.
+    week_start: "June 29, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "August 17, 2015"
+    application: "June 17, 2015"
+  passion:
+    title: "Passionate about the uses of Sensors for the Public Good? Are you..."
+    bullets:
+      - "Trying to use sensors to create new opportunities for data-gathering?"
+      - "Seeking to integrate sensors measuring ability to feed data into open databases?"
+      - "Interested in using the data to enhance policy-making or service delivery?"
+      - "Already implementing a project but need support to assess impact or scale it?"
+  description_short: "Coaching program geared towards both government officials and policymakers exploring how bottom-up sensor projects can achieve a core mission and technical experts exploring how to get their project implemented."
+  description_long: "Cheap sensors are creating new sources of data generated directly by the people. From monitoring air and water quality to noise levels, environmental conditions, to also monitoring personal behavior such as distance walked or biked, monitoring devices and sensors can help us generate and collect data about factors relevant to both individuals as well as communities. Geared towards government officials, policymakers wanting to understand how bottom-up sensor projects can achieve a core mission or tech experts wanting to know hot to get their project implemented, this course will facilitate and guide the discussion related to the design, creation and implementation of a strategy to measure activity of sensors of any kind, that can feed data into a open database to be used by anyone. Power of data typically comes from volume and access. The more people who can access more data, the more are the chances for innovative reuse. The cost of gathering data is reduced and its utility increased with every reuse. Unencumbered online access, especially through APIs, is the way to ensure that everyone benefits from individual action leading to more opportunities for us to improve our lives."
+  prerequisites:
+    - "Participants are expected to have a basic understanding of strategy development and to hold a decision making position with a small enterprise or organization."
+    - "Though it is not a requirement, participants who come prepared with a data sharing idea they want to discuss or a data sharing pilot they want to implement, will receive the most benefit from taking this course."
+  faculty_members:
+    - Puneet Kishor # Add list with faculty member names
+  actions:
+    - label: More Info
+      link: sensing-our-environment-towards-improving-our-lives-detail.html
+  certificates:
+    blended: false
+    online: true
+    in_person: false
+    for_credit: false
+    for_certificate: true
+  is_active: true
+  when: "TBD"
+  when_plus: 
+  format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
+
 # - name: ""
 #   is_active: false
 #   partner: ""
