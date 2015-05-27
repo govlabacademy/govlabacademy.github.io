@@ -363,9 +363,9 @@
     for_credit: false
     for_certificate: true
   is_active: true
-  when: "every other Tuesday from 4 - 6pm EST"
+  when: "every Tuesday from 4 - 6pm EST"
   when_plus: 
-  format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
+  format: "1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
   
 - name: "Data Analytics for Change"
   duration: 8 weeks
@@ -468,7 +468,7 @@
   is_active: true
   when: "TBD"
   when_plus: 
-  format: 
+  format: "1 faculty-led session every month for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
 
 - name: "Data Collaboratives"
   is_active: false
@@ -489,7 +489,8 @@
   description_short: "Coaching program designed for private sector companies interested in sharing data for public good, together we explore your datasets’ potential to promote social good; understand different governance models for sharing; and evaluate risks and strategies to mitigate them to achieve the highest social impact responsibly."
   description_long: "Over the past years, corporate efforts in which private data is shared with research teams have shown the potential that private sector data holds to drive social change. This program is designed for those seeking for insights about corporate data sharing to private sector participants. Through it we will explore your datasets potential to promote social good; what risks might occur when their corporate datasets are shared, and how to mitigate those risks; and, the different models for sharing (shades of open, different data governance models, etc). The term ‘Data Collaborative’ was coined by the NYU GovLab, to describe a new kind of corporate data sharing effort, where data is not blind-sightedly opened to the public, but rather shared with specific parties in a controlled environment. Corporations engaging in a Data Collaborative keep a certain amount of control over the data they make available to, for example, research teams. This practice offers a safe way of providing the research community with oftentimes highly valuable data, whilst mitigating the risks involved. In particular, this course will cover the following subjects: a) develop an understanding of what corporate data sharing is and why corporations engage in it; b) learn what current corporate data sharing efforts look like (through i.a. the GovLab Data Collaboratives Directory), which types of corporate data sets are currently being shared, and who are using them; c) learn from others through understanding how research teams are using corporate data sets to create solutions, and to optimize their operations, through in-depth case studies and analyses; d) provide strategies for small organization to define a strategy for sharing some of their data assets, take stock of in-house data resources available to them, and experiment with data sharing in a safe space; and e) Understand the challenges and best practices of corporate data sharing."
   prerequisites:
-    - ""
+    - "Participants are expected to have a basic understanding of strategy development and to hold a decision making position with a small enterprise or organization."
+    - "Though it is not a requirement, participants who come prepared with a data sharing idea they want to discuss or a data sharing pilot they want to implement, will receive the most benefit from taking this course."
   faculty_members:
     - Stefaan Verhulst
     - Thomas Baar
@@ -506,7 +507,7 @@
   is_active: true
   when: "TBD"
   when_plus: 
-  format: 
+  format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
 
 # - name: ""
 #   is_active: false
