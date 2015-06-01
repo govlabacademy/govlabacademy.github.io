@@ -339,7 +339,7 @@
     start: "June 9, 2015 2015"
     week_start: "June 8 - 12, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "June 30, 2015"
-    application: "June 2, 2015, 2015" 
+    application: "June 5, 2015, 2015" 
   passion:
     title: Passionate about open data data-driven decisions?
     bullets:
