@@ -9,36 +9,46 @@
 
 {% block content %}
 <div id="application-page" class="b-content-page">
-	<div class="b-page-title">
-		<div class="row">
+    <div class="b-page-title">
+        <div class="row">
       <div class="column large-12">
-		    <h2>Application</h2>
-		  </div>
-		</div>
+            <h2>Application</h2>
+          </div>
+        </div>
   </div>
 
-	<div class="row">
-		<section class="b-form b-application-form m-coaching column large-12">
-			<form data-formrenderer></form>		
-		</section>	
-	</div>
-	<section>
-	<div class="row">
-		<div class="column large-12">
-			<p class="m-centered-text"><em><a href="https://screendoor.dobt.co/the-govlab/coaching-programs-application-form">If you have any problems with our form, here is a back-up</a></em></p>
-		</div>
-		</section>
-	</div>
+    <div class="row">
+        <section class="b-form b-application-form m-coaching column large-12">
+            <form data-formrenderer></form>
+        </section>
+    </div>
+    <section>
+    <div class="row">
+        <div class="column large-12">
+            <p class="m-centered-text"><em><a href="https://screendoor.dobt.co/the-govlab/coaching-programs-application-form">If you have any problems with our form, here is a back-up</a></em></p>
+        </div>
+        </section>
+    </div>
 
 
 
 <script>
 $( document ).ready(function() {
+  var t = '<p>Thank you for submitting your application!</p><p>You should ';
+
+  t += 'receive an email acknowledgement of receipt. Admissions decisions ';
+  t += 'will be sent out a day after the application deadline specified for ';
+  t += 'each program. Admitted participants will engage with our faculty and ';
+  t += 'staff to identify opportunities, diagnose problems, and develop a ';
+  t += 'customized reading and research plan. For any other questions or ';
+  t += 'comments, please contact <a href="mailto:info-academy@thegovlab.org">';
+  t += 'info-academy@thegovlab.org</a></p>';
+
   new FormRenderer({
-    "project_id": 714,
-    "afterSubmit": {
-      "method": "page",
-      "html": "<p>Thanks for submitting our form!</p>"
+    'project_id': 714,
+    'afterSubmit': {
+      'method': 'page',
+      'html': t
     }
   });
 });
