@@ -1,17 +1,16 @@
-import csv
-import os
-import sys
-import yaml
-import json
+from yaml import dump
+from json import load
 
-data = json.load(open('data/library.json'))
 
 def processDict(d):
-	res = {}
-	for k,v in d.items():
-		res[k.encode('utf-8')] = v
-	return res
+    res = {}
 
-data = [ processDict(s) for s in data]
+    for k, v in d.items():
+        res[k.encode('utf-8')] = v
 
-print yaml.dump(data).replace('!!python/unicode ', '')
+    return res
+
+
+data = [processDict(s) for s in load(open('data/library.json'))]
+
+print(dump(data).replace('!!python/unicode ', ''))

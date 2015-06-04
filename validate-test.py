@@ -1,8 +1,8 @@
+from json import load as json_load
+from yaml import load as yaml_load
 from jsonschema import validate
-import json
-import yaml
 
-schema = json.load(open('data/people_schema.json'))
-PEOPLE = yaml.load(open('data/people.yaml'))
+schema = json_load(open('data/people_schema.json'))
+PEOPLE = yaml_load(open('data/people.yaml'))
 
 validate(PEOPLE, schema)

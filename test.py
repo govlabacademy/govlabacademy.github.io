@@ -1,8 +1,8 @@
-import yaml
+from yaml import load
 
-PEOPLE    = yaml.load(open('data/people.yaml'))
+PEOPLE = load(open('data/people.yaml'))
 
 for p in PEOPLE:
-	print p['name']
+    print(p['name'])
 
-print len(PEOPLE)
+print(len(PEOPLE))

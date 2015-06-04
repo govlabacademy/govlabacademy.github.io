@@ -42,71 +42,137 @@
       <img src="./static/img/coaching-diagram2.png" alt="Coaching program Lifecycle">
     </div>
   </section>
-  
-  <section class="b-course-list row b-content-section">
+
+  <section class="b-course-list b-upcoming-courses row b-content-section">
     <ul class="column large-12">
       {% for course in coaching|sort(attribute='start_date',reverse=False) %}
-        {% if course.is_active %}
-        <li class="b-course-list-item m-coaching">
-          {% if course.date %}
-          <h4 class="e-course-date"><span>Starts the week of: </span>{{course.date.week_start}}</h4>
-          {% endif %}
-
-          <h3 class="e-course-name">{{course.name}}</h3>
-          
-          <div class="e-certifications">
-            {% if course.certificates.blended %}
-              <img src="static/img/icons/icons-blended.png" title="Blended Course" class="e-course-icons m-blended">
+        {% if course.is_active and not course.outdated %}
+          <li class="b-course-list-item m-coaching">
+            {% if course.date %}
+              <h4 class="e-course-date" data-date="{{course.start_date}}"><span>Starts the week of: </span>{{course.date.week_start}}</h4>
             {% endif %}
 
-            {% if course.certificates.online %}
-              <img src="static/img/icons/icons-online.png" title="Online Course" class="e-course-icons m-online">
-            {% endif %}
+            <h3 class="e-course-name">{{course.name}}</h3>
 
-            {% if course.certificates.in_person %}
-              <img src="static/img/icons/icons-in-person.png" title="In Person Course" class="e-course-icons m-in-person">
-            {% endif %}
+            <div class="e-certifications">
+              {% if course.certificates.blended %}
+                <img src="static/img/icons/icons-blended.png" title="Blended Course" class="e-course-icons m-blended">
+              {% endif %}
 
-            {% if course.certificates.for_certificate %}
-            <a href="./about.html#badges"><img src="static/img/icons/icons-certification.png" title="For Certification Course" class="e-course-icons m-certification"></a>
-            {% endif %}
+              {% if course.certificates.online %}
+                <img src="static/img/icons/icons-online.png" title="Online Course" class="e-course-icons m-online">
+              {% endif %}
 
-            {% if course.certificates.for_credit %}
-            <img src="static/img/icons/icons-credit.png" title="For Credit Course" class="e-course-icons m-credit">
-            {% endif %}
+              {% if course.certificates.in_person %}
+                <img src="static/img/icons/icons-in-person.png" title="In Person Course" class="e-course-icons m-in-person">
+              {% endif %}
 
-          </div>
-          <div class="e-course-description">
-            <p>{{course.description_short}}</p>
-          </div>
-          <h4 class="e-course-application"><span>Application due: </span> {{course.date.application}}</h4>
+              {% if course.certificates.for_certificate %}
+                <a href="./about.html#badges"><img src="static/img/icons/icons-certification.png" title="For Certification Course" class="e-course-icons m-certification"></a>
+              {% endif %}
 
-          {% if course.faculty_members %}
-            <div class="e-course-faculty">
-              {% for name in course.faculty_members %}              
-                {% if people|selectattr("fullName", "equalto", name)|first|isEmpty %}
-                  {{("!!!! ERROR !!!!!: person cannot be found: " + name) |debug}}
-                {% else %}
-                  {{ showPerson(people|selectattr("fullName", "equalto", name)|first, "m-mini-card") }}
-                {% endif %}
-              {% endfor %}
+              {% if course.certificates.for_credit %}
+                <img src="static/img/icons/icons-credit.png" title="For Credit Course" class="e-course-icons m-credit">
+              {% endif %}
             </div>
-          {% endif %}
-          
-          {% if course.actions %}
-            <div class="e-course-controls">
-              {% for button in course.actions %}
-              <a class="e-button" href="{{button.link}}">{{button.label}}</a>
-              {% endfor %}
+
+            <div class="e-course-description">
+              <p>{{course.description_short}}</p>
             </div>
-          {% endif %}
-        </li>
+
+            <h4 class="e-course-application"><span>Application due: </span> {{course.date.application}}</h4>
+
+            {% if course.faculty_members %}
+              <div class="e-course-faculty">
+                {% for name in course.faculty_members %}
+                  {% if people|selectattr("fullName", "equalto", name)|first|isEmpty %}
+                    {{("!!!! ERROR !!!!!: person cannot be found: " + name) |debug}}
+                  {% else %}
+                    {{ showPerson(people|selectattr("fullName", "equalto", name)|first, "m-mini-card") }}
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
+
+            {% if course.actions %}
+              <div class="e-course-controls">
+                {% for button in course.actions %}
+                  <a class="e-button" href="{{button.link}}">{{button.label}}</a>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </li>
         {% endif %}
-
-      {% endfor %}      
+      {% endfor %}
     </ul>
   </section>
-	
+
+  <section class="b-course-list b-past-courses row b-content-section">
+    <div class="column large-12">
+      <h3>Past Courses</h3>
+    </div>
+
+    <ul class="column large-12">
+      {% for course in coaching|sort(attribute='start_date',reverse=True) %}
+        {% if course.is_active and course.outdated %}
+          <li class="b-course-list-item m-coaching">
+            {% if course.date %}
+              <h4 class="e-course-date" data-date="{{course.start_date}}"><span>Started the week of: </span>{{course.date.week_start}}</h4>
+            {% endif %}
+
+            <h3 class="e-course-name">{{course.name}}</h3>
+
+            <div class="e-certifications">
+              {% if course.certificates.blended %}
+                <img src="static/img/icons/icons-blended.png" title="Blended Course" class="e-course-icons m-blended">
+              {% endif %}
+
+              {% if course.certificates.online %}
+                <img src="static/img/icons/icons-online.png" title="Online Course" class="e-course-icons m-online">
+              {% endif %}
+
+              {% if course.certificates.in_person %}
+                <img src="static/img/icons/icons-in-person.png" title="In Person Course" class="e-course-icons m-in-person">
+              {% endif %}
+
+              {% if course.certificates.for_certificate %}
+                <a href="./about.html#badges"><img src="static/img/icons/icons-certification.png" title="For Certification Course" class="e-course-icons m-certification"></a>
+              {% endif %}
+
+              {% if course.certificates.for_credit %}
+                <img src="static/img/icons/icons-credit.png" title="For Credit Course" class="e-course-icons m-credit">
+              {% endif %}
+            </div>
+
+            <div class="e-course-description">
+              <p>{{course.description_short}}</p>
+            </div>
+
+            {% if course.faculty_members %}
+              <div class="e-course-faculty">
+                {% for name in course.faculty_members %}
+                  {% if people|selectattr("fullName", "equalto", name)|first|isEmpty %}
+                    {{("!!!! ERROR !!!!!: person cannot be found: " + name) |debug}}
+                  {% else %}
+                    {{ showPerson(people|selectattr("fullName", "equalto", name)|first, "m-mini-card") }}
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
+
+            {% if course.actions %}
+              <div class="e-course-controls">
+                {% for button in course.actions %}
+                  <a class="e-button" href="{{button.link}}">{{button.label}}</a>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+
 
 	<section id="faqs" class="b-faqs m-active ">
     <div class="row b-content-section">
@@ -116,13 +182,13 @@
           <p class="e-question">What is an Academy Coaching Program?</p>
           <p class="e-answer">It is a hands-on, issue-focused learning and mentoring program designed to help you design and implement solutions to one or another specific type of public interest problem using civic technology. Geared to the purpose-driven participant who is a member of an active team that is passionate about a public problem and already undertaking a project, this program helps you develop a project from idea to implementation. Unlike a traditional accelerator, we focus only on the public interest and only on projects that work with real-world institutions and partners, such as agencies and NGOs, to develop more effective and scalable initiatives.</p>
         </div>
-        
+
         <div class="b-faq-item">
           <p class="e-question">How Does it Work?</p>
           <p class="e-answer">The coaching programs are  limited enrollment (maximum class size of 10 projects), entirely online, highly customized, and meet every week for 4 consecutive weeks or every other week for 8 weeks. To help you and your team become more effective, we offer a combination of coaching and skill-building, connection to a network of subject-matter experts, peer-to-peer mentoring, customized and original learning materials, and frequent and constructive feedback opportunities from a team of teachers and peers at every stage of your agile design-driven process.</p>
           <p>All GovLab Academy’s coaching programs offer a “flipped” learning experience. There are no experts at the front of the room or the top of the screen delivering packaged content to passive learners. You are at the center of everything we do – a civic entrepreneur working on real projects in real communities. Around you we organize the relevant materials, mentor and coaching networks, training exercises, and practice sessions.</p>
         </div>
-        
+
         <div class="b-faq-item">
           <p class="e-question">Where Do the Sessions Meet?</p>
           <p class="e-answer">Entirely online.</p>
@@ -153,7 +219,7 @@
             <p>* Further pre-requisites may apply on specific courses</p>
           </div>
         </div>
-        
+
         <div class="b-faq-item">
           <p class="e-question">How Do I Apply?</p>
           <div class="e-answer">
@@ -187,7 +253,7 @@
                 </tr>
                 {% endfor %}
               </tbody>
-            </table>  
+            </table>
           </div>
         </div>
 
@@ -214,7 +280,7 @@
         <div class="b-faq-item">
           <p class="e-question">Who are the Mentors? Can I Pick My Own?</p>
           <div class="e-answer">
-            <p>Mentors are either subject matter experts working on similar problems or challenges or people who have a track record as effective change agents. The best mentors, of course, are your classmates.</p> 
+            <p>Mentors are either subject matter experts working on similar problems or challenges or people who have a track record as effective change agents. The best mentors, of course, are your classmates.</p>
             <p>You can find your own, but we commit to helping to pair you with relevant domain experts.</p>
           </div>
         </div>
@@ -228,9 +294,9 @@
           <p class="e-question">Will I receive a certificate upon completion of the program?</p>
           <p class="e-answer">We will provide a Certificate of Accomplishment for individuals who complete all requirements of each program.</p>
         </div>
-      </div> 
-    </div>     
-  </section>  
+      </div>
+    </div>
+  </section>
 
 	<section id="contact-message" class="row b-content-section">
     <div class="column large-12">

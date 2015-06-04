@@ -1,101 +1,113 @@
-import staticjinja
-import os
-import json
-import yaml
-import sys
+from os import path, getcwd
+from sys import stdout
+from yaml import load
 from slugify import slugify
+from datetime import date
+from staticjinja import make_site
 from dateutil.parser import parse
 
+
 # We define constants for the deployment.
-cwd = os.getcwd()
-searchpath  = os.path.join(cwd, "templates")
-outputpath  = os.path.join(cwd, "site")
+searchpath = path.join(getcwd(), 'templates')
+outputpath = path.join(getcwd(), 'site')
 
 # We load the data we want to use in the templates.
-#PEOPLE = json.load(open('data/cards.json'))
-PEOPLE    = yaml.load(open('data/people.yaml'))
-WORKSHOPS = yaml.load(open('data/workshops.yaml'))
-CLINICS   = yaml.load(open('data/clinics.yaml'))
-COACHING  = yaml.load(open('data/coaching.yaml'))
-PROJECTS  = yaml.load(open('data/project-schema.yaml'))
-LIBRARY   = yaml.load(open('data/library.yaml'))
+PEOPLE = load(open('data/people.yaml'))
+CLINICS = load(open('data/clinics.yaml'))
+LIBRARY = load(open('data/library.yaml'))
+COACHING = load(open('data/coaching.yaml'))
+PROJECTS = load(open('data/project-schema.yaml'))
+WORKSHOPS = load(open('data/workshops.yaml'))
 
-for person in PEOPLE:
-	person['fullName'] = "%s %s" % (person['name']['first'], person['name']['last'])
-PEOPLE = sorted(PEOPLE, key=lambda x:x['name']['last'])
+for p in PEOPLE:
+    p['fullName'] = '%s %s' % (p['name']['first'], p['name']['last'])
+
+PEOPLE = sorted(PEOPLE, key=lambda x: x['name']['last'])
 
 for item in COACHING:
-	item['start_date'] = str(parse(item['date']['start']))
+    item['start_date'] = parse(item['date']['start']).date()
+    item['outdated'] = item['start_date'] < date.today()
+
 COACHING = sorted(COACHING, key=lambda x: x['start_date'])
 
-for item in COACHING:
-	print item['start_date']
-
 TAGS = set()
+
 for item in PROJECTS:
-	for tag in item['tags']:
-		TAGS.add(tag)
+    for tag in item['tags']:
+        TAGS.add(tag)
 
 LIBRARY_TAGS = set()
-for item in LIBRARY:
-	for tag in item['slugTags']:
-		LIBRARY_TAGS.add(tag)
 
-for item in LIBRARY_TAGS:
-	print item
+for item in LIBRARY:
+    for tag in item['slugTags']:
+        LIBRARY_TAGS.add(tag)
+
 
 def loadAcademyData():
-	return { 'people': PEOPLE,
-					 'workshops': WORKSHOPS,
-					 'clinics': CLINICS,
-					 'projects': PROJECTS,
-					 'coaching': COACHING,
-					 'library': LIBRARY,
-					 'libraryTags': LIBRARY_TAGS,
-					 'projectTags': sorted(list(TAGS)),
-					 'resources': None }
+    return {
+        'people': PEOPLE,
+        'clinics': CLINICS,
+        'library': LIBRARY,
+        'projects': PROJECTS,
+        'coaching': COACHING,
+        'resources': None,
+        'workshops': WORKSHOPS,
+        'libraryTags': LIBRARY_TAGS,
+        'projectTags': sorted(list(TAGS))
+    }
+
 
 # We define some filters we want to use in the templates.
 def containsTag(x, y):
-	if x['tags'] is None:
-		return None
-	return x if y in x['tags'] else None
+    if x['tags'] is None:
+        return None
+
+    return x if y in x['tags'] else None
+
 
 def debug(text):
-  print text
-  sys.stdout.flush()
-  return ''
+    print('text')
+
+    stdout.flush()
+
+    return ''
+
 
 def isEmpty(seq):
-	return len([k for k in seq]) == 0
+    return len([k for k in seq]) == 0
+
 
 def nameTest(name, value):
-	return "%s %s" % (name['first'], name['last']) == value
+    return '%s %s' % (name['first'], name['last']) == value
+
 
 filters = {
-	'byName':   lambda x: [p for p in PEOPLE if p.name == x],
-	'containsTag': containsTag,
-	'debug': debug,
-	'isEmpty': isEmpty,
-	'slug': lambda x: slugify(x, to_lower=True),
-	'nameTest': nameTest,
+    'slug': lambda x: slugify(x.lower()),
+    'debug': debug,
+    'byName': lambda x: [p for p in PEOPLE if p.name == x],
+    'isEmpty': isEmpty,
+    'nameTest': nameTest,
+    'containsTag': containsTag,
 }
 
 # We generate a bunch of template pages; dirty hack for now.
-coaching_class_detail_template = open('%s/coaching-detail-page.html' % searchpath).read()
-for index, coaching_class in enumerate(COACHING):
-	filename = slugify(coaching_class['name'], to_lower=True)
-	f = open("templates/%s-detail.html" % filename, 'w+')
-	page_template = coaching_class_detail_template.replace('coaching[0]', 'coaching[%d]' % index)
-	f.write(page_template)
-	f.close()
+coaching_detail_page = open('%s/coaching-detail-page.html' % searchpath).read()
 
-site = staticjinja.make_site(
-	searchpath=searchpath,
-	outpath=outputpath,
-	staticpaths=['static', '../data'],
-	filters=filters,
-	contexts=[(r'.*.html', loadAcademyData),]
-	)
+for index, coaching_class in enumerate(COACHING):
+    filename = slugify(coaching_class['name'].lower())
+    page = coaching_detail_page.replace('coaching[0]', 'coaching[%d]' % index)
+    f = open('templates/%s-detail.html' % filename, 'w+')
+
+    f.write(page)
+    f.close()
+
+site = make_site(
+    filters=filters,
+    outpath=outputpath,
+    contexts=[(r'.*.html', loadAcademyData)],
+    searchpath=searchpath,
+    staticpaths=['static', '../data'],
+)
+
 site.render()
-#site.render(use_reloader=True)
+# site.render(use_reloader=True)
