@@ -1,6 +1,36 @@
 ---
 
 - name:
+    last: Berens
+    first: Jos
+    slug: jos-berens
+  job: Project Coordinator of the Data Governance Project
+  is_govlab: false
+  description: "Jos Berens is the Project Coordinator of the Data Governance Project (DGP), an international multidisciplinary collaboration between the Governance Lab, the World Economic Forum, and Leiden University. The collaboration focuses on building an expert network to solve questions regarding corporate data sharing for social good, particularly in a development context. Working with a number of international organisations, the DGP looks at concrete governance issues in the data for development space. Based on the solutions found, the DGP is developing a framework for corporate data sharing for social good. Jos holds an LL.B in Dutch Law and a BA in Philosophy of a Specific Discipline, both obtained at Groningen University. He is currently pursuing an LL.M in Dutch Criminal Law and an LL.M in Public International Law, the former in Groningen and the latter at Utrecht University. Jos specialises in privacy, data ethics and benefit/risk assessment regarding data collection and use."
+  link:
+    url: 
+    twitter: https://twitter.com/jos_berens
+    linkedin: https://www.linkedin.com/pub/jos-berens/70/a2b/223
+    github:
+    email: jos@thegovlab.org
+  tags:  
+
+- name:
+    last: Baar
+    first: Thomas
+    slug: thomas-baar
+  job: Project Leader at the Peace Informatics Lab
+  is_govlab: false
+  description: "Thomas works on the development of innovative solutions in using data for peace and justice. In this, he focuses on leveraging the potential of new types of data and data analytics in improving policy within these domains. Within the Peace Informatics Lab, he is responsible for several projects focussed on developing new methodologies and tooling together with researchers, practitioners and data scientists. Before joining the Centre for Innovation, Thomas held a research position at Delft University of Technology focusing on the innovation, development and application of technologies for peacebuilding and conflict prevention. Thomas received his MA Conflict Studies and Human Rights at Utrecht University for which he has conducted extensive fieldwork in amongst other Kosovo and Egypt."
+  link:
+    url: 
+    twitter: https://twitter.com/BaarThomas
+    linkedin: https://www.linkedin.com/profile/view?id=166709269&trk=hp-identity-name
+    github: https://github.com/TJBaar
+    email: t.j.baar@cdh.leidenuniv.nl
+  tags:  
+
+- name:
     last: Behlendorf
     first: Brian
     slug: brian-behlendorf
@@ -19,9 +49,9 @@
     last: Forde
     first: Brian
     slug: brian-forde
-  job: "Senior Advisor for Mobile and Data Innovation, The White House Office of Science and Technology Policy"
+  job: "Director of Digital Currency, MIT Media Lab"
   is_govlab: false
-  description: "Brian Forde served as Senior Advisor for Mobile and Data Innovation in The White House Office of Science and Technology Policy. He was responsible for leveraging emerging technologies to address national challenges such as Hurricane Sandy, Climate Change and the revitalization of Detroit and was one of the key architects of the President’s open data initiatives. While at the White House, Brian was a strong advocate for diversity in the tech sector, founding the White House Tech Inclusion and IT jobs initiatives to support the training and hiring of more women and minorities in tech. Previously, Brian co-founded Llamadas, S.A. a low-cost internet phone service provider serving more than 250,000 Nicaraguans. Llamadas, S.A. received the Pioneers of Prosperity award by the Seven Fund and the Inter-American Development Bank and was recognized by the U.S. Ambassador to Nicaragua as the one of the most innovative companies in the fight against poverty. Prior to founding Llamadas, Brian was a Peace Corps Volunteer in the mountains of Nicaragua where he taught small business classes in the local high school. Brian graduated with a B.A. in Sociology from University of California at Los Angeles and an M.B.A. from London Business School."
+  description: "Brian has spent more than a decade at the nexus of technology and public policy. Most recently, he served as the White House's ​senior ​advisor for ​mobile and ​data ​innovation, responsible for determining how the Obama​ ​administration would leverage open data and emerging technologies to address the President's national priorities. In recognition of this work he was named a Young Global Leader by the World Economic Forum. Prior to joining the Obama​ ​administration, Brian brought tech to rural mountain communities in Nicaragua, first as a Peace Corps ​volunteer and then as the co-founder and CEO of one of the largest phone companies in Nicaragua. This company was recognized by the US ​ambassador to Nicaragua as one of the most innovative efforts in the fight against poverty."
   link:
     url: http://www.peacecorpsconnect.org/about/board-of-directors/brian-forde/
     twitter: https://twitter.com/brianforde
@@ -243,7 +273,7 @@
     github:
     email: francois.grey@cern.ch
   tags: citizen-science 
-  
+
 - name:
     last: Johnson
     first: Clay
@@ -263,7 +293,7 @@
     last: van den Steenhoven
     first: Joeri
     slug: joeri-van-den-steenhoven
-  job: Co-Founder and Chief Research and Development Officer of the MaRS Solutions Lab
+  job: Director of the MaRS Solutions Lab
   is_govlab: false
   description: "Joeri van den Steenhoven is the Director of the MaRS Solutions Lab. He is a longtime social innovator fascinated by our society’s transition towards the knowledge society. Being a systems thinker, he likes to work on wicked problems and find innovative solutions with others. Joeri co-founded Kennisland, one of the leading change labs in the Netherlands and Europe. He also co-founded the KafkaBrigade, a research team that helps governments find and tackle red tape. He regularly advises, speaks and teaches on how to create system change. Joeri has worked with organizations like the Young Foundation (UK) and serves on the board of the Lisbon Council, the leading European thinktank on innovation and growth."
   link:
@@ -329,7 +359,7 @@
     last: Barry
     first: Liz
     slug: liz-barry
-  job: Co-founder & Director of Community Development at the Public Lab
+  job: "Co-founder & Director of Community Development at the Public Lab"
   is_govlab: false
   description: >
     Liz is an activist and designer interested in collaborative urban environments. My early days in New York involved catalyzing public interactions on sidewalks and subway stations with a giant "Talk To Me" sign as well as working 25 floors above Wall Street (SOM) designing international new cities and campuses. I'm originally from North Carolina where I managed an urban agriculture youth enterprise called the Durham Inner-city Gardeners (DIG). Currently, when I'm not hoisting cameras up on balloons (with Public Laboratory) or hugging trees with tape measures (with TreeKIT), I teach geospatial tools for urban design at Columbia, Parsons, and Pratt. 
@@ -339,4 +369,24 @@
     linkedin: https://www.linkedin.com/in/elizabethbarry
     github: https://github.com/ebarry
     email: liz@publiclab.org
-  tags: 
+  tags:
+
+- name:
+    last: Kishor
+    first: Puneet
+    slug: "puneet-kishor" 
+  job: Univ of Wisconsin and Former Manager of Science and Data Policy at Creative Commons
+  is_govlab: false
+  description: >
+    Since 1985 Puneet’s career has spanned rural appropriate technology design to international development, academia, research and science information policy.
+    He is currently an independent consultant with The World Bank and also has an appointment at the Department of GeoScience, University of Wisconsin, Madison, WI, USA where he is working on PaleoDeepDive, a machine reading and learning system, built upon a new kind of digital library resource.
+    Before that he was the Manager of Science and Data Policy at Creative Commons where he focused on open data, text and data mining, open science policy, and citizen-sourced information. He has also been a member of the CODATA Task Group on Data Citation Standards and Practices, and co-authored the chapter on Emerging Principles for Data Citation in the Task Group’s report titled “Out of Cite, Out of Mind.” Puneet’s current interest is in open sensor-based hardware, ethical issues around citizen-sourced information, licensing open hardware and certification of data quality, novel ways of citizen-engagement, and promoting hacker/maker spaces for learning-by-making, teaching-by-doing.
+  link:
+    url: http://punkish.org/
+    twitter: https://twitter.com/punkish
+    linkedin: 
+    github: https://github.com/punkish
+    email: punk.kish@gmail.com
+  tags:
+
+

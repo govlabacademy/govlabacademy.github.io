@@ -1,19 +1,29 @@
 # academy
 
-## install the latest version of staticjinja
-```
-pip install git+git://github.com/Ceasar/staticjinja#egg=staticjinja
-```
+## Installation
+
+You'll need recent versions of `node`, `npm`, and Python 2.
+
+On a Mac:
+
+    brew install node
+
+You'll need Python (preferably in a virtualenv) and node requirements.
+
+    npm install
+    virtualenv .env
+    source .env/bin/activate
+    pip install -r requirements.txt
 
 ## commands for building
-```
-mkdir -p site
-staticjinja build --outpath ./site --static static
-staticjinja watch --outpath ./site --static static
-(cd site; python -m SimpleHTTPServer &)
-```
+
+This will build and upload to the `gh-pages` branch, so you'll need push
+permissions.
+
+    make
 
 ## Basic Folder Structure
+
 - site        --*generated static site*
 - templates   
   - static    
@@ -21,5 +31,6 @@ staticjinja watch --outpath ./site --static static
 
 
 ### Backup
+
 I kept this as a backup in case we need it for reference
 https://github.com/claudioccm/academy

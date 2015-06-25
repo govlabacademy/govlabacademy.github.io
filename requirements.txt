@@ -1,0 +1,4 @@
+git+git://github.com/Ceasar/staticjinja#egg=staticjinja
+git+git://github.com/mitsuhiko/jinja2.git#egg=jinja2
+awesome-slugify
+python-dateutil

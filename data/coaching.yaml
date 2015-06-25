@@ -36,10 +36,10 @@
 - name: "Open Source Technology Practices For Civic Engagement Projects"
   duration: 8 weeks
   date:
-    start: "April 8, 2015"
-    week_start: "April 6 - 10" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "May 29, 2015"
-    application: "March 13, 2015"
+    start: "April 22, 2015"
+    week_start: "April 20 - 24" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "June 19 2015"
+    application: "April 14, 2015"
   passion:
     title: Passionate about Open Source? Are you…
     bullets:
@@ -65,25 +65,25 @@
     for_credit: false
     for_certificate: true
   is_active: true
-  when: Every other Wednesday, starting April 8, from 1 -3pm EST
+  when: Every other Wednesday, starting April 14, from 1 -3pm EST
   when_plus: 
   format: 1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions.
 
-- name: "Freedom of Information and FOIA Project Coaching: Breaking Down the Walls and Opening Up Communications"
+- name: "Freedom of Information: Project Coaching"
   duration: 4 weeks
   date:
     start: "March 25, 2015"
     week_start: "March 23 - 27" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "March 27, 2015"
-    application: "April 15, 2015"
+    end: "April 15, 2015"
+    application: "March 20, 2015"
   passion:
     title: Passionate about freedom of information? Are you…
     bullets:
       - "Someone who wants to build a freedom of information/FOIA portal or have a project well-underway, but wants a team of peers to provide feedback?"
       - "Designing, building or improving a system of electronic records management?"
       - "Developing a process for improving communications with record requesters? And want to design an efficient and accountable process for talking with people about what the records are and how to frame requests?"
-  description_short: "This is a coaching program designed for people who are familiar with Freedom of Information practices and who want to create a project such as a freedom of information portal or new programs for making government information more systematically available. If are looking for a basic introduction to FOIA or to learn how to file a FOIA request, please visit the Resources listed below."
-  description_long: "This coaching program is for those engaged in projects that touch on any aspect of freedom of information or FOIA implementation. These might include designing a FOIA portal, developing better practices for systematically requesting or supplying records and information, or developing a records management system. Also welcome are those teams and individuals undertaking projects that depend upon access to government records. Through peer-to-peer coaching, expert mentors and hands on advising, this program aims to catalyze more robust freedom of information projects. Through this program we'll work together to design your project to make optimal use of the FOIA and explore how it can be used to break down the wall protecting Government data to create a space for citizen engagement. Please note: If are looking for a basic introduction to FOIA or to learn how to file a FOIA request, please visit the Resources listed below."
+  description_short: "This is a coaching program designed for people who are familiar with Freedom of Information practices and who want to create a project such as a freedom of information portal or new programs for making government information more systematically available. If you are looking for a basic introduction to FOIA or to learn how to file a FOIA request, please visit the Resources listed below."
+  description_long: "This coaching program is for those engaged in projects that touch on any aspect of freedom of information or FOIA implementation. These might include designing a FOIA portal, developing better practices for systematically requesting or supplying records and information, or developing a records management system. Also welcome are those teams and individuals undertaking projects that depend upon access to government records. Through peer-to-peer coaching, expert mentors and hands on advising, this program aims to catalyze more robust freedom of information projects. Through this program we'll work together to design your project to make optimal use of the FOIA and explore how it can be used to break down the wall protecting Government data to create a space for citizen engagement. Please note: If you are looking for a basic introduction to FOIA or to learn how to file a FOIA request, please visit the Resources listed below."
   resources:
     - title: US government and civil society
       resource_item:
@@ -201,10 +201,10 @@
 - name: "Citizen Engagement Projects"
   duration: 4 weeks
   date:
-    start: "April 6, 2015"
-    week_start: "April 6 - 10" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "April 30"
-    application: "March 25, 2015"
+    start: "May 6, 2015"
+    week_start: "May 4 - 8" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "May 29"
+    application: "April 24, 2015"
   passion:
     title: Passionate about Citizen Engagement? Are you…
     bullets:
@@ -252,6 +252,7 @@
   prerequisites:
   faculty_members: # Add list with faculty member names
     - Francois Grey
+    - Liz Barry
   actions:
     - label: More Info
       link: citizen-science-on-the-web-detail.html
@@ -303,8 +304,8 @@
   date:
     start: "March 23, 2015"
     week_start: "March 23 - 27, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "April 6, 2015"
-    application: "March 13, 2015" 
+    end: "April 17, 2015"
+    application: "March 20, 2015" 
   passion:
     title: Passionate about the uses of Crowdsourcing in the Public Sector? Are you...
     bullets:
@@ -332,20 +333,20 @@
   when_plus: 
   format: "1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
   
-- name: "Open Data Data-Driven Decisions for All"
-  duration: 8 weeks
+- name: "Open Data Projects"
+  duration: 4 weeks
   date:
-    start: "April 6, 2015"
-    week_start: "April 6 - 10, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "May 26, 2015"
-    application: "March 20, 2015" 
+    start: "June 9, 2015 2015"
+    week_start: "June 8 - 12, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "June 30, 2015"
+    application: "June 5, 2015, 2015" 
   passion:
     title: Passionate about open data data-driven decisions?
     bullets:
-      - Are you part of an SME or local NGO that wants to leverage the growing availability of freely available government data to make mission-critical decisions?
-      - Do you have a strong interest in being more strategic in fulfilling your mission but are missing the skills to  identifying data sets, finding patterns, and making predictions?
+      - "Do you want to leverage the growing availability of freely available government data to make mission-critical decisions?"
+      - "Do you have a strong interest in being more strategic in fulfilling your mission but are missing the skills to  identifying data sets, finding patterns, and making predictions?"
   description_short: "Open data refers to the growing practice of making government data freely available, easily machine processable and without any restrictions on reuse. This course is designed for individuals and small organizations (including SMEs) eager to develop open data data-driven decisions."
-  description_long: "Open data refers to the growing practice of making government data freely available, easily machine processable and without any restrictions on reuse.  As such, open data can be a democratizing force for smaller organizations that traditionally have less access to mission-critical information. Leveraging open data can enable organizations to make more well-informed decisions. This course is designed for individuals and small organizations (including SMEs) eager to develop open data data-driven decisions. In particular, the course will seek to: develop an understanding of what open data is, how it is produced, where it can be accessed, and who is using it currently; learn from others through understanding how existing organizations are using open data to create solutions, and to optimize their operations, through in-depth case studies and analyses; provide strategies for small organization to define the problem they seek to solve, take stock of open data resources available to them, and experiment with open data through trial-and-error; understand the challenges and best practices of open data use; and, develop tools and strategies to measure the success of open data use, and to assess its impact on your organization."
+  description_long: "Open data refers to the growing practice of making government data freely available, easily machine processable and without any restrictions on reuse.  As such, open data can be a democratizing force for organizations that traditionally have less access to mission-critical information such as Small and Medium Sized Enterprises (SMEs) or Non-Profit Organizations (NPOs). Leveraging open data can enable organizations to make more well-informed decisions. This course is designed for individuals and organizations (including SMEs) eager to develop open data-driven decisions. In particular, the course will seek to: a) develop an understanding of what open data is, how it is produced, where it can be accessed, and who is using it currently. decisions; b) learn from others through understanding how existing organizations are using open data to create solutions, and to optimize their operations, through in-depth case studies and analyses; c) provide strategies for small organization to define the problem they seek to solve, take stock of open data resources available to them, and experiment with open data through trial-and-error; d) understand the challenges and best practices of open data use; and, e) develop tools and strategies to measure the success of open data use, and to assess its impact on your organization."
   prerequisites:
     - "Participants are expected to have a basic understanding of strategy development and to hold a decision making position with a small enterprise or organization."
     - "Though it is not a requirement, participants who come prepared with a problem they want to solve or a process they want to optimize will receive the most benefit from taking this course."
@@ -354,7 +355,7 @@
     - Stefaan Verhulst
   actions:
     - label: More Info
-      link: open-data-data-driven-decisions-for-all-detail.html
+      link: open-data-projects-detail.html
   certificates:
     blended: false
     online: true
@@ -362,17 +363,17 @@
     for_credit: false
     for_certificate: true
   is_active: true
-  when: "every other Tuesday from 4 - 6pm EST"
+  when: "every Tuesday from 4 - 6pm EST"
   when_plus: 
-  format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
+  format: "1 faculty-led session every week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
   
 - name: "Data Analytics for Change"
   duration: 8 weeks
   date:
-    start: "December 31, 2015"
-    week_start: "April 6 - 10, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "May 25 - 29, 2015"
-    application: "March 20, 2015" 
+    start: "April 14, 2015"
+    week_start: "April 13 - 17, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "June 1 - 5, 2015"
+    application: "April 10, 2015" 
   passion:
     title: Passionate about applying big data for social good? Are you...
     bullets:
@@ -403,10 +404,10 @@
   partner: 
   duration: 8 weeks
   date:
-    start: "December 31, 2015"      # Date in single format.
+    start: "April 27, 2015"      # Date in single format.
     week_start: "April 27 - May 1, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "June 15 - 19, 2015"
-    application: "April 10, 2015"
+    application: "April 17, 2015"
   passion:
     title: "Passionate about fully realizing the promise of open contracting? Are you..."
     bullets:
@@ -434,6 +435,116 @@
   when: "TBD"
   when_plus: 
   format: 
+
+- name: "OAS Fellowship Program"
+  is_active: false
+  partner: 
+  duration: 8 weeks
+  date:
+    start: "March 27, 2015"      # Date in single format.
+    week_start: "March 23 - 27, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "September 30, 2015"
+    application: "February 1, 2015"
+  passion:
+    title: "Coaching program for the fellows of the Organization of American States’ Open Government"
+    bullets:
+      - "This is a custom-designed coaching program provides support, during a period of six months, to the inaugural group of Organization of American States’ Open Government Fellows as they develop their open government projects."
+      - "These projects will be presented at the Open Government Partnership Global Summit in Mexico in October 2015."
+  description_short: "Coaching program designed for the 24 Fellows selected for the first OAS Fellowship on Open Government in the Americas."
+  description_long: "The GovLab is running a coaching program for the 24 Fellows selected for the first OAS Fellowship on Open Government in the Americas.  In addition to direct coaching support, the program provides the fellows, organized into six project teams, a space for peer-to-peer learning, feedback, and cross-team sharing. The 24 Fellows come from 16 countries in the Americas. Their teams work on open government projects in different areas: public infrastructure, public safety, investigative journalism, open justice, disability, arts and culture, and innovation labs. Coaching sessions cover such topics as problem definition, user analysis, effective use of mentors, solution prototyping, measuring impact, and communicating effectively."
+  prerequisites:
+    - ""
+  faculty_members:
+    - Beth Simone Noveck # Add list with faculty member names
+  actions:
+    - label: More Info
+      link: oas-fellowship-program-detail.html
+  certificates:
+    blended: false
+    online: true
+    in_person: false
+    for_credit: false
+    for_certificate: true
+  is_active: true
+  when: "TBD"
+  when_plus: 
+  format: "1 faculty-led session every month for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
+
+- name: "Data Collaboratives"
+  is_active: false
+  partner: 
+  duration: 8 weeks
+  date:
+    start: "September 9, 2015"      # Date in single format.
+    week_start: "September 7 - 11, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "October 26, 2015"
+    application: "August 21, 2015"
+  passion:
+    title: "Join us for the Data Collaboratives coaching programme!"
+    bullets:
+      - "Are you working in the private sector and curious to learn more about how your company’s data might be used to drive social change?"
+      - "Are you working for a company that is looking to broaden its corporate social responsibility efforts in innovative ways?"
+      - "Is your company considering sharing certain data assets but worried about the potential risks?"
+      - "Do you have a strong interest in being more strategic in fulfilling your mission but are missing the skills to  identifying data sets, finding patterns, and making predictions?"
+  description_short: "Coaching program designed for private sector companies interested in sharing data for public good, together we explore your datasets’ potential to promote social good; understand different governance models for sharing; and evaluate risks and strategies to mitigate them to achieve the highest social impact responsibly."
+  description_long: "Over the past years, corporate efforts in which private data is shared with research teams have shown the potential that private sector data holds to drive social change. This program is designed for those seeking for insights about corporate data sharing to private sector participants. Through it we will explore your datasets potential to promote social good; what risks might occur when their corporate datasets are shared, and how to mitigate those risks; and, the different models for sharing (shades of open, different data governance models, etc). The term ‘Data Collaborative’ was coined by the NYU GovLab, to describe a new kind of corporate data sharing effort, where data is not blind-sightedly opened to the public, but rather shared with specific parties in a controlled environment. Corporations engaging in a Data Collaborative keep a certain amount of control over the data they make available to, for example, research teams. This practice offers a safe way of providing the research community with oftentimes highly valuable data, whilst mitigating the risks involved. In particular, this course will cover the following subjects: a) develop an understanding of what corporate data sharing is and why corporations engage in it; b) learn what current corporate data sharing efforts look like (through i.a. the GovLab Data Collaboratives Directory), which types of corporate data sets are currently being shared, and who are using them; c) learn from others through understanding how research teams are using corporate data sets to create solutions, and to optimize their operations, through in-depth case studies and analyses; d) provide strategies for small organization to define a strategy for sharing some of their data assets, take stock of in-house data resources available to them, and experiment with data sharing in a safe space; and e) Understand the challenges and best practices of corporate data sharing."
+  prerequisites:
+    - "Participants are expected to have a basic understanding of strategy development and to hold a decision making position with a small enterprise or organization."
+    - "Though it is not a requirement, participants who come prepared with a data sharing idea they want to discuss or a data sharing pilot they want to implement, will receive the most benefit from taking this course."
+  faculty_members:
+    - Stefaan Verhulst
+    - Thomas Baar
+    - Jos Berens # Add list with faculty member names
+  actions:
+    - label: More Info
+      link: data-collaboratives-detail.html
+  certificates:
+    blended: false
+    online: true
+    in_person: false
+    for_credit: false
+    for_certificate: true
+  is_active: true
+  when: "TBD"
+  when_plus: 
+  format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
+
+- name: "Sensing Our Environment towards Improving Our Lives"
+  is_active: false
+  partner: 
+  duration: 8 weeks
+  date:
+    start: "June 29, 2015"      # Date in single format.
+    week_start: "June 29, 2015" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "August 17, 2015"
+    application: "June 17, 2015"
+  passion:
+    title: "Passionate about the uses of Sensors for the Public Good? Are you..."
+    bullets:
+      - "Trying to use sensors to create new opportunities for data-gathering?"
+      - "Seeking to integrate sensors measuring ability to feed data into open databases?"
+      - "Interested in using the data to enhance policy-making or service delivery?"
+      - "Already implementing a project but need support to assess impact or scale it?"
+  description_short: "Coaching program geared towards both government officials and policymakers exploring how bottom-up sensor projects can achieve a core mission and technical experts exploring how to get their project implemented."
+  description_long: "Cheap sensors are creating new sources of data generated directly by the people. From monitoring air and water quality to noise levels, environmental conditions, to also monitoring personal behavior such as distance walked or biked, monitoring devices and sensors can help us generate and collect data about factors relevant to both individuals as well as communities. Geared towards government officials, policymakers wanting to understand how bottom-up sensor projects can achieve a core mission or tech experts wanting to know hot to get their project implemented, this course will facilitate and guide the discussion related to the design, creation and implementation of a strategy to measure activity of sensors of any kind, that can feed data into a open database to be used by anyone. Power of data typically comes from volume and access. The more people who can access more data, the more are the chances for innovative reuse. The cost of gathering data is reduced and its utility increased with every reuse. Unencumbered online access, especially through APIs, is the way to ensure that everyone benefits from individual action leading to more opportunities for us to improve our lives."
+  prerequisites:
+    - "Participants are expected to have a basic understanding of strategy development and to hold a decision making position with a small enterprise or organization."
+    - "Though it is not a requirement, participants who come prepared with a data sharing idea they want to discuss or a data sharing pilot they want to implement, will receive the most benefit from taking this course."
+  faculty_members:
+    - Puneet Kishor # Add list with faculty member names
+  actions:
+    - label: More Info
+      link: sensing-our-environment-towards-improving-our-lives-detail.html
+  certificates:
+    blended: false
+    online: true
+    in_person: false
+    for_credit: false
+    for_certificate: true
+  is_active: true
+  when: "TBD"
+  when_plus: 
+  format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
 
 # - name: ""
 #   is_active: false

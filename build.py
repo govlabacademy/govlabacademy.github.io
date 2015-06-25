@@ -26,6 +26,10 @@ PEOPLE = sorted(PEOPLE, key=lambda x:x['name']['last'])
 
 for item in COACHING:
 	item['start_date'] = str(parse(item['date']['start']))
+COACHING = sorted(COACHING, key=lambda x: x['start_date'])
+
+for item in COACHING:
+	print item['start_date']
 
 TAGS = set()
 for item in PROJECTS:
@@ -93,4 +97,5 @@ site = staticjinja.make_site(
 	filters=filters,
 	contexts=[(r'.*.html', loadAcademyData),]
 	)
-site.render(use_reloader=True)
+site.render()
+#site.render(use_reloader=True)
