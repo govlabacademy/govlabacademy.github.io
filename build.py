@@ -109,5 +109,5 @@ site = make_site(
     staticpaths=['static', '../data'],
 )
 
-site.render()
-# site.render(use_reloader=True)
+# site.render()
+site.render(use_reloader=True)

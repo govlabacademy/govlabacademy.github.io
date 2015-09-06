@@ -1,0 +1,181 @@
+.b-project-list {
+    padding: 0;
+    margin: 55px -4px 0 0;
+    height: 80px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    background-color: $gray_50;
+
+    .e-thumb-container {
+        width: auto;
+        white-space: nowrap;
+    }
+
+    .e-prev, .e-next {
+        position: absolute;
+        color: $white_50;
+        top: 10px;
+        font-size: 50px !important;
+        @include transition;
+        z-index: 2;
+    }
+
+    &:hover {
+        .e-prev, .e-next { 
+            @include transition;
+            color: $white;
+        }
+        .e-prev { left: 10px; }
+        .e-next { right: 10px; }
+    }
+
+    .e-prev { left: 20px; }
+    .e-next { right: 20px; }
+    
+    .e-project-thumb {
+        background-image: url("../img/landing-image4.jpg");
+        height: 80px;
+        width: 80px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: inline-block;
+        margin: 0 -2px;
+        padding: 0;
+        opacity: .7;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+.b-project-item {
+    .e-project-banner {
+        background-image: url("../img/landing-image4.jpg");
+        height: 480px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 30px;
+    }
+
+    .e-project-banner-overlay {
+        background-color: $gray_50;
+        height: 100%;
+    }
+
+    .e-project-title {
+        margin-top: 220px;
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: $white;
+    }
+
+    .e-project-tagline,
+    .e-project-status {
+        color: $white;    
+    }
+
+    .e-main-content-section {
+        margin-bottom: 40px;
+        margin-right: 40px;
+
+        h3 {
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+    
+    .e-news-item {
+        font-size: 1.1rem;
+        border-bottom: 1px solid $gray_20;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+
+        &:last-of-type {
+            border: 0;
+        }
+    }
+    
+    .e-pub-date {
+        font-size: .9rem;
+        text-transform: uppercase;
+        color: $purple;
+        font-weight: 600;
+    }
+
+    .e-sidebar {
+        a { color: $purple; }
+        a:hover { text-decoration: underline; }
+
+        h4 {
+            font-size: 1.1rem;
+            color: $purple;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+
+    .e-sidebar-section {
+        border-bottom: 1px solid $gray_20;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+
+    .e-share {
+        a {
+            @include circle;
+            background-color: $purple;
+            width: 42px;
+            height: 42px;
+            padding: 8px 0;
+            text-align: center;
+            display: inline-block;
+            color: $white_50;
+            margin: 0 4px;
+        }
+
+        a:hover {color: $white;}
+    }
+
+    .e-team {
+        overflow: hidden;
+    }
+
+    .e-team-member {
+        display: block;
+        clear: both;
+    }
+
+    .e-team-pic {
+        background-image: url("../img/faculty/alan-kantrow.jpg");
+        height: 60px;
+        width: 60px;
+        @include circle;
+        background-size: cover;
+        background-position: center;
+        display: inline-block;
+        margin: 5px;
+        float: left;
+    }
+
+    .e-team-name {
+        margin: 15px 0 5px 5px;
+        float: left;
+    }
+
+    .e-related-project {
+        background-image: url("../img/faculty/alan-kantrow.jpg");
+        height: 90px;
+        width: 90px;
+        margin: 2px;
+        background-size: cover;
+        background-position: center;
+        display: inline-block;
+
+    }
+}
