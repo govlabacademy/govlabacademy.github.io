@@ -50,10 +50,6 @@
         letter-spacing: .5px;
         font-weight: 200;
     }
-
-    
-
-
 }
 
 .b-project-list {
@@ -171,10 +167,53 @@
         color: $white;
     }
 
-    .e-project-tagline,
+    .e-project-tagline { color: $white; }
+
     .e-project-status {
-        color: $white;    
+        margin: 30px 0 20px;
+        position: relative;
+        color: $white_80;
+        text-transform: uppercase;
+
+        &:after {
+            content: '';
+            border-bottom: 2px solid $white_80;
+            display: block;
+
+        }
+
+        &:before {
+            position: absolute;
+            top: 0;
+            color: $white_80;
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            font-size: 16px;
+        }
+
+        &.m-define:after { width: 20%; }
+        &.m-define:before { 
+            content: 'Define';
+            right: 80%;
+        }
+
+        &.m-prototype:after { width: 60%; }
+        &.m-prototype:before { 
+            content: 'Prototype';
+            right: 40%;
+        }
+
+        &.m-complete:after { width: 100%; }
+        &.m-complete:before { 
+            content: 'Complete';
+            right: 0;
+        }
+
+        
     }
+
+
+
 
     .e-main-content-section {
         margin-bottom: 40px;
