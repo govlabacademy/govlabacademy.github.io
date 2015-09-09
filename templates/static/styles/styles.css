@@ -1419,17 +1419,18 @@ p,
 .b-project-list {
   padding: 0;
   margin: 55px -4px 0 0;
-  height: 80px;
+  height: 230px;
   overflow-x: scroll;
   overflow-y: hidden;
-  background-color: rgba(0, 0, 0, 0.5); }
+  width: 100%;
+  background-color: transparent; }
   .b-project-list .e-thumb-container {
-    width: auto;
-    white-space: nowrap; }
+    white-space: nowrap;
+    display: inline-block; }
   .b-project-list .e-prev, .b-project-list .e-next {
     position: absolute;
     color: rgba(255, 255, 255, 0.5);
-    top: 10px;
+    top: 40px;
     font-size: 50px !important;
     transition: all 0.4s ease;
     z-index: 2; }
@@ -1446,110 +1447,165 @@ p,
     right: 20px; }
   .b-project-list .e-project-thumb {
     background-image: url("../img/landing-image4.jpg");
-    height: 80px;
-    width: 80px;
+    height: 130px;
+    width: 130px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: inline-block;
     margin: 0 -2px;
     padding: 0;
-    opacity: .7;
-    cursor: pointer; }
-    .b-project-list .e-project-thumb:hover {
-      opacity: 1; }
+    cursor: pointer;
+    position: relative; }
+    .b-project-list .e-project-thumb:after {
+      width: 0;
+      content: '';
+      height: 0;
+      border-bottom: 16px solid rgba(255, 255, 255, 0.8);
+      border-right: 16px solid transparent;
+      border-left: 16px solid transparent;
+      position: absolute;
+      top: 134px;
+      opacity: 0;
+      transition: all 0.4s ease;
+      margin: 0 49px;
+      z-index: 100; }
+    .b-project-list .e-project-thumb:before {
+      content: attr(title);
+      padding: 15px;
+      position: absolute;
+      top: 150px;
+      background-color: rgba(255, 255, 255, 0.8);
+      opacity: 0;
+      transition: all 0.4s ease;
+      width: 200px;
+      white-space: normal;
+      margin-left: -35px;
+      text-align: center; }
+    .b-project-list .e-project-thumb:hover:before, .b-project-list .e-project-thumb:hover:after {
+      opacity: 1;
+      transition: all 0.4s ease; }
+    .b-project-list .e-project-thumb:first-of-type:before {
+      left: 0; }
+    .b-project-list .e-project-thumb:last-of-type:before {
+      right: 0; }
 
-.b-project-item .e-project-banner {
-  background-image: url("../img/landing-image4.jpg");
-  height: 480px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 30px; }
-.b-project-item .e-project-banner-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 100%; }
-.b-project-item .e-project-title {
-  margin-top: 220px;
-  text-transform: uppercase;
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: white; }
-.b-project-item .e-project-tagline,
-.b-project-item .e-project-status {
-  color: white; }
-.b-project-item .e-main-content-section {
-  margin-bottom: 40px;
-  margin-right: 40px; }
-  .b-project-item .e-main-content-section h3 {
-    font-size: 1.2rem;
+.b-project-item {
+  margin-top: -100px; }
+  .b-project-item .e-project-banner {
+    background-image: url("../img/landing-image4.jpg");
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px; }
+  .b-project-item .e-project-banner-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%; }
+  .b-project-item .e-project-title {
+    margin-top: 220px;
     text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: white; }
+  .b-project-item .e-project-tagline,
+  .b-project-item .e-project-status {
+    color: white; }
+  .b-project-item .e-main-content-section {
+    margin-bottom: 40px;
+    margin-right: 40px; }
+    .b-project-item .e-main-content-section h3 {
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      font-weight: 600; }
+  .b-project-item .e-image-gallery {
+    margin: 20px 0 30px;
+    white-space: nowrap;
+    width: 100%;
+    overflow-x: scroll;
+    padding: 10px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.05); }
+    .b-project-item .e-image-gallery img {
+      margin: 4px 3px;
+      width: calc(30% - 16px); }
+    .b-project-item .e-image-gallery img:only-child {
+      width: calc(100% - 16px); }
+  .b-project-item .e-news-item {
+    font-size: 1.1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 15px;
+    margin-bottom: 15px; }
+    .b-project-item .e-news-item:last-of-type {
+      border: 0; }
+  .b-project-item .e-pub-date {
+    font-size: .9rem;
+    text-transform: uppercase;
+    color: #472b74;
     font-weight: 600; }
-.b-project-item .e-news-item {
-  font-size: 1.1rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  padding-bottom: 15px;
-  margin-bottom: 15px; }
-  .b-project-item .e-news-item:last-of-type {
-    border: 0; }
-.b-project-item .e-pub-date {
-  font-size: .9rem;
-  text-transform: uppercase;
-  color: #472b74;
-  font-weight: 600; }
-.b-project-item .e-sidebar a {
-  color: #472b74; }
-.b-project-item .e-sidebar a:hover {
-  text-decoration: underline; }
-.b-project-item .e-sidebar h4 {
-  font-size: 1.1rem;
-  color: #472b74;
-  font-weight: 600;
-  text-transform: uppercase; }
-.b-project-item .e-sidebar-section {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  padding-bottom: 15px;
-  margin-bottom: 15px; }
-.b-project-item .e-share a {
-  border-radius: 50%;
-  overflow: hidden;
-  background-color: #472b74;
-  width: 42px;
-  height: 42px;
-  padding: 8px 0;
+  .b-project-item .e-sidebar a {
+    color: #472b74; }
+  .b-project-item .e-sidebar a:hover {
+    text-decoration: underline; }
+  .b-project-item .e-sidebar h4 {
+    font-size: 1.1rem;
+    color: #472b74;
+    font-weight: 600;
+    text-transform: uppercase; }
+  .b-project-item .e-sidebar-section {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 15px;
+    margin-bottom: 15px; }
+  .b-project-item .e-share a {
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #472b74;
+    width: 42px;
+    height: 42px;
+    padding: 8px 0;
+    text-align: center;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 4px; }
+  .b-project-item .e-share a:hover {
+    color: white; }
+  .b-project-item .e-team {
+    overflow: hidden; }
+  .b-project-item .e-team-member {
+    display: block;
+    clear: both; }
+  .b-project-item .e-team-pic {
+    background-image: url("../img/faculty/alan-kantrow.jpg");
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 5px;
+    float: left; }
+  .b-project-item .e-team-name {
+    margin: 15px 0 5px 5px;
+    float: left; }
+  .b-project-item .e-related-project {
+    background-image: url("../img/faculty/alan-kantrow.jpg");
+    height: 90px;
+    width: 90px;
+    margin: 2px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block; }
+
+.b-lightbox {
   text-align: center;
-  display: inline-block;
-  color: rgba(255, 255, 255, 0.5);
-  margin: 0 4px; }
-.b-project-item .e-share a:hover {
-  color: white; }
-.b-project-item .e-team {
-  overflow: hidden; }
-.b-project-item .e-team-member {
-  display: block;
-  clear: both; }
-.b-project-item .e-team-pic {
-  background-image: url("../img/faculty/alan-kantrow.jpg");
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  display: inline-block;
-  margin: 5px;
-  float: left; }
-.b-project-item .e-team-name {
-  margin: 15px 0 5px 5px;
-  float: left; }
-.b-project-item .e-related-project {
-  background-image: url("../img/faculty/alan-kantrow.jpg");
-  height: 90px;
-  width: 90px;
-  margin: 2px;
-  background-size: cover;
-  background-position: center;
-  display: inline-block; }
+  background-color: rgba(0, 0, 0, 0.8) !important; }
+  .b-lightbox img {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 90%;
+    width: auto;
+    margin-top: 12vh; }
 
 #homepage {
   padding-top: 0; }

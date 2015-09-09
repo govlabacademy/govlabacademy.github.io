@@ -1,20 +1,21 @@
 .b-project-list {
     padding: 0;
     margin: 55px -4px 0 0;
-    height: 80px;
+    height: 230px;
     overflow-x: scroll;
     overflow-y: hidden;
-    background-color: $gray_50;
+    width: 100%;
+    background-color: transparent;
 
     .e-thumb-container {
-        width: auto;
         white-space: nowrap;
+        display: inline-block;
     }
 
     .e-prev, .e-next {
         position: absolute;
         color: $white_50;
-        top: 10px;
+        top: 40px;
         font-size: 50px !important;
         @include transition;
         z-index: 2;
@@ -34,24 +35,61 @@
     
     .e-project-thumb {
         background-image: url("../img/landing-image4.jpg");
-        height: 80px;
-        width: 80px;
+        height: 130px;
+        width: 130px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         display: inline-block;
         margin: 0 -2px;
         padding: 0;
-        opacity: .7;
         cursor: pointer;
+        position: relative;
 
-        &:hover {
-            opacity: 1;
+        &:after {
+            width: 0;
+            content: '';
+            height: 0;
+            border-bottom: 16px solid $white-80;
+            border-right: 16px solid transparent;
+            border-left: 16px solid transparent;
+            position: absolute;
+            top: 134px;
+            opacity: 0;
+            @include transition;
+            margin: 0 49px;
+            z-index: 100;
         }
+
+        &:before {
+            content: attr(title);
+            padding: 15px;
+            position: absolute;
+            top: 150px;
+            background-color: $white_80;
+            opacity: 0;
+            @include transition;
+            width: 200px;
+            white-space: normal;
+            margin-left: -35px;
+            text-align: center;
+
+        }
+
+        &:hover:before,
+        &:hover:after {
+            opacity: 1;
+            @include transition;
+        }
+
+        &:first-of-type:before { left: 0; }
+        &:last-of-type:before { right: 0; }
     }
 }
 
 .b-project-item {
+    margin-top: -100px;
+
     .e-project-banner {
         background-image: url("../img/landing-image4.jpg");
         height: 480px;
@@ -62,7 +100,7 @@
     }
 
     .e-project-banner-overlay {
-        background-color: $gray_50;
+        background-color: $gray_70;
         height: 100%;
     }
 
@@ -88,6 +126,24 @@
             text-transform: uppercase;
             font-weight: 600;
         }
+    }
+
+    .e-image-gallery {
+        margin: 20px 0 30px;
+        white-space: nowrap;
+        width: 100%;
+        overflow-x: scroll;
+        padding: 10px;
+        box-shadow: inset 0 0 5px $gray_30;
+        border-radius: 3px;
+        background-color: $gray_5;
+
+        img { 
+            margin: 4px 3px;
+            width: calc(30% - 16px);
+        }
+
+        img:only-child { width: calc(100% - 16px); }
     }
     
     .e-news-item {
@@ -178,4 +234,17 @@
         display: inline-block;
 
     }
+}
+
+.b-lightbox {
+    text-align: center;
+    background-color: $gray_80 !important;
+
+    img {
+        box-shadow: 5px 5px 15px $gray_30;
+        max-width: 90%;
+        width: auto;
+        margin-top: 12vh;
+    }
+    
 }

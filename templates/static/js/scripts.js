@@ -113,7 +113,7 @@ $(document).ready(function() {
   });
 
   $('#overlay').click(function() {
-    $(this).removeClass('m-active');
+    $(this).removeClass('m-active').children('.js-image-gallery-item').remove();
     $('.b-filters').removeClass('m-active');
   });
 
@@ -129,5 +129,17 @@ $(document).ready(function() {
 // $('.swipe').each(function(i, obj) {
 //      swipes[i] = new Swipe(obj);
 //  });
+
+
+// Modal for Project Gallery - Image Gallery
+
+$('.js-image-gallery-item').click(function() {
+  var clone = $(this).clone();
+  $('#overlay').append(clone).addClass('m-active b-lightbox');  
+});
+
+
+
+
 
  }); // Closes Document.ready
