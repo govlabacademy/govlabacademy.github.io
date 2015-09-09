@@ -1416,14 +1416,57 @@ p,
 
   .fr_after_submit_page p {
     font-size: 3rem; } }
+.b-gallery-filters {
+  padding-top: 85px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8); }
+  .b-gallery-filters .e-filter {
+    width: 30%;
+    display: inline-block; }
+  .b-gallery-filters .e-select-field {
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    cursor: pointer; }
+    .b-gallery-filters .e-select-field:after {
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: 7px solid rgba(255, 255, 255, 0.3);
+      border-right: 7px solid transparent;
+      border-left: 7px solid transparent;
+      position: absolute;
+      top: 14px;
+      right: 8px;
+      pointer-events: none; }
+    .b-gallery-filters .e-select-field:hover:after {
+      border-top-color: white; }
+  .b-gallery-filters select {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 16px;
+    line-height: 1;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background-color: transparent;
+    border-radius: 0;
+    height: 34px;
+    -webkit-appearance: none;
+    font-family: proxima-nova, sans-serif !important;
+    color: white;
+    letter-spacing: .5px;
+    font-weight: 200; }
+
 .b-project-list {
   padding: 0;
-  margin: 55px -4px 0 0;
+  margin: 0 -4px 0 0;
   height: 230px;
   overflow-x: scroll;
   overflow-y: hidden;
   width: 100%;
-  background-color: transparent; }
+  background-color: transparent;
+  position: relative; }
   .b-project-list .e-thumb-container {
     white-space: nowrap;
     display: inline-block; }
@@ -1606,6 +1649,19 @@ p,
     max-width: 90%;
     width: auto;
     margin-top: 12vh; }
+  .b-lightbox:after {
+    content: "\f00d";
+    display: inline-block;
+    font: normal normal normal 30px FontAwesome;
+    line-height: 20px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    top: 12vh;
+    margin: 5px 20px;
+    color: rgba(255, 255, 255, 0.3);
+    pointer-events: none; }
 
 #homepage {
   padding-top: 0; }
