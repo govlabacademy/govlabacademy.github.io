@@ -135,11 +135,7 @@ $(document).ready(function() {
 
 $('.js-image-gallery-item').click(function() {
   var clone = $(this).clone();
-  $('#overlay').append(clone).addClass('m-active b-lightbox');  
+  $('#overlay').append(clone).addClass('m-active b-lightbox');
 });
-
-
-
-
 
  }); // Closes Document.ready

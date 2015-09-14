@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Admin</title>
+    <link rel="shortcut icon" href="static/img/favicon.ico?v=2" />
+    <link rel="stylesheet" href="static/styles/admin.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700|Montserrat:400,700"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+  </head>
+
+  <body id="admin">
+    <header class="b-header"><h1><a href="/admin.html">Admin</a></h1></header>
+
+    <div class="b-list m-display-none">
+        <div>
+          <span class="add-button button">Create new</span>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th width="100%">Title</th>
+              <th width="100%">Tagline</th>
+              <th width="100px">status</th>
+              <th width="75px"></th>
+            </tr>
+          </thead>
+
+          <tbody>{# Filled via JavaScript. #}</tbody>
+        </table>
+    </div>
+
+    <form class="b-edit m-display-none">
+      <h3>Main</h3>
+
+      <div>
+        <span class="label">Title</span>
+        <input type="text" class="title" name="title"/>
+      </div>
+
+      <div>
+        <span class="label">Tagline</span>
+        <input type="text" class="tagline" name="tagline" maxlength="135"/>
+      </div>
+
+      <div>
+        <span class="label">Description</span>
+        <input type="text" class="description" name="description" maxlength="400"/>
+      </div>
+
+      <div>
+        <span class="label">Tagline</span>
+        <input type="text" class="tagline" name="tagline" maxlength="135"/>
+      </div>
+
+      <div>
+        <span class="label">Status</span>
+        <select class="status" name="status">
+          <option value="define">Define</option>
+          <option value="prototype">Prototype</option>
+          <option value="test">Test</option>
+          <option value="complete">Complete</option>
+        </select>
+      </div>
+
+      <h3>Team</h3>
+
+      <div>
+        <span><input type="file"/></span>
+        <span><input type="text" name="user_name" placeholder="name"/></span>
+        <span><input type="text" name="user_profile" placeholder="profile"/></span>
+      </div>
+
+      <h3>Social</h3>
+
+      <div>
+        <span class="label">Twitter</span>
+        <input type="text" class="twitter" name="twitter"/>
+      </div>
+
+      <div>
+        <span class="label">Facebook</span>
+        <input type="text" class="facebook" name="facebook"/>
+      </div>
+
+      <div>
+        <span class="label">Email</span>
+        <input type="email" class="email" name="email"/>
+      </div>
+
+      <h3>Media</h3>
+
+      <div>
+        <span class="label">Webiste</span>
+        <input type="text" class="website" name="website"/>
+      </div>
+
+      <div>
+        <span class="label">Github</span>
+        <input type="text" class="github" name="github"/>
+      </div>
+
+      <div>
+        <span class="label">Youtubr</span>
+        <input type="email" class="youtube" name="youtube"/>
+      </div>
+
+      <div class="b-gallery">
+        <input type="file"/>
+      </div>
+
+      <h3>News</h3>
+
+      <div>
+        <span><input type="text" name="pub_text" placeholder="text"/></span>
+        <span><input type="text" name="pub_date" placeholder="MM/DD/YY"/></span>
+      </div>
+
+      <div>
+          <button class="button">Save</button>
+      </div>
+    </form>
+
+    <div class="e-overlay m-display-none"></div>
+
+    <!-- Vendor Stuff -->
+    <script src="static/assets/foundation/js/vendor/jquery.js"></script>
+    <script src='https://cdn.firebase.com/js/client/2.2.9/firebase.js'></script>
+
+    <!-- My custom JS -->
+    <script src="static/js/admin.js"></script>
+  </body>
+</html>
