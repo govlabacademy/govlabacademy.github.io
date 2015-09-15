@@ -31,7 +31,8 @@
     font-weight: normal;
     letter-spacing: 0.3px;
     cursor: pointer;
-    transition: all 0.2s ease 0s;
+    -webkit-transition: all 0.2s ease 0s;
+            transition: all 0.2s ease 0s;
     box-shadow: 0px 1px 2px 0px #bdbdbd; }
   #admin .b-list {
     max-width: 960px;
@@ -123,5 +124,17 @@
   #admin :-ms-input-placeholder {
     padding-top: 2px;
     line-height: 1; }
-
-/*# sourceMappingURL=admin.css.map */
+  #admin .team-wrapper img {
+    max-width: 150px;
+    max-height: 150px; }
+  #admin .team-wrapper > div {
+    border: 1px solid #bbb;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px; }
+  #admin .team-wrapper > div > span {
+    display: inline-block;
+    width: 295px;
+    margin-right: 10px; }
+  #admin .team-wrapper > div > span:first-child {
+    text-align: center; }

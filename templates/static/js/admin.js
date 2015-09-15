@@ -147,7 +147,7 @@ $(document).ready(function() {
 
             $input.val('');
 
-            alert('File must be an image');
+            alert('File must be an image format (jpg, png or gif');
 
         } else {
             $input.val('');
@@ -179,7 +179,7 @@ $(document).ready(function() {
 
             $input.val('');
 
-            alert('File must be an image');
+            alert('File must be an image format (jpg, png or gif');
 
         } else {
             $input.val('');

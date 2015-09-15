@@ -1,5 +1,6 @@
 .DS_Store
-.sass-cache/*
+sass/.sass-cache/*
 .env
 site/*
 node_modules/*
+config.codekit
