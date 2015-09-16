@@ -12,24 +12,24 @@ $(document).ready(function() {
         var oid = getQuery('oid');
 
         if (!oid) {
-          db.child('project').on('child_added', function(snapshot) {
-              var obj = snapshot.val(),
-                  $tr = $('<tr/>'),
-                  $a = $('<a/>');
+            db.child('project').on('child_added', function(snapshot) {
+                var obj = snapshot.val(),
+                    $tr = $('<tr/>'),
+                    $a = $('<a/>');
 
-              $a.attr('href', window.location.href + '?oid=' + snapshot.key());
-              $a.append($('<i/>').addClass('fa fa-pencil'));
+                  $a.attr('href', window.location.href + '?oid=' + snapshot.key());
+                  $a.append($('<i/>').addClass('fa fa-pencil'));
 
-              $tr.append($('<td>').addClass('m-ellipsis title').text(obj.title));
-              $tr.append($('<td>').addClass('m-ellipsis tagline').text(obj.tagline));
-              $tr.append($('<td>').addClass('m-ellipsis status').text(obj.status));
-              $tr.append($('<td>').append($a));
-              $tr.children(':last-child').append($('<i/>').addClass('fa fa-times').data('oid', snapshot.key()));
+                  $tr.append($('<td>').addClass('m-ellipsis title').text(obj.title));
+                  $tr.append($('<td>').addClass('m-ellipsis tagline').text(obj.tagline));
+                  $tr.append($('<td>').addClass('m-ellipsis status').text(obj.status));
+                  $tr.append($('<td>').append($a));
+                  $tr.children(':last-child').append($('<i/>').addClass('fa fa-times').data('oid', snapshot.key()));
 
-              $('#admin .b-list tbody').prepend($tr);
-          });
+                  $('#admin .b-list tbody').prepend($tr);
+            });
 
-          $('#admin .b-list').removeClass('m-display-none');
+            $('#admin .b-list').removeClass('m-display-none');
 
         } else {
             db.child('project').child(oid).once('value', function(snapshot) {
@@ -64,6 +64,17 @@ $(document).ready(function() {
                         $div.append($span2);
 
                         $('.team-wrapper').append($div);
+                    }
+                });
+
+                obj.gallery.forEach(function(x) {
+                    if (x != 0) {
+                        var $img = $('<img/>');
+
+                        $img.attr('src', x);
+                        $img.addClass('image');
+
+                        $('.gallery-wrapper').append($img);
                     }
                 });
 
@@ -194,9 +205,9 @@ $(document).ready(function() {
         var dic = {},
             $parent = $(this).parent();
 
-            dic.image = $parent.find('.uploader').data('image') || '';
-            dic.name = $parent.find('.name').val();
-            dic.profile = $parent.find('.profile').val();
+        dic.image = $parent.find('.uploader').data('image') || '';
+        dic.name = $parent.find('.name').val();
+        dic.profile = $parent.find('.profile').val();
 
         if (dic.name.length) {
             var lst = [dic],
@@ -242,12 +253,38 @@ $(document).ready(function() {
         }
     });
 
+    $('.add-gallery').click(function() {
+        var $inp = $(this).siblings().eq(0),
+            b64 = $inp.data('image') || '';
+
+        if (b64.length) {
+            var lst = [b64],
+                $img = $('<img/>');
+
+            $('.gallery-wrapper img').each(function() {
+                lst.push($(this).attr('src'));
+            });
+
+            db.child('project').child(getQuery('oid')).child('gallery').set(lst);
+
+            $img.attr('src', lst[0]);
+            $img.addClass('image');
+
+            $('.gallery-wrapper').prepend($img);
+
+            $inp.val('');
+            $inp.data('image', '');
+
+            return false;
+        }
+    });
+
     $('.add-news').click(function() {
         var dic = {},
             $parent = $(this).parent();
 
-            dic.publication = $parent.find('.publication').val();
-            dic.date = $parent.find('.datepicker').val();
+        dic.publication = $parent.find('.publication').val();
+        dic.date = $parent.find('.datepicker').val();
 
         if (dic.publication.length) {
             var lst = [dic],
