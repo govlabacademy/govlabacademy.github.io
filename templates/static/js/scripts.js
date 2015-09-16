@@ -1,6 +1,90 @@
 $(document).ready(function() {
   $(document).foundation();
 
+  var db = null;
+
+  // if (location.hostname == 'domain.com') {
+  //     db = new Firebase('https://production.firebaseio.com/');
+
+  // } else {
+      db = new Firebase('https://academy-dev.firebaseio.com/');
+  // }
+
+  db.child('project').once('value', function(snapshot) {
+    var bit = false;
+
+    for (var oid in snapshot.val()) {
+      var obj = snapshot.val()[oid],
+          qry = getQuery('oid'),
+          $a = $('<a/>'),
+          i;
+
+      $a.css('background-image', 'url(' + obj.gallery[0] + ')');
+      $a.attr('title', obj.title);
+      $a.attr('href', '?oid=' + oid);
+      $a.addClass('e-project-thumb');
+
+      $('.e-thumb-container').append($a);
+
+      if (oid == qry || (!qry && !bit)) {
+        bit = true;
+
+        $('.e-project-title').text(obj.title);
+        $('.e-project-tagline').text(obj.tagline);
+        $('.e-project-status').addClass('m-' + obj.status);
+        $('.e-project-description').text(obj.description);
+        $('.twitter-link').attr('href', obj.twitter);
+        $('.facebook-link').attr('href', obj.facebook);
+        $('.envelope-link').attr('href', obj.email);
+        $('.youtube-link').attr('href', obj.youtube);
+        $('.website-link').attr('href', obj.website);
+        $('.github-link').attr('href', obj.github);
+
+        if (obj.gallery.length && obj.gallery[0] != 0) {
+          for (i = 0; i < obj.gallery.length; i++) {
+            var $img = $('<img/>');
+
+            $img.attr('src', obj.gallery[i]);
+            $img.addClass('js-image-gallery-item');
+
+            $('.e-image-gallery').append($img);
+          }
+        }
+
+        if (obj.news.length && obj.news[0] != 0) {
+          for (i = 0; i < obj.news.length; i++) {
+            var $p = $('<p/>'),
+                $span = $('<span/>');
+
+            $span.addClass('e-pub-date').text(obj.news[i].date);
+            $p.addClass('e-news-item').text(obj.news[i].publication);
+            $p.addClass('e-news-item').append($span);
+
+            $('.e-news h3').after($p);
+          }
+        }
+
+        if (obj.team.length && obj.team[0] != 0) {
+          for (i = 0; i < obj.team.length; i++) {
+            var $div1 = $('<div/>'),
+                $div2 = $('<div/>'),
+                $div3 = $('<div/>');
+
+            $div1.addClass('e-team-pic');
+            $div1.css('background-image', 'url(' + obj.team[i].image + ')');
+            $div2.text(obj.team[i].name);
+            $div2.addClass('e-team-name');
+            $div3.append($div1);
+            $div3.append($div2);
+
+            $('.e-team h4').after($div3);
+          }
+        }
+      }
+    }
+  });
+
+
   $('.nav-coaching').addClass('m-active');
 
   // Click for Partner Logos
@@ -113,7 +197,8 @@ $(document).ready(function() {
   });
 
   $('#overlay').click(function() {
-    $(this).removeClass('m-active').children('.js-image-gallery-item').remove();
+    $(this).removeClass('m-active');
+    $(this).children('.js-image-gallery-item').remove();
     $('.b-filters').removeClass('m-active');
   });
 
@@ -139,3 +224,22 @@ $('.js-image-gallery-item').click(function() {
 });
 
  }); // Closes Document.ready
+
+function getQuery(param) {
+    var query = location.search.substr(1),
+        result = false;
+
+    query.split('&').forEach(function(part) {
+        var item = part.split('=');
+
+        if (item[0] == param) {
+            result = decodeURIComponent(item[1]);
+
+            if (result.slice(-1) == '/') {
+                result = result.slice(0, -1);
+            }
+        }
+    });
+
+    return result;
+}
