@@ -19,7 +19,10 @@ $(document).ready(function() {
           $a = $('<a/>'),
           i;
 
-      $a.css('background-image', 'url(' + obj.gallery[0] + ')');
+      if (obj.gallery.length && obj.gallery[0] != 0) {
+        $a.css('background-image', 'url(' + obj.gallery[0] + ')');
+      }
+
       $a.attr('title', obj.title);
       $a.attr('href', '?oid=' + oid);
       $a.addClass('e-project-thumb');
@@ -39,8 +42,11 @@ $(document).ready(function() {
         $('.youtube-link').attr('href', obj.youtube);
         $('.website-link').attr('href', obj.website);
         $('.github-link').attr('href', obj.github);
+        $('.e-location p').text(obj.location);
 
         if (obj.gallery.length && obj.gallery[0] != 0) {
+          $('.e-project-banner').css('background-image', 'url(' + obj.gallery[0] + ')');
+
           for (i = 0; i < obj.gallery.length; i++) {
             var $img = $('<img/>');
 
