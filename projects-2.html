@@ -13,11 +13,6 @@
     <script src="static/assets/foundation/js/vendor/modernizr.js"></script>
     <script src="//use.typekit.net/pgm4fwy.js"></script>
     
-<script src="static/assets/foundation/js/vendor/jquery.js"></script>
-<link href="//d3q1ytufopwvkq.cloudfront.net/0/formrenderer.css" rel="stylesheet" />
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<script src="//d3q1ytufopwvkq.cloudfront.net/0/formrenderer.js"></script>
-
     <script>try{Typekit.load();}catch(e){}</script>
   </head>
   <body>
@@ -65,51 +60,116 @@
     <section class="b-main-content">
 
       
-<div id="application-page" class="b-content-page">
-    <div class="b-page-title">
+
+<div id="" class="b-content-page">
+  <!-- <section class="b-gallery-filters">
+    <div class="row">
+      <form action="">
+        <div class="e-select-field">
+          <select name="" id="">
+            <option value="">Innovation Area</option>
+            <option value="">innovation area tag</option>
+            <option value="">innovation area tag</option>
+            <option value="">innovation area tag</option>
+            <option value="">innovation area tag</option>
+          </select>
+        </div>
+        <div class="e-select-field">
+          <select name="" id="">
+            <option value="">Location</option>
+            <option value="">location tag</option>
+            <option value="">location tag</option>
+            <option value="">location tag</option>
+          </select>
+        </div>
+        <div class="e-select-field">
+          <select name="" id="">
+            <option value="">Status</option>
+            <option value="">status tag</option>
+            <option value="">status tag</option>
+          </select>
+        </div>
+      </form>
+    </div>
+  </section> -->
+
+  <section class="b-project-list">
+    <i class="e-prev fa fa-2x fa-angle-left"></i>
+    <i class=" e-next fa fa-2x fa-angle-right"></i>
+    <div class="e-thumb-container"></div>
+  </section>
+  <section class="b-project-item">
+    <div class="e-project-banner">
+      <div class="e-project-banner-overlay">
         <div class="row">
-      <div class="column large-12">
-            <h2>Application</h2>
+          <div class="large-12 column">
+            <h2 class="e-project-title"></h2>
+            <p class="e-project-tagline"></p>
+            <div class="e-project-status m-define">
+              Status
+            </div>
           </div>
         </div>
-  </div>
-
-    <div class="row">
-        <section class="b-form b-application-form m-coaching column large-12">
-            <form data-formrenderer></form>
-        </section>
+      </div>
     </div>
-    <section>
     <div class="row">
-        <div class="column large-12">
-            <p class="m-centered-text"><em><a href="https://screendoor.dobt.co/the-govlab/coaching-programs-application-form">If you have any problems with our form, here is a back-up</a></em></p>
+      <div class="large-8 e-main-content e-intro column">
+        <div class="e-main-content-section">
+          <h3>Project Description</h3>
+          <p class="e-project-description"></p>
         </div>
-        </section>
+        <div class="e-main-content-section">
+          <h3>Project Images</h3>
+          <div class="e-image-gallery"></div>
+        </div>
+        <div class="e-main-content-section e-news">
+          <h3>News</h3>
+        </div>
+        <!-- <div class="e-main-content-section">
+          <h3>Discussion</h3>
+          <p>Insert Disquss code</p>
+        </div> -->
+      </div>
+      <div class="large-4 e-sidebar column">
+        <div class="e-share e-sidebar-section">
+          <h4>Share this project</h4>
+          <a href="" class="twitter-link" target="_blank"><i class="fa fa-lg fa-twitter"></i></a>
+          <a href="" class="facebook-link" target="_blank"><i class="fa fa-lg fa-facebook"></i></a>
+          <a href="" class="envelope-link" target="_blank"><i class="fa fa-lg fa-envelope"></i></a>
+        </div>
+        <div class="e-team e-sidebar-section">
+          <h4>Team</h4>
+        </div>
+        <div class="e-location e-sidebar-section">
+          <h4>Location</h4>
+          <p></p>
+        </div>
+        <div class="e-links e-sidebar-section">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="" class="website-link" target="_blank">Website</a></li>
+            <li><a href="" class="github-link" target="_blank">Github</a></li>
+            <li><a href="" class="youtube-link" target="_blank">Youtube</a></li>
+          </ul>
+        </div>
+        <!-- <div class="e-related-projects e-sidebar-section">
+          <h4>See Also</h4>
+          <div class="e-related-project"></div>
+          <div class="e-related-project"></div>
+          <div class="e-related-project"></div>
+          <div class="e-related-project"></div>
+          <div class="e-related-project"></div>
+          <div class="e-related-project"></div>
+          <div class="e-related-project"></div>
+          </div>
+        </div> -->
+      </div>
     </div>
+  </section>
+</div>
 
+</div>
 
-
-<script>
-$( document ).ready(function() {
-  var t = '<p>Thank you for submitting your application!</p><p>You should ';
-
-  t += 'receive an email acknowledgement of receipt. Admissions decisions ';
-  t += 'will be sent out a day after the application deadline specified for ';
-  t += 'each program. Admitted participants will engage with our faculty and ';
-  t += 'staff to identify opportunities, diagnose problems, and develop a ';
-  t += 'customized reading and research plan. For any other questions or ';
-  t += 'comments, please contact <a href="mailto:info-academy@thegovlab.org">';
-  t += 'info-academy@thegovlab.org</a></p>';
-
-  new FormRenderer({
-    'project_id': 714,
-    'afterSubmit': {
-      'method': 'page',
-      'html': t
-    }
-  });
-});
-</script>
 
 
 
