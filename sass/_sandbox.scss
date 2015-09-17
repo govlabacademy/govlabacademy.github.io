@@ -54,13 +54,13 @@
 
 .b-project-list {
     padding: 0;
-    margin: 0 -4px 0 0;
-    height: 230px;
+    margin: 55px -4px 0 0;
+    height: 130px;
     overflow-x: scroll;
-    overflow-y: hidden;
+    // overflow-y: hidden;
     width: 100%;
-    background-color: transparent;
-    position: relative;
+    background-color: $gray_80;
+    // position: relative;
 
     .e-thumb-container {
         white-space: nowrap;
@@ -99,51 +99,53 @@
         margin: 0 -2px;
         padding: 0;
         cursor: pointer;
-        position: relative;
+        // position: relative;
 
-        &:after {
-            width: 0;
-            content: '';
-            height: 0;
-            border-bottom: 16px solid $white-80;
-            border-right: 16px solid transparent;
-            border-left: 16px solid transparent;
-            position: absolute;
-            top: 134px;
-            opacity: 0;
-            @include transition;
-            margin: 0 49px;
-            z-index: 100;
-        }
+        // &:after {
+        //     width: 0;
+        //     content: '';
+        //     height: 0;
+        //     border-bottom: 16px solid $white-80;
+        //     border-right: 16px solid transparent;
+        //     border-left: 16px solid transparent;
+        //     position: absolute;
+        //     top: 134px;
+        //     opacity: 0;
+        //     @include transition;
+        //     margin: 0 49px;
+        //     z-index: 100;
+        // }
 
-        &:before {
-            content: attr(title);
-            padding: 15px;
-            position: absolute;
-            top: 150px;
-            background-color: $white_80;
-            opacity: 0;
-            @include transition;
-            width: 200px;
-            white-space: normal;
-            margin-left: -35px;
-            text-align: center;
+    //     &:before {
+    //         content: attr(title);
+    //         padding:  7px 0;
+    //         background-color: $white_80;
+    //         opacity: 0;
+    //         @include transition;
+    //         width: 100%;
+    //         position: absolute;
+    //         bottom: 0;
+    //         left: 0;
+    //         right: 0;
+    //         white-space: normal;
+    //         text-align: center;
+    //         z-index: 101;
 
-        }
+    //     }
 
-        &:hover:before,
-        &:hover:after {
-            opacity: 1;
-            @include transition;
-        }
+    //     &:hover:before,
+    //     &:hover:after {
+    //         opacity: 1;
+    //         @include transition;
+    //     }
 
-        &:first-of-type:before { left: 0; }
-        &:last-of-type:before { right: 0; }
+    //     &:first-of-type:before { left: 0; }
+    //     &:last-of-type:before { right: 0; }
     }
 }
 
 .b-project-item {
-    margin-top: -100px;
+    margin-top: 0;
 
     .e-project-banner {
         background-image: url("../img/landing-image4.jpg");
@@ -203,6 +205,12 @@
             right: 40%;
         }
 
+        &.m-test:after { width: 80%; }
+        &.m-test:before { 
+            content: 'Test & Iterate';
+            right: 20%;
+        }
+
         &.m-complete:after { width: 100%; }
         &.m-complete:before { 
             content: 'Complete';
@@ -260,6 +268,7 @@
         text-transform: uppercase;
         color: $purple;
         font-weight: 600;
+        display: block;
     }
 
     .e-sidebar {

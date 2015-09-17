@@ -59,8 +59,8 @@ $(document).ready(function() {
 
         if (obj.news.length && obj.news[0] != 0) {
           for (i = 0; i < obj.news.length; i++) {
-            var $p = $('<p/>'),
-                $span = $('<span/>');
+            var $p = $('<p/> '),
+                $span = $('<span/> ');
 
             $span.addClass('e-pub-date').text(obj.news[i].date);
             $p.addClass('e-news-item').text(obj.news[i].publication);
@@ -203,7 +203,7 @@ $(document).ready(function() {
   });
 
   $('#overlay').click(function() {
-    $(this).removeClass('m-active');
+    $(this).removeClass('m-active b-lightbox');
     $(this).children('.js-image-gallery-item').remove();
     $('.b-filters').removeClass('m-active');
   });
@@ -221,6 +221,7 @@ $(document).ready(function() {
 //      swipes[i] = new Swipe(obj);
 //  });
 
+}); // Closes Document.ready
 
 // Modal for Project Gallery - Image Gallery
 
@@ -228,8 +229,6 @@ $('.js-image-gallery-item').click(function() {
   var clone = $(this).clone();
   $('#overlay').append(clone).addClass('m-active b-lightbox');
 });
-
- }); // Closes Document.ready
 
 function getQuery(param) {
     var query = location.search.substr(1),
