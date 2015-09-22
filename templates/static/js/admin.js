@@ -62,6 +62,7 @@ $(document).ready(function() {
                         $div.append($span0);
                         $div.append($span1);
                         $div.append($span2);
+                        $div.append($('<i class="fa fa-times"/>'));
 
                         $('.team-wrapper').append($div);
                     }
@@ -69,12 +70,16 @@ $(document).ready(function() {
 
                 obj.gallery.forEach(function(x) {
                     if (x != 0) {
-                        var $img = $('<img/>');
+                        var $img = $('<img/>'),
+                            $span = $('<span/>');
 
                         $img.attr('src', x);
                         $img.addClass('image');
 
-                        $('.gallery-wrapper').append($img);
+                        $span.append($img);
+                        $span.append($('<i class="fa fa-times"/>'));
+
+                        $('.gallery-wrapper').append($span);
                     }
                 });
 
@@ -89,6 +94,7 @@ $(document).ready(function() {
 
                         $div.append($span0);
                         $div.append($span1);
+                        $div.append($('<i class="fa fa-times"/>'));
 
                         $('.news-wrapper').append($div);
                     }
@@ -129,6 +135,8 @@ $(document).ready(function() {
             val = $(this).val();
 
         db.child('project').child(oid).child(key).set(val);
+
+        toastr.success('Saved', '', {'positionClass': 'toast-bottom-right'});
 
         return false;
     });
@@ -229,6 +237,8 @@ $(document).ready(function() {
 
             db.child('project').child(getQuery('oid')).child('team').set(lst);
 
+            toastr.success('Saved', '', {'positionClass': 'toast-bottom-right'});
+
             if (dic.image) {
                 $img.attr('src', dic.image);
                 $img.addClass('image');
@@ -242,6 +252,7 @@ $(document).ready(function() {
             $div.append($span0);
             $div.append($span1);
             $div.append($span2);
+            $div.append($('<i class="fa fa-times"/>'));
 
             $('.team-wrapper').prepend($div);
 
@@ -253,30 +264,82 @@ $(document).ready(function() {
         }
     });
 
+    $('.team-wrapper').on('click', '.fa-times', function() {
+        var lst = [];
+
+        $(this).parent().remove();
+
+        $('.team-wrapper div').each(function() {
+            var dic = {};
+
+            dic.image = $(this).find('.image').attr('src') || '';
+            dic.name = $(this).find('.name').text() || '';
+            dic.profile = $(this).find('.profile').text() || '';
+
+            lst.push(dic);
+        });
+
+        if (lst.length == 0) {
+          lst.push(0);
+        }
+
+        db.child('project').child(getQuery('oid')).child('team').set(lst);
+
+        toastr.success('Saved', '', {'positionClass': 'toast-bottom-right'});
+
+        return false;
+    });
+
     $('.add-gallery').click(function() {
         var $inp = $(this).siblings().eq(0),
             b64 = $inp.data('image') || '';
 
         if (b64.length) {
             var lst = [b64],
-                $img = $('<img/>');
+                $img = $('<img/>'),
+                $span = $('<span/>');
 
-            $('.gallery-wrapper img').each(function() {
-                lst.push($(this).attr('src'));
+            $('.gallery-wrapper span').each(function() {
+                lst.push($(this).find('img').attr('src'));
             });
 
             db.child('project').child(getQuery('oid')).child('gallery').set(lst);
 
+            toastr.success('Saved', '', {'positionClass': 'toast-bottom-right'});
+
             $img.attr('src', lst[0]);
             $img.addClass('image');
 
-            $('.gallery-wrapper').prepend($img);
+            $span.append($img);
+            $span.append($('<i class="fa fa-times"/>'));
+
+            $('.gallery-wrapper').prepend($span);
 
             $inp.val('');
             $inp.data('image', '');
 
             return false;
         }
+    });
+
+    $('.gallery-wrapper').on('click', '.fa-times', function() {
+        var lst = [];
+
+        $(this).parent().remove();
+
+        $('.gallery-wrapper span').each(function() {
+          lst.push($(this).find('img').attr('src'));
+        });
+
+        if (lst.length == 0) {
+          lst.push(0);
+        }
+
+        db.child('project').child(getQuery('oid')).child('gallery').set(lst);
+
+        toastr.success('Saved', '', {'positionClass': 'toast-bottom-right'});
+
+        return false;
     });
 
     $('.add-news').click(function() {
@@ -303,11 +366,14 @@ $(document).ready(function() {
 
             db.child('project').child(getQuery('oid')).child('news').set(lst);
 
+            toastr.success('Saved', '', {'positionClass': 'toast-bottom-right'});
+
             $span0.addClass('publication').text(dic.publication);
             $span1.addClass('date').text(dic.date);
 
             $div.append($span0);
             $div.append($span1);
+            $div.append($('<i class="fa fa-times"/>'));
 
             $('.news-wrapper').prepend($div);
 
@@ -316,6 +382,31 @@ $(document).ready(function() {
 
             return false;
         }
+    });
+
+    $('.news-wrapper').on('click', '.fa-times', function() {
+        var lst = [];
+
+        $(this).parent().remove();
+
+        $('.news-wrapper div').each(function() {
+            var dic = {};
+
+            dic.publication = $(this).find('.publication').text() || '';
+            dic.date = $(this).find('.date').text() || '';
+
+            lst.push(dic);
+        });
+
+        if (lst.length == 0) {
+          lst.push(0);
+        }
+
+        db.child('project').child(getQuery('oid')).child('news').set(lst);
+
+        toastr.success('Saved', '', {'positionClass': 'toast-bottom-right'});
+
+        return false;
     });
  });
 

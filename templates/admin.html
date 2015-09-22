@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700|Montserrat:400,700"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="static/assets/pikaday.css"/>
+    <link rel="stylesheet" href="static/assets/toastr.min.css"/>
   </head>
 
   <body id="admin">
@@ -54,17 +55,48 @@
 
       <div>
         <span class="label">Tags</span>
-        <textarea class="tagline" name="tagline" maxlength="135"></textarea>
+        <select class="tags" name="tags" multiple="multiple">
+          <option value="Agile Research">Agile Research</option>
+          <option value="Behavioral Insights">Behavioral Insights</option>
+          <option value="Big Data">Big Data</option>
+          <option value="Citizen Engagement">Citizen Engagement</option>
+          <option value="Citizen Science">Citizen Science</option>
+          <option value="Collective Intelligence">Collective Intelligence</option>
+          <option value="Crowdsourcing">Crowdsourcing</option>
+          <option value="Data Analytics">Data Analytics</option>
+          <option value="Data Science">Data Science</option>
+          <option value="Design Thinking">Design Thinking</option>
+          <option value="Expert networks">Expert networks</option>
+          <option value="Humanitarian Innovation ">Humanitarian Innovation </option>
+          <option value="Innovation Lab">Innovation Lab</option>
+          <option value="Legal Innovation">Legal Innovation</option>
+          <option value="Nudges">Nudges</option>
+          <option value="Open Contracting">Open Contracting</option>
+          <option value="Open Data">Open Data</option>
+          <option value="Open Innovation">Open Innovation</option>
+          <option value="Rapid Prototyping">Rapid Prototyping</option>
+          <option value="Prizes & Challenges">Prizes & Challenges</option>
+          <option value="Small Data">Small Data</option>
+          <option value="Tech Procurement">Tech Procurement</option>
+        </select>
       </div>
 
       <div>
         <span class="label">Status</span>
         <select class="status" name="status">
-          <option value="define">Define</option>
-          <option value="prototype">Prototype</option>
-          <option value="test">Test</option>
-          <option value="complete">Complete</option>
+          <option value="Ideation">Ideation</option>
+          <option value="Prototyping">Prototyping</option>
+          <option value="User-testing">User-testing</option>
+          <option value="Private beta launch and Iterating">Private beta launch and Iterating</option>
+          <option value="Public beta launch and Iterating">Public beta launch and Iterating</option>
+          <option value="Launched">Launched</option>
         </select>
+      </div>
+
+
+      <div>
+        <span class="label">Date Created</span>
+        <span><input type="text" class="datepicker" name="created" placeholder="MM/DD/YY"/></span>
       </div>
 
       <div>
@@ -147,6 +179,7 @@
     <script src='https://cdn.firebase.com/js/client/2.2.9/firebase.js'></script>
     <script src="static/assets/moment.js"></script>
     <script src="static/assets/pikaday.js"></script>
+    <script src="static/assets/toastr.min.js"></script>
 
     <!-- My custom JS -->
     <script src="static/js/admin.js"></script>

@@ -104,6 +104,7 @@
     .fa-plus {
         margin-top: 9px;
         margin-left: 5px;
+        cursor: pointer;
     }
   }
 
@@ -172,6 +173,19 @@
 
   :-ms-input-placeholder { padding-top: 2px; line-height: 1; }
 
+  .tags {
+    height: 560px;
+    overflow: hidden;
+
+    option {
+      padding: 5px 0;
+
+      &:checked {
+        background-color: #37474F;
+      }
+    }
+  }
+
   .team-wrapper {
     margin-bottom: 40px;
 
@@ -198,15 +212,37 @@
     > div > span:first-child {
       text-align: center;
     }
+
+    .fa-times {
+      cursor: pointer;
+    }
   }
 
   .gallery-wrapper {
     margin-bottom: 40px;
 
-    img {
-      max-width: 200px;
-      max-height: 200px;
-      margin: 10px;
+    span {
+      position: relative;
+      display: inline-block;
+
+      img {
+        max-width: 200px;
+        max-height: 200px;
+        margin: 10px 30px 10px 0;
+      }
+
+      .fa-times {
+        display: none;
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      &:hover .fa-times {
+        display: inline-block;
+      }
     }
   }
 
@@ -233,6 +269,11 @@
       width: 100px;
       margin: 0 10px;
       vertical-align: middle;
+    }
+
+    .fa-times {
+      float: right;
+      cursor: pointer;
     }
   }
 }
