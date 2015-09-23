@@ -307,11 +307,11 @@
 
     .e-team {
         overflow: hidden;
-    }
 
-    .e-team-member {
-        display: block;
-        clear: both;
+        > div {
+            display: block;
+            clear: both;
+        }
     }
 
     .e-team-pic {

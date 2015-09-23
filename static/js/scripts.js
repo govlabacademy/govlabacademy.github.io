@@ -111,8 +111,16 @@ $('.e-filters-trigger').click(function() {
 });
 
 
+// Modal for Project Gallery - Image Gallery
+$('.js-image-gallery-item').click(function() {
+  console.log('works');
+  // var clone = $(this).clone();
+  // $('#overlay').append(clone).addClass('m-active b-lightbox');  
+});
+
+
 $('#overlay').click(function() {
-	$(this).removeClass('m-active');
+	$(this).removeClass('m-active b-lightbox');
 	$('.b-filters').removeClass('m-active');
 });
 
@@ -135,3 +143,4 @@ $('#overlay').click(function() {
 
 
  }); // Closes Document.ready
+
