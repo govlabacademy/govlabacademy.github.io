@@ -1,4 +1,4 @@
-This is the **old** GovLab Academy website. It is still live at govlabacademy.org, but will soon be deprecated in favor of [govlab/academy-website](https://github.com/GovLab/academy-website).
+This is the **old** GovLab Academy website. It is now deprecated in favor of [govlab/academy-website](https://github.com/GovLab/academy-website).
 
 # academy
 
