@@ -16,21 +16,6 @@
   tags:  
 
 - name:
-    last: Baar
-    first: Thomas
-    slug: thomas-baar
-  job: Project Leader at the Peace Informatics Lab
-  is_govlab: false
-  description: "Thomas works on the development of innovative solutions in using data for peace and justice. In this, he focuses on leveraging the potential of new types of data and data analytics in improving policy within these domains. Within the Peace Informatics Lab, he is responsible for several projects focussed on developing new methodologies and tooling together with researchers, practitioners and data scientists. Before joining the Centre for Innovation, Thomas held a research position at Delft University of Technology focusing on the innovation, development and application of technologies for peacebuilding and conflict prevention. Thomas received his MA Conflict Studies and Human Rights at Utrecht University for which he has conducted extensive fieldwork in amongst other Kosovo and Egypt."
-  link:
-    url: 
-    twitter: https://twitter.com/BaarThomas
-    linkedin: https://www.linkedin.com/profile/view?id=166709269&trk=hp-identity-name
-    github: https://github.com/TJBaar
-    email: t.j.baar@cdh.leidenuniv.nl
-  tags:  
-
-- name:
     last: Behlendorf
     first: Brian
     slug: brian-behlendorf
@@ -156,9 +141,9 @@
     last: Kantrow
     first: Alan
     slug: alan-kantrow
-  job: Chief Learning and Communications Officer
+  job: Senior Advisor
   is_govlab: true
-  description: "Alan Kantrow is Chief Learning and Communications Officer of The Governance Lab @ NYU.  Prior to joining The GovLab, Alan was Managing Partner of Alan Kantrow LLC, where he provided advice on strategy, organization, innovation, communication, and knowledge management to corporations, colleges and universities, and government entities focused on educational and economic development in many different parts of the world. He is also a Senior Advisor to HCD Global in Shanghai. In parallel, he has been Professor of Management and Director of an infrastructure-focused research center at Moscow School of Management/Skolkovo, Visiting Scholar at Sloan School of Management (MIT), and adjunct lecturer in strategy at Babson College. Previously, for more than a dozen years, Alan was a Senior Partner and Chief Knowledge Officer at Monitor Group. Before that has was a Partner and Director of Communications for Asia-Pacific at McKinsey & Company, as well as Editor of the McKinsey Quarterly. Still earlier, he was a Founding Partner of Winthrop Group (business historians) and Senior Editor of Harvard Business Review. He is the author of several books and many articles, and his blog on tertiary education can be found at HBR.org. Alan holds both his AB and PhD from Harvard University."
+  description: "Alan Kantrow is Senior Advisor of The GovLab. Prior to joining The GovLab, Alan was Managing Partner of Alan Kantrow LLC, where he provided advice on strategy, organization, innovation, communication, and knowledge management to corporations, colleges and universities, and government entities focused on educational and economic development in many different parts of the world. He is also a Senior Advisor to HCD Global in Shanghai. In parallel, he has been Professor of Management and Director of an infrastructure-focused research center at Moscow School of Management/Skolkovo, Visiting Scholar at Sloan School of Management (MIT), and adjunct lecturer in strategy at Babson College. Previously, for more than a dozen years, Alan was a Senior Partner and Chief Knowledge Officer at Monitor Group. Before that has was a Partner and Director of Communications for Asia-Pacific at McKinsey & Company, as well as Editor of the McKinsey Quarterly. Still earlier, he was a Founding Partner of Winthrop Group (business historians) and Senior Editor of Harvard Business Review. He is the author of several books and many articles, and his blog on tertiary education can be found at HBR.org. Alan holds both his AB and PhD from Harvard University."
   link:
     url: http://thegovlab.org/about/team/alan-kantrow/
     twitter:
@@ -408,3 +393,26 @@
     github:
     email: HTimms@92y.org
   tags: citizen-engagement
+
+- name:
+    last: Carver
+    first: Julian
+    slug: "julian-carver"
+  job: "Data Driven Innovation Consultant and Former CIO of the Canterbury Earthquake Recovery Authority"
+  is_govlab: false
+  description: "Julian Carver is an investor, startup mentor, and technology innovator in the public and private sectors. He founded and exited three web software startups from 1995-2000. From 2000-2011 he led large shared services projects and data sharing strategies across central and local government and the private sector. In 2011 Julian worked with the Government Data and Information Reuse Secretariat to develop New Zealand’s Declaration on Open and Transparent Government. From April 2011 - June 2012 Julian led the establishment of information services at the Canterbury Earthquake Recovery Authority (CERA), as acting Chief Information Officer. From March 2013 - April 2015 he led the Canterbury Spatial Data Infrastructure (SDI) Programme at LINZ, a $5m investment in a set of eight ICT projects to support the $40 billion Christchurch rebuild."
+  link:
+    url:
+    twitter: https://twitter.com/serenare
+    linkedin: https://www.linkedin.com/in/juliancarver
+    github:
+    email: julian.carver@nzcapstrat.com
+  tags: disaster-innovation
+
+
+
+
+
+
+
+
