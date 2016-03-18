@@ -221,14 +221,17 @@ $(document).ready(function() {
 //      swipes[i] = new Swipe(obj);
 //  });
 
-}); // Closes Document.ready
-
 // Modal for Project Gallery - Image Gallery
-
 $('.js-image-gallery-item').click(function() {
   var clone = $(this).clone();
   $('#overlay').append(clone).addClass('m-active b-lightbox');
 });
+
+}); // Closes Document.ready
+
+
+
+
 
 function getQuery(param) {
     var query = location.search.substr(1),

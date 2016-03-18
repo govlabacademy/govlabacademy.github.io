@@ -73,7 +73,8 @@
     margin: 50px auto 0; }
     #admin .b-edit .fa-plus {
       margin-top: 9px;
-      margin-left: 5px; }
+      margin-left: 5px;
+      cursor: pointer; }
   #admin .label {
     width: 90px;
     margin-top: 6px;
@@ -135,6 +136,13 @@
   #admin :-ms-input-placeholder {
     padding-top: 2px;
     line-height: 1; }
+  #admin .tags {
+    height: 560px;
+    overflow: hidden; }
+    #admin .tags option {
+      padding: 5px 0; }
+      #admin .tags option:checked {
+        background-color: #37474F; }
   #admin .team-wrapper {
     margin-bottom: 40px; }
     #admin .team-wrapper img {
@@ -153,12 +161,26 @@
       vertical-align: middle; }
     #admin .team-wrapper > div > span:first-child {
       text-align: center; }
+    #admin .team-wrapper .fa-times {
+      cursor: pointer; }
   #admin .gallery-wrapper {
     margin-bottom: 40px; }
-    #admin .gallery-wrapper img {
-      max-width: 200px;
-      max-height: 200px;
-      margin: 10px; }
+    #admin .gallery-wrapper span {
+      position: relative;
+      display: inline-block; }
+      #admin .gallery-wrapper span img {
+        max-width: 200px;
+        max-height: 200px;
+        margin: 10px 30px 10px 0; }
+      #admin .gallery-wrapper span .fa-times {
+        display: none;
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        font-size: 20px;
+        cursor: pointer; }
+      #admin .gallery-wrapper span:hover .fa-times {
+        display: inline-block; }
   #admin .news-wrapper {
     margin-bottom: 40px; }
     #admin .news-wrapper > div {
@@ -177,5 +199,8 @@
       width: 100px;
       margin: 0 10px;
       vertical-align: middle; }
+    #admin .news-wrapper .fa-times {
+      float: right;
+      cursor: pointer; }
 
 /*# sourceMappingURL=admin.css.map */
